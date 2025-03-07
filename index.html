@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Het Beste van Netflix</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      text-align: center;
+      position: relative;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 20px 0;
+      color: #FFD700;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    .welcome {
+      font-size: 1.2em;
+      color: #cccccc;
+      margin-bottom: 30px;
+    }
+    .welcome p {
+      margin: 5px 0;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      border: none;
+      background: #007BFF;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .leaderboard {
+      margin: 30px auto;
+      width: 90%;
+      max-width: 1000px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+    .leaderboard table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #ffffff;
+    }
+    .leaderboard th {
+      background: #1f2933;
+      padding: 15px;
+      font-size: 1.1em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #444;
+    }
+    .leaderboard td {
+      padding: 15px;
+      font-size: 1em;
+      border-bottom: 1px solid #333;
+      text-align: left;
+    }
+    /* Centreer de cellen in de 4e en 5e kolom */
+    .leaderboard td:nth-child(4),
+    .leaderboard td:nth-child(5) {
+      text-align: center;
+    }
+    .leaderboard tr:nth-child(even) {
+      background: rgba(255, 255, 255, 0.05);
+    }
+    .leaderboard tr:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .disclaimer {
+      font-size: 0.9em;
+      color: #cccccc;
+      margin-top: 30px;
+      text-align: center;
+      padding: 15px;
+      border-top: 1px solid #444;
+    }
+    .disclaimer a {
+      color: #FFD700;
+      text-decoration: none;
+    }
+    .disclaimer a:hover {
+      text-decoration: underline;
+    }
+    /* Container onder de tabel voor de tip-boodschap */
+    .tip-bottom {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    /* Modal styles voor de tip-knop (in dit voorbeeld niet gebruikt) */
+    .modal {
+      display: none; 
+      position: fixed; 
+      z-index: 1000; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgba(0,0,0,0.8); 
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 10% auto; 
+      padding: 20px;
+      border: 1px solid #888;
+      width: 300px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .close-modal {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Het Beste van Netflix</h1>
+  <div class="welcome">
+    <p>Welkom bij <strong>Het Beste Van Netflix in België</strong>. Ontdek de best beoordeelde films en series beschikbaar op Netflix.</p>
+    <p>Druk op de knop. Sorteer via Release Date.</p>
+  </div>
+  <button id="all-time-btn">Klassiekers</button>
+  <button id="last-month-btn">Recent</button>
+  
+  <div class="leaderboard">
+    <table id="netflixTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Title</th>
+          <th>Type</th>
+          <th>IMDb Rating</th>
+          <th>Trakt.tv Rating</th>
+          <th onclick="sortByReleaseDate()" style="cursor:pointer;">Release Date</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Dynamische inhoud komt hier -->
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Tip-boodschap onder de tabel -->
+  <div class="tip-bottom">
+    <p>Wij maken gratis websites.</p>
+    <button id="tip-btn-bottom">Trakteer ons op een koffie</button>
+  </div>
+  
+  <div class="disclaimer">
+    Deze website maakt gebruik van data afkomstig van 
+    <a href="https://www.themoviedb.org/" target="_blank">The Movie Database (TMDb)</a>, 
+    <a href="https://www.imdb.com/" target="_blank">IMDb</a>, en 
+    <a href="https://trakt.tv/" target="_blank">Trakt.tv</a>. 
+    Titels waarvan de Trakt.tv-score 30% lager is dan de IMDb-score worden automatisch uitgesloten.
+  </div>
+  
+  <!-- Script om data te laden en te filteren -->
+  <script>
+    async function loadData(file) {
+      try {
+        console.log(`Loading data from ${file}`);
+        const response = await fetch(file);
+        if (!response.ok) {
+          throw new Error(`Failed to load ${file}: ${response.statusText}`);
+        }
+        let data = await response.json();
+
+        // Voor 'Recent': filter op de laatste 90 dagen
+        if(file === "netflix_last_month.json") {
+          const today = new Date();
+          const ninetyDaysAgo = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000);
+          data = data.filter(item => {
+            const releaseDate = new Date(item.releaseDate);
+            return releaseDate >= ninetyDaysAgo && releaseDate <= today;
+          });
+          console.log(`Filtered recent data: ${data.length} items`);
+          if(data.length === 0) {
+            const tableBody = document.getElementById('table-body');
+            tableBody.innerHTML = `<tr>
+              <td colspan="6" style="text-align: center;">
+                Er is geen topserie of -film vers in de laatste 90 dagen. Breaking Bad is het allerbeste wat er nu te zien is op Netflix België. Voor andere tips ga naar Klassiekers.
+              </td>
+            </tr>`;
+            return;
+          }
+        }
+
+        // Sorteer de data op IMDb-rating (hoog naar laag)
+        data.sort((a, b) => parseFloat(b.imdbRating) - parseFloat(a.imdbRating));
+
+        // Render de data in de tabel, met trakt.tv rating afgerond op 2 decimalen
+        const tableBody = document.getElementById('table-body');
+        tableBody.innerHTML = '';
+        data.forEach((item, index) => {
+          const row = `<tr>
+              <td>${index + 1}</td>
+              <td>${item.title}</td>
+              <td>${item.type}</td>
+              <td>${item.imdbRating}</td>
+              <td>${parseFloat(item.traktRating).toFixed(2)}</td>
+              <td>${item.releaseDate}</td>
+          </tr>`;
+          tableBody.innerHTML += row;
+        });
+      } catch (error) {
+        console.error("Error loading data:", error);
+        document.getElementById('table-body').innerHTML = `<tr><td colspan="6">Error loading data. Please try again later.</td></tr>`;
+      }
+    }
+
+    document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
+    document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
+
+    // Laad standaard de 'Recent' data bij het laden van de pagina
+    window.onload = function() {
+      loadData('netflix_last_month.json');
+      // Herlaad de pagina elke 24 uur (86.400.000 ms)
+      setTimeout(() => {
+        window.location.reload();
+      }, 86400000);
+    }
+  </script>
+
+  <!-- Sorteerfunctie met toggling (standaard begint met "desc": nieuwste eerst) -->
+  <script>
+    var currentSortOrder = "desc";  // "desc": nieuwste eerst, "asc": oudste eerst.
+    function sortByReleaseDate() {
+      var table = document.getElementById("netflixTable");
+      if (!table) {
+        console.error("Table with id 'netflixTable' not found.");
+        return;
+      }
+      
+      var tbody = table.getElementsByTagName("tbody")[0];
+      var rowsArray = Array.from(tbody.getElementsByTagName("tr"));
+      
+      rowsArray.sort(function(a, b) {
+        var dateA = new Date(a.getElementsByTagName("td")[5].innerText.trim());
+        var dateB = new Date(b.getElementsByTagName("td")[5].innerText.trim());
+        if (currentSortOrder === "asc") {
+          return dateA - dateB;
+        } else { // "desc"
+          return dateB - dateA;
+        }
+      });
+      
+      // Werk de tabel bij met de gesorteerde rijen en update de rangnummers
+      tbody.innerHTML = "";
+      rowsArray.forEach(function(row, index) {
+        row.getElementsByTagName("td")[0].innerText = index + 1;
+        tbody.appendChild(row);
+      });
+      
+      console.log("Sorting by Release Date completed. Current order was: " + currentSortOrder);
+      // Toggle de sorteervolgorde voor de volgende klik
+      currentSortOrder = (currentSortOrder === "asc") ? "desc" : "asc";
+      console.log("New sort order will be: " + currentSortOrder);
+    }
+  </script>
+
+  <!-- Script voor de tip-knop: direct naar Buy Me a Coffee -->
+  <script>
+    const tipBtnBottom = document.getElementById("tip-btn-bottom");
+    tipBtnBottom.addEventListener("click", () => {
+      window.location.href = "https://buymeacoffee.com/rakkejak";
+    });
+  </script>
+</body>
+</html>
