@@ -64,12 +64,14 @@
     .leaderboard-wrapper {
       overflow-x: auto; /* Add horizontal scrolling */
       -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      white-space: nowrap; /* Prevent wrapping */
     }
     .leaderboard table {
       width: 100%;
       min-width: 600px; /* Ensure table is wide enough to scroll */
       border-collapse: collapse;
       color: #ffffff;
+      display: inline-block; /* Ensure table is inline for horizontal scrolling */
     }
     .leaderboard th {
       background: #1f2933;
@@ -169,6 +171,7 @@
       .leaderboard-wrapper {
         overflow-x: auto; /* Ensure horizontal scrolling */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        white-space: nowrap; /* Prevent wrapping */
       }
       .leaderboard th, .leaderboard td {
         padding: 10px;
