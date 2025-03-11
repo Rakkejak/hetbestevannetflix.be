@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Het Beste van Netflix</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XWH6KYXS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-N6XWH6KYXS');
+  </script>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -52,8 +61,13 @@
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
       overflow: hidden;
     }
+    .leaderboard-wrapper {
+      overflow-x: auto; /* Add horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    }
     .leaderboard table {
       width: 100%;
+      min-width: 600px; /* Ensure table is wide enough to scroll */
       border-collapse: collapse;
       color: #ffffff;
     }
@@ -135,17 +149,38 @@
       font-weight: bold;
       cursor: pointer;
     }
+    @media (max-width: 600px) {
+      body {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      .welcome {
+        font-size: 1em;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+      .leaderboard {
+        width: 100%;
+      }
+      .leaderboard-wrapper {
+        overflow-x: auto; /* Ensure horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      }
+      .leaderboard th, .leaderboard td {
+        padding: 10px;
+        font-size: 0.9em;
+      }
+      .tip-bottom {
+        width: 100%;
+        padding: 10px;
+      }
+    }
   </style>
 </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XWH6KYXS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-N6XWH6KYXS');
-</script>
 <body>
   <h1>Het Beste van Netflix</h1>
   <div class="welcome">
@@ -156,21 +191,23 @@
   <button id="last-month-btn">Recent</button>
   
   <div class="leaderboard">
-    <table id="netflixTable">
-      <thead>
-        <tr>
-          <th>Rank</th>
-          <th>Title</th>
-          <th>Type</th>
-          <th>IMDb Rating</th>
-          <th>Trakt.tv Rating</th>
-          <th onclick="sortByReleaseDate()" style="cursor:pointer;">Release Date</th>
-        </tr>
-      </thead>
-      <tbody id="table-body">
-        <!-- Dynamische inhoud komt hier -->
-      </tbody>
-    </table>
+    <div class="leaderboard-wrapper">
+      <table id="netflixTable">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Title</th>
+            <th>Type</th>
+            <th>IMDb Rating</th>
+            <th>Trakt.tv Rating</th>
+            <th onclick="sortByReleaseDate()" style="cursor:pointer;">Release Date</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Dynamische inhoud komt hier -->
+        </tbody>
+      </table>
+    </div>
   </div>
   
   <!-- Tip-boodschap onder de tabel -->
@@ -197,13 +234,17 @@
           throw new Error(`Failed to load ${file}: ${response.statusText}`);
         }
         let data = await response.json();
+        console.log("Data loaded:", data);
 
         // Voor 'Recent': filter op de laatste 90 dagen
         if(file === "netflix_last_month.json") {
           const today = new Date();
           const ninetyDaysAgo = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000);
+          console.log(`Today's date: ${today}`);
+          console.log(`Date 90 days ago: ${ninetyDaysAgo}`);
           data = data.filter(item => {
             const releaseDate = new Date(item.releaseDate);
+            console.log(`Checking title: ${item.title}, Release Date: ${releaseDate}`);
             return releaseDate >= ninetyDaysAgo && releaseDate <= today;
           });
           console.log(`Filtered recent data: ${data.length} items`);
@@ -211,7 +252,7 @@
             const tableBody = document.getElementById('table-body');
             tableBody.innerHTML = `<tr>
               <td colspan="6" style="text-align: center;">
-                Er is geen topserie of -film vers in de laatste 90 dagen. Breaking Bad is het allerbeste wat er nu te zien is op Netflix België. Voor andere tips ga naar Klassiekers.
+                Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. Ga naar Klassiekers en druk op Reslease Date om de meest recente topserie of -film te zien.
               </td>
             </tr>`;
             return;
@@ -225,6 +266,7 @@
         const tableBody = document.getElementById('table-body');
         tableBody.innerHTML = '';
         data.forEach((item, index) => {
+          console.log(`Displaying title: ${item.title}`);
           const row = `<tr>
               <td>${index + 1}</td>
               <td>${item.title}</td>
@@ -241,12 +283,24 @@
       }
     }
 
+    function isMobileDevice() {
+      return /Mobi|Android/i.test(navigator.userAgent);
+    }
+
+    if (isMobileDevice()) {
+      loadData('netflix_last_month.json');
+    } else {
+      loadData('netflix_data.json');
+    }
+
     document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
     document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
 
     // Laad standaard de 'Recent' data bij het laden van de pagina
     window.onload = function() {
-      loadData('netflix_last_month.json');
+      if (!isMobileDevice()) {
+        loadData('netflix_last_month.json');
+      }
       // Herlaad de pagina elke 24 uur (86.400.000 ms)
       setTimeout(() => {
         window.location.reload();
