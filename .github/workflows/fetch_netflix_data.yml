@@ -32,7 +32,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git pull origin main
-          git add netflix_data.json netflix_last_month.json
+          git add netflix_data.json netflix_last_month.json exclusions.log
           git commit -m "Auto-update Netflix data" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
