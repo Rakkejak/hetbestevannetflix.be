@@ -1,0 +1,3 @@
+requests
+IMDbPY
+Add requirements.txt for GitHub Actions)
