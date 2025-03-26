@@ -1,2234 +1,522 @@
 [
     {
-        "title": "Whiplash",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.439644802943466,
-        "votes": 1060914,
-        "releaseDate": "2014-10-10"
-    },
-    {
         "title": "Amaran",
         "type": "movie",
         "imdbRating": 8.2,
-        "traktRating": 7.59127,
-        "votes": 17965,
+        "traktRating": 7.60079,
+        "votes": 18080,
         "releaseDate": "2024-10-31"
-    },
-    {
-        "title": "Interstellar",
-        "type": "movie",
-        "imdbRating": 8.7,
-        "traktRating": 8.607257666421855,
-        "votes": 2310688,
-        "releaseDate": "2014-11-05"
-    },
-    {
-        "title": "The Godfather",
-        "type": "movie",
-        "imdbRating": 9.2,
-        "traktRating": 8.876104008399729,
-        "votes": 2107177,
-        "releaseDate": "1972-03-14"
-    },
-    {
-        "title": "Joker",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.112322176911658,
-        "votes": 1593217,
-        "releaseDate": "2019-10-01"
-    },
-    {
-        "title": "Pulp Fiction",
-        "type": "movie",
-        "imdbRating": 8.9,
-        "traktRating": 8.654403567447046,
-        "votes": 2316773,
-        "releaseDate": "1994-09-10"
     },
     {
         "title": "The Shawshank Redemption",
         "type": "movie",
         "imdbRating": 9.3,
-        "traktRating": 9.117151416801898,
-        "votes": 3019370,
+        "traktRating": 9.116638007831114,
+        "votes": 3023938,
         "releaseDate": "1994-09-23"
     },
     {
-        "title": "Gladiator",
+        "title": "The Godfather",
         "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.50147,
-        "votes": 1743008,
-        "releaseDate": "2000-05-04"
+        "imdbRating": 9.2,
+        "traktRating": 8.8762,
+        "votes": 2110338,
+        "releaseDate": "1972-03-14"
     },
     {
-        "title": "Eternal Sunshine of the Spotless Mind",
+        "title": "Interstellar",
         "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.217313290003588,
-        "votes": 1128196,
-        "releaseDate": "2004-03-19"
-    },
-    {
-        "title": "Django Unchained",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.421281478350142,
-        "votes": 1774586,
-        "releaseDate": "2012-12-25"
-    },
-    {
-        "title": "Green Book",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.274213954360151,
-        "votes": 626690,
-        "releaseDate": "2018-11-16"
-    },
-    {
-        "title": "Inglourious Basterds",
-        "type": "movie",
-        "imdbRating": 8.4,
-        "traktRating": 8.294366601310315,
-        "votes": 1665976,
-        "releaseDate": "2009-08-02"
-    },
-    {
-        "title": "Back to the Future",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.58494,
-        "votes": 1366469,
-        "releaseDate": "1985-07-03"
-    },
-    {
-        "title": "1917",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.128045017244508,
-        "votes": 720447,
-        "releaseDate": "2019-12-25"
-    },
-    {
-        "title": "Terminator 2: Judgment Day",
-        "type": "movie",
-        "imdbRating": 8.6,
-        "traktRating": 8.497089273887127,
-        "votes": 1223160,
-        "releaseDate": "1991-07-03"
-    },
-    {
-        "title": "The Wolf of Wall Street",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.118456400203296,
-        "votes": 1667921,
-        "releaseDate": "2013-12-25"
-    },
-    {
-        "title": "American Beauty",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.08694214876033,
-        "votes": 1243485,
-        "releaseDate": "1999-09-15"
-    },
-    {
-        "title": "Spider-Man: Into the Spider-Verse",
-        "type": "movie",
-        "imdbRating": 8.4,
-        "traktRating": 8.638905969451756,
-        "votes": 721119,
-        "releaseDate": "2018-12-06"
+        "imdbRating": 8.7,
+        "traktRating": 8.608303768338287,
+        "votes": 2318160,
+        "releaseDate": "2014-11-05"
     },
     {
         "title": "Mad Max: Fury Road",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 7.97916951369502,
-        "votes": 1157509,
+        "traktRating": 7.978780563775113,
+        "votes": 1158967,
         "releaseDate": "2015-05-13"
     },
     {
-        "title": "Princess Mononoke",
+        "title": "Gladiator",
+        "type": "movie",
+        "imdbRating": 8.5,
+        "traktRating": 8.501337428175153,
+        "votes": 1746246,
+        "releaseDate": "2000-05-04"
+    },
+    {
+        "title": "Whiplash",
+        "type": "movie",
+        "imdbRating": 8.5,
+        "traktRating": 8.441491234246286,
+        "votes": 1063251,
+        "releaseDate": "2014-10-10"
+    },
+    {
+        "title": "Spider-Man: Into the Spider-Verse",
+        "type": "movie",
+        "imdbRating": 8.4,
+        "traktRating": 8.63825,
+        "votes": 722803,
+        "releaseDate": "2018-12-06"
+    },
+    {
+        "title": "American Beauty",
         "type": "movie",
         "imdbRating": 8.3,
-        "traktRating": 8.49132,
-        "votes": 455276,
-        "releaseDate": "1997-07-12"
+        "traktRating": 8.087471783295712,
+        "votes": 1244523,
+        "releaseDate": "1999-09-15"
+    },
+    {
+        "title": "The Wolf of Wall Street",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.11885520059301,
+        "votes": 1670345,
+        "releaseDate": "2013-12-25"
+    },
+    {
+        "title": "Joker",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.111460438655588,
+        "votes": 1596290,
+        "releaseDate": "2019-10-01"
+    },
+    {
+        "title": "Django Unchained",
+        "type": "movie",
+        "imdbRating": 8.5,
+        "traktRating": 8.420997754250882,
+        "votes": 1777497,
+        "releaseDate": "2012-12-25"
     },
     {
         "title": "Saving Private Ryan",
         "type": "movie",
         "imdbRating": 8.6,
-        "traktRating": 8.524719930234118,
-        "votes": 1558234,
+        "traktRating": 8.524499332443257,
+        "votes": 1560390,
         "releaseDate": "1998-07-24"
     },
     {
-        "title": "Spider-Man: Across the Spider-Verse",
+        "title": "Terminator 2: Judgment Day",
+        "type": "movie",
+        "imdbRating": 8.6,
+        "traktRating": 8.496512717304556,
+        "votes": 1224790,
+        "releaseDate": "1991-07-03"
+    },
+    {
+        "title": "Back to the Future",
         "type": "movie",
         "imdbRating": 8.5,
-        "traktRating": 8.59466203753933,
-        "votes": 442155,
-        "releaseDate": "2023-05-31"
-    },
-    {
-        "title": "El Camino: A Breaking Bad Movie",
-        "type": "movie",
-        "imdbRating": 9.1,
-        "traktRating": 7.231962380685008,
-        "votes": 14248,
-        "releaseDate": "2019-10-11"
-    },
-    {
-        "title": "Howl's Moving Castle",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.466308708992212,
-        "votes": 477625,
-        "releaseDate": "2004-09-09"
+        "traktRating": 8.583887606895615,
+        "votes": 1368368,
+        "releaseDate": "1985-07-03"
     },
     {
         "title": "Spirited Away",
         "type": "movie",
         "imdbRating": 8.6,
-        "traktRating": 8.673978902799577,
-        "votes": 899866,
+        "traktRating": 8.673274516211016,
+        "votes": 901597,
         "releaseDate": "2001-07-20"
+    },
+    {
+        "title": "Scarface",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.306865222299876,
+        "votes": 957687,
+        "releaseDate": "1983-12-09"
+    },
+    {
+        "title": "Inglourious Basterds",
+        "type": "movie",
+        "imdbRating": 8.4,
+        "traktRating": 8.294891935637438,
+        "votes": 1668707,
+        "releaseDate": "2009-08-02"
+    },
+    {
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.217818642993025,
+        "votes": 1129893,
+        "releaseDate": "2004-03-19"
+    },
+    {
+        "title": "Howl's Moving Castle",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.465864396830057,
+        "votes": 478461,
+        "releaseDate": "2004-09-09"
+    },
+    {
+        "title": "Princess Mononoke",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.49246,
+        "votes": 455958,
+        "releaseDate": "1997-07-12"
+    },
+    {
+        "title": "Green Book",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.27356,
+        "votes": 628379,
+        "releaseDate": "2018-11-16"
+    },
+    {
+        "title": "1917",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.12894,
+        "votes": 721531,
+        "releaseDate": "2019-12-25"
     },
     {
         "title": "Extraction 2",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 7.297155414479307,
-        "votes": 8191,
+        "traktRating": 7.298156234837458,
+        "votes": 8244,
         "releaseDate": "2023-06-09"
     },
     {
         "title": "My Neighbor Totoro",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 8.282076589024872,
-        "votes": 402955,
+        "traktRating": 8.28048,
+        "votes": 403627,
         "releaseDate": "1988-04-16"
-    },
-    {
-        "title": "Seaspiracy",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 7.73939,
-        "votes": 34906,
-        "releaseDate": "2021-03-24"
-    },
-    {
-        "title": "My Octopus Teacher",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 7.8658730158730155,
-        "votes": 67230,
-        "releaseDate": "2020-09-04"
-    },
-    {
-        "title": "Inside Job",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 7.72141,
-        "votes": 80935,
-        "releaseDate": "2010-10-08"
-    },
-    {
-        "title": "13th",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.223271790468011,
-        "votes": 38410,
-        "releaseDate": "2016-10-07"
     },
     {
         "title": "Room",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 7.976516979577424,
-        "votes": 465455,
+        "traktRating": 7.97624,
+        "votes": 465842,
         "releaseDate": "2015-10-16"
     },
     {
         "title": "Klaus",
         "type": "movie",
         "imdbRating": 8.2,
-        "traktRating": 8.359489250245552,
-        "votes": 211613,
+        "traktRating": 8.35949,
+        "votes": 212008,
         "releaseDate": "2019-11-08"
-    },
-    {
-        "title": "Violet Evergarden: The Movie",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.45714,
-        "votes": 11928,
-        "releaseDate": "2020-09-18"
-    },
-    {
-        "title": "Winter on Fire: Ukraine's Fight for Freedom",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.27991452991453,
-        "votes": 21074,
-        "releaseDate": "2015-09-03"
-    },
-    {
-        "title": "Drishyam",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.00787,
-        "votes": 100155,
-        "releaseDate": "2015-07-30"
-    },
-    {
-        "title": "Maharaja",
-        "type": "movie",
-        "imdbRating": 8.4,
-        "traktRating": 8.23566,
-        "votes": 65097,
-        "releaseDate": "2024-06-14"
     },
     {
         "title": "12th Fail",
         "type": "movie",
         "imdbRating": 8.8,
-        "traktRating": 8.479885057471265,
-        "votes": 144264,
+        "traktRating": 8.47867298578199,
+        "votes": 144766,
         "releaseDate": "2023-08-11"
-    },
-    {
-        "title": "Neon Genesis Evangelion: The End of Evangelion",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 8.3161,
-        "votes": 69517,
-        "releaseDate": "1997-07-19"
-    },
-    {
-        "title": "The Three Deaths of Marisela Escobedo",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 8.38655,
-        "votes": 2095,
-        "releaseDate": "2020-10-14"
-    },
-    {
-        "title": "Disclosure",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 6.61103,
-        "votes": 6265,
-        "releaseDate": "2020-06-19"
-    },
-    {
-        "title": "PK",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 7.9339,
-        "votes": 209451,
-        "releaseDate": "2014-12-18"
-    },
-    {
-        "title": "Article 15",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 7.83549,
-        "votes": 38167,
-        "releaseDate": "2019-05-28"
-    },
-    {
-        "title": "Cuba and the Cameraman",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.09722,
-        "votes": 5713,
-        "releaseDate": "2017-09-08"
     },
     {
         "title": "Das Boot",
         "type": "movie",
         "imdbRating": 8.4,
-        "traktRating": 7.40443,
-        "votes": 277751,
+        "traktRating": 7.404,
+        "votes": 278068,
         "releaseDate": "1981-09-17"
     },
     {
-        "title": "Bajrangi Bhaijaan",
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 7.92398,
-        "votes": 103466,
-        "releaseDate": "2015-07-17"
+        "traktRating": 8.31632,
+        "votes": 69690,
+        "releaseDate": "1997-07-19"
     },
     {
-        "title": "Cowspiracy: The Sustainability Secret",
+        "title": "Violet Evergarden: The Movie",
         "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 7.91704,
-        "votes": 27011,
-        "releaseDate": "2014-07-01"
-    },
-    {
-        "title": "Virunga",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 8.09832134292566,
-        "votes": 12486,
-        "releaseDate": "2014-11-07"
-    },
-    {
-        "title": "Blackfish",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 8.026348808030113,
-        "votes": 74507,
-        "releaseDate": "2013-06-07"
-    },
-    {
-        "title": "Senna",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.23283,
-        "votes": 80129,
-        "releaseDate": "2010-10-07"
+        "imdbRating": 8.3,
+        "traktRating": 8.46163,
+        "votes": 11982,
+        "releaseDate": "2020-09-18"
     },
     {
         "title": "Kantara",
         "type": "movie",
         "imdbRating": 8.2,
-        "traktRating": 7.62795,
-        "votes": 107241,
+        "traktRating": 7.62426614481409,
+        "votes": 107290,
         "releaseDate": "2022-09-30"
     },
     {
-        "title": "Rising Phoenix",
+        "title": "Maharaja",
+        "type": "movie",
+        "imdbRating": 8.4,
+        "traktRating": 8.23457,
+        "votes": 65540,
+        "releaseDate": "2024-06-14"
+    },
+    {
+        "title": "Bajrangi Bhaijaan",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 8.0,
-        "votes": 1907,
-        "releaseDate": "2020-08-26"
+        "traktRating": 7.90608,
+        "votes": 103604,
+        "releaseDate": "2015-07-17"
+    },
+    {
+        "title": "Jana Gana Mana",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 7.97436,
+        "votes": 18762,
+        "releaseDate": "2022-04-28"
+    },
+    {
+        "title": "PK",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 7.93419,
+        "votes": 209628,
+        "releaseDate": "2014-12-18"
+    },
+    {
+        "title": "Inside Job",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 7.72452,
+        "votes": 80987,
+        "releaseDate": "2010-10-08"
+    },
+    {
+        "title": "13th",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.22327,
+        "votes": 38430,
+        "releaseDate": "2016-10-07"
+    },
+    {
+        "title": "Senna",
+        "type": "movie",
+        "imdbRating": 8.5,
+        "traktRating": 8.232,
+        "votes": 80223,
+        "releaseDate": "2010-10-07"
+    },
+    {
+        "title": "Blackfish",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 8.027145085803433,
+        "votes": 74565,
+        "releaseDate": "2013-06-07"
     },
     {
         "title": "The Remarkable Life of Ibelin",
         "type": "movie",
         "imdbRating": 8.2,
-        "traktRating": 8.282793867120954,
-        "votes": 11763,
+        "traktRating": 8.28859,
+        "votes": 11864,
         "releaseDate": "2024-03-08"
     },
     {
-        "title": "Indian",
+        "title": "The Three Deaths of Marisela Escobedo",
         "type": "movie",
         "imdbRating": 8.1,
-        "traktRating": 6.0,
-        "votes": 15421,
-        "releaseDate": "1996-05-09"
+        "traktRating": 8.39669,
+        "votes": 2102,
+        "releaseDate": "2020-10-14"
+    },
+    {
+        "title": "My Octopus Teacher",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 7.86419,
+        "votes": 67332,
+        "releaseDate": "2020-09-04"
+    },
+    {
+        "title": "Hi Nanna",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 7.84643,
+        "votes": 19625,
+        "releaseDate": "2023-12-07"
+    },
+    {
+        "title": "Seaspiracy",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 7.738872403560831,
+        "votes": 34922,
+        "releaseDate": "2021-03-24"
     },
     {
         "title": "Roja",
         "type": "movie",
         "imdbRating": 8.1,
         "traktRating": 7.31461,
-        "votes": 14176,
+        "votes": 14186,
         "releaseDate": "1992-08-15"
-    },
-    {
-        "title": "Dancing with the Birds",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 7.9953271028037385,
-        "votes": 2915,
-        "releaseDate": "2019-10-23"
-    },
-    {
-        "title": "Racionais MC's: From the Streets of S\u00e3o Paulo",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.51961,
-        "votes": 1182,
-        "releaseDate": "2022-10-20"
-    },
-    {
-        "title": "Jana Gana Mana",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 7.98519,
-        "votes": 18722,
-        "releaseDate": "2022-04-28"
-    },
-    {
-        "title": "Emicida: AmarElo - It's All for Yesterday",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.87597,
-        "votes": 1686,
-        "releaseDate": "2020-12-08"
-    },
-    {
-        "title": "Hi Nanna",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 7.84838,
-        "votes": 19568,
-        "releaseDate": "2023-12-07"
-    },
-    {
-        "title": "Major",
-        "type": "movie",
-        "imdbRating": 8.1,
-        "traktRating": 8.2037,
-        "votes": 33314,
-        "releaseDate": "2022-06-03"
-    },
-    {
-        "title": "Meiyazhagan",
-        "type": "movie",
-        "imdbRating": 8.4,
-        "traktRating": 8.09818,
-        "votes": 13326,
-        "releaseDate": "2024-09-27"
-    },
-    {
-        "title": "Mandela",
-        "type": "movie",
-        "imdbRating": 8.4,
-        "traktRating": 7.94783,
-        "votes": 8891,
-        "releaseDate": "2021-04-05"
     },
     {
         "title": "Khushi",
         "type": "movie",
         "imdbRating": 8.1,
         "traktRating": 7.61364,
-        "votes": 6173,
+        "votes": 6186,
         "releaseDate": "2001-04-26"
     },
     {
-        "title": "Falling in Love Like in Movies",
+        "title": "Disclosure",
         "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 8.33333,
-        "votes": 1795,
-        "releaseDate": "2023-11-30"
+        "imdbRating": 8.2,
+        "traktRating": 6.61665,
+        "votes": 6274,
+        "releaseDate": "2020-06-19"
+    },
+    {
+        "title": "Drishyam",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.01217,
+        "votes": 100301,
+        "releaseDate": "2015-07-30"
+    },
+    {
+        "title": "Cowspiracy: The Sustainability Secret",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 7.91541,
+        "votes": 27016,
+        "releaseDate": "2014-07-01"
+    },
+    {
+        "title": "Major",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 8.2037,
+        "votes": 33324,
+        "releaseDate": "2022-06-03"
+    },
+    {
+        "title": "Article 15",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 7.83272,
+        "votes": 38197,
+        "releaseDate": "2019-05-28"
+    },
+    {
+        "title": "Rising Phoenix",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 8.0,
+        "votes": 1908,
+        "releaseDate": "2020-08-26"
     },
     {
         "title": "Home Sweet Loan",
         "type": "movie",
         "imdbRating": 8.1,
         "traktRating": 7.86364,
-        "votes": 814,
+        "votes": 830,
         "releaseDate": "2024-09-26"
+    },
+    {
+        "title": "Meiyazhagan",
+        "type": "movie",
+        "imdbRating": 8.4,
+        "traktRating": 8.11828,
+        "votes": 13416,
+        "releaseDate": "2024-09-27"
+    },
+    {
+        "title": "Winter on Fire: Ukraine's Fight for Freedom",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.28145,
+        "votes": 21094,
+        "releaseDate": "2015-09-03"
+    },
+    {
+        "title": "Racionais MC's: From the Streets of S\u00e3o Paulo",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.51456,
+        "votes": 1184,
+        "releaseDate": "2022-10-20"
+    },
+    {
+        "title": "Mandela",
+        "type": "movie",
+        "imdbRating": 8.4,
+        "traktRating": 7.94783,
+        "votes": 8901,
+        "releaseDate": "2021-04-05"
+    },
+    {
+        "title": "Dancing with the Birds",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.00922,
+        "votes": 2917,
+        "releaseDate": "2019-10-23"
+    },
+    {
+        "title": "Cuba and the Cameraman",
+        "type": "movie",
+        "imdbRating": 8.2,
+        "traktRating": 8.09722,
+        "votes": 5717,
+        "releaseDate": "2017-09-08"
+    },
+    {
+        "title": "Emicida: AmarElo - It's All for Yesterday",
+        "type": "movie",
+        "imdbRating": 8.5,
+        "traktRating": 8.87597,
+        "votes": 1687,
+        "releaseDate": "2020-12-08"
     },
     {
         "title": "RRR: Behind & Beyond",
         "type": "movie",
         "imdbRating": 8.2,
         "traktRating": 8.46667,
-        "votes": 292,
+        "votes": 298,
         "releaseDate": "2024-12-20"
+    },
+    {
+        "title": "Falling in Love Like in Movies",
+        "type": "movie",
+        "imdbRating": 8.3,
+        "traktRating": 8.33333,
+        "votes": 1800,
+        "releaseDate": "2023-11-30"
+    },
+    {
+        "title": "Virunga",
+        "type": "movie",
+        "imdbRating": 8.1,
+        "traktRating": 8.09785,
+        "votes": 12496,
+        "releaseDate": "2014-11-07"
     },
     {
         "title": "Irugapatru",
         "type": "movie",
         "imdbRating": 8.1,
         "traktRating": 8.15663,
-        "votes": 3425,
+        "votes": 3427,
         "releaseDate": "2023-10-06"
-    },
-    {
-        "title": "You Can Do It, My Dear!",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 7.0,
-        "votes": 639,
-        "releaseDate": "2022-08-19"
-    },
-    {
-        "title": "Look Beyond",
-        "type": "movie",
-        "imdbRating": 8.2,
-        "traktRating": 8.0,
-        "votes": 10,
-        "releaseDate": "2019-06-26"
-    },
-    {
-        "title": "Ani... Dr. Kashinath Ghanekar",
-        "type": "movie",
-        "imdbRating": 8.3,
-        "traktRating": 7.41667,
-        "votes": 1310,
-        "releaseDate": "2018-11-07"
-    },
-    {
-        "title": "Grave of the Fireflies",
-        "type": "movie",
-        "imdbRating": 8.5,
-        "traktRating": 8.565829262619214,
-        "votes": 342504,
-        "releaseDate": "1988-04-16"
-    },
-    {
-        "title": "Law & Order: Special Victims Unit",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.01611,
-        "votes": 134793,
-        "releaseDate": "1999-09-20"
-    },
-    {
-        "title": "Orb: On the Movements of the Earth",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.4958,
-        "votes": 2168,
-        "releaseDate": "2024-10-05"
-    },
-    {
-        "title": "RuPaul's Drag Race",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.63136,
-        "votes": 24450,
-        "releaseDate": "2009-02-02"
-    },
-    {
-        "title": "Rick and Morty",
-        "type": "serie",
-        "imdbRating": 9.1,
-        "traktRating": 8.723140373260541,
-        "votes": 641409,
-        "releaseDate": "2013-12-02"
-    },
-    {
-        "title": "Breaking Bad",
-        "type": "serie",
-        "imdbRating": 9.5,
-        "traktRating": 9.250567299653648,
-        "votes": 2297767,
-        "releaseDate": "2008-01-20"
-    },
-    {
-        "title": "When Life Gives You Tangerines",
-        "type": "serie",
-        "imdbRating": 9.3,
-        "traktRating": 8.08696,
-        "votes": 2170,
-        "releaseDate": "2025-03-07"
-    },
-    {
-        "title": "Star Trek: The Next Generation",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.69997,
-        "votes": 142616,
-        "releaseDate": "1987-09-28"
-    },
-    {
-        "title": "Formula 1: Drive to Survive",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.01064,
-        "votes": 55190,
-        "releaseDate": "2019-03-08"
-    },
-    {
-        "title": "Dexter",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.433156566241346,
-        "votes": 831515,
-        "releaseDate": "2006-10-01"
-    },
-    {
-        "title": "Cobra Kai",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.990925986662294,
-        "votes": 227952,
-        "releaseDate": "2018-05-02"
-    },
-    {
-        "title": "House",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.553746910230904,
-        "votes": 551240,
-        "releaseDate": "2004-11-16"
-    },
-    {
-        "title": "Vikings",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.43326062859799,
-        "votes": 612763,
-        "releaseDate": "2013-03-03"
-    },
-    {
-        "title": "Suits",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.36163,
-        "votes": 510212,
-        "releaseDate": "2011-06-23"
-    },
-    {
-        "title": "Black Mirror",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.515854717489594,
-        "votes": 674347,
-        "releaseDate": "2011-12-04"
-    },
-    {
-        "title": "Arcane",
-        "type": "serie",
-        "imdbRating": 9.0,
-        "traktRating": 9.00232,
-        "votes": 384225,
-        "releaseDate": "2021-11-06"
-    },
-    {
-        "title": "Yellowstone",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.435054121565361,
-        "votes": 266212,
-        "releaseDate": "2018-06-20"
-    },
-    {
-        "title": "Better Call Saul",
-        "type": "serie",
-        "imdbRating": 9.0,
-        "traktRating": 8.77,
-        "votes": 717915,
-        "releaseDate": "2015-02-08"
-    },
-    {
-        "title": "Stranger Things",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.47712,
-        "votes": 1426543,
-        "releaseDate": "2016-07-15"
-    },
-    {
-        "title": "Prison Break",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.10599629572465,
-        "votes": 619911,
-        "releaseDate": "2005-08-29"
-    },
-    {
-        "title": "Regular Show",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.30468,
-        "votes": 65200,
-        "releaseDate": "2010-09-06"
-    },
-    {
-        "title": "Outlander",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.19013,
-        "votes": 189619,
-        "releaseDate": "2014-08-09"
-    },
-    {
-        "title": "Brooklyn Nine-Nine",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.37415382399539,
-        "votes": 390061,
-        "releaseDate": "2013-09-17"
-    },
-    {
-        "title": "Hacks",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.09163,
-        "votes": 49675,
-        "releaseDate": "2021-05-13"
-    },
-    {
-        "title": "Shameless",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.495646842427957,
-        "votes": 307084,
-        "releaseDate": "2011-01-09"
-    },
-    {
-        "title": "Lost",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.107537166593792,
-        "votes": 634508,
-        "releaseDate": "2004-09-22"
-    },
-    {
-        "title": "Sherlock",
-        "type": "serie",
-        "imdbRating": 9.1,
-        "traktRating": 8.87654128297175,
-        "votes": 1040828,
-        "releaseDate": "2010-07-25"
-    },
-    {
-        "title": "Star Trek: Deep Space Nine",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.28152,
-        "votes": 73743,
-        "releaseDate": "1993-01-03"
-    },
-    {
-        "title": "Narcos",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.498184586554228,
-        "votes": 496147,
-        "releaseDate": "2015-08-28"
-    },
-    {
-        "title": "The Walking Dead",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.926075992406426,
-        "votes": 1131538,
-        "releaseDate": "2010-10-31"
-    },
-    {
-        "title": "Peaky Blinders",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.60343,
-        "votes": 701583,
-        "releaseDate": "2013-09-12"
-    },
-    {
-        "title": "The Office",
-        "type": "serie",
-        "imdbRating": 9.0,
-        "traktRating": 8.65446550229159,
-        "votes": 765914,
-        "releaseDate": "2005-03-24"
-    },
-    {
-        "title": "Gilmore Girls",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.28022,
-        "votes": 159796,
-        "releaseDate": "2000-10-05"
-    },
-    {
-        "title": "Sex Education",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.02175,
-        "votes": 374807,
-        "releaseDate": "2019-01-11"
-    },
-    {
-        "title": "Resident Alien",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.83689,
-        "votes": 72136,
-        "releaseDate": "2021-01-27"
-    },
-    {
-        "title": "House of Cards",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.4461,
-        "votes": 544525,
-        "releaseDate": "2013-02-01"
-    },
-    {
-        "title": "Alchemy of Souls",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.67686,
-        "votes": 22210,
-        "releaseDate": "2022-06-18"
-    },
-    {
-        "title": "Ozark",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.265858508113656,
-        "votes": 366608,
-        "releaseDate": "2017-07-21"
-    },
-    {
-        "title": "Love, Death & Robots",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.219969330379962,
-        "votes": 211163,
-        "releaseDate": "2019-03-15"
-    },
-    {
-        "title": "Star Trek",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.69997,
-        "votes": 96389,
-        "releaseDate": "1966-09-08"
-    },
-    {
-        "title": "How to Get Away with Murder",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.062361590929223,
-        "votes": 172656,
-        "releaseDate": "2014-09-25"
-    },
-    {
-        "title": "Fullmetal Alchemist",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.28814,
-        "votes": 81361,
-        "releaseDate": "2003-10-04"
-    },
-    {
-        "title": "MINDHUNTER",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.419058156420718,
-        "votes": 363064,
-        "releaseDate": "2017-10-13"
-    },
-    {
-        "title": "Schitt's Creek",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.2408,
-        "votes": 159317,
-        "releaseDate": "2015-01-13"
-    },
-    {
-        "title": "Frieren: Beyond Journey's End",
-        "type": "serie",
-        "imdbRating": 8.9,
-        "traktRating": 9.07278,
-        "votes": 36325,
-        "releaseDate": "2023-09-29"
-    },
-    {
-        "title": "SPY x FAMILY",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.39216,
-        "votes": 48580,
-        "releaseDate": "2022-04-09"
-    },
-    {
-        "title": "Seinfeld",
-        "type": "serie",
-        "imdbRating": 8.9,
-        "traktRating": 8.538003197209708,
-        "votes": 366495,
-        "releaseDate": "1989-07-05"
-    },
-    {
-        "title": "The Last Kingdom",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.2014,
-        "votes": 176241,
-        "releaseDate": "2015-10-10"
-    },
-    {
-        "title": "Queen of Tears",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.44681,
-        "votes": 19886,
-        "releaseDate": "2024-03-09"
-    },
-    {
-        "title": "After Life",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.99733,
-        "votes": 160175,
-        "releaseDate": "2019-03-08"
-    },
-    {
-        "title": "Narcos: Mexico",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.96376,
-        "votes": 97034,
-        "releaseDate": "2018-11-16"
-    },
-    {
-        "title": "Dark",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.57826,
-        "votes": 484139,
-        "releaseDate": "2017-12-01"
-    },
-    {
-        "title": "BoJack Horseman",
-        "type": "serie",
-        "imdbRating": 8.8,
-        "traktRating": 8.63415,
-        "votes": 206972,
-        "releaseDate": "2014-08-22"
-    },
-    {
-        "title": "BLUE EYE SAMURAI",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.610219368646336,
-        "votes": 88367,
-        "releaseDate": "2023-11-03"
-    },
-    {
-        "title": "Death Note",
-        "type": "serie",
-        "imdbRating": 8.9,
-        "traktRating": 8.698931799506985,
-        "votes": 416431,
-        "releaseDate": "2006-10-04"
-    },
-    {
-        "title": "Young Royals",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.29325,
-        "votes": 47271,
-        "releaseDate": "2021-07-01"
-    },
-    {
-        "title": "Fullmetal Alchemist: Brotherhood",
-        "type": "serie",
-        "imdbRating": 9.1,
-        "traktRating": 9.00269,
-        "votes": 217055,
-        "releaseDate": "2009-04-05"
-    },
-    {
-        "title": "Killing Eve",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.046482586374358,
-        "votes": 145400,
-        "releaseDate": "2018-04-08"
-    },
-    {
-        "title": "Castlevania",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.0576,
-        "votes": 87789,
-        "releaseDate": "2017-07-07"
-    },
-    {
-        "title": "Batman: The Animated Series",
-        "type": "serie",
-        "imdbRating": 9.0,
-        "traktRating": 8.78112,
-        "votes": 125664,
-        "releaseDate": "1992-09-05"
-    },
-    {
-        "title": "Hilda",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.42606,
-        "votes": 15001,
-        "releaseDate": "2018-09-21"
-    },
-    {
-        "title": "HAPPY!",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.67957,
-        "votes": 44420,
-        "releaseDate": "2017-12-06"
-    },
-    {
-        "title": "Downton Abbey",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.466141547143193,
-        "votes": 233498,
-        "releaseDate": "2010-09-26"
-    },
-    {
-        "title": "Cowboy Bebop",
-        "type": "serie",
-        "imdbRating": 8.9,
-        "traktRating": 8.78873,
-        "votes": 151595,
-        "releaseDate": "1998-04-03"
-    },
-    {
-        "title": "The Dragon Prince",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.0,
-        "votes": 30177,
-        "releaseDate": "2018-09-14"
-    },
-    {
-        "title": "Hospital Playlist",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.73673,
-        "votes": 8949,
-        "releaseDate": "2020-03-12"
-    },
-    {
-        "title": "Vincenzo",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.47414,
-        "votes": 33569,
-        "releaseDate": "2021-02-20"
-    },
-    {
-        "title": "Business Proposal",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.26189,
-        "votes": 32582,
-        "releaseDate": "2022-02-28"
-    },
-    {
-        "title": "Sense8",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.16925,
-        "votes": 167037,
-        "releaseDate": "2015-06-05"
-    },
-    {
-        "title": "The King: Eternal Monarch",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.69037,
-        "votes": 17878,
-        "releaseDate": "2020-04-17"
-    },
-    {
-        "title": "Master of None",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.74936,
-        "votes": 77426,
-        "releaseDate": "2015-11-06"
-    },
-    {
-        "title": "Violet Evergarden",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.43312,
-        "votes": 33766,
-        "releaseDate": "2018-01-11"
-    },
-    {
-        "title": "Dirk Gently's Holistic Detective Agency",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.024373576309795,
-        "votes": 59730,
-        "releaseDate": "2016-10-22"
-    },
-    {
-        "title": "One Hundred Years of Solitude",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.97938,
-        "votes": 14918,
-        "releaseDate": "2024-12-11"
-    },
-    {
-        "title": "Queer Eye",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.71505,
-        "votes": 21786,
-        "releaseDate": "2018-02-07"
-    },
-    {
-        "title": "Scissor Seven",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.1928,
-        "votes": 5116,
-        "releaseDate": "2018-04-25"
-    },
-    {
-        "title": "Adventure Time",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.731170768083519,
-        "votes": 121397,
-        "releaseDate": "2010-04-05"
-    },
-    {
-        "title": "Psych",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.30813,
-        "votes": 114998,
-        "releaseDate": "2006-07-07"
-    },
-    {
-        "title": "Heartstopper",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.52569,
-        "votes": 86063,
-        "releaseDate": "2022-04-22"
-    },
-    {
-        "title": "The Secret of the River",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.91026,
-        "votes": 1853,
-        "releaseDate": "2024-10-09"
-    },
-    {
-        "title": "The Good Place",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.25081,
-        "votes": 204361,
-        "releaseDate": "2016-09-19"
-    },
-    {
-        "title": "American Crime Story",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.94032,
-        "votes": 100652,
-        "releaseDate": "2016-02-02"
-    },
-    {
-        "title": "The Crown",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.22983,
-        "votes": 268424,
-        "releaseDate": "2016-11-04"
-    },
-    {
-        "title": "Mad Men",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.53275,
-        "votes": 272887,
-        "releaseDate": "2007-07-19"
-    },
-    {
-        "title": "RuPaul's Drag Race All Stars",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.62514,
-        "votes": 10314,
-        "releaseDate": "2012-10-22"
-    },
-    {
-        "title": "PLUTO",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 7.92118,
-        "votes": 1053,
-        "releaseDate": "2023-10-26"
-    },
-    {
-        "title": "Neon Genesis Evangelion",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.386506276150628,
-        "votes": 95617,
-        "releaseDate": "1995-10-04"
-    },
-    {
-        "title": "Archer",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.483121540500507,
-        "votes": 170882,
-        "releaseDate": "2009-09-17"
-    },
-    {
-        "title": "Grace and Frankie",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.93983,
-        "votes": 59229,
-        "releaseDate": "2015-05-08"
-    },
-    {
-        "title": "Dragons: Race to the Edge",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.67143,
-        "votes": 9418,
-        "releaseDate": "2015-06-26"
-    },
-    {
-        "title": "Anne with an E",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.63745,
-        "votes": 72912,
-        "releaseDate": "2017-03-19"
-    },
-    {
-        "title": "It's Okay to Not Be Okay",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.60858,
-        "votes": 40092,
-        "releaseDate": "2020-06-20"
-    },
-    {
-        "title": "Kim's Convenience",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.92407,
-        "votes": 26061,
-        "releaseDate": "2016-10-11"
-    },
-    {
-        "title": "Julie and the Phantoms",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.31197,
-        "votes": 12967,
-        "releaseDate": "2020-09-10"
-    },
-    {
-        "title": "Steven Universe",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.70051,
-        "votes": 42427,
-        "releaseDate": "2013-11-04"
-    },
-    {
-        "title": "Crash Landing on You",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.66279,
-        "votes": 49533,
-        "releaseDate": "2019-12-14"
-    },
-    {
-        "title": "Kingdom",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.05954,
-        "votes": 58770,
-        "releaseDate": "2019-01-25"
-    },
-    {
-        "title": "Fauda",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.00986,
-        "votes": 40353,
-        "releaseDate": "2015-02-15"
-    },
-    {
-        "title": "ONE PIECE",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.92467,
-        "votes": 171473,
-        "releaseDate": "2023-08-31"
-    },
-    {
-        "title": "Young Justice",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.380233874009807,
-        "votes": 48201,
-        "releaseDate": "2010-11-26"
-    },
-    {
-        "title": "Making a Murderer",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.03208,
-        "votes": 105606,
-        "releaseDate": "2015-12-18"
-    },
-    {
-        "title": "Our Planet",
-        "type": "serie",
-        "imdbRating": 9.2,
-        "traktRating": 8.70949,
-        "votes": 56037,
-        "releaseDate": "2019-04-05"
-    },
-    {
-        "title": "D.P.",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.18775,
-        "votes": 10478,
-        "releaseDate": "2021-08-27"
-    },
-    {
-        "title": "The Adventures of Tintin",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.98645,
-        "votes": 19804,
-        "releaseDate": "1991-10-02"
-    },
-    {
-        "title": "Bloodhounds",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.06452,
-        "votes": 17411,
-        "releaseDate": "2023-06-09"
-    },
-    {
-        "title": "The Good Bad Mother",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.47484,
-        "votes": 6138,
-        "releaseDate": "2023-04-26"
-    },
-    {
-        "title": "The Glory",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.35839,
-        "votes": 35864,
-        "releaseDate": "2022-12-30"
-    },
-    {
-        "title": "First Love",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.17808,
-        "votes": 5854,
-        "releaseDate": "2022-11-24"
-    },
-    {
-        "title": "Extraordinary Attorney Woo",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.53032,
-        "votes": 32207,
-        "releaseDate": "2022-06-29"
-    },
-    {
-        "title": "Hometown Cha-Cha-Cha",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.32929,
-        "votes": 24044,
-        "releaseDate": "2021-08-28"
-    },
-    {
-        "title": "Kuroko's Basketball",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.207974980453479,
-        "votes": 13129,
-        "releaseDate": "2012-04-08"
-    },
-    {
-        "title": "Delhi Crime",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.95327,
-        "votes": 27433,
-        "releaseDate": "2019-03-22"
-    },
-    {
-        "title": "Atypical",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.99518,
-        "votes": 108680,
-        "releaseDate": "2017-08-11"
-    },
-    {
-        "title": "Trailer Park Boys",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.98061,
-        "votes": 54152,
-        "releaseDate": "2001-04-22"
-    },
-    {
-        "title": "Derry Girls",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.40625,
-        "votes": 67741,
-        "releaseDate": "2018-01-04"
-    },
-    {
-        "title": "Twenty Five Twenty One",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.54775,
-        "votes": 17188,
-        "releaseDate": "2022-02-12"
-    },
-    {
-        "title": "Our Beloved Summer",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.12565,
-        "votes": 12004,
-        "releaseDate": "2021-12-06"
-    },
-    {
-        "title": "The Midnight Gospel",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.70609,
-        "votes": 27379,
-        "releaseDate": "2020-04-20"
-    },
-    {
-        "title": "Stranger",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.17917,
-        "votes": 11030,
-        "releaseDate": "2017-06-10"
-    },
-    {
-        "title": "One Day at a Time",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.15219,
-        "votes": 19048,
-        "releaseDate": "2017-01-06"
-    },
-    {
-        "title": "Power",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.38505,
-        "votes": 55247,
-        "releaseDate": "2014-06-07"
-    },
-    {
-        "title": "Navillera",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.41778,
-        "votes": 3566,
-        "releaseDate": "2021-03-22"
-    },
-    {
-        "title": "The Kominsky Method",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.76621,
-        "votes": 45468,
-        "releaseDate": "2018-11-16"
-    },
-    {
-        "title": "Trollhunters: Tales of Arcadia",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.05993,
-        "votes": 20167,
-        "releaseDate": "2016-12-23"
-    },
-    {
-        "title": "Kipo and the Age of Wonderbeasts",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.21514,
-        "votes": 7911,
-        "releaseDate": "2020-01-14"
-    },
-    {
-        "title": "She-Ra and the Princesses of Power",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.40531,
-        "votes": 20603,
-        "releaseDate": "2018-11-13"
-    },
-    {
-        "title": "Call My Agent!",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.9755,
-        "votes": 17629,
-        "releaseDate": "2015-10-14"
-    },
-    {
-        "title": "Ethos",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.86919,
-        "votes": 30693,
-        "releaseDate": "2020-11-12"
-    },
-    {
-        "title": "Itaewon Class",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.04071,
-        "votes": 22238,
-        "releaseDate": "2020-01-31"
-    },
-    {
-        "title": "Lenox Hill",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 7.98101,
-        "votes": 3029,
-        "releaseDate": "2020-06-10"
-    },
-    {
-        "title": "Vagabond",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.09706,
-        "votes": 13061,
-        "releaseDate": "2019-09-20"
-    },
-    {
-        "title": "Dirty Money",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.55952,
-        "votes": 10469,
-        "releaseDate": "2018-01-26"
-    },
-    {
-        "title": "Caliphate",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.85142,
-        "votes": 23469,
-        "releaseDate": "2020-01-12"
-    },
-    {
-        "title": "Sacred Games",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.85847,
-        "votes": 95040,
-        "releaseDate": "2018-07-06"
-    },
-    {
-        "title": "Mr. Sunshine",
-        "type": "serie",
-        "imdbRating": 8.7,
-        "traktRating": 8.589025102159953,
-        "votes": 12073,
-        "releaseDate": "2018-07-07"
-    },
-    {
-        "title": "The Dark Crystal: Age of Resistance",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.90259,
-        "votes": 28117,
-        "releaseDate": "2019-08-30"
-    },
-    {
-        "title": "Poldark",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.06066,
-        "votes": 37611,
-        "releaseDate": "2015-03-08"
-    },
-    {
-        "title": "Borgen",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.42716,
-        "votes": 31149,
-        "releaseDate": "2010-09-26"
-    },
-    {
-        "title": "Something in the Rain",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.74802,
-        "votes": 9838,
-        "releaseDate": "2018-03-30"
-    },
-    {
-        "title": "American Vandal",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.64465,
-        "votes": 33972,
-        "releaseDate": "2017-09-15"
-    },
-    {
-        "title": "The Disastrous Life of Saiki K.",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.22142,
-        "votes": 12748,
-        "releaseDate": "2016-07-11"
-    },
-    {
-        "title": "Club de Cuervos",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.85342,
-        "votes": 6514,
-        "releaseDate": "2015-08-07"
-    },
-    {
-        "title": "Parenthood",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.17231,
-        "votes": 40281,
-        "releaseDate": "2010-03-02"
-    },
-    {
-        "title": "The Keepers",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.75709,
-        "votes": 1058,
-        "releaseDate": "2017-05-19"
-    },
-    {
-        "title": "Scooby-Doo! Mystery Incorporated",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.11545,
-        "votes": 19857,
-        "releaseDate": "2010-07-12"
-    },
-    {
-        "title": "The Missing",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.89949,
-        "votes": 31394,
-        "releaseDate": "2014-10-28"
-    },
-    {
-        "title": "Top Boy",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.07737,
-        "votes": 43650,
-        "releaseDate": "2011-10-31"
-    },
-    {
-        "title": "Kota Factory",
-        "type": "serie",
-        "imdbRating": 9.0,
-        "traktRating": 8.21402,
-        "votes": 87309,
-        "releaseDate": "2019-04-16"
-    },
-    {
-        "title": "Daily Dose of Sunshine",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 8.27667,
-        "votes": 4037,
-        "releaseDate": "2023-11-03"
-    },
-    {
-        "title": "Prison Playbook",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.33923,
-        "votes": 5486,
-        "releaseDate": "2017-11-22"
-    },
-    {
-        "title": "Car Masters: Rust to Riches",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.29539,
-        "votes": 11926,
-        "releaseDate": "2018-09-14"
-    },
-    {
-        "title": "The Trauma Code: Heroes on Call",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.32407,
-        "votes": 5487,
-        "releaseDate": "2025-01-24"
-    },
-    {
-        "title": "The Devil's Plan",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.85378590078329,
-        "votes": 4321,
-        "releaseDate": "2023-09-26"
-    },
-    {
-        "title": "Chef's Table",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.10942,
-        "votes": 17434,
-        "releaseDate": "2015-04-26"
-    },
-    {
-        "title": "Rita",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.85135,
-        "votes": 10501,
-        "releaseDate": "2012-02-09"
-    },
-    {
-        "title": "Sunderland 'Til I Die",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.38653,
-        "votes": 9884,
-        "releaseDate": "2018-12-14"
-    },
-    {
-        "title": "Last Chance U: Basketball",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.63184,
-        "votes": 3663,
-        "releaseDate": "2021-03-10"
-    },
-    {
-        "title": "JoJo's Bizarre Adventure",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.34122,
-        "votes": 41378,
-        "releaseDate": "2012-10-06"
-    },
-    {
-        "title": "Arthdal Chronicles",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 8.01908,
-        "votes": 6466,
-        "releaseDate": "2019-06-01"
-    },
-    {
-        "title": "Abstract: The Art of Design",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.99761,
-        "votes": 6057,
-        "releaseDate": "2017-02-10"
-    },
-    {
-        "title": "Middleditch & Schwartz",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.05428,
-        "votes": 6151,
-        "releaseDate": "2020-04-21"
-    },
-    {
-        "title": "Our Blues",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 8.267676767676768,
-        "votes": 4456,
-        "releaseDate": "2022-04-09"
-    },
-    {
-        "title": "Green Eggs and Ham",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.51786,
-        "votes": 3380,
-        "releaseDate": "2019-11-08"
-    },
-    {
-        "title": "Rookie Historian Goo Hae-Ryung",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.9631,
-        "votes": 3555,
-        "releaseDate": "2019-07-17"
-    },
-    {
-        "title": "Patriot Act with Hasan Minhaj",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.75726,
-        "votes": 8070,
-        "releaseDate": "2018-10-28"
-    },
-    {
-        "title": "My Country: The New Age",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.5137,
-        "votes": 2898,
-        "releaseDate": "2019-10-04"
-    },
-    {
-        "title": "Midnight Diner: Tokyo Stories",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.24022,
-        "votes": 5161,
-        "releaseDate": "2016-10-21"
-    },
-    {
-        "title": "Rilakkuma and Kaoru",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.84694,
-        "votes": 1971,
-        "releaseDate": "2019-04-19"
-    },
-    {
-        "title": "Tour de France: Unchained",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.71077,
-        "votes": 5326,
-        "releaseDate": "2023-06-08"
-    },
-    {
-        "title": "The Surgeon's Cut",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.56923,
-        "votes": 1302,
-        "releaseDate": "2020-12-09"
-    },
-    {
-        "title": "Avatar: The Last Airbender",
-        "type": "serie",
-        "imdbRating": 9.3,
-        "traktRating": 9.165263892118112,
-        "votes": 400646,
-        "releaseDate": "2005-02-21"
-    },
-    {
-        "title": "Culinary Class Wars",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.22653721682848,
-        "votes": 3020,
-        "releaseDate": "2024-09-17"
-    },
-    {
-        "title": "SpongeBob SquarePants",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.90652,
-        "votes": 117686,
-        "releaseDate": "1999-05-01"
-    },
-    {
-        "title": "Last Chance U",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.5625,
-        "votes": 7717,
-        "releaseDate": "2016-07-29"
-    },
-    {
-        "title": "Justice League",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 8.40774,
-        "votes": 54360,
-        "releaseDate": "2001-11-17"
-    },
-    {
-        "title": "The King's Avatar",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.86063,
-        "votes": 1714,
-        "releaseDate": "2019-07-24"
-    },
-    {
-        "title": "Dave Chappelle",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 7.03514,
-        "votes": 3157,
-        "releaseDate": "2017-03-21"
-    },
-    {
-        "title": "Little Things",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.587109125717932,
-        "votes": 7894,
-        "releaseDate": "2016-10-25"
-    },
-    {
-        "title": "The Chef Show",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.46757,
-        "votes": 5754,
-        "releaseDate": "2019-06-07"
-    },
-    {
-        "title": "Somebody Feed Phil",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.66575,
-        "votes": 7184,
-        "releaseDate": "2018-01-12"
-    },
-    {
-        "title": "Designated Survivor: 60 Days",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.97163,
-        "votes": 1993,
-        "releaseDate": "2019-07-01"
-    },
-    {
-        "title": "Wave Makers",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.77273,
-        "votes": 1543,
-        "releaseDate": "2023-04-28"
-    },
-    {
-        "title": "Love on the Spectrum",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 7.48966,
-        "votes": 7979,
-        "releaseDate": "2019-11-19"
-    },
-    {
-        "title": "WWII in Color: Road to Victory",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.74051,
-        "votes": 2997,
-        "releaseDate": "2021-12-22"
-    },
-    {
-        "title": "Norm Macdonald Has a Show",
-        "type": "serie",
-        "imdbRating": 8.5,
-        "traktRating": 7.04027,
-        "votes": 3914,
-        "releaseDate": "2018-09-14"
-    },
-    {
-        "title": "Turning Point: The Bomb and the Cold War",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.25,
-        "votes": 5034,
-        "releaseDate": "2024-03-12"
-    },
-    {
-        "title": "Vinland Saga",
-        "type": "serie",
-        "imdbRating": 8.8,
-        "traktRating": 8.534518828451883,
-        "votes": 95075,
-        "releaseDate": "2019-07-08"
-    },
-    {
-        "title": "Molang",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.52632,
-        "votes": 518,
-        "releaseDate": "2015-11-02"
-    },
-    {
-        "title": "Offline Love",
-        "type": "serie",
-        "imdbRating": 8.3,
-        "traktRating": 7.3,
-        "votes": 228,
-        "releaseDate": "2025-02-18"
-    },
-    {
-        "title": "Queer Eye: We're in Japan!",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.95,
-        "votes": 2834,
-        "releaseDate": "2019-11-01"
-    },
-    {
-        "title": "The Sound of Your Heart",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.92391,
-        "votes": 1723,
-        "releaseDate": "2016-11-07"
-    },
-    {
-        "title": "Tales by Light",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.67568,
-        "votes": 2083,
-        "releaseDate": "2015-05-24"
-    },
-    {
-        "title": "Brown and Friends",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.69231,
-        "votes": 103,
-        "releaseDate": "2022-12-29"
-    },
-    {
-        "title": "CAT",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.51316,
-        "votes": 13243,
-        "releaseDate": "2022-12-09"
-    },
-    {
-        "title": "The InBESTigators",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.94231,
-        "votes": 1387,
-        "releaseDate": "2019-06-21"
-    },
-    {
-        "title": "Medal of Honor",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 7.19802,
-        "votes": 2017,
-        "releaseDate": "2018-11-09"
-    },
-    {
-        "title": "Wrestlers",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.06618,
-        "votes": 2096,
-        "releaseDate": "2023-09-13"
-    },
-    {
-        "title": "Ask the Storybots",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 6.83721,
-        "votes": 1092,
-        "releaseDate": "2016-08-12"
-    },
-    {
-        "title": "Light of My Lion",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.36364,
-        "votes": 367,
-        "releaseDate": "2024-10-11"
-    },
-    {
-        "title": "More than Blue: The Series",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 8.025,
-        "votes": 616,
-        "releaseDate": "2021-10-22"
-    },
-    {
-        "title": "Puffin Rock",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 6.58824,
-        "votes": 1225,
-        "releaseDate": "2015-01-12"
-    },
-    {
-        "title": "The Sound of Your Heart",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.92391,
-        "votes": 1723,
-        "releaseDate": "2016-07-19"
-    },
-    {
-        "title": "Brainchild",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 7.0,
-        "votes": 522,
-        "releaseDate": "2018-11-02"
-    },
-    {
-        "title": "Sea of Love",
-        "type": "serie",
-        "imdbRating": 8.2,
-        "traktRating": 6.38462,
-        "votes": 84,
-        "releaseDate": "2022-05-23"
-    },
-    {
-        "title": "Yankee",
-        "type": "serie",
-        "imdbRating": 8.1,
-        "traktRating": 6.02564,
-        "votes": 39,
-        "releaseDate": "2023-09-05"
-    },
-    {
-        "title": "Puss in Boots Shorts",
-        "type": "serie",
-        "imdbRating": 8.6,
-        "traktRating": 6.929260152048952,
-        "votes": 10786,
-        "releaseDate": "2014-05-02"
-    },
-    {
-        "title": "Top Boy",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 8.07737,
-        "votes": 43650,
-        "releaseDate": "2011-10-31"
-    },
-    {
-        "title": "Adolescence",
-        "type": "serie",
-        "imdbRating": 8.4,
-        "traktRating": 7.9,
-        "votes": 22000,
-        "releaseDate": "2025-03-13"
     }
 ]
