@@ -2,8 +2,8 @@ name: Weekly Netflix Data Fetch
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # Runs every Monday at 03:00 AM UTC
-  workflow_dispatch:  # Allows manual runs
+    - cron: '0 3 * * 1'  # Every Monday at 03:00 AM UTC
+  workflow_dispatch:  # Allow manual runs
 
 jobs:
   run-script:
@@ -15,26 +15,24 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'  # Change if needed
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt  # If you have dependencies
+          pip install -r requirements.txt
 
       - name: Run Script
         run: python fetch_netflix_data.py
 
-      - - name: Commit and Push Updated Data
-  run: |
-    git config --global user.name "GitHub Actions"
-    git config --global user.email "actions@github.com"
-    git pull origin main  # Prevent conflicts
-    git add netflix_data.json netflix_last_month.json
-    git commit -m "Auto-update Netflix data" || echo "No changes to commit"
-    git push
-  env:
-    GIT_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+      - name: Commit and Push Updated Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git pull origin main
+          git add netflix_data.json netflix_last_month.json
+          git commit -m "Auto-update Netflix data" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
 
