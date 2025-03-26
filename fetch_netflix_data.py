@@ -139,7 +139,7 @@ def fetch_netflix_movies():
 
 
 def fetch_netflix_series():
-    """Haalt ALLE series op die beschikbaar zijn op Netflix."""
+    """Fetches all series available on Netflix."""
     url = f"https://api.themoviedb.org/3/discover/tv"
     params = {
         "api_key": TMDB_API_KEY,
@@ -154,6 +154,8 @@ def fetch_netflix_series():
         response = requests.get(url, params=params, timeout=10)
         if response.status_code == 200:
             data = response.json()
+            print(f"Total pages: {data.get('total_pages', 1)}")
+            print(f"Fetched series: {data.get('results', [])}")
             all_series.extend(data.get("results", []))
             if params["page"] >= data.get("total_pages", 1):
                 break
@@ -177,16 +179,28 @@ def save_to_file(data, filename):
 
 
 def filter_last_month(titles):
-    """Filtert titels die in de afgelopen maand zijn uitgebracht."""
+    """Filters titles released in the last month."""
     one_month_ago = time.time() - (30 * 24 * 60 * 60)
+    current_time = time.time()
     filtered_titles = []
+
     for title in titles:
         try:
-            release_timestamp = time.mktime(time.strptime(title["releaseDate"], "%Y-%m-%d"))
-            if release_timestamp >= one_month_ago:
+            release_date = title.get("releaseDate")
+            if not release_date:
+                print(f"Skipping {title['title']} due to missing release date.")
+                continue
+
+            release_timestamp = time.mktime(time.strptime(release_date, "%Y-%m-%d"))
+            print(f"Title: {title['title']}, Release Date: {release_date}, Timestamp: {release_timestamp}")
+
+            # Include titles released in the last month or today
+            if one_month_ago <= release_timestamp <= current_time:
                 filtered_titles.append(title)
-        except Exception:
-            continue  # Skip titles without valid release dates
+        except Exception as e:
+            print(f"Error processing release date for {title['title']}: {e}")
+            continue
+
     print(f"Filtered {len(filtered_titles)} titles from the last month.")
     return filtered_titles
 
