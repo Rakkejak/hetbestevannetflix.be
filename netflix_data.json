@@ -518,5 +518,69 @@
         "traktRating": 8.15663,
         "votes": 3427,
         "releaseDate": "2023-10-06"
-    }
+    },
+    {
+        "title": "Breaking Bad",
+        "type": "serie",
+        "imdbRating": 9.5,
+        "releaseDate": "2008-01-20"
+    },
+    {
+        "title": "One Hundred Years of Solitude",
+        "type": "serie",
+        "imdbRating": 8.4,
+        "releaseDate": "2024-12-11"
+    },
+    {
+        "title": "Squid Game",
+        "type": "serie",
+        "imdbRating": 8.0,
+        "releaseDate": "2021-09-17"
+    },
+        "title": "Cobra Kai",
+        "type": "serie",
+        "imdbRating": 8.4,
+        "releaseDate": "2018-05-02"
+    },
+    {
+        "title": "The Good Doctor",
+        "type": "serie",
+        "imdbRating": 8.0,
+        "releaseDate": "2017-09-25"
+    },
+        "title": "Arcane",
+        "type": "serie",
+        "imdbRating": 9.1,
+        "releaseDate": "2021-11-06"
+    {
+        "title": "The Office",
+        "type": "serie",
+        "imdbRating": 9.0,
+        "releaseDate": "2005-03-24"
+    },
+    {
+        "title": "Batman: The Animated Series",
+        "type": "serie",
+        "imdbRating": 9.0,
+        "releaseDate": "1992-09-05"
+    },
+      {
+        "title": "Sherlock",
+        "type": "serie",
+        "imdbRating": 9.1,
+        "releaseDate": "2010-07-25"
+    },
+     {
+        "title": "Steven Universe",
+        "type": "serie",
+        "imdbRating": 8.2,
+        "releaseDate": "2013-11-04"
+    },
+    {
+        "title": "Orange Is the New Black",
+        "type": "serie",
+        "imdbRating": 8.0,
+        "releaseDate": "2013-07-11"
+    },
+
 ]
