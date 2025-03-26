@@ -4,6 +4,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from imdb import IMDb
 from imdb._exceptions import IMDbDataAccessError
+from datetime import datetime, timedelta
 
 # API-sleutels en regio
 TMDB_API_KEY = "ca7bc87061528b91ac4b42e235851f9a"  # TMDb API-sleutel
@@ -87,13 +88,14 @@ def process_title(title, media_type):
         imdb_rating, imdb_votes = fetch_imdb_rating(title.get("name") or title.get("title"), release_year, media_type)
         trakt_rating, trakt_votes = fetch_trakt_rating(title.get("name") or title.get("title"))
 
-        # Controleer op ontbrekende scores
-        if imdb_rating == "N/A" or trakt_rating == "N/A":
-            log_exclusion("Missing scores", title)
+        # Allow titles with missing Trakt.tv scores if IMDb rating is above 8
+        if imdb_rating == "N/A":
+            log_exclusion("Missing IMDb score", title)
             return None
 
-        # Vergelijk IMDb en Trakt.tv-scores
-        if abs(float(imdb_rating) - float(trakt_rating)) > 0.3 * float(imdb_rating):
+        if trakt_rating == "N/A":
+            trakt_rating = "geen score"  # Use "geen score" when Trakt.tv score is missing
+        elif abs(float(imdb_rating) - float(trakt_rating)) > 0.3 * float(imdb_rating):
             log_exclusion("Inconsistent scores", title)
             return None
 
@@ -180,8 +182,8 @@ def save_to_file(data, filename):
 
 def filter_last_month(titles):
     """Filters titles released in the last month."""
-    one_month_ago = time.time() - (30 * 24 * 60 * 60)
-    current_time = time.time()
+    one_month_ago = datetime.now() - timedelta(days=30)
+    current_time = datetime.now()
     filtered_titles = []
 
     for title in titles:
@@ -191,12 +193,18 @@ def filter_last_month(titles):
                 print(f"Skipping {title['title']} due to missing release date.")
                 continue
 
-            release_timestamp = time.mktime(time.strptime(release_date, "%Y-%m-%d"))
-            print(f"Title: {title['title']}, Release Date: {release_date}, Timestamp: {release_timestamp}")
+            # Parse the release date using datetime
+            try:
+                release_datetime = datetime.strptime(release_date, "%Y-%m-%d")
+            except ValueError:
+                print(f"Skipping {title['title']} due to invalid release date format: {release_date}")
+                continue
 
             # Include titles released in the last month or today
-            if one_month_ago <= release_timestamp <= current_time:
+            if one_month_ago <= release_datetime <= current_time:
                 filtered_titles.append(title)
+            else:
+                print(f"Excluding {title['title']} - Release date {release_date} is outside the last month.")
         except Exception as e:
             print(f"Error processing release date for {title['title']}: {e}")
             continue
@@ -219,8 +227,11 @@ def main():
     all_titles = [x for x in processed_movies + processed_series if x]
     print(f"Total processed titles: {len(all_titles)}")
 
+    # Highlight titles with IMDb rating > 8.0
     high_rated = [x for x in all_titles if x["imdbRating"] != "N/A" and float(x["imdbRating"]) > 8]
-    print(f"High-rated titles: {len(high_rated)}")
+    print(f"High-rated titles (IMDb > 8.0):")
+    for title in high_rated:
+        print(f"- {title['title']} ({title['releaseDate']}) - IMDb: {title['imdbRating']}")
 
     save_to_file(high_rated, "netflix_data.json")
     save_to_file(filter_last_month(high_rated), "netflix_last_month.json")
