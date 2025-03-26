@@ -13,6 +13,11 @@ REGION = "BE"  # Landcode voor België
 # IMDbPy initialisatie
 ia = IMDb(accessSystem='http', timeout=10)
 
+# Helper functie om uitsluitingen te loggen
+def log_exclusion(reason, title):
+    """Logt uitsluitingen naar een bestand met de reden."""
+    with open("exclusions.log", "a") as log_file:
+        log_file.write(f"{title.get('name') or title.get('title')} ({title.get('release_date') or title.get('first_air_date')}) → {reason}\n")
 
 def fetch_trakt_rating(title):
     """Haalt de Trakt.tv score en stemmen op."""
@@ -84,12 +89,12 @@ def process_title(title, media_type):
 
         # Controleer op ontbrekende scores
         if imdb_rating == "N/A" or trakt_rating == "N/A":
-            print(f"Excluded {title.get('name') or title.get('title')} due to missing scores: IMDb={imdb_rating}, Trakt.tv={trakt_rating}.")
+            log_exclusion("Missing scores", title)
             return None
 
         # Vergelijk IMDb en Trakt.tv-scores
         if abs(float(imdb_rating) - float(trakt_rating)) > 0.3 * float(imdb_rating):
-            print(f"Excluded {title.get('name') or title.get('title')} due to inconsistent scores: IMDb={imdb_rating}, Trakt.tv={trakt_rating}.")
+            log_exclusion("Inconsistent scores", title)
             return None
 
         release_date = title.get("first_air_date") or title.get("release_date") or "Unknown"
@@ -102,7 +107,7 @@ def process_title(title, media_type):
             "releaseDate": release_date
         }
     except Exception as e:
-        print(f"Error processing title: {title.get('name') or title.get('title')}: {e}")
+        log_exclusion(f"Error processing title: {e}", title)
         return None
 
 
@@ -187,6 +192,9 @@ def filter_last_month(titles):
 
 
 def main():
+    # Clear the exclusions log before each run
+    open("exclusions.log", "w").close()
+
     movies = fetch_netflix_movies()
     series = fetch_netflix_series()
 
