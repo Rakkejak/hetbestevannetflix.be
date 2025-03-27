@@ -1,10 +1,10 @@
 import requests
 import json
 import time
+import os
 from concurrent.futures import ThreadPoolExecutor
 from imdb import IMDb
 from imdb._exceptions import IMDbDataAccessError
-from datetime import datetime, timedelta
 
 # API-sleutels en regio
 TMDB_API_KEY = "ca7bc87061528b91ac4b42e235851f9a"  # TMDb API-sleutel
@@ -141,7 +141,7 @@ def fetch_netflix_movies():
 
 
 def fetch_netflix_series():
-    """Fetches all series available on Netflix."""
+    """Haalt ALLE series op die beschikbaar zijn op Netflix."""
     url = f"https://api.themoviedb.org/3/discover/tv"
     params = {
         "api_key": TMDB_API_KEY,
@@ -156,8 +156,6 @@ def fetch_netflix_series():
         response = requests.get(url, params=params, timeout=10)
         if response.status_code == 200:
             data = response.json()
-            print(f"Total pages: {data.get('total_pages', 1)}")
-            print(f"Fetched series: {data.get('results', [])}")
             all_series.extend(data.get("results", []))
             if params["page"] >= data.get("total_pages", 1):
                 break
@@ -213,6 +211,38 @@ def filter_last_month(titles):
     return filtered_titles
 
 
+def load_manual_scores(filename="manual_scores.json"):
+    """Laadt handmatig toegevoegde scores uit een JSON-bestand."""
+    try:
+        with open(filename, "r") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        print(f"Manual scores file '{filename}' not found. Skipping.")
+        return []
+    except Exception as e:
+        print(f"Error loading manual scores: {e}")
+        return []
+
+def merge_manual_scores(processed_titles, manual_scores):
+    """Voegt handmatige scores toe aan de verwerkte titels."""
+    titles_dict = {title["title"]: title for title in processed_titles}
+    for manual in manual_scores:
+        if manual["title"] not in titles_dict:
+            titles_dict[manual["title"]] = manual
+        else:
+            print(f"Skipping manual entry for '{manual['title']}' as it already exists in processed titles.")
+    return list(titles_dict.values())
+
+def push_to_github():
+    """Automatically commits and pushes updates to GitHub."""
+    try:
+        os.system("git add netflix_data.json netflix_last_month.json")
+        os.system('git commit -m "Auto-update Netflix data"')
+        os.system("git push origin main")
+        print("✅ Data pushed to GitHub!")
+    except Exception as e:
+        print(f"❌ Error pushing to GitHub: {e}")
+
 def main():
     # Clear the exclusions log before each run
     open("exclusions.log", "w").close()
@@ -227,7 +257,10 @@ def main():
     all_titles = [x for x in processed_movies + processed_series if x]
     print(f"Total processed titles: {len(all_titles)}")
 
-    # Highlight titles with IMDb rating > 8.0
+    manual_scores = load_manual_scores()
+    all_titles = merge_manual_scores(all_titles, manual_scores)
+    print(f"Total titles after merging manual scores: {len(all_titles)}")
+
     high_rated = [x for x in all_titles if x["imdbRating"] != "N/A" and float(x["imdbRating"]) > 8]
     print(f"High-rated titles (IMDb > 8.0):")
     for title in high_rated:
@@ -237,6 +270,8 @@ def main():
     save_to_file(filter_last_month(high_rated), "netflix_last_month.json")
     print("Data processing complete.")
 
+    # Push the new JSON files to GitHub
+    push_to_github()
 
 if __name__ == "__main__":
     main()
