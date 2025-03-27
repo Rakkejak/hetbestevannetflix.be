@@ -254,10 +254,14 @@
           if(data.length === 0) {
             const tableBody = document.getElementById('table-body');
             tableBody.innerHTML = `<tr>
-              <td colspan="6" style="text-align: center;padding: 20px 10px;">
-                <p> Als je deze tekst ziet, dan kon de database geen topserie of -film vinden die verschenen is in de laatste 90 dagen. 
-                <p> Ga naar Klassiekers en druk op Reslease Date om de meest recente topserie of -film te zien.
-              </td>
+              <td colspan="6" style="text-align: center; padding: 16px 20px; line-height: 1.4;">
+              <div style="margin-bottom: 4px;">
+                  Als je deze tekst ziet, dan kon de database geen topserie of -film vinden die verschenen is in de laatste 90 dagen.
+              </div>
+              <div>
+                  Ga naar <strong>Klassiekers</strong> en druk op <strong>Release Date</strong> om de meest recente topserie of -film te zien.
+              </div>
+              </td>  
             </tr>`;
             return;
           }
