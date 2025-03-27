@@ -1,0 +1,42 @@
+[
+    {
+        "title": "The Queen's Gambit",
+        "type": "serie",
+        "imdbRating": "8.5",
+        "traktRating": "no score",
+        "votes": 609000,
+        "releaseDate": "2020-10-23"
+    },
+    {
+        "title": "Stranger Things",
+        "type": "serie",
+        "imdbRating": "8.6",
+        "traktRating": "no score",
+        "votes": 1400000,
+        "releaseDate": "2016-07-15"
+    },
+    {
+        "title": "Dune: part one",
+        "type": "movie",
+        "imdbRating": "8.0",
+        "traktRating": "no score",
+        "votes": 949000,
+        "releaseDate": "2021-10-21"
+    },
+    {
+        "title": "Star Trek",
+        "type": "serie",
+        "imdbRating": "8.4",
+        "traktRating": "no score",
+        "votes": 96000,
+        "releaseDate": "1971-10-07"
+    },
+    {
+        "title": "Adolescence",
+        "type": "serie",
+        "imdbRating": "8.4",
+        "traktRating": "no score",
+        "votes": 86000,
+        "releaseDate": "2025-03-13"
+    },
+]
