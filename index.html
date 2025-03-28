@@ -254,10 +254,9 @@
           if(data.length === 0) {
             const tableBody = document.getElementById('table-body');
             tableBody.innerHTML = `<tr>
-             <td colspan="6" style="text-align: center;">
-                Als je deze tekst ziet, dan kon de database geen topserie of -film vinden die verschenen is in de laatste 90 dagen. 
-                Ga naar Klassiekers en druk op Reslease Date om de meest recente topserie of -film te zien.
-              </td> 
+              <td colspan="6" style="text-align: center;">
+                Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. Ga naar Klassiekers en druk op Reslease Date om de meest recente topserie of -film te zien.
+              </td>
             </tr>`;
             return;
           }
@@ -291,33 +290,70 @@
       return /Mobi|Android/i.test(navigator.userAgent);
     }
 
-    // Fix: Add event listener for "Klassiekers" button
-    document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
-
-    // Fix: Add event listener for "Recent" button
-    document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
-
-    // Fix: Define the sortByReleaseDate function
-    function sortByReleaseDate() {
-      const tableBody = document.getElementById('table-body');
-      const rows = Array.from(tableBody.querySelectorAll('tr'));
-
-      rows.sort((a, b) => {
-        const dateA = new Date(a.cells[5].textContent.trim());
-        const dateB = new Date(b.cells[5].textContent.trim());
-        return dateA - dateB;
-      });
-
-      tableBody.innerHTML = '';
-      rows.forEach(row => tableBody.appendChild(row));
-    }
-
-    // Initial data load based on device type
     if (isMobileDevice()) {
       loadData('netflix_last_month.json');
     } else {
       loadData('netflix_data.json');
     }
+
+    document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
+    document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
+
+    // Laad standaard de 'Recent' data bij het laden van de pagina
+    window.onload = function() {
+      if (!isMobileDevice()) {
+        loadData('netflix_last_month.json');
+      }
+      // Herlaad de pagina elke 24 uur (86.400.000 ms)
+      setTimeout(() => {
+        window.location.reload();
+      }, 86400000);
+    }
+  </script>
+
+  <!-- Sorteerfunctie met toggling (standaard begint met "desc": nieuwste eerst) -->
+  <script>
+    var currentSortOrder = "desc";  // "desc": nieuwste eerst, "asc": oudste eerst.
+    function sortByReleaseDate() {
+      var table = document.getElementById("netflixTable");
+      if (!table) {
+        console.error("Table with id 'netflixTable' not found.");
+        return;
+      }
+      
+      var tbody = table.getElementsByTagName("tbody")[0];
+      var rowsArray = Array.from(tbody.getElementsByTagName("tr"));
+      
+      rowsArray.sort(function(a, b) {
+        var dateA = new Date(a.getElementsByTagName("td")[5].innerText.trim());
+        var dateB = new Date(b.getElementsByTagName("td")[5].innerText.trim());
+        if (currentSortOrder === "asc") {
+          return dateA - dateB;
+        } else { // "desc"
+          return dateB - dateA;
+        }
+      });
+      
+      // Werk de tabel bij met de gesorteerde rijen en update de rangnummers
+      tbody.innerHTML = "";
+      rowsArray.forEach(function(row, index) {
+        row.getElementsByTagName("td")[0].innerText = index + 1;
+        tbody.appendChild(row);
+      });
+      
+      console.log("Sorting by Release Date completed. Current order was: " + currentSortOrder);
+      // Toggle de sorteervolgorde voor de volgende klik
+      currentSortOrder = (currentSortOrder === "asc") ? "desc" : "asc";
+      console.log("New sort order will be: " + currentSortOrder);
+    }
+  </script>
+
+  <!-- Script voor de tip-knop: direct naar Buy Me a Coffee -->
+  <script>
+    const tipBtnBottom = document.getElementById("tip-btn-bottom");
+    tipBtnBottom.addEventListener("click", () => {
+      window.location.href = "https://buymeacoffee.com/rakkejak";
+    });
   </script>
 </body>
 </html>
