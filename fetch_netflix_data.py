@@ -5,6 +5,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 from imdb import IMDb
 from imdb._exceptions import IMDbDataAccessError
+import datetime  # Added import for datetime
 
 # API-sleutels en regio
 TMDB_API_KEY = "ca7bc87061528b91ac4b42e235851f9a"  # TMDb API-sleutel
@@ -63,10 +64,17 @@ def fetch_imdb_rating(title, release_year=None, media_type=None):
                         continue
                     if release_year and result.get('year') != release_year:
                         continue
-                    movie = ia.get_movie(result.movieID, info=['main'])
-                    rating = movie.get('rating', 'N/A')
-                    votes = movie.get('votes', 0)
-                    return rating, votes
+                    try:
+                        movie = ia.get_movie(result.movieID, info=['main'])
+                        rating = movie.get('rating', 'N/A')
+                        votes = movie.get('votes', 0)
+                        return rating, votes
+                    except IMDbDataAccessError as imdb_err:
+                        if "403" in str(imdb_err):
+                            print(f"HTTP 403: Forbidden for IMDb access. Skipping {title}.")
+                            return "N/A", 0
+                        else:
+                            raise imdb_err
         except IMDbDataAccessError as imdb_err:
             print(f"IMDb access error for {title}: {imdb_err}")
         except Exception as e:
@@ -180,8 +188,8 @@ def save_to_file(data, filename):
 
 def filter_last_month(titles):
     """Filters titles released in the last month."""
-    one_month_ago = datetime.now() - timedelta(days=30)
-    current_time = datetime.now()
+    one_month_ago = datetime.datetime.now() - datetime.timedelta(days=30)  # Fixed datetime usage
+    current_time = datetime.datetime.now()  # Fixed datetime usage
     filtered_titles = []
 
     for title in titles:
@@ -193,7 +201,7 @@ def filter_last_month(titles):
 
             # Parse the release date using datetime
             try:
-                release_datetime = datetime.strptime(release_date, "%Y-%m-%d")
+                release_datetime = datetime.datetime.strptime(release_date, "%Y-%m-%d")
             except ValueError:
                 print(f"Skipping {title['title']} due to invalid release date format: {release_date}")
                 continue
