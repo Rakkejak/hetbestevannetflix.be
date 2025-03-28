@@ -291,10 +291,33 @@
       return /Mobi|Android/i.test(navigator.userAgent);
     }
 
+    // Fix: Add event listener for "Klassiekers" button
+    document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
+
+    // Fix: Add event listener for "Recent" button
+    document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
+
+    // Fix: Define the sortByReleaseDate function
+    function sortByReleaseDate() {
+      const tableBody = document.getElementById('table-body');
+      const rows = Array.from(tableBody.querySelectorAll('tr'));
+
+      rows.sort((a, b) => {
+        const dateA = new Date(a.cells[5].textContent.trim());
+        const dateB = new Date(b.cells[5].textContent.trim());
+        return dateA - dateB;
+      });
+
+      tableBody.innerHTML = '';
+      rows.forEach(row => tableBody.appendChild(row));
+    }
+
+    // Initial data load based on device type
     if (isMobileDevice()) {
       loadData('netflix_last_month.json');
     } else {
       loadData('netflix_data.json');
     }
-
-    document.getElementById('all-time-btn').addEventListener('click', () => loadData* ▋
+  </script>
+</body>
+</html>
