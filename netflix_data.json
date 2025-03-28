@@ -2598,5 +2598,13 @@
         "traktRating": 6.0,
         "votes": 38,
         "releaseDate": "2023-09-05"
+    },
+     {
+        "title": "Adolescence",
+        "type": "serie",
+        "imdbRating": "8.4",
+        "traktRating": "no score",
+        "votes": 86000,
+        "releaseDate": "2025-03-13"
     }
 ]]
