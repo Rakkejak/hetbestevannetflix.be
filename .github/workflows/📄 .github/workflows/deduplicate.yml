@@ -1,0 +1,33 @@
+name: Deduplicate Netflix Data
+
+on:
+  push:
+    paths:
+      - 'netflix_data.json'
+
+jobs:
+  deduplicate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install --upgrade pip
+
+    - name: Run deduplication script
+      run: python scripts/deduplicate_netflix_data.py
+
+    - name: Commit and push if changed
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add netflix_data.json
+        git diff --cached --quiet || git commit -m "Auto-deduplicated netflix_data.json"
+        git push
