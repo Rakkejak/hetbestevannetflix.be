@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "title": "When Life Gives You Tangerines",
+        "type": "serie",
+        "imdbRating": 9.4,
+        "traktRating": 8.666666666666666,
+        "votes": 998,
+        "releaseDate": "2025-03-07"
+    },
+    {
+        "title": "Offline Love",
+        "type": "serie",
+        "imdbRating": 8.2,
+        "traktRating": 7.22222,
+        "votes": 202,
+        "releaseDate": "2025-02-18"
+    },
+    {
+        "title": "Adolescence",
+        "type": "serie",
+        "imdbRating": "8.4",
+        "traktRating": "no score",
+        "votes": 86000,
+        "releaseDate": "2025-03-13"
+    },
+]
