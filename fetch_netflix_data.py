@@ -178,6 +178,10 @@ def fetch_netflix_series():
 def save_to_file(data, filename):
     """Slaat data op in een JSON-bestand."""
     try:
+        if not data:
+            print(f"No data to save for {filename}. Retaining the last version.")
+            return  # Skip saving if data is empty
+
         print(f"Saving {len(data)} items to {filename}...")
         with open(filename, "w") as f:
             json.dump(data, f, indent=4)
