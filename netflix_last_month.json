@@ -22,5 +22,13 @@
         "traktRating": "no score",
         "votes": 86000,
         "releaseDate": "2025-03-13"
-    }
+    },
+    {
+        "title": "The Wild Robot",
+        "type": "movie",
+        "imdbRating": "8.2",
+        "traktRating": "8.4",
+        "votes": 164000,
+        "releaseDate": "2025-04-28"
+    } 
 ]
