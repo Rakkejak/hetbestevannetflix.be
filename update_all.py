@@ -143,40 +143,49 @@ def apply_business_rules(items):
     """
     - Houd alleen items die op Netflix BE te streamen zijn (via TMDb providers).
     - Benchmark: IMDb >= 8.0, of als IMDb ontbreekt: TMDb >= 8.0 (fallback).
-    - Zet 'dateAdded' = datum waarop op Netflix is gezet; als die ontbreekt, val terug op releaseDate.
+    - Normaliseer velden voor frontend.
     """
     out = []
     for it in items:
-        media = it.get("type") or "movie"
-        tmdb_id = it.get("tmdb_id") or it.get("tmdbId") or it.get("id")
-        # BE beschikbaarheid
-        if not is_on_netflix_be(int(tmdb_id)) if tmdb_id else False:
-            # Zonder tmdb_id kunnen we niet checken – laat voorlopig door, of log en skip
-            # Hier laten we 'm door als tmdb_id ontbreekt (zodat je geen data verliest)
-            pass
+        media = (it.get("type") or "").lower()
+        media_type = "tv" if media.startswith("s") else "movie"
+
+        tmdb_id = it.get("tmdb_id") or it.get("tmdbid") or None
+        if tmdb_id and TMDB_API_KEY:
+            if not is_on_netflix_be(int(tmdb_id), media_type):
+                continue
 
         imdb = _num_or_none(it.get("imdbRating"))
         tmdb = _num_or_none(it.get("tmdb_vote_average"))
+        trakt = _num_or_none(it.get("traktRating"))
 
-        score_ok = (imdb is not None and imdb >= 8.0) or (imdb is None and tmdb is not None and tmdb >= 8.0)
+        # Benchmark check
+        score_ok = (imdb and imdb >= 8.0) or (not imdb and tmdb and tmdb >= 8.0)
         if not score_ok:
             continue
 
-        # 30%-regel enkel als IMDb en Trakt er allebei zijn:
-        tr = _num_or_none(it.get("traktRating"))
-        if imdb is not None and tr is not None:
-            if abs(imdb - tr) > 0.3 * imdb:
-                continue
+        # 30%-regel
+        if imdb and trakt and abs(imdb - trakt) > 0.3 * imdb:
+            continue
 
-        # velden conform front-end
-        it["title"] = it.get("title") or it.get("name") or ""
-        it["type"] = "Series" if media == "tv" else "Film"
-        it["imdbRating"] = imdb if imdb is not None else ("N/A")
-        it["traktRating"] = tr if tr is not None else 0
-        # dates
-        it["releaseDate"] = it.get("releaseDate") or it.get("first_air_date") or it.get("release_date") or ""
-        it["dateAdded"]   = it.get("dateAdded") or ""  # uNoGS ndate indien beschikbaar
-        out.append(it)
+        # Normaliseer velden voor frontend
+        norm = {
+            "title": it.get("title") or it.get("name") or "",
+            "type": "Series" if media_type == "tv" else "Film",
+            "imdbRating": imdb if imdb else "N/A",
+            "traktRating": trakt if trakt else 0,
+            "releaseDate": (
+                it.get("releaseDate")
+                or it.get("first_air_date")
+                or it.get("release_date")
+                or (it.get("release_year") and f"{it['release_year']}-01-01")
+                or ""
+            ),
+            "dateAdded": it.get("dateAdded") or "",
+            "tmdb_id": tmdb_id,
+        }
+        out.append(norm)
+
     return out
 
 # ---------- Recent (90 dagen) ----------
