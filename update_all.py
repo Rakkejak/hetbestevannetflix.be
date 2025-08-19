@@ -88,5 +88,6 @@ def get_trakt_rating_via_tmdb(tmdb_id: Optional[int], media_type: str) -> Option
 
     headers = {"Content-Type": "application/json", "trakt-api-version": "2", "trakt-api-key": TRAKT_CLIENT_ID}
     try:
-        # 1) zoek mapping via tmdb id
-        t =
+               # 1) zoek mapping via tmdb id
+        t = "movie" if media_type == "movie" else "show"
+
