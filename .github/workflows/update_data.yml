@@ -2,47 +2,42 @@ name: Update & Deploy Data
 
 on:
   schedule:
-    # Dagelijks 04:00 Europe/Brussels ≈ 02:00 UTC
-    - cron: "0 2 * * *"
+    # Wekelijks op maandag 06:00 Europe/Brussels ≈ 04:00 UTC
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
-# Nodig om vanuit de workflow te mogen committen/pushen
 permissions:
   contents: write
-
-concurrency:
-  group: update-data
-  cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Show repo state (before)
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install deps
         run: |
-          echo "Listing files:"
-          ls -lah
-          echo "Git status:"
-          git status
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: "pip"
-
-      - name: Install dependencies
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Update all JSONs
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+          UNOGS_API_KEY: ${{ secrets.UNOGS_API_KEY }}
+        run: python -u update_all.py
+      - name: Commit and push changes
         run: |
-          if [ -f requirements.txt ]; then
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Update data [skip ci]"
+            git push
           else
-            echo "No requirements.txt found; continuing…"
+            echo "No changes to commit."
           fi
+
 
       # ---- RUN THE FULL DATA PIPELINE ----
       # We proberen eerst jouw orkestratie-script.
