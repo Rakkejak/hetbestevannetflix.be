@@ -30,14 +30,14 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Generate data
+      - name: Generate data (full pipeline)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
         run: |
-          python fetch_netflix_data.py
-          python deduplicate_netflix_data.py
+          python fetch_data.py
+
 
       - name: Commit and push changes
         run: |
