@@ -39,35 +39,71 @@ def is_on_netflix_be(tmdb_id: int, media_type: str) -> bool:
 # ---------- Brondata ophalen ----------
 def fetch_candidates():
     """
-    1) Probeer uNoGS voor BE (geeft ook 'ndate' = date added op Netflix) – beste bron voor 'Recent'.
-    2) Zo niet: val terug op je huidige export (als die al bestaat).
+    1) Probeer uNoGS (RapidAPI) voor België (country 21) met robuuste parameters
+       en pagination (offset). Dit geeft ook 'ndate' = date added op Netflix.
+    2) Als dat geen resultaten oplevert, val terug op de bestaande volledige dataset.
     """
-    # 1) uNoGS (optioneel maar aanbevolen)
     if UNOGS_API_KEY:
+        url = "https://unogsng.p.rapidapi.com/search"
+        headers = {
+            "X-RapidAPI-Key": UNOGS_API_KEY,
+            "X-RapidAPI-Host": "unogsng.p.rapidapi.com",
+        }
+        items = []
         try:
-            url = "https://unogsng.p.rapidapi.com/search"
-            headers = {
-                "X-RapidAPI-Key": UNOGS_API_KEY,
-                "X-RapidAPI-Host": "unogsng.p.rapidapi.com"
-            }
-            # Belgium code = 21
-            params = {"countrylist":"21","orderby":"date","limit":"500","type":"movie,tvshow"}
-            r = requests.get(url, headers=headers, params=params, timeout=20)
-            r.raise_for_status()
-            res = r.json().get("results", [])
-            items = []
-            for x in res:
-                items.append({
-                    "title": x.get("title") or x.get("t"),
-                    "type": "tv" if (x.get("type") or "").lower().startswith("tv") else "movie",
-                    "tmdb_id": x.get("tmid") or None,
-                    "releaseDate": (x.get("release_year") and f"{x['release_year']}-01-01") or x.get("released") or "",
-                    "dateAdded": x.get("ndate") or "",  # <-- added-to-Netflix
-                })
-            print(f"[uNoGS] fetched {len(items)} items")
-            return items
+            # uNoGS verwacht 'type' als 'movie' of 'series'
+            for t in ("movie", "series"):
+                offset = 0
+                while True:
+                    params = {
+                        "type": t,               # 'movie' of 'series'
+                        "countrylist": "21",     # 21 = Belgium
+                        "orderby": "date",       # sorteren op toevoeg-datum
+                        "limit": "100",          # max per pagina
+                        "offset": str(offset),   # pagination
+                    }
+                    r = requests.get(url, headers=headers, params=params, timeout=25)
+                    if r.status_code != 200:
+                        print(f"[uNoGS] HTTP {r.status_code} body: {r.text[:300]}")
+                        break
+                    data = r.json() or {}
+                    batch = data.get("results") or []
+                    if not batch:
+                        break
+                    for x in batch:
+                        items.append({
+                            "title": x.get("title") or x.get("t"),
+                            "type": t,  # 'movie' / 'series'
+                            "tmdb_id": x.get("tmid") or x.get("tmdbid") or None,
+                            "releaseDate": (
+                                (x.get("release_year") and f"{x['release_year']}-01-01")
+                                or x.get("released") or ""
+                            ),
+                            "dateAdded": x.get("ndate") or "",  # added-to-Netflix
+                            "imdbRating": x.get("imdbrating"),
+                            "traktRating": x.get("trakt_rating") or x.get("trakt"),
+                            "tmdb_vote_average": x.get("tmdb_rating") or x.get("rating"),
+                        })
+                    offset += len(batch)
+            print(f"[uNoGS] fetched {len(items)} items (movie+series)")
         except Exception as e:
             print(f"[WARN] uNoGS fetch failed: {e}")
+
+        if items:
+            return items
+        else:
+            print("[uNoGS] 0 items fetched — falling back to existing data")
+
+    # Fallback: gebruik bestaande volledige dataset
+    if OUT_FULL.exists():
+        with open(OUT_FULL, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        print(f"[fallback] using existing {OUT_FULL.name}: {len(data)} items")
+        return data
+
+    print("[ERROR] No candidates – aborting.")
+    return []
+
 
     # 2) fallback: gebruik bestaande volledige dataset
     if OUT_FULL.exists():
