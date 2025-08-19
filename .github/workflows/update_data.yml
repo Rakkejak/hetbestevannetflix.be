@@ -81,5 +81,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Alleen committen als er echt wijzigingen zijn
-          if ! git diff --c
+          git fetch origin main
+          git rebase origin/main || git rebase --skip
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Update data [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
+
