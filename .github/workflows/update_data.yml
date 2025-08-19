@@ -2,10 +2,11 @@ name: Update & Deploy Data
 
 on:
   schedule:
-    # Dagelijks om 04:00 Europe/Brussels ≈ 02:00 UTC
+    # Dagelijks 04:00 Europe/Brussels ≈ 02:00 UTC
     - cron: "0 2 * * *"
   workflow_dispatch:
 
+# Nodig om vanuit de workflow te mogen committen/pushen
 permissions:
   contents: write
 
@@ -16,9 +17,17 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Show repo state (before)
+        run: |
+          echo "Listing files:"
+          ls -lah
+          echo "Git status:"
+          git status
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,21 +37,54 @@ jobs:
 
       - name: Install dependencies
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f requirements.txt ]; then
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+          else
+            echo "No requirements.txt found; continuing…"
+          fi
 
-      - name: Generate data (full pipeline)
+      # ---- RUN THE FULL DATA PIPELINE ----
+      # We proberen eerst jouw orkestratie-script.
+      # Als dat niet bestaat of faalt, draaien we de losse stappen die in je repo staan.
+      - name: Generate data (orchestration if available)
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
           TRAKT_CLIENT_SECRET: ${{ secrets.TRAKT_CLIENT_SECRET }}
         run: |
-          python fetch_data.py
+          set -e
+          if [ -f "fetch_data.py" ]; then
+            echo "Running fetch_data.py (full pipeline)…"
+            python -u fetch_data.py
+          else
+            echo "fetch_data.py not found — running step-by-step pipeline…"
+            if [ -f "fetch_netflix_data.py" ]; then
+              python -u fetch_netflix_data.py
+            fi
+            if [ -f "fetch_imdb_rating.py" ]; then
+              python -u fetch_imdb_rating.py
+            fi
+            if [ -f "deduplicate_netflix_data.py" ]; then
+              python -u deduplicate_netflix_data.py
+            fi
+          fi
 
+      - name: Show repo state (after)
+        run: |
+          echo "Changed files (staged diff will show below if any):"
+          git add -A
+          git status --porcelain
+          echo "Computing hashes for key JSONs (if present):"
+          for f in netflix_data.json netflix_last_month.json netflix_data_partial.json manual_scores.json; do
+            if [ -f "$f" ]; then
+              echo "$(sha256sum "$f")"
+            fi
+          done
 
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet && echo "No changes to commit" || git commit -m "Update data [skip ci]"
-          git push
+          # Alleen committen als er echt wijzigingen zijn
+          if ! git diff --c
