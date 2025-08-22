@@ -61,11 +61,15 @@
       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
       overflow: hidden;
     }
-    .leaderboard-wrapper {
-      overflow-x: auto; /* Add horizontal scrolling */
-      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-      white-space: nowrap; /* Prevent wrapping */
+    /* Laat lange melding in de tabel wél afbreken */
+    .leaderboard td[colspan],
+    .leaderboard tr.notice td,
+    .leaderboard td.notice{
+      white-space: normal !important;
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
+
     .leaderboard table {
       width: 100%;
       min-width: 600px; /* Ensure table is wide enough to scroll */
@@ -117,7 +121,7 @@
     .tip-bottom {
       margin: 20px auto;
       width: 90%;
-      max-width: 1000px;
+      max-width: 1300px;
       background: rgba(255, 255, 255, 0.1);
       padding: 15px;
       border-radius: 5px;
