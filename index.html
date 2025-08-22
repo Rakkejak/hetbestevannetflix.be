@@ -1,368 +1,395 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Het Beste van Netflix</title>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6XWH6KYXS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Het Beste van Netflix — België</title>
 
-    gtag('config', 'G-N6XWH6KYXS');
-  </script>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-      color: #ffffff;
-      text-align: center;
-      position: relative;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin: 20px 0;
-      color: #FFD700;
-      text-shadow: 2px 2px 4px #000000;
-    }
-    .welcome {
-      font-size: 1.2em;
-      color: #cccccc;
-      margin-bottom: 30px;
-    }
-    .welcome p {
-      margin: 5px 0;
-    }
-    button {
-      margin: 10px;
-      padding: 10px 20px;
-      border: none;
-      background: #007BFF;
-      color: #fff;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-    .leaderboard {
-      margin: 30px auto;
-      width: 90%;
-      max-width: 1000px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-      overflow: hidden;
-    }
-    /* Laat lange melding in de tabel wél afbreken */
-    .leaderboard td[colspan],
-    .leaderboard tr.notice td,
-    .leaderboard td.notice{
-      white-space: normal !important;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    .leaderboard table {
-      width: 100%;
-      min-width: 600px; /* Ensure table is wide enough to scroll */
-      border-collapse: collapse;
-      color: #ffffff;
-      display: inline-block; /* Ensure table is inline for horizontal scrolling */
-    }
-    .leaderboard th {
-      background: #1f2933;
-      padding: 15px;
-      font-size: 1.1em;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border-bottom: 1px solid #444;
-    }
-    .leaderboard td {
-      padding: 15px;
-      font-size: 1em;
-      border-bottom: 1px solid #333;
-      text-align: left;
-    }
-    /* Centreer de cellen in de 4e en 5e kolom */
-    .leaderboard td:nth-child(4),
-    .leaderboard td:nth-child(5) {
-      text-align: center;
-    }
-    .leaderboard tr:nth-child(even) {
-      background: rgba(255, 255, 255, 0.05);
-    }
-    .leaderboard tr:hover {
-      background: rgba(255, 255, 255, 0.2);
-    }
-    .disclaimer {
-      font-size: 0.9em;
-      color: #cccccc;
-      margin-top: 30px;
-      text-align: center;
-      padding: 15px;
-      border-top: 1px solid #444;
-    }
-    .disclaimer a {
-      color: #FFD700;
-      text-decoration: none;
-    }
-    .disclaimer a:hover {
-      text-decoration: underline;
-    }
-    /* Container onder de tabel voor de tip-boodschap */
-    .tip-bottom {
-      margin: 20px auto;
-      width: 90%;
-      max-width: 1300px;
-      background: rgba(255, 255, 255, 0.1);
-      padding: 15px;
-      border-radius: 5px;
-      text-align: center;
-    }
-    /* Modal styles voor de tip-knop (in dit voorbeeld niet gebruikt) */
-    .modal {
-      display: none; 
-      position: fixed; 
-      z-index: 1000; 
-      left: 0;
-      top: 0;
-      width: 100%; 
-      height: 100%; 
-      overflow: auto; 
-      background-color: rgba(0,0,0,0.8); 
-    }
-    .modal-content {
-      background-color: #fefefe;
-      margin: 10% auto; 
-      padding: 20px;
-      border: 1px solid #888;
-      width: 300px;
-      text-align: center;
-      border-radius: 10px;
-    }
-    .close-modal {
-      color: #aaa;
-      float: right;
-      font-size: 28px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 14px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-      .welcome {
-        font-size: 1em;
-      }
-      button {
-        padding: 8px 16px;
-        font-size: 14px;
-      }
-      .leaderboard {
-        width: 100%;
-    /* Forceer afbreken op alle schermgroottes */
-      .leaderboard-wrapper { white-space: normal !important; }
-
-/* De “geen recent” melding (colspan) moet altijd wrappen */
-      .leaderboard td[colspan],
-      .leaderboard tr.notice td,
-      .leaderboard td.notice{
-        white-space: normal !important;
-        overflow-wrap: anywhere;
-        word-break: break-word;
-}
-
-/* (Optioneel) alleen Release Date kolom laten wrappen */
-th:nth-child(6), td:nth-child(6){ white-space: normal; }
-
-      .tip-bottom {
-        width: 100%;
-        padding: 10px;
-      }
-    }
-  </style>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Het Beste van Netflix</h1>
-  <div class="welcome">
-    <p>Welkom bij <strong>Het Beste Van Netflix in België</strong>. Ontdek de best beoordeelde films en series beschikbaar op Netflix.</p>
-    <p>Druk op de knop. Sorteer via Release Date.</p>
-  </div>
-  <button id="all-time-btn">Klassiekers</button>
-  <button id="last-month-btn">Recent</button>
-  
-  <div class="leaderboard">
-    <div class="leaderboard-wrapper">
-      <table id="netflixTable">
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Title</th>
-            <th>Type</th>
-            <th>IMDb Rating</th>
-            <th>Trakt.tv Rating</th>
-            <th onclick="sortByReleaseDate()" style="cursor:pointer;">Release Date</th>
-          </tr>
-        </thead>
-        <tbody id="table-body">
-          <!-- Dynamische inhoud komt hier -->
-        </tbody>
-      </table>
+
+  <!-- FIXED TOP NAV -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">Het Beste van <span>Netflix</span> <em>België</em></div>
+
+      <nav class="menu">
+        <div class="menu-links">
+          <a class="menu-link" data-tab="recent" id="menu-recent">RECENT</a>
+          <a class="menu-link" data-tab="klassiekers" id="menu-klassiekers">KLASSIEKERS</a>
+          <a class="menu-link" href="https://rakkejak.be" target="_blank" rel="noopener">RAKKEJAK</a>
+        </div>
+        <!-- helemaal rechts -->
+        <a class="coffee-cta" href="https://buymeacoffee.com/rakkejak" target="_blank" rel="noopener">
+          TRAKTEER ONS OP EEN KOFFIE
+        </a>
+      </nav>
     </div>
-  </div>
-  
-  <!-- Tip-boodschap onder de tabel -->
-  <div class="tip-bottom">
-    <p>Wij maken gratis websites.</p>
-    <button id="tip-btn-bottom">Trakteer ons op een koffie</button>
-  </div>
-  
-  <div class="disclaimer">
-    Deze website maakt gebruik van data afkomstig van 
-    <a href="https://www.themoviedb.org/" target="_blank">The Movie Database (TMDb)</a>, 
-    <a href="https://www.imdb.com/" target="_blank">IMDb</a>, en 
-    <a href="https://trakt.tv/" target="_blank">Trakt.tv</a>. 
-    Titels waarvan de Trakt.tv-score 30% lager is dan de IMDb-score worden automatisch uitgesloten.
-  </div>
-  
-  <!-- Script om data te laden en te filteren -->
+  </header>
+
+  <!-- HERO (centrale lead-titel + 2 grote CTA-knoppen) -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="lead">
+        <h1 class="lead-title">
+          Ontdek de best beoordeelde films en series beschikbaar op Netflix in België.
+        </h1>
+        <div class="lead-ctas">
+          <button class="cta large" id="hero-klassiekers" data-tab="klassiekers">Klassiekers</button>
+          <button class="cta large" id="hero-recent" data-tab="recent">Recent</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBTEXT + CONTROLS -->
+  <section class="subintro">
+    <div class="container">
+      <p id="subtext" class="subtext">
+        Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Klassiekers voor oudere films of series.
+      </p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Zoek op titel…" aria-label="Zoek titel" />
+        <div class="sorts">
+          <button id="sortImdb" class="sortbtn active" aria-pressed="true">IMDb (hoog→laag)</button>
+          <button id="sortDate" class="sortbtn" aria-pressed="false">Datum ↓</button>
+        </div>
+        <span id="count" class="count">0 resultaten</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <main class="container">
+    <section id="cards" class="cards" aria-live="polite"></section>
+
+    <!-- optionele lege-staat (wordt verborgen als we fallback tonen) -->
+    <div id="empty" class="empty" hidden>
+      <p id="empty-text"></p>
+      <button id="goto-classics" class="cta small" hidden>Bekijk Klassiekers</button>
+    </div>
+
+    <section id="rakkejak" class="about">
+      <p class="about-lead">Wij maken gratis websites.</p>
+      <a class="coffee big" href="https://buymeacoffee.com/rakkejak" target="_blank" rel="noopener">
+        ☕ Trakteer ons op een koffie
+      </a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p class="muted">
+        Deze website maakt gebruik van data afkomstig van The Movie Database (TMDb), IMDb, en Trakt.tv.
+        Titels waarvan de Trakt.tv-score 30% lager is dan de IMDb-score worden automatisch uitgesloten.
+      </p>
+      <p class="muted small">
+        “Recent” toont de beste reeksen en films van de laaste 90 dagen. Als dat leeg is, tonen we automatisch de 10 meest recente titels uit de volledige database.
+      </p>
+    </div>
+  </footer>
+
+  <!-- APP LOGICA -->
   <script>
-    async function loadData(file) {
+    // ---------- helpers ----------
+    const $  = s => document.querySelector(s);
+    const $$ = s => Array.from(document.querySelectorAll(s));
+    const isNum = v => Number.isFinite(+v);
+    const fmt1  = v => (isNum(v) && +v > 0 ? (+v).toFixed(1) : "—");
+
+    function parseDateAny(s){
+      if (s === undefined || s === null) return null;
+      const str = String(s);
+      if (/^\d{13}$/.test(str)) { const d = new Date(+str); return isNaN(d)?null:d; }
+      if (/^\d{10}$/.test(str)) { const d = new Date(+str*1000); return isNaN(d)?null:d; }
+      const d = new Date(str); return isNaN(d) ? null : d;
+    }
+    const yearOf = s => { const d = parseDateAny(s); return d ? d.getFullYear() : ""; };
+
+    function niceType(raw){
+      const t = (raw||"").toLowerCase();
+      if (t === "tv" || t.startsWith("s")) return "Series";
+      if (t.startsWith("m")) return "Film";
+      return raw || "";
+    }
+    function netflixUrlFor(item){
+      const id = item.nfid || item.netflixid || item.netflix_id || item.title_id;
+      if (id) return `https://www.netflix.com/title/${id}`;
+      const q = encodeURIComponent(item.title || "");
+      return `https://www.netflix.com/search?q=${q}`;
+    }
+    function posterFor(item){
+      const keys = ["poster","image","poster_url","img","boxart","box_art","artwork"];
+      for (const k of keys){ if (item[k]) return item[k]; }
+      if (item.poster_path) return `https://image.tmdb.org/t/p/w342${item.poster_path}`;
+      return null;
+    }
+
+    // ----- taal mapping -----
+    const LANG_MAP = {
+      ar:"Arabic", bg:"Bulgarian", bn:"Bengali", cs:"Czech", da:"Danish", de:"German",
+      el:"Greek", en:"English", es:"Spanish", et:"Estonian", fa:"Persian", fi:"Finnish",
+      fr:"French", he:"Hebrew", hi:"Hindi", hr:"Croatian", hu:"Hungarian", id:"Indonesian",
+      it:"Italian", ja:"Japanese", ko:"Korean", lt:"Lithuanian", ml:"Malayalam", mr:"Marathi",
+      nl:"Dutch", no:"Norwegian", pl:"Polish", pt:"Portuguese", "pt-br":"Portuguese",
+      ro:"Romanian", ru:"Russian", sk:"Slovak", sl:"Slovenian", sr:"Serbian", sv:"Swedish",
+      ta:"Tamil", te:"Telugu", th:"Thai", tr:"Turkish", uk:"Ukrainian", ur:"Urdu",
+      vi:"Vietnamese", zh:"Chinese", "zh-cn":"Chinese", "zh-tw":"Chinese"
+    };
+    function cleanLangToken(s){
+      if(!s) return "";
+      let t = String(s).toLowerCase().trim();
+      t = t.replace(/\[.*?original.*?\]|\(.*?original.*?\)/gi, "").trim();
+      t = t.replace("_","-");
+      return t;
+    }
+    function langName(raw){
+      if(!raw) return "";
+      let t = cleanLangToken(raw);
+      if (t.length>2 && !t.includes("-")) {
+        return t.charAt(0).toUpperCase() + t.slice(1);
+      }
+      if (LANG_MAP[t]) return LANG_MAP[t];
+      const base = t.split("-")[0];
+      if (LANG_MAP[base]) return LANG_MAP[base];
+      return raw;
+    }
+    function pickOriginalLanguage(obj){
+      const cand = obj.original_language || obj.originalLanguage || obj.lang || obj.language;
+      if (cand) return langName(cand);
+      const audio = obj.audio || obj.audio_languages || obj.audioLanguages;
+      if (Array.isArray(audio) && audio.length){
+        const original = audio.find(x => /original/i.test(x)) || audio[0];
+        return langName(original);
+      }
+      if (typeof audio === "string" && audio){
+        const parts = audio.split(/,|;|\|/).map(x=>x.trim()).filter(Boolean);
+        if (parts.length){
+          const original = parts.find(x => /original/i.test(x)) || parts[0];
+          return langName(original);
+        }
+      }
+      return "";
+    }
+
+    // normalisatie
+    function normalize(it){
+      return {
+        title: it.title || it.name || "",
+        type: niceType(it.type),
+        imdb: isNum(it.imdbRating) ? +it.imdbRating : (isNum(it.imdb) ? +it.imdb : NaN),
+        trakt: isNum(it.traktRating) ? +it.traktRating : (isNum(it.trakt) ? +it.trakt : NaN),
+        releaseDate: it.releaseDate || it.first_air_date || it.release_date || "",
+        dateAdded: it.dateAdded || "",
+        poster: posterFor(it),
+        nurl: netflixUrlFor(it),
+        lang: pickOriginalLanguage(it)
+      };
+    }
+
+    async function loadJSON(path){
+      const res = await fetch(path, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${path} -> HTTP ${res.status}`);
+      return res.json();
+    }
+    async function loadDatasets(){
+      let klassiekers = [];
+      let recent = [];
+      try { klassiekers = await loadJSON("netflix_data.json"); } catch {}
       try {
-        console.log(`Loading data from ${file}`);
-        const response = await fetch(file);
-        if (!response.ok) {
-          throw new Error(`Failed to load ${file}: ${response.statusText}`);
-        }
-        let data = await response.json();
-        console.log("Data loaded:", data);
+        const lm = await loadJSON("netflix_last_month.json");
+        if (Array.isArray(lm) && lm.length) recent = lm;
+      } catch {}
+      return { klassiekers: klassiekers.map(normalize), recent: recent.map(normalize) };
+    }
 
-        // Voor 'Recent': filter op de laatste 90 dagen
-        if(file === "netflix_last_month.json") {
-          const today = new Date();
-          const ninetyDaysAgo = new Date(today.getTime() - 90 * 24 * 60 * 60 * 1000);
-          console.log(`Today's date: ${today}`);
-          console.log(`Date 90 days ago: ${ninetyDaysAgo}`);
-          data = data.filter(item => {
-            const releaseDate = new Date(item.releaseDate);
-            console.log(`Checking title: ${item.title}, Release Date: ${releaseDate}`);
-            return releaseDate >= ninetyDaysAgo && releaseDate <= today;
-          });
-          console.log(`Filtered recent data: ${data.length} items`);
-          if(data.length === 0) {
-            const tableBody = document.getElementById('table-body');
-            tableBody.innerHTML = `<tr>
-              <td colspan="6" style="text-align: center;">
-                Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. Ga naar Klassiekers en druk op Reslease Date om de meest recente topserie of -film te zien.
-              </td>
-            </tr>`;
-            return;
-          }
-        }
+    // Benchmark: Trakt aanwezig én ≥ 70% van IMDb
+    function meetsBenchmark(item){
+      const hasImdb  = isNum(item.imdb) && item.imdb > 0;
+      const hasTrakt = isNum(item.trakt) && item.trakt > 0;
+      if (!hasImdb || !hasTrakt) return false;
+      return item.trakt >= item.imdb * 0.7;
+    }
 
-        // Sorteer de data op IMDb-rating (hoog naar laag)
-        data.sort((a, b) => parseFloat(b.imdbRating) - parseFloat(a.imdbRating));
+    // Sorteren
+    function sortByDate(arr, dir="desc"){
+      const mul = (dir === "desc" ? -1 : 1);
+      return arr.slice().sort((a,b)=>{
+        const ad = parseDateAny(a.releaseDate); const bd = parseDateAny(b.releaseDate);
+        const av = ad ? ad.getTime() : -Infinity;
+        const bv = bd ? bd.getTime() : -Infinity;
+        if (av === bv) return a.title.localeCompare(b.title);
+        return (av < bv ? -1 : 1) * mul;
+      });
+    }
+    function sortByImdb(arr){
+      return arr.slice().sort((a,b)=>{
+        const ai = isNum(a.imdb) ? +a.imdb : -Infinity;
+        const bi = isNum(b.imdb) ? +b.imdb : -Infinity;
+        if (bi !== ai) return bi - ai;
+        const at = isNum(a.trakt) ? +a.trakt : -Infinity;
+        const bt = isNum(b.trakt) ? +b.trakt : -Infinity;
+        if (bt !== at) return bt - at;
+        return a.title.localeCompare(b.title);
+      });
+    }
 
-        // Render de data in de tabel, met trakt.tv rating afgerond op 2 decimalen
-        const tableBody = document.getElementById('table-body');
-        tableBody.innerHTML = '';
-        data.forEach((item, index) => {
-          console.log(`Displaying title: ${item.title}`);
-          const row = `<tr>
-              <td>${index + 1}</td>
-              <td>${item.title}</td>
-              <td>${item.type}</td>
-              <td>${item.imdbRating}</td>
-              <td>${parseFloat(item.traktRating).toFixed(2)}</td>
-              <td>${item.releaseDate}</td>
-          </tr>`;
-          tableBody.innerHTML += row;
-        });
-      } catch (error) {
-        console.error("Error loading data:", error);
-        document.getElementById('table-body').innerHTML = `<tr><td colspan="6">Error loading data. Please try again later.</td></tr>`;
+    // State
+    let TAB = "recent";             // start op Recent
+    let DATA_R = [], DATA_K = [];
+    let sortMode = "imdb";          // "imdb" | "date"
+    let sortDir  = "desc";          // voor "date"
+
+    function card(item, idx){
+      const y = yearOf(item.releaseDate);
+      const posterHtml = item.poster
+        ? `<a class="poster" href="${item.nurl}" target="_blank" rel="noopener">
+             <img src="${item.poster}" alt="Poster ${item.title}" loading="lazy"/>
+           </a>` : "";
+      return `
+        <article class="card ${posterHtml ? "" : "no-poster"}">
+          <div class="rank">${idx+1}</div>
+          ${posterHtml}
+          <div class="content">
+            <h3 class="title">
+              <a href="${item.nurl}" target="_blank" rel="noopener">${item.title}</a>
+              ${y ? `<span class="year">${y}</span>` : ""}
+            </h3>
+            <div class="badges">
+              ${item.type ? `<span class="chip ${item.type==='Film'?'film':'series'}">${item.type}</span>` : ""}
+              <span class="badge imdb" title="IMDb rating">★ ${fmt1(item.imdb)}</span>
+              <span class="badge trakt" title="Trakt.tv rating">★ ${fmt1(item.trakt)}</span>
+              ${item.lang ? `<span class="badge lang" title="Originele taal">${item.lang}</span>` : ""}
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function applyBenchmark(arr){ return arr.filter(meetsBenchmark); }
+
+    function render(){
+      const cards = $("#cards");
+      const empty = $("#empty");
+      const emptyText = $("#empty-text");
+      const gotoBtn = $("#goto-classics");
+      const count = $("#count");
+
+      // 1) kies bron
+      const baseRaw = (TAB === "recent") ? DATA_R : DATA_K;
+      let base = applyBenchmark(baseRaw);
+
+      // 2) RECENT fallback: als er geen recente titels zijn (na benchmark) en geen zoekterm:
+      const q = ($("#search").value || "").toLowerCase().trim();
+      let usedFallback = false;
+      if (TAB === "recent" && !q && base.length === 0){
+        // pak 10 meest recente uit volledige database (klassiekers), na benchmark
+        base = sortByDate(applyBenchmark(DATA_K), "desc").slice(0, 10);
+        usedFallback = true;
       }
-    }
 
-    function isMobileDevice() {
-      return /Mobi|Android/i.test(navigator.userAgent);
-    }
+      // 3) zoekfilter
+      const filtered = q ? base.filter(x => (x.title||"").toLowerCase().includes(q)) : base;
 
-    if (isMobileDevice()) {
-      loadData('netflix_last_month.json');
-    } else {
-      loadData('netflix_data.json');
-    }
+      // 4) sortering
+      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir);
 
-    document.getElementById('all-time-btn').addEventListener('click', () => loadData('netflix_data.json'));
-    document.getElementById('last-month-btn').addEventListener('click', () => loadData('netflix_last_month.json'));
-
-    // Laad standaard de 'Recent' data bij het laden van de pagina
-    window.onload = function() {
-      if (!isMobileDevice()) {
-        loadData('netflix_last_month.json');
-      }
-      // Herlaad de pagina elke 24 uur (86.400.000 ms)
-      setTimeout(() => {
-        window.location.reload();
-      }, 86400000);
-    }
-  </script>
-
-  <!-- Sorteerfunctie met toggling (standaard begint met "desc": nieuwste eerst) -->
-  <script>
-    var currentSortOrder = "desc";  // "desc": nieuwste eerst, "asc": oudste eerst.
-    function sortByReleaseDate() {
-      var table = document.getElementById("netflixTable");
-      if (!table) {
-        console.error("Table with id 'netflixTable' not found.");
+      // 5) render of leeg
+      if (!rows.length){
+        cards.innerHTML = "";
+        count.textContent = "0 resultaten";
+        if (TAB === "recent" && !usedFallback){
+          empty.hidden = false;
+          emptyText.textContent =
+            "Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. " +
+            "Ga naar Klassiekers en sorteer via release date om de meest recente topserie of -film te zien.";
+          gotoBtn.hidden = false;
+        } else {
+          empty.hidden = true;
+        }
         return;
       }
-      
-      var tbody = table.getElementsByTagName("tbody")[0];
-      var rowsArray = Array.from(tbody.getElementsByTagName("tr"));
-      
-      rowsArray.sort(function(a, b) {
-        var dateA = new Date(a.getElementsByTagName("td")[5].innerText.trim());
-        var dateB = new Date(b.getElementsByTagName("td")[5].innerText.trim());
-        if (currentSortOrder === "asc") {
-          return dateA - dateB;
-        } else { // "desc"
-          return dateB - dateA;
-        }
-      });
-      
-      // Werk de tabel bij met de gesorteerde rijen en update de rangnummers
-      tbody.innerHTML = "";
-      rowsArray.forEach(function(row, index) {
-        row.getElementsByTagName("td")[0].innerText = index + 1;
-        tbody.appendChild(row);
-      });
-      
-      console.log("Sorting by Release Date completed. Current order was: " + currentSortOrder);
-      // Toggle de sorteervolgorde voor de volgende klik
-      currentSortOrder = (currentSortOrder === "asc") ? "desc" : "asc";
-      console.log("New sort order will be: " + currentSortOrder);
-    }
-  </script>
 
-  <!-- Script voor de tip-knop: direct naar Buy Me a Coffee -->
-  <script>
-    const tipBtnBottom = document.getElementById("tip-btn-bottom");
-    tipBtnBottom.addEventListener("click", () => {
-      window.location.href = "https://buymeacoffee.com/rakkejak";
-    });
+      empty.hidden = true;
+      cards.innerHTML = rows.map((it,i)=>card(it,i)).join("");
+      count.textContent = `${rows.length} resultaat${rows.length===1?"":"ten"}`;
+    }
+
+    function setTextsForTab(){
+      const subRecent = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Klassiekers voor oudere films of series.";
+      const subKlass  = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Recent voor nieuwere films of series.";
+      $("#subtext").textContent = (TAB === "recent") ? subRecent : subKlass;
+    }
+
+    // Init
+    (async function(){
+      const { recent, klassiekers } = await loadDatasets();
+      DATA_R = recent; DATA_K = klassiekers;
+
+      // Sort buttons
+      $("#sortImdb").addEventListener("click", ()=>{
+        sortMode = "imdb";
+        $("#sortImdb").classList.add("active");
+        $("#sortDate").classList.remove("active");
+        render();
+      });
+      $("#sortDate").addEventListener("click", ()=>{
+        if (sortMode !== "date"){
+          sortMode = "date";
+          sortDir  = "desc";
+          $("#sortImdb").classList.remove("active");
+          $("#sortDate").classList.add("active");
+        } else {
+          sortDir = (sortDir === "desc" ? "asc" : "desc");
+        }
+        $("#sortDate").textContent = `Datum ${sortDir === "desc" ? "↓" : "↑"}`;
+        render();
+      });
+
+      // Search
+      let t; $("#search").addEventListener("input", ()=>{ clearTimeout(t); t = setTimeout(render, 120); });
+
+      // Menu links
+      $$(".menu-link[data-tab]").forEach(a=>{
+        a.addEventListener("click", ()=>{
+          TAB = a.dataset.tab;
+          sortMode = "imdb"; sortDir = "desc";
+          $("#sortImdb").classList.add("active");
+          $("#sortDate").classList.remove("active");
+          $("#sortDate").textContent = "Datum ↓";
+          setTextsForTab();
+          render();
+          window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
+        });
+      });
+
+      // Hero knoppen
+      $$(".lead-ctas .cta").forEach(btn=>{
+        btn.addEventListener("click", ()=>{
+          TAB = btn.dataset.tab;
+          sortMode = "imdb"; sortDir = "desc";
+          $("#sortImdb").classList.add("active");
+          $("#sortDate").classList.remove("active");
+          $("#sortDate").textContent = "Datum ↓";
+          setTextsForTab();
+          render();
+          window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
+        });
+      });
+
+      // Lege-staat → klassiekers
+      $("#goto-classics").addEventListener("click", ()=>{
+        $("#menu-klassiekers").click();
+      });
+
+      // Start op Recent
+      setTextsForTab();
+      render();
+    })();
   </script>
 </body>
 </html>
