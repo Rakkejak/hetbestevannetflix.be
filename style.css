@@ -53,4 +53,12 @@ body { overflow-x: auto; }
 @media (min-width: 1400px){
   body { margin: 24px 40px; }
 }
+/* Zorg dat de 'geen recent' melding binnen de box afbreekt */
+tbody td[colspan],
+tbody tr.notice td,
+td.notice{
+  white-space: normal !important;   /* breek af op spaties */
+  overflow-wrap: anywhere;          /* ook lange woorden/URLs breken */
+  word-break: break-word;           /* vangnet voor oudere browsers */
+}
 
