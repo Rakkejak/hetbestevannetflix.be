@@ -1,75 +1,158 @@
-/* basis */
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f4f4f9;
-  color: #333;
-}
-
-h1 { color: #0056b3; text-align: center; }
-p  { text-align: center; font-size: 1.2em; color: #555; }
-
-/* tafel: alles zichtbaar in de breedte */
-table {
-  width: 100%;                 /* volle breedte, geen 80% meer */
-  margin: 20px auto;
-  border-collapse: collapse;
-  table-layout: fixed;         /* kolombreedtes respecteren */
-}
-table, th, td { border: 1px solid #ddd; }
-th, td { padding: 10px 12px; text-align: left; white-space: nowrap; }
-
-/* kop */
-th { background-color: #0056b3; color: white; position: sticky; top: 0; z-index: 1; }
-
-/* zebra */
-tr:nth-child(even) { background-color: #f9f9f9; }
-tr:hover { background-color: #f1f1f1; }
-
-/* vaste kolombreedtes zodat alles past */
-th:nth-child(1), td:nth-child(1) { width: 70px;  text-align: right; } /* Rank */
-th:nth-child(3), td:nth-child(3) { width: 110px; }                    /* Type */
-th:nth-child(4), td:nth-child(4) { width: 120px; text-align: right; } /* IMDb */
-th:nth-child(5), td:nth-child(5) { width: 130px; text-align: right; } /* Trakt */
-th:nth-child(6), td:nth-child(6) { width: 160px; text-align: right; } /* Release */
-
-/* titel mag rekken */
-th:nth-child(2), td:nth-child(2) { width: auto; max-width: 9999px; white-space: normal; }
-
-/* lange “geen recent” boodschap mag afbreken binnen de box */
-tbody td[colspan]{
-  white-space: normal;          /* breek op spaties */
-  overflow-wrap: anywhere;      /* forceer zo nodig */
-  word-break: break-word;
-}
-
-/* als je i.p.v. colspan een class gebruikt (optioneel): */
-/* td.notice { white-space: normal; overflow-wrap:anywhere; word-break: break-word; } */
-
-/* als je scherm smaller is: horizontaal kunnen scrollen i.p.v. afknippen */
-body { overflow-x: auto; }
-
-/* iets breder canvas op grote schermen */
-@media (min-width: 1400px){
-  body { margin: 24px 40px; }
-}
-/* Zorg dat de 'geen recent' melding binnen de box afbreekt */
-tbody td[colspan],
-tbody tr.notice td,
-td.notice{
-  white-space: normal !important;   /* breek af op spaties */
-  overflow-wrap: anywhere;          /* ook lange woorden/URLs breken */
-  word-break: break-word;           /* vangnet voor oudere browsers */
-}
-/* 1) Release Date mag afbreken (als je dat wil) */
-th:nth-child(6), td:nth-child(6){
-  white-space: normal;
-}
-
-/* 2) De 'geen recent' boodschap (colspan) móet afbreken binnen de box */
-tbody td[colspan]{
-  white-space: normal !important;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
+:root{
+    --bg:#0b1416; --ink:#e8f1f3; --muted:#9ab0b7;
+    --panel:#0f1b1e; --line:#133038;
+    --accent:#3aa3ff; --accent2:#1e62ff;
+    --imdb:#f3b700; --trakt:#18a2ff;
+  }
+  *{box-sizing:border-box}
+  html,body{
+    margin:0; padding:0;
+    background:linear-gradient(180deg,#0b1416,#0c1619);
+    color:var(--ink);
+    font:16px/1.55 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  }
+  .container{max-width:1100px;margin:0 auto;padding:1.25rem}
+  
+  /* ===== NAV (bovenmenu) ===== */
+  .site-header{
+    position:sticky; top:0; z-index:20;
+    background:rgba(11,20,22,.9); backdrop-filter:blur(6px);
+    border-bottom:1px solid #0c2a31;
+  }
+  .nav{
+    display: grid;
+    grid-template-columns: auto 1fr; /* brand | menu */
+    align-items: center;
+  }
+  .brand{font:800 1rem/1 Inter; letter-spacing:.25px; color:#cfe3e8}
+  .brand span{color:#59f3a5}
+  .brand em{color:#7fbac7;font-style:normal}
+  
+  .menu{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:0;
+    flex-wrap:nowrap;
+  }
+  .menu-links{
+    display:flex;
+    align-items:center;
+    gap:1.2rem;
+    white-space:nowrap;
+  }
+  .menu-link{
+    cursor:pointer; user-select:none;
+    color:#fff; text-decoration:none;
+    font:800 .9rem/1 Inter; letter-spacing:.14em; text-transform:uppercase;
+    opacity:.95;
+    display:inline-flex; align-items:center; height:40px;
+  }
+  .menu-link:hover{opacity:1; text-decoration:underline}
+  
+  /* Koffieknop uiterst rechts */
+  .menu .coffee-cta{
+    display:inline-flex; align-items:center; height:40px;
+    margin-left: clamp(1.5rem, 6vw, 5rem);
+    color:#042d1b !important;
+    background:#2bd389;
+    border:1px solid #1f8f62;
+    border-radius:.6rem;
+    padding:0 16px;
+    font-weight:800; text-decoration:none;
+  }
+  .menu .coffee-cta:hover{filter:brightness(1.07); text-decoration:none}
+  
+  /* ===== HERO ===== */
+  .hero{padding:2.2rem 0 1rem}
+  .hero-grid{display:grid;grid-template-columns:1fr minmax(0,980px) 1fr;align-items:center}
+  .lead{grid-column:2}
+  .lead-title{
+    margin:0 0 1rem 0;
+    font-family:"Baskerville","Libre Baskerville","Baskervville","Times New Roman",serif;
+    font-weight:600; /* semibold */
+    font-size:clamp(3.4rem,6vw,5rem); /* min ≈54px */
+    line-height:1.08; text-align:center; color:#fff;
+    text-shadow:0 2px 0 rgba(0,0,0,.25);
+  }
+  .lead-ctas{display:flex;gap:.9rem;justify-content:center}
+  .cta{
+    border:1px solid rgba(58,163,255,.35);
+    background:transparent; color:#fff;
+    font-weight:800; padding:.8rem 1.25rem; border-radius:.7rem; cursor:pointer;
+  }
+  .cta.large{font-size:1.05rem}
+  .cta:hover{filter:brightness(1.08)}
+  .cta.small{padding:.55rem 1rem; margin-top:.6rem}
+  
+  /* ===== SUBINTRO / CONTROLS ===== */
+  .subintro{padding:.2rem 0 .6rem}
+  .subtext{max-width:980px;margin:.3rem auto .8rem;text-align:center;color:var(--muted)}
+  .controls{display:flex;gap:.6rem;align-items:center;justify-content:center;flex-wrap:wrap}
+  #search{flex:1 1 380px; max-width:520px; padding:.6rem .8rem; border:1px solid #173942; border-radius:.55rem; background:#0a171a; color:#eaf3f5}
+  .sorts{display:flex; gap:.4rem; align-items:center}
+  .sortbtn{border:1px solid #173942; background:#0a171a; color:#eaf3f5; padding:.55rem .8rem; border-radius:.55rem; cursor:pointer}
+  .sortbtn:hover{background:#0d1b1e}
+  .sortbtn.active{box-shadow:0 0 0 2px rgba(58,163,255,.35) inset; border-color:rgba(58,163,255,.65)}
+  .count{font-weight:700;color:#cbe0e6}
+  
+  /* ===== CARDS ===== */
+  .cards{display:flex;flex-direction:column;gap:.9rem;margin-top:1.1rem}
+  .card{display:grid;grid-template-columns:56px 92px 1fr;gap:.9rem;align-items:center;padding:.85rem;border:1px solid var(--line);background:var(--panel);border-radius:.9rem}
+  .card.no-poster{grid-template-columns:56px 1fr}
+  .rank{font-weight:800;color:#9fb3b9;text-align:right}
+  .poster{display:block;width:92px;height:138px;overflow:hidden;border-radius:.5rem;border:1px solid #15343c;background:#0a171a}
+  .poster img{width:100%;height:100%;object-fit:cover;display:block}
+  
+  .title{margin:0 0 .4rem;font-family:"Baskerville","Libre Baskerville","Baskervville","Times New Roman",serif; font-weight:700; font-size:1.45rem; line-height:1.2}
+  .title a{color:#fff; text-decoration:none}
+  .title a:hover{text-decoration:underline}
+  .year{color:#a9bec5;margin-left:.55rem;font:700 .95rem/1 Inter}
+  
+  .badges{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+  .chip{border:1px solid #204852;border-radius:999px;padding:.15rem .6rem;font-size:.85rem;color:#cfe7ed}
+  .chip.film{border-color:#4f3f15;color:#ffd86a;background:rgba(243,183,0,.08)}
+  .chip.series{border-color:#1f3f7a;color:#b7d3ff;background:rgba(24,162,255,.08)}
+  .badge{display:inline-block;border-radius:.45rem;padding:.2rem .5rem;font-weight:800}
+  .badge.imdb{background:rgba(243,183,0,.12);border:1px solid rgba(243,183,0,.35);color:#ffd86a}
+  .badge.trakt{background:rgba(24,162,255,.12);border:1px solid rgba(24,162,255,.35);color:#b7d9ff}
+  /* Originele-taal badge */
+  .badge.lang{
+    background: rgba(200,220,230,.10);
+    border: 1px solid rgba(155,185,195,.35);
+    color: #d8e8ee;
+  }
+  
+  .empty{margin:1rem 0;padding:1.1rem;border:1px dashed #284a54;border-radius:.7rem;color:#cfe0e5;text-align:center;background:#0a171a}
+  
+  /* ===== ABOUT + FOOTER ===== */
+  .about{
+    margin:2rem 0 1rem;
+    text-align:center;
+    display:flex;flex-direction:column;align-items:center;gap:.6rem;
+  }
+  .about-lead{
+    font-family:"Baskerville","Libre Baskerville","Baskervville","Times New Roman",serif;
+    font-weight:600;
+    font-size:clamp(1.6rem,3vw,2.2rem);
+    line-height:1.15;color:#fff;margin:0;
+  }
+  .coffee{display:inline-block;margin-top:.4rem;padding:.6rem .95rem;border-radius:.55rem;background:#2bd389;color:#042d1b;text-decoration:none;font-weight:800;border:1px solid #1f8f62}
+  .coffee.big{padding:.9rem 1.25rem;font-size:1.05rem;border-radius:.7rem}
+  .coffee:hover{filter:brightness(1.07)}
+  
+  .footer{border-top:1px solid #0c2a31;margin-top:1.2rem}
+  .footer-grid{display:grid;gap:.6rem}
+  .muted{color:var(--muted)}
+  .small{font-size:.92rem}
+  code{background:#0a171a;border:1px solid #173942;border-radius:.35rem;padding:.05rem .35rem}
+  
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 680px){
+    .lead-title{font-size:clamp(2.4rem,7vw,3.6rem)}
+    .card{grid-template-columns:40px 72px 1fr}
+    .card.no-poster{grid-template-columns:40px 1fr}
+    .poster{width:72px;height:108px}
+    .title{font-size:1.2rem}
+  }
+  
