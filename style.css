@@ -61,4 +61,15 @@ td.notice{
   overflow-wrap: anywhere;          /* ook lange woorden/URLs breken */
   word-break: break-word;           /* vangnet voor oudere browsers */
 }
+/* 1) Release Date mag afbreken (als je dat wil) */
+th:nth-child(6), td:nth-child(6){
+  white-space: normal;
+}
+
+/* 2) De 'geen recent' boodschap (colspan) móet afbreken binnen de box */
+tbody td[colspan]{
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
