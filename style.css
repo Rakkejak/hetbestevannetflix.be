@@ -1,46 +1,56 @@
+/* basis */
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f9;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f9;
+  color: #333;
 }
 
-h1 {
-    color: #0056b3;
-    text-align: center;
-}
+h1 { color: #0056b3; text-align: center; }
+p  { text-align: center; font-size: 1.2em; color: #555; }
 
-p {
-    text-align: center;
-    font-size: 1.2em;
-    color: #555;
-}
-
+/* tafel: alles zichtbaar in de breedte */
 table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
+  width: 100%;                 /* volle breedte, geen 80% meer */
+  margin: 20px auto;
+  border-collapse: collapse;
+  table-layout: fixed;         /* kolombreedtes respecteren */
+}
+table, th, td { border: 1px solid #ddd; }
+th, td { padding: 10px 12px; text-align: left; white-space: nowrap; }
+
+/* kop */
+th { background-color: #0056b3; color: white; position: sticky; top: 0; z-index: 1; }
+
+/* zebra */
+tr:nth-child(even) { background-color: #f9f9f9; }
+tr:hover { background-color: #f1f1f1; }
+
+/* vaste kolombreedtes zodat alles past */
+th:nth-child(1), td:nth-child(1) { width: 70px;  text-align: right; } /* Rank */
+th:nth-child(3), td:nth-child(3) { width: 110px; }                    /* Type */
+th:nth-child(4), td:nth-child(4) { width: 120px; text-align: right; } /* IMDb */
+th:nth-child(5), td:nth-child(5) { width: 130px; text-align: right; } /* Trakt */
+th:nth-child(6), td:nth-child(6) { width: 160px; text-align: right; } /* Release */
+
+/* titel mag rekken */
+th:nth-child(2), td:nth-child(2) { width: auto; max-width: 9999px; white-space: normal; }
+
+/* lange “geen recent” boodschap mag afbreken binnen de box */
+tbody td[colspan]{
+  white-space: normal;          /* breek op spaties */
+  overflow-wrap: anywhere;      /* forceer zo nodig */
+  word-break: break-word;
 }
 
-table, th, td {
-    border: 1px solid #ddd;
-}
+/* als je i.p.v. colspan een class gebruikt (optioneel): */
+/* td.notice { white-space: normal; overflow-wrap:anywhere; word-break: break-word; } */
 
-th, td {
-    padding: 10px;
-    text-align: left;
-}
+/* als je scherm smaller is: horizontaal kunnen scrollen i.p.v. afknippen */
+body { overflow-x: auto; }
 
-th {
-    background-color: #0056b3;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
+/* iets breder canvas op grote schermen */
+@media (min-width: 1400px){
+  body { margin: 24px 40px; }
 }
 
