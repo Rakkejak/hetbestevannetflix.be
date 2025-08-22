@@ -171,16 +171,21 @@
       }
       .leaderboard {
         width: 100%;
-      }
-      .leaderboard-wrapper {
-        overflow-x: auto; /* Ensure horizontal scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-        white-space: nowrap; /* Prevent wrapping */
-      }
-      .leaderboard th, .leaderboard td {
-        padding: 10px;
-        font-size: 0.9em;
-      }
+    /* Forceer afbreken op alle schermgroottes */
+      .leaderboard-wrapper { white-space: normal !important; }
+
+/* De “geen recent” melding (colspan) moet altijd wrappen */
+      .leaderboard td[colspan],
+      .leaderboard tr.notice td,
+      .leaderboard td.notice{
+        white-space: normal !important;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+}
+
+/* (Optioneel) alleen Release Date kolom laten wrappen */
+th:nth-child(6), td:nth-child(6){ white-space: normal; }
+
       .tip-bottom {
         width: 100%;
         padding: 10px;
