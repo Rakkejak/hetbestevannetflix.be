@@ -29,20 +29,20 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests imdbpy
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests imdbpy; fi
 
       # ---- JOUW ORIGINELE PIPELINE ----
-      - name: Fetch Netflix data (TMDb + IMDb/Trakt via jouw script)
+      - name: Fetch Netflix data
         run: python -u fetch_netflix_data.py
 
-      - name: (Optioneel) Extra IMDb verrijking
+      - name: Extra IMDb verrijking (optioneel)
         run: |
           if [ -f fetch_imdb_rating.py ]; then python -u fetch_imdb_rating.py || true; fi
 
       - name: Deduplicate
         run: python -u deduplicate_netflix_data.py
 
-      # --- Inspectie: toon of JSON's gewijzigd zijn
+      # Inspectie: toon of JSON's gewijzigd zijn
       - name: Show JSON hashes
         run: |
           for f in netflix_data.json netflix_last_month.json; do
