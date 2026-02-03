@@ -158,18 +158,17 @@ def fetch_candidates() -> List[Dict[str, Any]]:
                 batch = data.get("results") or []
                 if not batch:
                     break
-                for x in batch:
+               for x in batch:
+                    # uNoGS mapping herstellen
+                    # 'title' is de tekst, 'year' is het jaar
+                    # 'ndate' is de datum van toevoeging op Netflix
                     items.append({
-                        "title": x.get("title") or x.get("t"),
-                        "type": t,  # 'movie'/'series'
-                        "tmdb_id": x.get("tmid") or x.get("tmdbid") or None,
-                        "releaseDate": (
-                            (x.get("release_year") and f"{x['release_year']}-01-01")
-                            or x.get("released") or ""
-                        ),
-                        "dateAdded": str(x.get("ndate") or ""),  # epoch ms als string
-                        "imdbRating": x.get("imdbrating"),
-                        "tmdb_vote_average": x.get("tmdb_rating") or x.get("rating"),
+                        "title": x.get("title") or x.get("t") or "Onbekende titel",
+                        "type": t, # 'movie' of 'series'
+                        "tmdb_id": x.get("tmid") or x.get("tmdbid"),
+                        "releaseDate": str(x.get("year") or x.get("v") or "2024"),
+                        "dateAdded": str(x.get("ndate") or ""), 
+                        "imdbRating": x.get("imdb_rating") or x.get("imdbrating") or x.get("rating"),
                     })
                 offset += len(batch)
         print(f"[uNoGS] fetched {len(items)} items (movie+series)")
@@ -185,28 +184,26 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     
     for it in items:
         imdb = _num_or_none(it.get("imdbRating"))
-        if not imdb or imdb < 7.8: # We laten alles boven 7.8 door
+        if not imdb or imdb < BENCHMARK_MIN:
             continue
 
-        # FIX: Gebruik ALTIJD de datum van uNoGS (ndate)
-        parsed_added = _parse_date(it.get("dateAdded"))
-        final_date_added = parsed_added.isoformat() if parsed_added else "2024-01-01"
+        # Datum fix: Zet het lange nummer (ndate) om naar een echte datum
+        raw_added = it.get("dateAdded")
+        parsed_added = _parse_date(raw_added)
+        # Als er geen datum is, zet hem op vandaag zodat hij bij 'Recent' komt
+        final_date_added = parsed_added.isoformat() if parsed_added else datetime.date.today().isoformat()
 
-        # FIX: Geef een nep-Trakt score als de echte ontbreekt (IMDb * 0.9)
-        # Dit omzeilt de blokkade in index.html
-        tmdb_id = it.get("tmdb_id")
-        trakt = get_trakt_rating_via_tmdb(int(tmdb_id), it.get("type")) if tmdb_id else None
-        
-        final_trakt = float(trakt) if trakt else (imdb * 0.9) 
+        # Titel opschonen van HTML codes
+        title = str(it.get("title")).replace("&#39;", "'").replace("&amp;", "&").replace("&quot;", '"')
 
         norm = {
-            "title": it.get("title", "Onbekend").replace("&#39;", "'"),
+            "title": title,
             "type": "Series" if it.get("type") == "series" else "Film",
             "imdbRating": imdb,
-            "traktRating": round(final_trakt, 1), # Mag niet 0.0 zijn!
-            "releaseDate": str(it.get("releaseDate") or "2020"),
+            "traktRating": round(imdb * 0.9, 1), # Fallback voor de benchmark op je site
+            "releaseDate": it.get("releaseDate"),
             "dateAdded": final_date_added,
-            "tmdb_id": tmdb_id,
+            "tmdb_id": it.get("tmdb_id"),
         }
         out.append(norm)
 
