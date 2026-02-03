@@ -5,6 +5,7 @@ from typing import Any, Dict, List, Optional
 from pathlib import Path
 
 import requests
+from imdb import IMDb
 
 ROOT = Path(__file__).parent.resolve()
 OUT_FULL = ROOT / "netflix_data.json"            # classics page
@@ -15,8 +16,8 @@ TMDB_API_KEY    = os.environ.get("TMDB_API_KEY", "")
 TRAKT_CLIENT_ID = os.environ.get("TRAKT_CLIENT_ID", "")
 UNOGS_API_KEY   = os.environ.get("UNOGS_API_KEY", "")
 
-# Optioneel: ook TMDb providers checken (kost extra API-calls). Standaard uit.
-REQUIRE_TMDB_PROVIDER_CHECK = os.environ.get("REQUIRE_TMDB_PROVIDER_CHECK", "0") == "1"
+# We forceren de provider check nu in de code voor maximale kwaliteit
+REQUIRE_TMDB_PROVIDER_CHECK = True
 
 def sha12(p: Path) -> str:
     if not p.exists(): return "-"
@@ -33,151 +34,20 @@ def _num_or_none(x) -> Optional[float]:
     except Exception:
         return None
 
-def _parse_date(s) -> Optional[datetime.date]:
-    if s is None or s == "": return None
-    s = str(s)
-    # uNoGS 'ndate' is vaak epoch milliseconden
-    if s.isdigit():
-        try:
-            ts = int(s)
-            if ts > 1_000_000_000_000:  # ms -> s
-                ts //= 1000
-            return datetime.datetime.utcfromtimestamp(ts).date()
-        except Exception:
-            return None
-    for fmt in ("%Y-%m-%d", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d %H:%M:%S"):
-        try:
-            return datetime.datetime.strptime(s, fmt).date()
-        except Exception:
-            continue
-    return None
-
-# ---------- TMDb: Netflix BE availability ----------
-def is_on_netflix_be(tmdb_id: int, media_type: str) -> bool:
-    if not TMDB_API_KEY or not tmdb_id:
-        return False
-    url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}/watch/providers"
+def _parse_date(x: Any) -> Optional[datetime.date]:
+    """Parseert uNoGS ndate (epoch ms) of ISO strings."""
+    if not x: return None
     try:
-        r = requests.get(url, params={"api_key": TMDB_API_KEY}, timeout=15)
-        r.raise_for_status()
-        data = r.json() or {}
-        be = (data.get("results") or {}).get("BE") or {}
-        flatrate = be.get("flatrate") or []
-        return any(p.get("provider_id") == 8 for p in flatrate)  # 8 = Netflix
-    except Exception as e:
-        print(f"[WARN] providers {media_type}/{tmdb_id}: {e}")
-        return False
-
-# ---------- TMDb details (fallback voor releaseDate) ----------
-def tmdb_detail_date(media_type: str, tmdb_id: int) -> Optional[str]:
-    if not TMDB_API_KEY or not tmdb_id:
-        return None
-    try:
-        url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}"
-        r = requests.get(url, params={"api_key": TMDB_API_KEY}, timeout=15)
-        r.raise_for_status()
-        j = r.json() or {}
-        if media_type == "movie":
-            return j.get("release_date") or None
-        else:
-            return j.get("first_air_date") or None
-    except Exception as e:
-        print(f"[WARN] tmdb detail date {media_type}/{tmdb_id}: {e}")
+        # Check of het een getal is (uNoGS ndate)
+        if isinstance(x, (int, float)) or (isinstance(x, str) and x.isdigit()):
+            ts = int(x) / 1000
+            return datetime.datetime.fromtimestamp(ts).date()
+        # Anders ISO formaat
+        return datetime.date.fromisoformat(str(x)[:10])
+    except Exception:
         return None
 
-# ---------- Trakt rating via TMDb id ----------
-def get_trakt_rating_via_tmdb(tmdb_id: Optional[int], media_type: str) -> Optional[float]:
-    """
-    1) /search/tmdb/{id}?type=movie|show -> 1e hit
-    2) /movies/{id}/ratings of /shows/{id}/ratings -> rating (0..10)
-    """
-    if not tmdb_id or not TRAKT_CLIENT_ID:
-        return None
-
-    headers = {
-        "Content-Type": "application/json",
-        "trakt-api-version": "2",
-        "trakt-api-key": TRAKT_CLIENT_ID,   # client_id hier!
-    }
-
-    try:
-        t = "movie" if media_type == "movie" else "show"
-        # 1) mapping via TMDb-id
-        url = f"https://api.trakt.tv/search/tmdb/{tmdb_id}?type={t}&limit=1"
-        r = requests.get(url, headers=headers, timeout=20)
-        r.raise_for_status()
-        arr = r.json() or []
-        if not arr:
-            return None
-
-        ent = arr[0].get(t) or {}
-        trakt_id = ent.get("ids", {}).get("trakt")
-        if not trakt_id:
-            return None
-
-        # 2) ratings endpoint
-        url2 = f"https://api.trakt.tv/{'movies' if t=='movie' else 'shows'}/{trakt_id}/ratings"
-        r2 = requests.get(url2, headers=headers, timeout=20)
-        r2.raise_for_status()
-        rating = (r2.json() or {}).get("rating")
-        val = _num_or_none(rating)
-        time.sleep(0.12)  # simpele rate-limit
-        return val
-    except Exception as e:
-        print(f"[WARN] Trakt rating fetch failed for tmdb {tmdb_id} ({media_type}): {e}")
-        return None
-
-# ---------- uNoGS fetch (BE; pagination) ----------
-def fetch_candidates() -> List[Dict[str, Any]]:
-    if not UNOGS_API_KEY:
-        print("[ERROR] UNOGS_API_KEY missing – cannot fetch added dates.")
-        return []
-
-    url = "https://unogsng.p.rapidapi.com/search"
-    headers = {
-        "X-RapidAPI-Key": UNOGS_API_KEY,
-        "X-RapidAPI-Host": "unogsng.p.rapidapi.com",
-    }
-    items: List[Dict[str, Any]] = []
-    try:
-        for t in ("movie", "series"):
-            offset = 0
-            while True:
-                params = {
-                    "type": t,
-                    "countrylist": "21",   # Belgium
-                    "orderby": "date",
-                    "limit": "100",
-                    "offset": str(offset),
-                }
-                r = requests.get(url, headers=headers, params=params, timeout=25)
-                if r.status_code != 200:
-                    print(f"[uNoGS] HTTP {r.status_code} body: {r.text[:300]}")
-                    break
-                data = r.json() or {}
-                batch = data.get("results") or []
-                if not batch:
-                    break
-               for x in batch:
-                    # uNoGS mapping herstellen
-                    # 'title' is de tekst, 'year' is het jaar
-                    # 'ndate' is de datum van toevoeging op Netflix
-                    items.append({
-                        "title": x.get("title") or x.get("t") or "Onbekende titel",
-                        "type": t, # 'movie' of 'series'
-                        "tmdb_id": x.get("tmid") or x.get("tmdbid"),
-                        "releaseDate": str(x.get("year") or x.get("v") or "2024"),
-                        "dateAdded": str(x.get("ndate") or ""), 
-                        "imdbRating": x.get("imdb_rating") or x.get("imdbrating") or x.get("rating"),
-                    })
-                offset += len(batch)
-        print(f"[uNoGS] fetched {len(items)} items (movie+series)")
-    except Exception as e:
-        print(f"[WARN] uNoGS fetch failed: {e}")
-
-    return items
-
-# ---------- normaliseren + business rules ----------
+# ---------- fetch ----------
 def fetch_candidates() -> List[Dict[str, Any]]:
     """Haalt de ruwe lijst op van uNoGS België."""
     items = []
@@ -195,11 +65,11 @@ def fetch_candidates() -> List[Dict[str, Any]]:
                 resp.raise_for_status()
                 data = resp.json()
                 batch = data.get("results") or []
+                
                 if not batch:
                     break
                 
                 for x in batch:
-                    # We slaan de uNoGS score over (te onbetrouwbaar)
                     items.append({
                         "title": x.get("title") or x.get("t"),
                         "type": t,
@@ -216,41 +86,38 @@ def fetch_candidates() -> List[Dict[str, Any]]:
                 break
     return items
 
+# ---------- process ----------
 def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Valideert beschikbaarheid via TMDb en haalt echte IMDb scores op."""
+    """Checkt beschikbaarheid via TMDb en haalt de ECHTE IMDb score op."""
     BENCHMARK_MIN = 7.8
     out = []
-    from imdb import IMDb
     ia = IMDb()
 
     print(f"Start verificatie van {len(items)} titels...")
 
     for it in items:
-        title = str(it.get("title")).replace("&#39;", "'").replace("&amp;", "&")
-        
+        title = str(it.get("title", "")).replace("&#39;", "'").replace("&amp;", "&")
+        if not title or title == "None": continue
+
         try:
-            # 1. TMDb Check: Staat hij echt op Netflix BE?
-            # We zoeken eerst de TMDb ID als die ontbreekt
+            # 1. TMDb Check: Is het echt op Netflix België?
             tmdb_id = it.get("tmdb_id")
             if not tmdb_id:
-                search_url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_API_KEY}&query={title}"
-                s_res = requests.get(search_url).json().get('results')
+                s_url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_API_KEY}&query={title}"
+                s_res = requests.get(s_url).json().get('results')
                 if not s_res: continue
                 tmdb_id = s_res[0]['id']
 
-            # Provider check (JustWatch data via TMDb)
-            media_type = "tv" if it.get("type") == "series" else "movie"
-            prov_url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}/watch/providers?api_key={TMDB_API_KEY}"
-            prov_data = requests.get(prov_url).json().get('results', {}).get('BE', {})
+            m_type = "tv" if it.get("type") == "series" else "movie"
+            p_url = f"https://api.themoviedb.org/3/{m_type}/{tmdb_id}/watch/providers?api_key={TMDB_API_KEY}"
+            p_data = requests.get(p_url).json().get('results', {}).get('BE', {})
             
-            # Check of Netflix in de 'flatrate' (streaming) lijst staat
-            providers = prov_data.get('flatrate', [])
-            is_on_netflix = any(p['provider_name'] == 'Netflix' for p in providers)
-            
-            if not is_on_netflix:
+            # Provider check
+            providers = p_data.get('flatrate', [])
+            if not any(p['provider_name'] == 'Netflix' for p in providers):
                 continue
 
-            # 2. Echte IMDb score ophalen
+            # 2. Echte IMDb score via IMDbPy
             search = ia.search_movie(title)
             if not search: continue
             movie = ia.get_movie(search[0].movieID)
@@ -259,9 +126,9 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             if not real_score or real_score < BENCHMARK_MIN:
                 continue
 
-            # 3. Datum en metadata
+            # 3. Datums
             parsed_added = _parse_date(it.get("ndate"))
-            final_date_added = parsed_added.isoformat() if parsed_added else datetime.date.today().isoformat()
+            final_added = parsed_added.isoformat() if parsed_added else datetime.date.today().isoformat()
 
             out.append({
                 "title": title,
@@ -269,13 +136,14 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
                 "imdbRating": float(real_score),
                 "traktRating": round(real_score * 0.9, 1), 
                 "releaseDate": str(movie.get('year') or "2024"),
-                "dateAdded": final_date_added,
+                "dateAdded": final_added,
                 "tmdb_id": tmdb_id,
             })
-            print(f"✅ Geverifieerd: {title} ({real_score})")
+            print(f"✅ OK: {title} ({real_score})")
 
         except Exception:
             continue
+            
     return out
 
 # ---------- recent ----------
@@ -304,8 +172,8 @@ def main():
         print("[ERROR] No candidates – aborting.")
         sys.exit(1)
 
-    if not TMDB_API_KEY and REQUIRE_TMDB_PROVIDER_CHECK:
-        print("[ERROR] TMDB_API_KEY missing but provider check is required.")
+    if not TMDB_API_KEY:
+        print("[ERROR] TMDB_API_KEY missing.")
         sys.exit(1)
 
     cleaned = normalize_and_filter(candidates)
@@ -316,12 +184,13 @@ def main():
     h1 = sha12(OUT_FULL)
     print(f"Wrote {OUT_FULL.name}  {h0} -> {h1}  (n={len(cleaned)})")
 
-    # Recent (90 dagen o.b.v. dateAdded)
+    # Recent set (laatste 90 dagen)
     recent = build_recent(cleaned)
-    r0 = sha12(OUT_RECENT)
+    h2 = sha12(OUT_RECENT)
     write_json(OUT_RECENT, recent)
-    r1 = sha12(OUT_RECENT)
-    print(f"Wrote {OUT_RECENT.name} {r0} -> {r1} (n={len(recent)})")
+    h3 = sha12(OUT_RECENT)
+    print(f"Wrote {OUT_RECENT.name}  {h2} -> {h3}  (n={len(recent)})")
+
     print("=== UPDATE ALL DONE ===")
 
 if __name__ == "__main__":
