@@ -2,7 +2,7 @@ name: Update & Deploy Data (orig pipeline)
 
 on:
   schedule:
-    - cron: "0 4 * * 1"   # wekelijks: ma 06:00 Europe/Brussels ≈ 04:00 UTC
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -29,16 +29,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests imdbpy; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
 
-      # ---- JOUW ORIGINELE PIPELINE ----
-  - name: Run Update Script
+      - name: Run Update Script
         env:
           TMDB_API_KEY: "ca7bc87061528b91ac4b42e235851f9a"
           TRAKT_CLIENT_ID: "1c0cbb71ec18b665a18642f01cac9c2a46f3a35435f505d46150eb403ccdcf1c"
         run: python update_all.py
 
-      # Inspectie: toon of JSON's gewijzigd zijn
       - name: Show JSON hashes
         run: |
           for f in netflix_data.json netflix_last_month.json; do
