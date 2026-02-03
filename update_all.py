@@ -234,7 +234,7 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             "title": it.get("title") or it.get("name") or "",
             "type": "Series" if media_type == "tv" else "Film",
             "imdbRating": float(imdb) if imdb is not None else (float(tmdb) if tmdb is not None else 0.0),
-            "traktRating": float(trakt),
+            "traktRating": float(trakt) if trakt is not None else 0.0,
             "releaseDate": releaseDate or "",
             "dateAdded": it.get("dateAdded") or "",
             "tmdb_id": tmdb_id_int,
