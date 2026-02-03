@@ -35,8 +35,9 @@ jobs:
         env:
           TMDB_API_KEY: "ca7bc87061528b91ac4b42e235851f9a"
           TRAKT_CLIENT_ID: "1c0cbb71ec18b665a18642f01cac9c2a46f3a35435f505d46150eb403ccdcf1c"
+          UNOGS_API_KEY: "096be952famsh729c15923940177p139b4bjsn68f2762955f3"
         run: python update_all.py
-
+      
       - name: Show JSON hashes
         run: |
           for f in netflix_data.json netflix_last_month.json; do
