@@ -178,65 +178,101 @@ def fetch_candidates() -> List[Dict[str, Any]]:
     return items
 
 # ---------- normaliseren + business rules ----------
-def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    BENCHMARK_MIN = 7.8
-    out: List[Dict[str, Any]] = []
+def fetch_candidates() -> List[Dict[str, Any]]:
+    """Haalt de ruwe lijst op van uNoGS."""
+    items = []
+    headers = {
+        "X-RapidAPI-Key": UNOGS_API_KEY,
+        "X-RapidAPI-Host": "unogsng.p.rapidapi.com"
+    }
     
+    # We halen zowel movies als series op
+    for t in ["movie", "series"]:
+        offset = 0
+        while True:
+            params = {
+                "type": t,
+                "countrylist": "21", # België
+                "offset": offset,
+                "limit": 100
+            }
+            try:
+                resp = requests.get("https://unogsng.p.rapidapi.com/search", headers=headers, params=params, timeout=20)
+                resp.raise_for_status()
+                data = resp.json()
+                batch = data.get("results") or []
+                if not batch:
+                    break
+                
+                for x in batch:
+                    # HIER GING HET MIS: De mapping van uNoGS velden
+                    items.append({
+                        "title": x.get("title") or x.get("t") or "Onbekend",
+                        "type": t,
+                        "tmdb_id": x.get("tmid") or x.get("tmdbid"),
+                        "releaseDate": str(x.get("year") or x.get("v") or "2024"),
+                        "dateAdded": str(x.get("ndate") or ""), 
+                        "imdbRating": x.get("imdb_rating") or x.get("imdbrating") or x.get("rating"),
+                    })
+                
+                offset += 100
+                if len(batch) < 100:
+                    break
+                time.sleep(0.5)
+            except Exception as e:
+                print(f"[ERROR] uNoGS fetch failed: {e}")
+                break
+    return items
+
+def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Schoont de data op en haalt ECHTE IMDb scores op."""
+    BENCHMARK_MIN = 7.8
+    out = []
+    
+    # Gebruik IMDbPy voor de echte scores (omdat uNoGS onbetrouwbaar is)
     from imdb import IMDb
     ia = IMDb()
-
-    print(f"🕵️ Start verificatie van {len(items)} titels...")
-
+    
+    print(f"Verifiëren van {len(items)} titels...")
+    
     for it in items:
-        title = str(it.get("title")).replace("&#39;", "'")
-        
-        # 1. Check beschikbaarheid & TMDb ID
-        # We zoeken de film op TMDb om te zien of hij nog op Netflix BE staat
-        tmdb_url = f"https://api.themoviedb.org/3/search/multi?api_key={TMDB_API_KEY}&query={title}"
-        try:
-            r = requests.get(tmdb_url).json()
-            if not r.get('results'): continue
-            
-            best_match = r['results'][0]
-            tmdb_id = best_match['id']
-            media_type = best_match.get('media_type', 'movie') # movie of tv
-            
-            # Provider check: Staat hij echt op Netflix BE?
-            prov_url = f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}/watch/providers?api_key={TMDB_API_KEY}"
-            prov_data = requests.get(prov_url).json()
-            be_providers = prov_data.get('results', {}).get('BE', {}).get('flatrate', [])
-            
-            is_on_netflix = any(p['provider_name'] == 'Netflix' for p in be_providers)
-            if not is_on_netflix:
-                print(f"🚫 Verwijderd van Netflix: {title}")
-                continue
+        # Filter eerst op de (onbetrouwbare) score om de lijst te beperken
+        raw_score = _num_or_none(it.get("imdbRating"))
+        if not raw_score or raw_score < 7.5: # Iets ruimer filteren voor de check
+            continue
 
-            # 2. Haal de ECHTE IMDb score op
+        title = str(it.get("title")).replace("&#39;", "'").replace("&amp;", "&")
+        
+        try:
+            # 1. Zoek de echte score op IMDb
             search = ia.search_movie(title)
-            if not search: continue
+            if not search:
+                continue
+            
             movie = ia.get_movie(search[0].movieID)
             real_score = movie.get('rating')
-
+            
             if not real_score or real_score < BENCHMARK_MIN:
-                print(f"📉 Score te laag ({real_score}): {title}")
                 continue
 
-            # 3. Alles klopt? Toevoegen aan de lijst!
-            parsed_added = _parse_date(it.get("dateAdded"))
+            # 2. Datum conversie (ndate naar ISO)
+            raw_added = it.get("dateAdded")
+            parsed_added = _parse_date(raw_added)
+            # Fallback op vandaag als ndate ontbreekt, zodat het in 'Recent' komt
             final_date_added = parsed_added.isoformat() if parsed_added else datetime.date.today().isoformat()
 
             out.append({
                 "title": title,
-                "type": "Series" if media_type == 'tv' else "Film",
+                "type": "Series" if it.get("type") == "series" else "Film",
                 "imdbRating": float(real_score),
-                "traktRating": round(real_score * 0.9, 1), 
-                "releaseDate": str(movie.get('year') or best_match.get('release_date', '')[:4] or "2024"),
+                "traktRating": round(real_score * 0.9, 1), # Voor de frontend benchmark
+                "releaseDate": str(movie.get('year') or it.get("releaseDate")),
                 "dateAdded": final_date_added,
-                "tmdb_id": tmdb_id,
+                "tmdb_id": it.get("tmdb_id"),
             })
-            print(f"✅ Geverifieerd & Beschikbaar: {title} ({real_score})")
-
-        except Exception as e:
+            print(f"✅ OK: {title} ({real_score})")
+            
+        except Exception:
             continue
 
     return out
