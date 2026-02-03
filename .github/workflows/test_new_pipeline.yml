@@ -1,0 +1,71 @@
+name: Update & Deploy Data (new pipeline)
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # ma 06:00 Brussels ≈ 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-all
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+      UNOGS_API_KEY: ${{ secrets.UNOGS_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install requests; fi
+
+      - name: Sanity check (geen secrets tonen)
+        run: |
+          python - <<'PY'
+          import os
+          print("TMDB_API_KEY set?", bool(os.getenv("TMDB_API_KEY")))
+          print("TRAKT_CLIENT_ID set?", bool(os.getenv("TRAKT_CLIENT_ID")))
+          print("UNOGS_API_KEY set?", bool(os.getenv("UNOGS_API_KEY")))
+          PY
+
+      - name: Run update_all
+        run: python -u update_all.py
+
+      - name: Show output sizes / counts
+        run: |
+          ls -lh netflix_data.json netflix_last_month.json || true
+          python - <<'PY'
+          import json, pathlib
+          for f in ["netflix_data.json","netflix_last_month.json"]:
+            p = pathlib.Path(f)
+            if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+              print(f, "items:", len(data) if isinstance(data,list) else type(data))
+          PY
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Update data (new pipeline) [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit."
+          fi
