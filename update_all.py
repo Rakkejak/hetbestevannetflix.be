@@ -180,69 +180,54 @@ def fetch_candidates() -> List[Dict[str, Any]]:
 
 # ---------- normaliseren + business rules ----------
 def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    BENCHMARK_MIN = 7.8
+    BENCHMARK_MIN = 8.0  # Terug naar de echte toppers
     out: List[Dict[str, Any]] = []
-    checked = 0
-    kept_after_provider = 0
-    kept_after_benchmark = 0
-
+    
     for it in items:
-        checked += 1
-        raw_type = (it.get("type") or "").lower()
-        media_type = "tv" if raw_type.startswith("s") else "movie"  # 'series' -> tv
-        tmdb_id = it.get("tmdb_id")
-        tmdb_id_int = int(tmdb_id) if tmdb_id else None
-
-        # Extra BE-check via TMDb (optioneel; standaard uit omdat uNoGS al BE is)
-        if REQUIRE_TMDB_PROVIDER_CHECK and tmdb_id_int:
-            if not is_on_netflix_be(tmdb_id_int, media_type):
-                continue
-        kept_after_provider += 1
-
-        # Ratings die we al hebben
+        # 1. Alleen IMDb telt (uNoGS geeft dit meestal in 'imdbRating')
         imdb = _num_or_none(it.get("imdbRating"))
-        tmdb = _num_or_none(it.get("tmdb_vote_average"))
-
-        # Benchmark check (IMDb 7.8+ is heilig)
-        score_ok = (imdb is not None and imdb >= BENCHMARK_MIN)
-        if not score_ok:
+        if not imdb or imdb < BENCHMARK_MIN:
             continue
-        kept_after_benchmark += 1
 
-        # Trakt ophalen voor extra info, maar niet meer verplicht stellen
-        trakt = get_trakt_rating_via_tmdb(tmdb_id_int, media_type)
+        # 2. tmdb_id fix: uNoGS id's zijn vaak inconsistent
+        tmdb_id = it.get("tmdb_id") or it.get("tmid") or it.get("tmdbid")
+        try:
+            tmdb_id_int = int(tmdb_id) if tmdb_id and str(tmdb_id).isdigit() else None
+        except:
+            tmdb_id_int = None
 
-        # Alleen de 30%-regel toepassen ALS er een Trakt score is
-        if trakt is not None and imdb is not None:
-            if abs(imdb - trakt) > 0.3 * imdb:
-                # Als de scores bizar ver uit elkaar liggen, negeren we hem alsnog
-                continue
+        # 3. Trakt Rating ophalen (ENKEL als we een tmdb_id hebben)
+        trakt = None
+        if tmdb_id_int:
+            trakt = get_trakt_rating_via_tmdb(tmdb_id_int, it.get("type"))
 
-        # releaseDate normaliseren; zo nodig TMDb-details
-        releaseDate = (
-            it.get("releaseDate")
-            or it.get("first_air_date")
-            or it.get("release_date")
-            or None
-        )
-        if (not releaseDate) and tmdb_id_int and TMDB_API_KEY:
-            releaseDate = tmdb_detail_date(media_type, tmdb_id_int)
-            if releaseDate:
-                time.sleep(0.08)
+        # Als Trakt echt niets vindt, maar IMDb is 8.0+, dan laten we hem door
+        # MAAR we hebben de tmdb_id nodig voor de poster op de site!
+        if not tmdb_id_int:
+            continue 
 
-       # Zorg dat we altijd EEN datum hebben, desnoods de dag van vandaag
-        final_date_added = it.get("dateAdded") or it.get("addDate") or datetime.date.today().isoformat()
-        
+        # 4. Datum normalisatie (Epoch ms naar string)
+        date_raw = it.get("dateAdded")
+        parsed_date = _parse_date(date_raw)
+        final_date_added = parsed_date.isoformat() if parsed_date else ""
+
+        # 5. Geen datum = Geen weergave (voorkomt website crash)
+        if not final_date_added:
+            continue
+
         norm = {
-            "title": it.get("title") or it.get("name") or "Onbekende titel",
-            "type": "Series" if media_type == "tv" else "Film",
-            "imdbRating": float(imdb) if imdb is not None else 0.0,
-            "traktRating": float(trakt) if trakt is not None else 0.0,
-            "releaseDate": releaseDate or it.get("year") or "",
+            "title": (it.get("title") or "").replace("&#39;", "'").replace("&amp;", "&"),
+            "type": "Series" if it.get("type") == "series" else "Film",
+            "imdbRating": imdb,
+            "traktRating": float(trakt) if trakt else 0.0,
+            "releaseDate": it.get("releaseDate") or "",
             "dateAdded": final_date_added,
             "tmdb_id": tmdb_id_int,
         }
         out.append(norm)
+
+    print(f"[STATS] Kept {len(out)} high-quality titles.")
+    return out
 
     print(f"[STATS] checked={checked} after_provider={kept_after_provider} after_benchmark={kept_after_benchmark} kept={len(out)}")
     return out
