@@ -230,13 +230,16 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             if releaseDate:
                 time.sleep(0.08)
 
+       # Zorg dat we altijd EEN datum hebben, desnoods de dag van vandaag
+        final_date_added = it.get("dateAdded") or it.get("addDate") or datetime.date.today().isoformat()
+        
         norm = {
-            "title": it.get("title") or it.get("name") or "",
+            "title": it.get("title") or it.get("name") or "Onbekende titel",
             "type": "Series" if media_type == "tv" else "Film",
-            "imdbRating": float(imdb) if imdb is not None else (float(tmdb) if tmdb is not None else 0.0),
+            "imdbRating": float(imdb) if imdb is not None else 0.0,
             "traktRating": float(trakt) if trakt is not None else 0.0,
-            "releaseDate": releaseDate or "",
-            "dateAdded": it.get("dateAdded") or "",
+            "releaseDate": releaseDate or it.get("year") or "",
+            "dateAdded": final_date_added,
             "tmdb_id": tmdb_id_int,
         }
         out.append(norm)
