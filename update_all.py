@@ -180,56 +180,47 @@ def fetch_candidates() -> List[Dict[str, Any]]:
 
 # ---------- normaliseren + business rules ----------
 def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    BENCHMARK_MIN = 8.0  # Terug naar de echte toppers
+    BENCHMARK_MIN = 7.8
     out: List[Dict[str, Any]] = []
     
     for it in items:
-        # 1. Alleen IMDb telt (uNoGS geeft dit meestal in 'imdbRating')
+        # 1. Alleen IMDb score checken
         imdb = _num_or_none(it.get("imdbRating"))
         if not imdb or imdb < BENCHMARK_MIN:
             continue
 
-        # 2. tmdb_id fix: uNoGS id's zijn vaak inconsistent
+        # 2. Datum fix: uNoGS datum omzetten
+        parsed_date = _parse_date(it.get("dateAdded"))
+        final_date_added = parsed_date.isoformat() if parsed_date else "2020-01-01"
+
+        # 3. ID's ophalen (maar niet verplicht stellen!)
         tmdb_id = it.get("tmdb_id") or it.get("tmid") or it.get("tmdbid")
         try:
-            tmdb_id_int = int(tmdb_id) if tmdb_id and str(tmdb_id).isdigit() else None
+            tmdb_id_int = int(tmdb_id) if tmdb_id else None
         except:
             tmdb_id_int = None
 
-        # 3. Trakt Rating ophalen (ENKEL als we een tmdb_id hebben)
-        trakt = None
-        if tmdb_id_int:
+        # 4. Trakt score ophalen (alleen als ID er is)
+        trakt_score = 0.0
+        if tmdb_id_int and TRAKT_CLIENT_ID:
             trakt = get_trakt_rating_via_tmdb(tmdb_id_int, it.get("type"))
+            trakt_score = float(trakt) if trakt else 0.0
 
-        # Als Trakt echt niets vindt, maar IMDb is 8.0+, dan laten we hem door
-        # MAAR we hebben de tmdb_id nodig voor de poster op de site!
-        if not tmdb_id_int:
-            continue 
-
-        # 4. Datum normalisatie (Epoch ms naar string)
-        date_raw = it.get("dateAdded")
-        parsed_date = _parse_date(date_raw)
-        final_date_added = parsed_date.isoformat() if parsed_date else ""
-
-        # 5. Geen datum = Geen weergave (voorkomt website crash)
-        if not final_date_added:
-            continue
+        # 5. Titel opschonen
+        title = (it.get("title") or "").replace("&#39;", "'").replace("&amp;", "&")
 
         norm = {
-            "title": (it.get("title") or "").replace("&#39;", "'").replace("&amp;", "&"),
+            "title": title,
             "type": "Series" if it.get("type") == "series" else "Film",
             "imdbRating": imdb,
-            "traktRating": float(trakt) if trakt else 0.0,
-            "releaseDate": it.get("releaseDate") or "",
+            "traktRating": trakt_score,
+            "releaseDate": it.get("releaseDate") or str(it.get("year") or ""),
             "dateAdded": final_date_added,
             "tmdb_id": tmdb_id_int,
         }
         out.append(norm)
 
-    print(f"[STATS] Kept {len(out)} high-quality titles.")
-    return out
-
-    print(f"[STATS] checked={checked} after_provider={kept_after_provider} after_benchmark={kept_after_benchmark} kept={len(out)}")
+    print(f"[STATS] Kept {len(out)} titles.")
     return out
 
 # ---------- recent ----------
