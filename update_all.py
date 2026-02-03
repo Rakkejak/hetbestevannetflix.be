@@ -180,7 +180,7 @@ def fetch_candidates() -> List[Dict[str, Any]]:
 
 # ---------- normaliseren + business rules ----------
 def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    BENCHMARK_MIN = 8.0
+    BENCHMARK_MIN = 7.8
     out: List[Dict[str, Any]] = []
     checked = 0
     kept_after_provider = 0
@@ -203,20 +203,20 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         imdb = _num_or_none(it.get("imdbRating"))
         tmdb = _num_or_none(it.get("tmdb_vote_average"))
 
-        # Benchmark eerst (voor we Trakt calls doen)
-        score_ok = (imdb is not None and imdb >= BENCHMARK_MIN) or (imdb is None and tmdb is not None and tmdb >= BENCHMARK_MIN)
+        # Benchmark check (IMDb 7.8+ is heilig)
+        score_ok = (imdb is not None and imdb >= BENCHMARK_MIN)
         if not score_ok:
             continue
         kept_after_benchmark += 1
 
-        # Trakt verplicht
+        # Trakt ophalen voor extra info, maar niet meer verplicht stellen
         trakt = get_trakt_rating_via_tmdb(tmdb_id_int, media_type)
-        if trakt is None:
-            continue
 
-        # 30%-regel als IMDb bestaat
-        if imdb is not None and abs(imdb - trakt) > 0.3 * imdb:
-            continue
+        # Alleen de 30%-regel toepassen ALS er een Trakt score is
+        if trakt is not None and imdb is not None:
+            if abs(imdb - trakt) > 0.3 * imdb:
+                # Als de scores bizar ver uit elkaar liggen, negeren we hem alsnog
+                continue
 
         # releaseDate normaliseren; zo nodig TMDb-details
         releaseDate = (
