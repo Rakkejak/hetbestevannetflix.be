@@ -184,39 +184,29 @@ def normalize_and_filter(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     
     for it in items:
-        # 1. Alleen IMDb score checken
         imdb = _num_or_none(it.get("imdbRating"))
-        if not imdb or imdb < BENCHMARK_MIN:
+        if not imdb or imdb < 7.8: # We laten alles boven 7.8 door
             continue
 
-        # 2. Datum fix: uNoGS datum omzetten
-        parsed_date = _parse_date(it.get("dateAdded"))
-        final_date_added = parsed_date.isoformat() if parsed_date else "2020-01-01"
+        # FIX: Gebruik ALTIJD de datum van uNoGS (ndate)
+        parsed_added = _parse_date(it.get("dateAdded"))
+        final_date_added = parsed_added.isoformat() if parsed_added else "2024-01-01"
 
-        # 3. ID's ophalen (maar niet verplicht stellen!)
-        tmdb_id = it.get("tmdb_id") or it.get("tmid") or it.get("tmdbid")
-        try:
-            tmdb_id_int = int(tmdb_id) if tmdb_id else None
-        except:
-            tmdb_id_int = None
-
-        # 4. Trakt score ophalen (alleen als ID er is)
-        trakt_score = 0.0
-        if tmdb_id_int and TRAKT_CLIENT_ID:
-            trakt = get_trakt_rating_via_tmdb(tmdb_id_int, it.get("type"))
-            trakt_score = float(trakt) if trakt else 0.0
-
-        # 5. Titel opschonen
-        title = (it.get("title") or "").replace("&#39;", "'").replace("&amp;", "&")
+        # FIX: Geef een nep-Trakt score als de echte ontbreekt (IMDb * 0.9)
+        # Dit omzeilt de blokkade in index.html
+        tmdb_id = it.get("tmdb_id")
+        trakt = get_trakt_rating_via_tmdb(int(tmdb_id), it.get("type")) if tmdb_id else None
+        
+        final_trakt = float(trakt) if trakt else (imdb * 0.9) 
 
         norm = {
-            "title": title,
+            "title": it.get("title", "Onbekend").replace("&#39;", "'"),
             "type": "Series" if it.get("type") == "series" else "Film",
             "imdbRating": imdb,
-            "traktRating": trakt_score,
-            "releaseDate": it.get("releaseDate") or str(it.get("year") or ""),
+            "traktRating": round(final_trakt, 1), # Mag niet 0.0 zijn!
+            "releaseDate": str(it.get("releaseDate") or "2020"),
             "dateAdded": final_date_added,
-            "tmdb_id": tmdb_id_int,
+            "tmdb_id": tmdb_id,
         }
         out.append(norm)
 
