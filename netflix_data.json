@@ -1,1 +1,8322 @@
-[]
+[
+  {
+    "title": "City of Dreams",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Champion",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kaantha",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "All the Empty Rooms",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ron's Gone Wrong",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Togo",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Frankenstein",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Humans in the loop",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Millionaire",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lovesick",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "KPop Demon Hunters",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Saiyaara",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rumah Untuk Alie",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kingdom",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Thammudu",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Retro",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Diplomat",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Rose of Versailles",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Divine Influencer",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chhaava",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Wrong Track",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Home Sweet Loan",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Paradise of Thorns",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Wallace & Gromit: Vengeance Most Fowl",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hero",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bajrangi Bhaijaan",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Julia's Stepping Stones",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hayao Miyazaki and the Heron",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dune: Part Two",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "That Christmas",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lucky Baskhar",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Our Little Secret",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Whispers in the Wind",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bagheera",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Un/Happy For You",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Secret of Doctor Grinberg",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Meiyazhagan",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Remarkable Life of Ibelin",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Color Purple",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "That Kind of Love",
+    "type": "Film",
+    "imdbRating": 9.7,
+    "traktRating": 8.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Padu",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "CTRL",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "How To Make Millions Before Grandma Dies",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Going Varsity in Mariachi",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Nice Girls",
+    "type": "Film",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Indian",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1996",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Maharaja",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bhaje Vaayu Vegam",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tempestad",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The First Slam Dunk",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Godzilla Minus One",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Golden Kamuy",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Power",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Down the Rabbit Hole",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Laapataa Ladies",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "20 Days in Mariupol",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Article 370",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "All India Rank",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "GomBurZa",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rumah Masa Depan",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Wages of Fear",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Por",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rest In Peace",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rewind",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Oppenheimer",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cat & Dog",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Not Friends",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hannah Gadsby's Gender Agenda",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "12th Fail",
+    "type": "Film",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chappelle's Home Team - Donnell Rawlings: A New Day",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Smoke Master",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "La Luna",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Guntur Kaaram",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Black",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "American Girl: Corinne Tan",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Society of the Snow",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Horizon",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hi Nanna",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Three of Us",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Norma",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sajini Shinde Ka Viral Video",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Maestro",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Leave the World Behind",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Eternal Memory",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "American Symphony",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sukhee",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Killer",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Forever",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "OMG 2",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "RDX",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Face Off",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Whale",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Asvins",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fireworks",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mother's Day",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bheed",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Virupaksha",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Aftersun",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "You & Me & Me",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sir",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Strangers",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "In His Shadow",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vaathi",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Still Time",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vadh",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "An Action Hero",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ghodwa",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Stuck with You",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Glass Onion: A Knives Out Mystery",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Checkpoint",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Big 4",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "God's Crooked Lines",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love Today",
+    "type": "Film",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Goodbye",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Padavettu",
+    "type": "Film",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Slumberland",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "All Quiet on the Western Front",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Krishna Vrinda Vihari",
+    "type": "Film",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Buffoon",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Oru Thekkan Thallu Case",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Togo",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rainbow",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Then Barbara Met Alan",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "I Used to Be Famous",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "You're Killing Me Susana",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "HIT: The First Case",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Cut Above",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Recurrence",
+    "type": "Film",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Incantation",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Anek",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Centauro",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Trees of Peace",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Jana Gana Mana",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Let's Tie The Knot, Honey!",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Youth v Gov",
+    "type": "Film",
+    "imdbRating": 9.6,
+    "traktRating": 8.6,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Etharkkum Thunindhavan",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chappelle's Home Team - Earthquake: Legendary",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Perfect Strangers",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Seal Team",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Two",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "More the Merrier",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Land",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tom and Jerry",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Amina",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "There's Someone Inside Your House",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "STAND BY ME Doraemon 2",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "27 Steps of May",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Gentlemen's League",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Thimmarusu",
+    "type": "Film",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Really Love",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "99 Songs",
+    "type": "Film",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Woman in the Window",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Mitchells vs. The Machines",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "One",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Wild Dog",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Free to Play",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Soul",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "C/O Kaadhal",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mariposa",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Geez & Ann",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Classmates Minus",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Little Big Women",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Outside the Wire",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cops and Robbers",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "We Can Be Heroes",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ejen Ali The Movie",
+    "type": "Film",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Life Ahead",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Girl's Revenge",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rebecca",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "David Attenborough: A Life on Our Planet",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "You've Got This",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "GIMS: On the Record",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Social Dilemma",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rising Phoenix",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Knives Out",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Uma Maheswara Ugra Roopasya",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sugar High",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chavela",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Athlete A",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Charlie's Angels",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Har Kisse Ke Hisse: Kaamyaab",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ROAD TO NINJA: NARUTO THE MOVIE",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Agneepath",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "1990",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "When Marnie Was There",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Whisper of the Heart",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1995",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Howl’s Moving Castle",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ROAD TO ROMA",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Porco Rosso",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "1992",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Only Yesterday",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "1991",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Castle in the Sky",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1986",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Night on Earth: Shot in the Dark",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sillu Karuppatti",
+    "type": "Film",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Sun",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Marriage Story",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Irishman",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dancing with the Birds",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tell Me Who I Am",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Elena",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Article 15",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Badla",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Star Is Born",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Our Planet - Behind The Scenes",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Son",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Boi",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ANIMA",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The End of Evangelion",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rolling Thunder Revue: A Bob Dylan Story by Martin Scorsese",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Joy",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "2,215",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Goldfinger",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "1964",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Casino Royale",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Struggle: The Life and Lost Art of Szukalski",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ROMA",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Get Out",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sanju",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Bleeding Edge",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Maktub",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "John Mulaney: Kid Gorgeous at Radio City",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ricky Gervais: Humanity",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Guru",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Boruto: Naruto the Movie",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cuba and the Cameraman",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "1988",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Icarus",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Hijo de la Novia",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2001",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chasing Coral",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dangal",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Oh, Hello On Broadway",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pyaar Ka Punchnama",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Neal Brennan: 3 Mics",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Udta Punjab",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Christmas Special: Miraculous: Tales of Ladybug and Cat Noir",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Interrogation",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Ivory Game",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Nine Queens",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "13TH",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Silenced",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Revenant",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spotlight",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Big Short",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Princess Mononoke",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kaguyahime no monogatari",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Wind Rises",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spirited Away",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2001",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Detective Byomkesh Bakshy!",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Marco Polo: One Hundred Eyes",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Beasts of No Nation",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Winter on Fire",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cowspiracy",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lawrence of Arabia: Restored Version",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "1962",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Blue Velvet",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "1986",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ghost in the Shell",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1995",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Lego Movie",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Veer-Zaara",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ocean's Eleven",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2001",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sergio",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tim's Vermeer",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chak De! India",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Swades: We, the People",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dilwale Dulhania Le Jayenge",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "1995",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Darr",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "1993",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "How to Train Your Dragon 2",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ponyo",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Akira",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1988",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Glory",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "1989",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Skyfall",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Saving Private Ryan",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "1998",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Matrix",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Silence of the Lambs",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "1991",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lost in Translation",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Heat",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "1995",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "GoodFellas",
+    "type": "Film",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "1990",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Man on Fire",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Dark Knight",
+    "type": "Film",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Batman Begins",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Shrek",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2001",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Scent of a Woman",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1992",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Jurassic Park",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1993",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Shutter Island",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Into the Wild",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Godfather",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "1972",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Catch Me If You Can",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2002",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Back to the Future",
+    "type": "Film",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "1985",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Bourne Identity",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2002",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Bourne Ultimatum",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Bourne Supremacy",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Inglourious Basterds",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pride and Prejudice",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Godfather: Part II",
+    "type": "Film",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "1974",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Trailer Park Boys: Xmas Special",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Warrior",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Terminator",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1984",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Snatch",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Raging Bull",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "1980",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Platoon",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1986",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Battered Bastards of Baseball",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Virunga",
+    "type": "Film",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rain Man",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1988",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Hangover",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Trailer Park Boys: Say Goodnight to the Bad Guys",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Good Will Hunting",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pulp Fiction",
+    "type": "Film",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "1994",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fargo",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1996",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Infierno",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Boy in the Striped Pyjamas",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Amores Perros",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Horsin' Around",
+    "type": "Film",
+    "imdbRating": 9.5,
+    "traktRating": 8.6,
+    "releaseDate": "1987",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Perks of Being a Wallflower",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kill Bill: Vol. 2",
+    "type": "Film",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kill Bill: Vol. 1",
+    "type": "Film",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "HIS & HERS",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2026",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "90's",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Brockmire",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mark Rober's CrunchLabs",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Big C",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sesame Street",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Solar Opposites",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dudes",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Golden Egg",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Billionaires' Bunker",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "America's Team: The Gambler and His Cowboys",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Our Generation",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sneaky Pete",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "1923",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "FOREVER",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Friendly Rivalry",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Weak Hero",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "1883",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Leopard",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Connection",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Yamato nadeshiko",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ghosts",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Hooligan",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2025",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Younger",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Be nice to people",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2002",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Royal Rumble",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "WWE Money in the Bank",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tokyo Love Story",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1991",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Captain Tsubasa",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Polo",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Beautiful Life",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Jin",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Senna",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Madness",
+    "type": "Series",
+    "imdbRating": 9.6,
+    "traktRating": 8.6,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pantheon",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Beach Boys",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Amazing Digital Circus",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "DAN DA DAN",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "If My Wife Becomes an Elementary School Student.",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "We Were Kings",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Envious",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Breathless",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "KAOS",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Frog",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Discovery of Witches",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dark Winds",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Dangers in My Heart",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Clandestine",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Eric",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Deliver Me",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Destiny",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Judge Dee's Mystery",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Gentlemen",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Avatar The Last Airbender",
+    "type": "Series",
+    "imdbRating": 9.3,
+    "traktRating": 8.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Warrior",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Resident Alien",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Yellowstone",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Champion",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2024",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Orange Days",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Berlin",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Yellowjackets",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Siri",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lucas the Spider",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bodies",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Chosen",
+    "type": "Series",
+    "imdbRating": 9.3,
+    "traktRating": 8.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dear Child",
+    "type": "Series",
+    "imdbRating": 9.3,
+    "traktRating": 8.4,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ONE PIECE",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fisk",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "How to Become a Cult Leader",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Doom at Your Service",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "THE DAYS",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Muted",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Yizo Yizo",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Rookie",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Agency",
+    "type": "Series",
+    "imdbRating": 10.0,
+    "traktRating": 9.0,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Outlast",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Summer Strike",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kath & Kim: 20th Anniversary Specials",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mr. Queen",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "True Beauty",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cunk On Earth",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lockwood & Co.",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2023",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Diary of a Prosecutor",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ikebukuro West Gate Park",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Harry & Meghan",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "When the Weather Is Fine",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "1899",
+    "type": "Series",
+    "imdbRating": 9.3,
+    "traktRating": 8.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Bastard Son & The Devil Himself",
+    "type": "Series",
+    "imdbRating": 9.6,
+    "traktRating": 8.6,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Captains",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "From Scratch",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Notre-Dame",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Playlist",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Missing: The Other Side",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Heartbreak High",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bee and PuppyCat",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bad Guys",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Little Women",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rilakkuma's Theme Park Adventure",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sell Your Haunted House",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ghost Doctor",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Queen",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Future Of",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "God's Favorite Idiot",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Killing Eve",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sailor Moon S",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "1994",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Falling Into Your Smile",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Happiness",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tomorrow",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kotaro Lives Alone",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Last One Standing",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2022",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Boss & Me",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Black & White",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Penthouse: War in Life",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "There's a Reason for the Love I'm Wearing",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Inside Job",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "My Name",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Scaredy Cats",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Seinfeld",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kaiji",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kota Factory",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "BoBoiBoy Galaxy",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hit & Run",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Myth & Mogul: John DeLorean",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Okupas",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sex/Life",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ray",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Rational Life",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Power Rangers Dino Fury",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Racket Boys",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Word of Honor",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "StartUp",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Good Doctor",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Let's Eat",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tale of the Nine Tailed",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Serpent",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "SHAMAN KING",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Let's Fight Ghost",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Capitani",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kid Cosmic",
+    "type": "Series",
+    "imdbRating": 10.0,
+    "traktRating": 9.0,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Blippi",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lupin",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2021",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "VINLAND SAGA",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Love So Beautiful",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Alien Worlds",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "DRAGON QUEST The Adventure of Dai",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dennou Coil",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Heartbreak High",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Aunty Donna's Big Ol' House of Fun",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Lion in the House",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "VIP",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Doctor John",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bad Boy Billionaires: India",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Julie and the Phantoms",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cobra Kai",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Teenage Bounty Hunters",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Governor",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love on the Spectrum",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Street Food: Latin America",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Gigantosaurus",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Down to Earth with Zac Efron",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Black Clover",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Borgen",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "LEGO: CITY Adventures",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "ninjago",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rhyme Time Town",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Angel's Last Mission: Love",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Frank Elstner: Just One Last Question",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Search",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lenox Hill",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "My Mister",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Great Pretender",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Numberblocks",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mystic Pop-up Bar",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Never Have I Ever",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Coronavirus, Explained",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Last Dance",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The King: Eternal Monarch",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spirit Riding Free: Riding Academy",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rugal",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Unorthodox",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Shaun the Sheep: Adventures from Mossy Bottom",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hospital Playlist",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "I Am Not Okay With This",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hi Bye, Mama!",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hyena",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Glitch Techs",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Pharmacist",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Itaewon Class",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Night on Earth",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rise of Empires: Ottoman",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "GTO: Great Teacher Onizuka",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kipo and the Age of Wonderbeasts",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dorohedoro",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Scissor Seven",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Giri / Haji",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Still 17",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Fiery Priest",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cheer",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Go! Go! Cory Carson",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spinning Out",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Messiah",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2020",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Because This Is My First Life",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Disastrous Life of Saiki K.: Reawakened",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Witcher",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Don't F**k with Cats: Hunting an Internet Killer",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Crash Landing on You",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Home for Christmas",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Movies That Made Us",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Be Melodramatic",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Light in Your Eyes",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dolly Parton's Heartstrings",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Put Your Head on My Shoulder",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Green Eggs and Ham",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Greatest Events of WWII in Colour",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Voice",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vientos de agua",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Queer Eye: We're in Japan!",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tunnel",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Untamed",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Breakfast, Lunch and Dinner",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Unnatural Selection",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "BEASTARS",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Legend Quest: Masters of Myth",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "My Country: The New Age",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Skylines",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vagabond",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Criminal: Germany",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Inside Bill's Brain: Decoding Bill Gates",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "When the Camellia Blooms",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Unbelievable",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Top Boy",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Mind, Explained",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ainori Love Wagon: African Journey",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Dark Crystal: Age of Resistance",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rust Valley Restorers",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hyperdrive",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Diagnosis",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Family",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Naked Director",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "KENGAN ASHURA",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rookie Historian Goo Hae-Ryung",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dr. Stone",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Designated Survivor: 60 Days",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fight for My Way",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Molang",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Are You Human",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Neon Genesis Evangelion",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "1995",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chief of Staff",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Chef Show",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Arthdal Chronicles",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Thousand Goodnights",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Killer Ratings",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "When They See Us",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "How to Sell Drugs Online (Fast)",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "One Spring Night",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Terrace House: Tokyo 2019-2020",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Undercover",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dead to Me",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Street Food",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rilakkuma and Kaoru",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "CAROLE and TUESDAY",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Our Planet",
+    "type": "Series",
+    "imdbRating": 9.3,
+    "traktRating": 8.4,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Charlie's Colorforms City",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Delhi Crime",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Most Beautiful Thing",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love, Death and Robots",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "After Life",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Formula 1: Drive to Survive",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "I'm not a robot",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pasta",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Falsa identidad",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Umbrella Academy",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Russian Doll",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Romance is a bonus book",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Examination of Conscience",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Conversations with a Killer: The Ted Bundy Tapes",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Carmen Sandiego",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Rising of the Shield Hero",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Titans",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sex Education",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Reborn!",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Berserk",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "1997",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "You",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Derry Girls",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "3Below: Tales of Arcadia",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sunderland 'Til I Die",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Nailed It! Holiday!",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cleo and Cuquin",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2019",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Nicky Jam: El Ganador",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love and Fortune",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bumping Mics with Jeff Ross and Dave Attell",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sky Castle",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kulipari: Dream Walker",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Final Table",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Kominsky Method",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dogs",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Eternal Love",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Made in Abyss",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Welcome to Waikiki",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love O2O",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Queen of Flow",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Misty",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Brainchild",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Master's Sun",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Patriot Act with Hasan Minhaj",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "I Hear Your Voice",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pinocchio",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bodyguard",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Wild District",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Don't Dare to Dream",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Suspicious Partner",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Doctors",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Violet Evergarden: Special",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Third Charm",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Weightlifting Fairy Kim Bok Joo",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hilda",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "From Me to You",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Dragon Prince",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The House of Flowers",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Good Girls",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Churchill’s Secret Agents: The New Recruits",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Full House",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Who Are You: School 2015",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hajime No Ippo: Rising",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Staircase",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Oh My Venus",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hwarang",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "13 Reasons Why: Beyond the Reasons",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Signal",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Aggretsuko",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Something in the Rain",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Parasyte: The Maxim",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "James Acaster: Repertoire",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Mechanism",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Wild Wild Country",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "On My Block",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Flint Town",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kim's Convenience",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Seven Seconds",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ugly Delicious",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hitler's Circle of Evil",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Reply 1988",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rooftop Prince",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Queer Eye",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Altered Carbon",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dirty Money",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "My Next Guest Needs No Introduction With David Letterman",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Somebody Feed Phil",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Violet Evergarden",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2018",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Comedians in Cars Getting Coffee",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The End of the F***ing World",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "That Winter, the Wind Blows",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "She Was Pretty",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Terrace House: Opening New Doors",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "SHIROBAKO",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kino's Journey",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Korean Odyssey",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Toys That Made Us",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dark",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Prison Playbook",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Atlanta",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Godless",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Sinner",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Alias Grace",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "MINDHUNTER",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bonus Family",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Paquita Salas",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Big Mouth",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Koinaka",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Time: The Kalief Browder Story",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "American Vandal",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Good Place",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Norsemen",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Atypical",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Daughters of Destiny",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ozark",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Castlevania",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Money Heist",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "GLOW",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Chapo",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Stranger",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Keepers",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Anne with an E",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Queen of the South",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cable Girls",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Food Wars!: Shokugeki no Soma",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "JoJo's Bizarre Adventure",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "13 Reasons Why",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dave Chappelle",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Mononoke",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Julie's Greenroom",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Samurai Gourmet",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Buddy Thunderstruck",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "One Punch Man",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Miraculous: Tales of Ladybug and Cat Noir",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Abstract: The Art of Design",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Santa Clarita Diet",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Sound of Your Heart",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "A Series of Unfortunate Events",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Little Witch Academia",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "One Day at a Time",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2017",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Trollhunters",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Travelers",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Call My Agent!",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The OA",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dirk Gently's Holistic Detective Agency",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fauda",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hip-Hop Evolution",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kuroko's Basketball",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Gilmore Girls: A Year in the Life",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sailor Moon Crystal",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Tales by Light",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Crown",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Animal Kingdom",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Marginal",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "My Hero Academia",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Crashing",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ask the StoryBots",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Last Chance U",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Slam Dunk",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "1996",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Stranger Things",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hibana: Spark",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rick and Morty",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ushio and Tora",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Outlander",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Secrets of Great British Castles",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Your Lie in April",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cooked",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Love",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ajin",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Iris",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Akame ga Kill!",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Last Kingdom",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "F Is for Family",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Making a Murderer",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kamisama Kiss",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Kenichi: The Mightiest Disciple",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "No Game No Life",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pasión de Gavilanes",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Cowboy Bebop",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "1998",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Inuyasha: The Final Act",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vis a vis",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Flash",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Terrace House: Boys and Girls in the City",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Puffin Rock",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Narcos",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Club de Cuervos",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dragons: Race to the Edge",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "InuYasha",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Pablo Escobar, el patron del mal",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Sense8",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Top Boy",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Masha en de beer",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Shameless (U.S.)",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Autumn's Concerto",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Turn",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Parenthood",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Gilmore Girls",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2000",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Moon Embracing the Sun",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Ouran High School Host Club",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Peaky Blinders",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Black Mirror",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "type": "Series",
+    "imdbRating": 9.1,
+    "traktRating": 8.2,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Heartland",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Weeds",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Rita",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Brooklyn Nine-Nine",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Suits",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Office (U.S.)",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Homeland",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "House, M.D.",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2004",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bones",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Downton Abbey",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Law and Order: Special Victims Unit",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Arrested Development",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2003",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Wakfu",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Vikings",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Spartacus",
+    "type": "Series",
+    "imdbRating": 8.5,
+    "traktRating": 7.7,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Chef's Table",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Naruto",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2002",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Naruto Shippuden",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Magi: The Labyrinth of Magic",
+    "type": "Series",
+    "imdbRating": 7.9,
+    "traktRating": 7.1,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Lilyhammer",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Secret Garden",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Gurren Lagann",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Get Down",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2016",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Grace and Frankie",
+    "type": "Series",
+    "imdbRating": 8.3,
+    "traktRating": 7.5,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Fated to Love You",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Good Doctor",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Derek",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2012",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "La Reina del Sur",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Walking Dead",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2010",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Vampire Diaries",
+    "type": "Series",
+    "imdbRating": 7.7,
+    "traktRating": 6.9,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Death Note",
+    "type": "Series",
+    "imdbRating": 9.0,
+    "traktRating": 8.1,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Dexter",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2006",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Coffee Prince",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2007",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Chavo",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "1971",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "El Cartel",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Trailer Park Boys",
+    "type": "Series",
+    "imdbRating": 8.4,
+    "traktRating": 7.6,
+    "releaseDate": "2001",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "BoJack Horseman",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Boys Over Flowers",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Orange Is the New Black",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Bloodline",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "SpongeBob SquarePants",
+    "type": "Series",
+    "imdbRating": 8.1,
+    "traktRating": 7.3,
+    "releaseDate": "1999",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Better Call Saul",
+    "type": "Series",
+    "imdbRating": 8.7,
+    "traktRating": 7.8,
+    "releaseDate": "2015",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "You Are Beautiful",
+    "type": "Series",
+    "imdbRating": 7.8,
+    "traktRating": 7.0,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Amazing World of Gumball",
+    "type": "Series",
+    "imdbRating": 8.2,
+    "traktRating": 7.4,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Archer",
+    "type": "Series",
+    "imdbRating": 8.6,
+    "traktRating": 7.7,
+    "releaseDate": "2009",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Avatar: The Last Airbender",
+    "type": "Series",
+    "imdbRating": 9.2,
+    "traktRating": 8.3,
+    "releaseDate": "2005",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "The Blacklist",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Breaking Bad",
+    "type": "Series",
+    "imdbRating": 9.5,
+    "traktRating": 8.6,
+    "releaseDate": "2008",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Marco Polo",
+    "type": "Series",
+    "imdbRating": 8.0,
+    "traktRating": 7.2,
+    "releaseDate": "2014",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "House of Cards",
+    "type": "Series",
+    "imdbRating": 8.8,
+    "traktRating": 7.9,
+    "releaseDate": "2013",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  },
+  {
+    "title": "Hunter X Hunter (2011)",
+    "type": "Series",
+    "imdbRating": 8.9,
+    "traktRating": 8.0,
+    "releaseDate": "2011",
+    "dateAdded": null,
+    "tmdb_id": null,
+    "manual": false
+  }
+]
