@@ -1,48 +1,34 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os, json, datetime, time, re, html
 from typing import Any, Dict, List, Optional, Tuple
 from pathlib import Path
 
 import requests
 
-# =========================
+# -----------------------------
 # CONFIG
-# =========================
+# -----------------------------
 ROOT = Path(__file__).parent.resolve()
-
 OUT_FULL   = ROOT / "netflix_data.json"
 OUT_RECENT = ROOT / "netflix_last_month.json"
 
-MANUAL_SCORES = ROOT / "manual_scores.json"          # optional
-AVAIL_CACHE   = ROOT / "availability_cache.json"     # auto
-IMDB_CACHE    = ROOT / "imdb_cache.json"             # auto
+MANUAL_SCORES = ROOT / "manual_scores.json"
+AVAIL_CACHE   = ROOT / "availability_cache.json"
+IMDB_CACHE    = ROOT / "imdb_cache.json"
 
 DAYS_RECENT = 90
 BE_ID = 21
 
+# Score thresholds (apply unless manual says ignoreThresholds/forceInclude)
 IMDB_MIN = 7.7
+TMDB_MIN = 7.0
 
-# Availability cache policy:
-# - "True" refresh fast (things can disappear quickly)
-# - "False" refresh slower (stays gone usually)
-TTL_TRUE_DAYS  = 1
-TTL_FALSE_DAYS = 7
-TTL_UNKNOWN_HOURS = 6  # only used if you decide to cache "unknown" (we don't by default)
+# Availability cache TTLs (days)
+TTL_TRUE_DAYS  = 1     # refresh "still in BE" quickly
+TTL_FALSE_DAYS = 7     # "not in BE" can be cached longer
+TTL_NONE_HOURS = 6     # short cache for temporary API hiccups / rate limit
 
-# IMDb cache policy
+# IMDb cache TTL (days)
 IMDB_TTL_DAYS = 30
-IMDB_TTL_NONE_DAYS = 2  # if OMDb returns None, cache shorter to avoid hammering
-
-# Strictness:
-# If you want ZERO titles not currently on Netflix Belgium, keep this True.
-STRICT_AVAILABILITY_FULL = True
-# Recent list should be strict (homepage list).
-STRICT_AVAILABILITY_RECENT = True
-
-# uNoGS sanity: many bogus/placeholder values show up as 10.0 with low votes.
-DROP_UNOGS_99PLUS_UNDER_VOTES = 5000
 
 TMDB_API_KEY  = os.environ.get("TMDB_API_KEY", "").strip()
 UNOGS_API_KEY = os.environ.get("UNOGS_API_KEY", "").strip()
@@ -50,61 +36,59 @@ OMDB_API_KEY  = os.environ.get("OMDB_API_KEY", "").strip()
 
 UNOGS_HOST = "unogsng.p.rapidapi.com"
 UNOGS_URL  = f"https://{UNOGS_HOST}/search"
+UNOGS_TITLECOUNTRIES_URL = f"https://{UNOGS_HOST}/titlecountries"
 
 SESSION = requests.Session()
 
+# Pace calls to /titlecountries (avoid 429). Recent items are checked first; archive uses cache-only.
+_MIN_SECONDS_BETWEEN_TITLECOUNTRIES = 0.25
+_last_titlecountries_call_ts = 0.0
 
-# =========================
-# HTTP
-# =========================
+
+# -----------------------------
+# HTTP helper
+# -----------------------------
 def _get_json(
     url: str,
+    *,
     headers: Optional[dict] = None,
     params: Optional[dict] = None,
-    retries: int = 2,
-    timeout: int = 10,
-    backoff_base: float = 2.0,
+    retries: int = 3,
+    timeout: int = 12,
+    backoff_base: float = 1.8,
 ) -> Optional[dict]:
     """
-    Robust GET with basic retry on 429/5xx.
-    Returns parsed JSON dict or None.
+    Resilient GET helper:
+    - retries on 429 and common 5xx
+    - exponential backoff
+    - returns dict or None
     """
     for i in range(retries + 1):
         try:
             r = SESSION.get(url, headers=headers, params=params, timeout=timeout)
             if r.status_code in (429, 500, 502, 503, 504) and i < retries:
-                # respect Retry-After if provided
-                ra = r.headers.get("Retry-After")
-                if ra and str(ra).isdigit():
-                    time.sleep(int(ra))
-                else:
-                    time.sleep(backoff_base * (i + 1))
+                time.sleep(backoff_base ** i)
                 continue
-
             if r.status_code != 200:
                 return None
-
-            try:
-                return r.json()
-            except Exception:
-                return None
-
+            return r.json()
         except Exception:
             if i < retries:
-                time.sleep(1.5)
-                continue
+                time.sleep(backoff_base ** i)
+            continue
     return None
 
 
-# =========================
-# PARSERS / NORMALIZERS
-# =========================
+# -----------------------------
+# Parsing helpers
+# -----------------------------
+_RATING_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:/|$)")
+
 def _parse_rating(x: Any) -> Optional[float]:
     if x in (None, "", "no score", "N/A"):
         return None
     s = str(x).strip().replace(",", ".")
-    # accepts "8.3/10" or "8.3"
-    m = re.search(r"(\d+(?:\.\d+)?)\s*(?:/|$)", s)
+    m = _RATING_RE.search(s)
     if not m:
         return None
     try:
@@ -113,33 +97,28 @@ def _parse_rating(x: Any) -> Optional[float]:
     except Exception:
         return None
 
-
 def _parse_int(x: Any) -> Optional[int]:
     if x in (None, "", "N/A"):
         return None
     try:
-        # handles "12,345" or "12345"
-        s = str(x).strip().replace(",", "")
+        s = str(x).replace(",", "").strip()
         return int(float(s))
     except Exception:
         return None
-
 
 def _parse_date(x: Any) -> Optional[datetime.date]:
     if not x:
         return None
     try:
-        # unix seconds/ms
+        # unix timestamp (seconds or ms)
         if isinstance(x, (int, float)) or (isinstance(x, str) and str(x).isdigit()):
-            n = int(x)
-            if n > 10_000_000_000:
+            n = int(float(x))
+            if n > 10_000_000_000:  # ms
                 n //= 1000
             return datetime.datetime.fromtimestamp(n, tz=datetime.timezone.utc).date()
-        # iso date
         return datetime.date.fromisoformat(str(x)[:10])
     except Exception:
         return None
-
 
 def _norm_type(t: Any) -> str:
     t = str(t or "").strip().lower()
@@ -149,11 +128,9 @@ def _norm_type(t: Any) -> str:
         return "movie"
     return "unknown"
 
-
 def _norm_title(s: Any) -> str:
     s = html.unescape(str(s or ""))
     return " ".join(s.strip().lower().split()).replace("'", "").replace("’", "").replace('"', "")
-
 
 def _pick_title(d: Dict[str, Any], *keys: str, default: str = "Onbekend") -> str:
     for k in keys:
@@ -161,16 +138,16 @@ def _pick_title(d: Dict[str, Any], *keys: str, default: str = "Onbekend") -> str
         if v in (None, "", 0, "0", "None"):
             continue
         s = str(v).strip()
-        # skip numeric “titles” that are probably IDs
+        # prevent picking NFIDs mistakenly stored as title
         if s.isdigit() and len(s) > 4:
             continue
         return html.unescape(s)
     return default
 
 
-# =========================
-# CACHE / MANUAL
-# =========================
+# -----------------------------
+# Cache and manual overrides
+# -----------------------------
 def _load_cache(path: Path) -> dict:
     if not path.exists():
         return {}
@@ -179,31 +156,24 @@ def _load_cache(path: Path) -> dict:
     except Exception:
         return {}
 
-
-def _save_cache(path: Path, data: dict, max_days: int = 90) -> None:
+def _save_cache(path: Path, data: dict, *, max_days: int = 180) -> None:
     now = datetime.datetime.now(datetime.timezone.utc)
-    pruned: Dict[str, dict] = {}
+    pruned: dict = {}
     for k, v in (data or {}).items():
-        ts_s = (v or {}).get("ts")
-        if not ts_s:
-            continue
         try:
-            ts = datetime.datetime.fromisoformat(ts_s)
+            ts = datetime.datetime.fromisoformat(v.get("ts", ""))
+            if (now - ts).days < max_days:
+                pruned[k] = v
         except Exception:
+            # drop bad cache entries
             continue
-        if (now - ts).days < max_days:
-            pruned[k] = v
     path.write_text(json.dumps(pruned, ensure_ascii=False, indent=2), encoding="utf-8")
-
 
 def load_manual_overrides() -> Tuple[Dict[int, dict], Dict[Tuple[str, str], dict]]:
     """
-    manual_scores.json supports:
-      - nfid-based rows: {"nfid":123, "exclude":true, "type":"series|movie", "imdbRating":8.2, "releaseYear": "2020", "ignoreThresholds":true, "forceInclude":true}
-      - title+type rows (fallback): {"title":"Champion", "type":"series", ...}
-
-    Returns: (by_nfid, by_key)
-      by_key key = (norm_title, type)
+    Supports two manual modes:
+    - by nfid: {"nfid": 123, "exclude": true, "imdbRating": "8.4", "type": "series", ...}
+    - by (title,type): {"title":"...", "type":"series", ...}
     """
     by_nfid: Dict[int, dict] = {}
     by_key: Dict[Tuple[str, str], dict] = {}
@@ -212,135 +182,138 @@ def load_manual_overrides() -> Tuple[Dict[int, dict], Dict[Tuple[str, str], dict
         return by_nfid, by_key
 
     try:
+        txt = MANUAL_SCORES.read_text(encoding="utf-8")
         # tolerate trailing commas
-        txt = re.sub(r",\s*(\]|\})", r"\1", MANUAL_SCORES.read_text(encoding="utf-8"))
+        txt = re.sub(r",\s*(\]|\})", r"\1", txt)
         raw = json.loads(txt)
-        rows = raw if isinstance(raw, list) else []
-        for row in rows:
+        for row in (raw if isinstance(raw, list) else []):
             if not isinstance(row, dict):
                 continue
             if "type" in row:
                 row["type"] = _norm_type(row.get("type"))
-
-            nfid = row.get("nfid")
-            if nfid is not None and str(nfid).isdigit():
-                by_nfid[int(nfid)] = row
-                continue
-
-            title = row.get("title")
-            rtype = row.get("type")
-            if title and rtype in ("movie", "series"):
-                by_key[(_norm_title(title), rtype)] = row
-
+            if "nfid" in row and str(row["nfid"]).isdigit():
+                by_nfid[int(row["nfid"])] = row
+            elif row.get("title") and row.get("type") in ("movie", "series"):
+                by_key[(_norm_title(row["title"]), row["type"])] = row
     except Exception as e:
-        print(f"⚠️ manual_scores error: {e}")
+        print(f"⚠️ manual_scores.json kon niet geladen worden: {e}")
 
     return by_nfid, by_key
 
 
-# =========================
-# uNoGS availability (BE)
-# =========================
-def verify_belgium_availability(nfid: int, cache: dict) -> Optional[bool]:
+# -----------------------------
+# Availability (Belgium) check
+# -----------------------------
+def verify_belgium_availability(nfid: int, cache: dict, *, allow_network: bool, strict: bool) -> Optional[bool]:
     """
     Returns:
-      True  -> definitely in BE
-      False -> definitely not in BE
-      None  -> network/API hiccup (unknown)
+      True  -> confirmed in BE
+      False -> confirmed not in BE
+      None  -> unknown (API hiccup / rate limit / no cache)
     """
+    global _last_titlecountries_call_ts
+
     key = str(nfid)
     now = datetime.datetime.now(datetime.timezone.utc)
 
+    # Cache hit?
     if key in cache:
         try:
             ts = datetime.datetime.fromisoformat(cache[key].get("ts", ""))
-            c_be = cache[key].get("be", None)
-
-            if c_be is True:
-                ttl = TTL_TRUE_DAYS
-            elif c_be is False:
-                ttl = TTL_FALSE_DAYS
+            cached_be = cache[key].get("be", None)
+            if cached_be is True:
+                ttl_days = TTL_TRUE_DAYS
+            elif cached_be is False:
+                ttl_days = TTL_FALSE_DAYS
             else:
-                ttl = 0
+                ttl_days = TTL_NONE_HOURS / 24.0
 
-            if ttl and (now - ts).days < ttl:
-                return c_be
+            if (now - ts).total_seconds() < ttl_days * 86400:
+                return cached_be
         except Exception:
             pass
 
+    if not allow_network:
+        return None
+
+    # pace requests to avoid 429
+    dt = time.time() - _last_titlecountries_call_ts
+    if dt < _MIN_SECONDS_BETWEEN_TITLECOUNTRIES:
+        time.sleep(_MIN_SECONDS_BETWEEN_TITLECOUNTRIES - dt)
+
+    # stronger retries for strict mode (recent list)
+    retries = 6 if strict else 2
+    timeout = 18 if strict else 12
+
     res = _get_json(
-        f"https://{UNOGS_HOST}/titlecountries",
+        UNOGS_TITLECOUNTRIES_URL,
         headers={"X-RapidAPI-Key": UNOGS_API_KEY, "X-RapidAPI-Host": UNOGS_HOST},
         params={"netflixid": nfid},
-        timeout=10,
-        retries=2,
+        retries=retries,
+        timeout=timeout,
+        backoff_base=2.0,
     )
+    _last_titlecountries_call_ts = time.time()
+
     if res is None:
+        cache[key] = {"be": None, "ts": now.isoformat()}
         return None
 
     results = res.get("results") or res.get("RESULTS") or res.get("Countries") or []
-    if not isinstance(results, list):
-        results = []
-
     in_be = False
-    for c in results:
-        if not isinstance(c, dict):
-            continue
-        cid = c.get("id") or c.get("countryid") or c.get("country_id")
-        cc  = c.get("cc") or c.get("countrycode") or c.get("country_code")
-        if (cid is not None and str(cid) == str(BE_ID)) or (cc and str(cc).upper() == "BE"):
-            in_be = True
-            break
+    if isinstance(results, list):
+        for c in results:
+            if not isinstance(c, dict):
+                continue
+            cid = c.get("id") or c.get("countryid") or c.get("country_id")
+            cc = c.get("cc") or c.get("countrycode") or c.get("country_code")
+            if (cid is not None and str(cid) == str(BE_ID)) or (cc is not None and str(cc).upper() == "BE"):
+                in_be = True
+                break
 
     cache[key] = {"be": in_be, "ts": now.isoformat()}
     return in_be
 
 
-# =========================
-# IMDb (OMDb) – golden path
-# =========================
+# -----------------------------
+# IMDb rating: OMDb (gold) + TMDb external ids (fallback)
+# -----------------------------
 def get_imdb_from_omdb(imdb_id: str, cache: dict) -> Optional[float]:
     if not (OMDB_API_KEY and imdb_id):
         return None
-
     key = f"imdb:{imdb_id}"
     now = datetime.datetime.now(datetime.timezone.utc)
 
     if key in cache:
         try:
             ts = datetime.datetime.fromisoformat(cache[key].get("ts", ""))
-            cached = cache[key].get("imdb", None)
-            ttl = IMDB_TTL_DAYS if cached is not None else IMDB_TTL_NONE_DAYS
-            if (now - ts).days < ttl:
-                return cached
+            if (now - ts).days < IMDB_TTL_DAYS:
+                return cache[key].get("imdb")
         except Exception:
             pass
 
-    om = _get_json("https://www.omdbapi.com/", params={"i": imdb_id, "apikey": OMDB_API_KEY}, timeout=10, retries=2)
+    om = _get_json("https://www.omdbapi.com/", params={"i": imdb_id, "apikey": OMDB_API_KEY}, retries=2, timeout=12)
     imdb = _parse_rating((om or {}).get("imdbRating"))
-
     cache[key] = {"imdb": imdb, "ts": now.isoformat()}
     return imdb
 
-
-def tmdb_to_imdb_id(tmdb_id: str, vtype: str) -> Optional[str]:
+def get_imdb_via_tmdb(tmdb_id: str, vtype: str, cache: dict) -> Optional[float]:
     if not (TMDB_API_KEY and tmdb_id):
         return None
     cat = "tv" if vtype == "series" else "movie"
-    ext = _get_json(
-        f"https://api.themoviedb.org/3/{cat}/{tmdb_id}/external_ids",
-        params={"api_key": TMDB_API_KEY},
-        timeout=10,
-        retries=2,
-    )
+    ext = _get_json(f"https://api.themoviedb.org/3/{cat}/{tmdb_id}/external_ids", params={"api_key": TMDB_API_KEY}, retries=2, timeout=12)
     imdb_id = (ext or {}).get("imdb_id")
-    return imdb_id if imdb_id else None
+    return get_imdb_from_omdb(str(imdb_id), cache) if imdb_id else None
 
 
-# =========================
-# FETCH CANDIDATES (uNoGS)
-# =========================
+# -----------------------------
+# uNoGS fetch
+# -----------------------------
 def fetch_candidates() -> List[Dict[str, Any]]:
+    if not UNOGS_API_KEY:
+        print("❌ UNOGS_API_KEY ontbreekt.")
+        return []
+
     items: List[Dict[str, Any]] = []
     headers = {"X-RapidAPI-Key": UNOGS_API_KEY, "X-RapidAPI-Host": UNOGS_HOST}
 
@@ -351,25 +324,23 @@ def fetch_candidates() -> List[Dict[str, Any]]:
                 UNOGS_URL,
                 headers=headers,
                 params={"type": t, "countrylist": str(BE_ID), "offset": offset, "limit": 100},
-                timeout=30,
                 retries=2,
+                timeout=30,
+                backoff_base=1.8,
             )
             if not j:
                 break
 
             batch = j.get("results") or j.get("RESULTS") or []
-            if not isinstance(batch, list) or not batch:
+            if not batch:
                 break
 
             for x in batch:
-                if not isinstance(x, dict):
-                    continue
-                vtype = _norm_type(x.get("vtype") or t)
                 items.append(
                     {
                         "nfid": x.get("nfid"),
                         "title": _pick_title(x, "title", "name", "t"),
-                        "vtype": vtype,  # movie|series|unknown
+                        "vtype": _norm_type(x.get("vtype") or t),
                         "raw_imdb": x.get("imdb_rating") or x.get("rating_imdb") or x.get("imdbrating"),
                         "imdb_id": x.get("imdbid") or x.get("imdb_id"),
                         "imdb_votes": _parse_int(x.get("imdbvotes") or x.get("imdb_votes")),
@@ -382,14 +353,142 @@ def fetch_candidates() -> List[Dict[str, Any]]:
             if len(batch) < 100:
                 break
             offset += 100
-            time.sleep(0.35)  # throttle to reduce 429
+            time.sleep(0.2)
 
     return items
 
 
-# =========================
-# MAIN
-# =========================
+# -----------------------------
+# Normalization + rating selection
+# -----------------------------
+def build_scored_list(
+    candidates: List[Dict[str, Any]],
+    manual_nfid: Dict[int, dict],
+    manual_key: Dict[Tuple[str, str], dict],
+    imdb_cache: dict,
+) -> Tuple[List[dict], dict]:
+    """
+    Returns (scored_items, dropped_stats).
+    scored_items contains (nfid,title,type,vtype,releaseDate,dateAdded,rating,...)
+    """
+    dropped = {
+        "bad_nfid": 0,
+        "duplicate_nfid": 0,
+        "excluded_manual": 0,
+        "unknown_type": 0,
+        "no_rating": 0,
+        "below_threshold": 0,
+        "unogs_placeholder_10": 0,
+    }
+
+    seen: set[int] = set()
+    out: List[dict] = []
+
+    for it in candidates:
+        nfid_raw = it.get("nfid")
+        try:
+            nfid = int(nfid_raw)
+        except Exception:
+            dropped["bad_nfid"] += 1
+            continue
+
+        if nfid in seen:
+            dropped["duplicate_nfid"] += 1
+            continue
+        seen.add(nfid)
+
+        title = it.get("title") or "Onbekend"
+        vtype = it.get("vtype") or "unknown"
+
+        # Manual override lookup
+        ov = manual_nfid.get(nfid) or manual_key.get((_norm_title(title), vtype))
+        if ov and ov.get("exclude"):
+            dropped["excluded_manual"] += 1
+            continue
+
+        if ov and ov.get("type"):
+            vtype = _norm_type(ov.get("type"))
+
+        if vtype not in ("movie", "series"):
+            dropped["unknown_type"] += 1
+            continue
+
+        ignore_thresholds = bool(ov and (ov.get("ignoreThresholds") or ov.get("forceInclude")))
+
+        release_year = it.get("releaseYear") or ""
+        if ov and ov.get("releaseYear"):
+            release_year = str(ov.get("releaseYear"))[:4]
+        elif ov and ov.get("releaseDate"):
+            release_year = str(ov.get("releaseDate"))[:4]
+
+        added_date = _parse_date(it.get("ndate"))
+
+        # Rating selection (priority)
+        rating: Optional[float] = None
+        source: Optional[str] = None
+
+        # 1) manual imdbRating
+        if ov and ov.get("imdbRating") not in (None, "", "no score", "N/A"):
+            rating = _parse_rating(ov.get("imdbRating"))
+            source = "manual"
+
+        # 2) OMDb by imdb_id from uNoGS (if present)
+        if rating is None and it.get("imdb_id"):
+            rating = get_imdb_from_omdb(str(it.get("imdb_id")), imdb_cache)
+            if rating is not None:
+                source = "imdb"
+
+        # 3) OMDb via TMDb external ids (if no imdb_id)
+        if rating is None and it.get("tmdb_id"):
+            rating = get_imdb_via_tmdb(str(it.get("tmdb_id")), vtype, imdb_cache)
+            if rating is not None:
+                source = "imdb"
+
+        # 4) uNoGS "imdb" field as last resort, with sanity for 10.0 placeholders
+        unogs_rating = _parse_rating(it.get("raw_imdb"))
+        if rating is None and unogs_rating is not None:
+            votes = it.get("imdb_votes") or 0
+            if unogs_rating >= 9.9 and votes < 5000:
+                dropped["unogs_placeholder_10"] += 1
+            else:
+                rating = unogs_rating
+                source = "unogs_imdb"
+
+        # Thresholds (apply after enrichment)
+        if not ignore_thresholds:
+            if rating is None:
+                dropped["no_rating"] += 1
+                continue
+            if source in ("imdb", "unogs_imdb", "manual") and rating < IMDB_MIN:
+                dropped["below_threshold"] += 1
+                continue
+            if source == "tmdb" and rating < TMDB_MIN:
+                dropped["below_threshold"] += 1
+                continue
+
+        out.append(
+            {
+                "nfid": nfid,
+                "title": title,
+                "vtype": vtype,  # internal
+                "type": "Series" if vtype == "series" else "Film",  # for frontend
+                "releaseDate": release_year,
+                "dateAdded": added_date.isoformat() if added_date else None,
+                "rating": rating,         # for frontend (compat)
+                "imdbRating": rating,     # explicit
+                "ratingSource": source,
+                "ignoreThresholds": ignore_thresholds,
+                "tmdb_id": it.get("tmdb_id"),
+                "imdb_id": it.get("imdb_id"),
+            }
+        )
+
+    return out, dropped
+
+
+# -----------------------------
+# Main
+# -----------------------------
 def main() -> None:
     if not UNOGS_API_KEY:
         print("❌ UNOGS_API_KEY ontbreekt. Abort.")
@@ -402,172 +501,74 @@ def main() -> None:
     candidates = fetch_candidates()
     print(f"📡 uNoGS candidates: {len(candidates)}")
 
-    cutoff = datetime.datetime.now(datetime.timezone.utc).date() - datetime.timedelta(days=DAYS_RECENT)
+    scored, dropped = build_scored_list(candidates, manual_nfid, manual_key, imdb_cache)
 
-    final_list: List[dict] = []
-    seen_nfids = set()
+    # Partition: recent first (prevents rate-limit issues making "recent" empty)
+    today_utc = datetime.datetime.now(datetime.timezone.utc).date()
+    cutoff = today_utc - datetime.timedelta(days=DAYS_RECENT)
 
-    # Stats
-    dropped = {
-        "bad_nfid": 0,
-        "duplicate_nfid": 0,
-        "excluded_manual": 0,
-        "unknown_type": 0,
-        "no_rating": 0,
-        "below_threshold": 0,
-        "availability_not_true": 0,
+    def _is_recent(item: dict) -> bool:
+        try:
+            return bool(item.get("dateAdded") and datetime.date.fromisoformat(item["dateAdded"]) >= cutoff)
+        except Exception:
+            return False
+
+    recent_items = [x for x in scored if _is_recent(x)]
+    other_items  = [x for x in scored if not _is_recent(x)]
+
+    stats = {
+        "availability_false_recent": 0,
+        "availability_unknown_recent": 0,
         "availability_false_full": 0,
-        "availability_unknown_strict": 0,
+        "availability_unknown_full": 0,
     }
 
-    for it in candidates:
-        # nfid
-        nfid_raw = it.get("nfid")
-        if not (nfid_raw and str(nfid_raw).isdigit()):
-            dropped["bad_nfid"] += 1
+    final_list: List[dict] = []
+
+    # 1) Validate recent items strictly (network allowed)
+    for it in recent_items:
+        be = verify_belgium_availability(it["nfid"], avail_cache, allow_network=True, strict=True)
+        it["availableBE"] = be
+        if be is False:
+            stats["availability_false_recent"] += 1
             continue
-        nfid = int(nfid_raw)
+        if be is None:
+            stats["availability_unknown_recent"] += 1
+        final_list.append(it)
 
-        if nfid in seen_nfids:
-            dropped["duplicate_nfid"] += 1
+    # 2) For older items: avoid hammering API.
+    #    - If cached False: drop
+    #    - Else: keep (cached True/None)
+    for it in other_items:
+        be = verify_belgium_availability(it["nfid"], avail_cache, allow_network=False, strict=False)
+        it["availableBE"] = be
+        if be is False:
+            stats["availability_false_full"] += 1
             continue
-        seen_nfids.add(nfid)
-
-        # manual override lookup
-        ov = manual_nfid.get(nfid) or manual_key.get((_norm_title(it.get("title")), it.get("vtype")))
-        if ov and ov.get("exclude"):
-            dropped["excluded_manual"] += 1
-            continue
-
-        # type (manual can override)
-        vtype = _norm_type(ov.get("type")) if (ov and ov.get("type")) else _norm_type(it.get("vtype"))
-        if vtype == "unknown":
-            dropped["unknown_type"] += 1
-            continue
-
-        # dates
-        added_date = _parse_date(it.get("ndate"))
-        is_recent = bool(added_date and added_date >= cutoff)
-
-        # ignore thresholds?
-        ignore_thresholds = bool(ov and (ov.get("ignoreThresholds") or ov.get("forceInclude")))
-
-        # release year override
-        release_year = it.get("releaseYear") or ""
-        if ov:
-            if ov.get("releaseYear"):
-                release_year = str(ov.get("releaseYear"))[:4]
-            elif ov.get("releaseDate"):
-                release_year = str(ov.get("releaseDate"))[:4]
-
-        # -------------------------
-        # RATING LOGIC (priority)
-        # -------------------------
-        rating: Optional[float] = None
-        source: Optional[str] = None
-
-        # 1) manual imdbRating
-        if ov and ov.get("imdbRating") is not None:
-            mr = _parse_rating(ov.get("imdbRating"))
-            if mr is not None:
-                rating, source = mr, "manual"
-
-        # 2) direct imdb_id -> OMDb
-        if rating is None and it.get("imdb_id"):
-            tmp = get_imdb_from_omdb(str(it.get("imdb_id")), imdb_cache)
-            if tmp is not None:
-                rating, source = tmp, "imdb"
-
-        # 3) TMDb -> imdb_id -> OMDb
-        if rating is None and it.get("tmdb_id") and TMDB_API_KEY and OMDB_API_KEY:
-            imdb_id = tmdb_to_imdb_id(str(it.get("tmdb_id")), vtype)
-            if imdb_id:
-                tmp = get_imdb_from_omdb(imdb_id, imdb_cache)
-                if tmp is not None:
-                    rating, source = tmp, "imdb"
-
-        # 4) uNoGS imdb_rating (last resort) with sanity checks
-        unogs_rating = _parse_rating(it.get("raw_imdb"))
-        if rating is None and unogs_rating is not None:
-            votes = it.get("imdb_votes") or 0
-            # drop "10.0" placeholders unless votes are meaningful
-            if unogs_rating >= 9.9 and votes < DROP_UNOGS_99PLUS_UNDER_VOTES:
-                rating, source = None, None
-            else:
-                rating, source = unogs_rating, "unogs_imdb"
-
-        # thresholds (post enrichment)
-        if not ignore_thresholds:
-            if rating is None:
-                dropped["no_rating"] += 1
-                continue
-            if rating < IMDB_MIN:
-                dropped["below_threshold"] += 1
-                continue
-
-        # -------------------------
-        # AVAILABILITY CHECK (BE)
-        # -------------------------
-        be = verify_belgium_availability(nfid, avail_cache)
-
-        if is_recent:
-            # strict recent
-            if STRICT_AVAILABILITY_RECENT:
-                if be is not True:
-                    dropped["availability_not_true"] += 1
-                    continue
-            else:
-                if be is False:
-                    dropped["availability_not_true"] += 1
-                    continue
-        else:
-            # full list strictness
-            if STRICT_AVAILABILITY_FULL:
-                if be is not True:
-                    # unknown or false => skip (prevents “not in BE anymore” from leaking)
-                    dropped["availability_unknown_strict"] += 1
-                    continue
-            else:
-                if be is False:
-                    dropped["availability_false_full"] += 1
-                    continue
-
-        # output item
-        final_list.append(
-            {
-                "nfid": nfid,
-                "title": it.get("title"),
-                "type": "Series" if vtype == "series" else "Film",
-                "vtype": vtype,
-                "imdbRating": rating,
-                "ratingSource": source,
-                "releaseDate": release_year,
-                "dateAdded": added_date.isoformat() if added_date else None,
-                # debug/support fields (optional but useful)
-                "tmdb_id": it.get("tmdb_id"),
-                "imdb_id": it.get("imdb_id"),
-                "unogsImdbRating": unogs_rating,
-                "imdbVotes": it.get("imdb_votes"),
-                "availableBE": True,
-                "manual": bool(ov),
-            }
-        )
-
-    # Save outputs
-    OUT_FULL.write_text(json.dumps(final_list, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    recent = [
-        x for x in final_list
-        if x.get("dateAdded") and datetime.date.fromisoformat(x["dateAdded"]) >= cutoff
-    ]
-    OUT_RECENT.write_text(json.dumps(recent, ensure_ascii=False, indent=2), encoding="utf-8")
+        if be is None:
+            stats["availability_unknown_full"] += 1
+        final_list.append(it)
 
     # Save caches
     _save_cache(AVAIL_CACHE, avail_cache, max_days=180)
     _save_cache(IMDB_CACHE, imdb_cache, max_days=365)
 
-    print(f"✅ GEREED: {len(final_list)} totaal, {len(recent)} recent.")
-    print("📉 Dropped stats:", dropped)
+    # Output FULL
+    OUT_FULL.write_text(json.dumps(final_list, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Output RECENT:
+    # Prefer verified True, but if that becomes empty due to API hiccup,
+    # fall back to "not False" so the homepage doesn't go blank.
+    recent_verified = [x for x in final_list if _is_recent(x) and x.get("availableBE") is True]
+    if recent_verified:
+        recent_out = recent_verified
+    else:
+        recent_out = [x for x in final_list if _is_recent(x) and x.get("availableBE") is not False]
+
+    OUT_RECENT.write_text(json.dumps(recent_out, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    print(f"✅ GEREED: {len(final_list)} totaal, {len(recent_out)} recent.")
+    print(f"📉 Dropped stats: {dict(dropped, **stats)}")
 
 
 if __name__ == "__main__":
