@@ -4,710 +4,531 @@
     "title": "Champion",
     "type": "Film",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81920590,
     "title": "Kaantha",
     "type": "Film",
     "imdbRating": 8.5,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82058494,
     "title": "All the Empty Rooms",
     "type": "Film",
     "imdbRating": 9.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
+  },
+  {
+    "nfid": 81782075,
+    "title": "Bison Kaalamaadan",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "ratingSource": "imdb",
+    "releaseDate": "2025",
+    "dateAdded": null
   },
   {
     "nfid": 81507921,
     "title": "Frankenstein",
     "type": "Film",
     "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82171953,
     "title": "Humans in the loop",
     "type": "Film",
     "imdbRating": 8.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
+  },
+  {
+    "nfid": 82137606,
+    "title": "Ejen Ali: The Movie 2",
+    "type": "Film",
+    "imdbRating": 7.7,
+    "ratingSource": "imdb",
+    "releaseDate": "2025",
+    "dateAdded": null
   },
   {
     "nfid": 81742901,
     "title": "Millionaire",
     "type": "Film",
     "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 83078004,
     "title": "Lovesick",
     "type": "Film",
     "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81498621,
-    "title": "KPop Demon Hunters",
-    "type": "Film",
-    "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 82024663,
-    "title": "Saiyaara",
-    "type": "Film",
-    "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 82051007,
-    "title": "Rumah Untuk Alie",
-    "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81678097,
     "title": "Kingdom",
     "type": "Film",
     "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 83072495,
     "title": "Thammudu",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
-    "nfid": 81902059,
-    "title": "Retro",
+    "nfid": 82006530,
+    "title": "The Quilters",
     "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "imdbRating": 8.0,
+    "ratingSource": "imdb",
+    "releaseDate": "2024",
+    "dateAdded": null
   },
   {
     "nfid": 81946513,
     "title": "The Diplomat",
     "type": "Film",
     "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81177638,
     "title": "The Rose of Versailles",
     "type": "Film",
     "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81902061,
-    "title": "Chhaava",
-    "type": "Film",
-    "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81744811,
     "title": "The Wrong Track",
     "type": "Film",
     "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81755764,
     "title": "Home Sweet Loan",
     "type": "Film",
     "imdbRating": 8.4,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81981328,
-    "title": "The Paradise of Thorns",
-    "type": "Film",
-    "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81351936,
     "title": "Wallace & Gromit: Vengeance Most Fowl",
     "type": "Film",
     "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80065328,
     "title": "Bajrangi Bhaijaan",
     "type": "Film",
     "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81936472,
     "title": "Julia's Stepping Stones",
     "type": "Film",
     "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81946538,
     "title": "Hayao Miyazaki and the Heron",
     "type": "Film",
-    "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.8,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81602836,
     "title": "Dune: Part Two",
     "type": "Film",
-    "imdbRating": 8.5,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.4,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81309564,
-    "title": "That Christmas",
-    "type": "Film",
-    "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81902035,
     "title": "Lucky Baskhar",
     "type": "Film",
-    "imdbRating": 8.4,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.0,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81498404,
     "title": "Our Little Secret",
     "type": "Film",
     "imdbRating": 9.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81724382,
     "title": "Whispers in the Wind",
     "type": "Film",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
-    "nfid": 81953481,
-    "title": "Bagheera",
+    "nfid": 81930855,
+    "title": "Olivia Rodrigo: GUTS World Tour",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81901875,
-    "title": "Un/Happy For You",
-    "type": "Film",
-    "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81713677,
     "title": "Meiyazhagan",
     "type": "Film",
-    "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.4,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81759420,
     "title": "The Remarkable Life of Ibelin",
     "type": "Film",
-    "imdbRating": 8.5,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.2,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
+  },
+  {
+    "nfid": 81947352,
+    "title": "One Piece Fan Letter",
+    "type": "Film",
+    "imdbRating": 9.2,
+    "ratingSource": "imdb",
+    "releaseDate": "2024",
+    "dateAdded": null
   },
   {
     "nfid": 81687658,
     "title": "The Color Purple",
     "type": "Film",
     "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81765098,
-    "title": "That Kind of Love",
-    "type": "Film",
-    "imdbRating": 9.7,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81923316,
     "title": "Padu",
     "type": "Film",
     "imdbRating": 8.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81769841,
     "title": "CTRL",
     "type": "Film",
     "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81786970,
     "title": "How To Make Millions Before Grandma Dies",
     "type": "Film",
-    "imdbRating": 8.4,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.9,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81674131,
     "title": "Nice Girls",
     "type": "Film",
     "imdbRating": 9.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81690671,
     "title": "Maharaja",
     "type": "Film",
-    "imdbRating": 8.6,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.3,
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81382266,
-    "title": "Bhaje Vaayu Vegam",
-    "type": "Film",
-    "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81767635,
     "title": "Godzilla Minus One",
     "type": "Film",
-    "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.7,
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81726698,
     "title": "Golden Kamuy",
     "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.0,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81416254,
     "title": "Power",
     "type": "Film",
     "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81640439,
     "title": "Down the Rabbit Hole",
     "type": "Film",
     "imdbRating": 8.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81760391,
     "title": "Laapataa Ladies",
     "type": "Film",
     "imdbRating": 8.4,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81773534,
     "title": "Article 370",
     "type": "Film",
-    "imdbRating": 8.7,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.8,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81615968,
-    "title": "All India Rank",
-    "type": "Film",
-    "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81654966,
     "title": "The Wages of Fear",
     "type": "Film",
-    "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.1,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81711308,
     "title": "Por",
     "type": "Film",
     "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
+  },
+  {
+    "nfid": 81704426,
+    "title": "Falling In Love Like In Movies",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "ratingSource": "imdb",
+    "releaseDate": "2023",
+    "dateAdded": null
   },
   {
     "nfid": 81564866,
     "title": "Rest In Peace",
     "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.0,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81687839,
     "title": "Rewind",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
-    "nfid": 81745955,
-    "title": "Not Friends",
+    "nfid": 81733653,
+    "title": "Andragogy",
     "type": "Film",
-    "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.0,
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81607199,
     "title": "Hannah Gadsby's Gender Agenda",
     "type": "Film",
     "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81507172,
     "title": "Chappelle's Home Team - Donnell Rawlings: A New Day",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81681502,
     "title": "La Luna",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81637260,
-    "title": "Guntur Kaaram",
-    "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70031975,
     "title": "Black",
     "type": "Film",
     "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
+  },
+  {
+    "nfid": 81720500,
+    "title": "The Greatest Night in Pop",
+    "type": "Film",
+    "imdbRating": 7.9,
+    "ratingSource": "imdb",
+    "releaseDate": "2024",
+    "dateAdded": null
   },
   {
     "nfid": 81268316,
     "title": "Society of the Snow",
     "type": "Film",
-    "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.8,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81714296,
     "title": "Horizon",
     "type": "Film",
-    "imdbRating": 8.6,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.5,
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81682028,
     "title": "Hi Nanna",
     "type": "Film",
-    "imdbRating": 8.4,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81730353,
-    "title": "Three of Us",
-    "type": "Film",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81572876,
-    "title": "Sajini Shinde Ka Viral Video",
-    "type": "Film",
-    "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81171868,
     "title": "Maestro",
     "type": "Film",
-    "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.1,
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81314956,
     "title": "Leave the World Behind",
     "type": "Film",
     "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81728930,
-    "title": "American Symphony",
-    "type": "Film",
-    "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81514143,
-    "title": "Sukhee",
-    "type": "Film",
-    "imdbRating": 8.3,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80234448,
     "title": "The Killer",
     "type": "Film",
-    "imdbRating": 7.8,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 7.7,
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81509437,
     "title": "Forever",
     "type": "Film",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81722145,
-    "title": "OMG 2",
-    "type": "Film",
-    "imdbRating": 8.1,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81721164,
-    "title": "RDX",
-    "type": "Film",
-    "imdbRating": 8.0,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81247686,
     "title": "Face Off",
     "type": "Film",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81680624,
@@ -716,8 +537,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81678777,
@@ -726,8 +546,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81486213,
@@ -736,8 +555,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81265958,
@@ -746,8 +564,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81504461,
@@ -756,8 +573,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81684729,
@@ -766,8 +582,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81663111,
@@ -776,8 +591,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81576814,
@@ -786,8 +600,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81671561,
@@ -796,8 +609,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81660233,
@@ -806,8 +618,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81554104,
@@ -816,8 +627,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81514149,
@@ -826,8 +636,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81623713,
@@ -836,8 +645,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81640438,
@@ -846,8 +654,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81458416,
@@ -856,8 +663,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81437809,
@@ -866,8 +672,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81344253,
@@ -876,8 +681,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81642992,
@@ -886,8 +690,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81509545,
@@ -896,8 +699,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81220825,
@@ -906,8 +708,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81260280,
@@ -916,8 +717,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81605073,
@@ -926,8 +726,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81632917,
@@ -936,8 +735,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81628642,
@@ -946,18 +744,16 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81504388,
     "title": "Togo",
     "type": "Film",
     "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81351145,
@@ -966,8 +762,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81406123,
@@ -976,8 +771,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81426667,
@@ -986,8 +780,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81436989,
@@ -996,8 +789,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81437105,
@@ -1006,8 +798,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81259570,
@@ -1016,8 +807,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81599888,
@@ -1026,8 +816,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81351700,
@@ -1036,8 +825,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81307119,
@@ -1046,8 +834,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81571934,
@@ -1056,8 +843,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81477034,
@@ -1066,8 +852,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81416513,
@@ -1076,8 +861,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81586492,
@@ -1086,8 +870,7 @@
     "imdbRating": 9.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81508242,
@@ -1096,8 +879,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81497886,
@@ -1106,8 +888,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81413645,
@@ -1116,8 +897,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80202902,
@@ -1126,8 +906,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81070890,
@@ -1136,8 +915,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81517242,
@@ -1146,8 +924,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81450071,
@@ -1156,8 +933,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80240798,
@@ -1166,8 +942,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81451264,
@@ -1176,8 +951,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81497301,
@@ -1186,8 +960,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81504944,
@@ -1195,9 +968,8 @@
     "type": "Film",
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
-    "releaseDate": null,
-    "dateAdded": null,
-    "availableBE": true
+    "releaseDate": "",
+    "dateAdded": null
   },
   {
     "nfid": 81473277,
@@ -1206,8 +978,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81397545,
@@ -1216,8 +987,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81092222,
@@ -1226,8 +996,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81399614,
@@ -1236,8 +1005,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81427455,
@@ -1246,8 +1014,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81438157,
@@ -1256,8 +1023,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81415286,
@@ -1266,8 +1032,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81260647,
@@ -1276,8 +1041,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81361117,
@@ -1286,8 +1050,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81351501,
@@ -1296,8 +1059,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81312527,
@@ -1306,8 +1068,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81354555,
@@ -1316,8 +1077,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80994666,
@@ -1326,8 +1086,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81277553,
@@ -1336,8 +1095,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81046378,
@@ -1346,8 +1104,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81310261,
@@ -1356,8 +1113,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81002196,
@@ -1366,8 +1122,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80216393,
@@ -1376,8 +1131,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81050943,
@@ -1386,8 +1140,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81029777,
@@ -1396,8 +1149,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81254224,
@@ -1406,8 +1158,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81122408,
@@ -1416,8 +1167,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81258641,
@@ -1426,8 +1176,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81034185,
@@ -1436,8 +1185,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80200573,
@@ -1446,8 +1194,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 235527,
@@ -1456,8 +1203,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1990",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80036398,
@@ -1466,8 +1212,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70045021,
@@ -1476,8 +1221,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1995",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60027393,
@@ -1486,8 +1230,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1986",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81168505,
@@ -1496,8 +1239,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81168282,
@@ -1506,8 +1248,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80223779,
@@ -1516,8 +1257,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80175798,
@@ -1526,8 +1266,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80186796,
@@ -1536,8 +1275,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80214706,
@@ -1546,8 +1284,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81112446,
@@ -1556,8 +1293,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81082125,
@@ -1566,8 +1302,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80994020,
@@ -1576,8 +1311,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80173485,
@@ -1586,8 +1320,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81110498,
@@ -1596,8 +1329,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60024788,
@@ -1606,8 +1338,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1997",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81046255,
@@ -1616,8 +1347,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81059183,
@@ -1626,8 +1356,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70044604,
@@ -1636,8 +1365,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2006",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80109551,
@@ -1646,8 +1374,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80240715,
@@ -1656,8 +1383,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80170862,
@@ -1666,8 +1392,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80244547,
@@ -1676,8 +1401,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80075823,
@@ -1686,8 +1410,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80126449,
@@ -1696,8 +1419,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80168188,
@@ -1706,8 +1428,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80166185,
@@ -1716,8 +1437,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80118002,
@@ -1726,8 +1446,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80163222,
@@ -1736,8 +1455,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117533,
@@ -1746,8 +1464,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80091741,
@@ -1756,8 +1473,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70241118,
@@ -1766,8 +1482,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80064516,
@@ -1776,8 +1491,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80075560,
@@ -1786,8 +1500,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80013552,
@@ -1796,8 +1509,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70293674,
@@ -1806,8 +1518,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60023642,
@@ -1816,8 +1527,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2001",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80043137,
@@ -1826,8 +1536,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80083594,
@@ -1836,8 +1545,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80044545,
@@ -1846,8 +1554,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80031666,
@@ -1856,8 +1563,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80033772,
@@ -1866,8 +1572,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80000643,
@@ -1876,8 +1581,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 319022,
@@ -1886,8 +1590,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1986",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70024184,
@@ -1896,8 +1599,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70077853,
@@ -1906,8 +1608,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60036747,
@@ -1916,8 +1617,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1995",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 20704518,
@@ -1926,8 +1626,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1993",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 14546747,
@@ -1936,8 +1635,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1991",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70079583,
@@ -1946,8 +1644,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70021642,
@@ -1956,8 +1653,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60011152,
@@ -1966,8 +1662,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1972",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60024942,
@@ -1976,8 +1671,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2002",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60010110,
@@ -1986,8 +1680,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1985",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60022985,
@@ -1996,8 +1689,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2002",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70058031,
@@ -2006,8 +1698,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60036239,
@@ -2016,8 +1707,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60011663,
@@ -2026,8 +1716,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1974",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70143440,
@@ -2036,8 +1725,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 1032625,
@@ -2046,8 +1734,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1984",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 60003388,
@@ -2056,8 +1743,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2000",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70299904,
@@ -2066,8 +1752,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80009431,
@@ -2076,8 +1761,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70304189,
@@ -2086,8 +1770,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 493387,
@@ -2096,8 +1779,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1996",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70241340,
@@ -2106,8 +1788,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70101375,
@@ -2116,8 +1797,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81662954,
@@ -2126,8 +1806,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2026",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82640238,
@@ -2136,8 +1815,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82191481,
@@ -2146,8 +1824,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70180085,
@@ -2156,8 +1833,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 83075543,
@@ -2166,8 +1842,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80240068,
@@ -2176,8 +1851,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81720673,
@@ -2186,8 +1860,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82132185,
@@ -2196,8 +1869,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81606699,
@@ -2206,8 +1878,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81725526,
@@ -2216,8 +1887,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82095676,
@@ -2226,8 +1896,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095702,
@@ -2236,18 +1905,16 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81418639,
     "title": "FOREVER",
     "type": "Series",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82036243,
@@ -2256,8 +1923,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81742615,
@@ -2266,8 +1932,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81756069,
@@ -2276,8 +1941,7 @@
     "imdbRating": 8.4,
     "ratingSource": "manual",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81559259,
@@ -2286,8 +1950,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81392676,
@@ -2296,8 +1959,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 82007212,
@@ -2306,8 +1968,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80194771,
@@ -2316,8 +1977,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2000",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81696955,
@@ -2326,8 +1986,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81618034,
@@ -2336,8 +1995,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2025",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80031533,
@@ -2346,8 +2004,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81978389,
@@ -2356,8 +2013,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2002",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81929629,
@@ -2366,8 +2022,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81929883,
@@ -2376,8 +2031,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81947170,
@@ -2386,8 +2040,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1991",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81737580,
@@ -2396,8 +2049,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81922670,
@@ -2406,8 +2058,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2000",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81714766,
@@ -2416,8 +2067,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81068725,
@@ -2426,8 +2076,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81457258,
@@ -2436,8 +2085,7 @@
     "imdbRating": 9.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81937398,
@@ -2446,8 +2094,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81947184,
@@ -2456,8 +2103,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1997",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81936142,
@@ -2466,8 +2112,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81736884,
@@ -2476,8 +2121,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81781792,
@@ -2486,8 +2130,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81601351,
@@ -2496,8 +2139,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81687655,
@@ -2506,8 +2148,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81667161,
@@ -2516,8 +2157,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80997258,
@@ -2526,8 +2166,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81654427,
@@ -2536,8 +2175,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80197103,
@@ -2546,8 +2184,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81613903,
@@ -2556,8 +2193,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81788312,
@@ -2566,8 +2202,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81284301,
@@ -2576,8 +2211,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81594392,
@@ -2586,8 +2220,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81772321,
@@ -2596,8 +2229,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81761553,
@@ -2606,8 +2238,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81437051,
@@ -2616,8 +2247,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80237957,
@@ -2626,8 +2256,7 @@
     "imdbRating": 9.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81405070,
@@ -2636,8 +2265,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80238738,
@@ -2646,18 +2274,16 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81478663,
     "title": "Champion",
     "type": "Series",
     "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "ratingSource": "imdb",
     "releaseDate": "2024",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81465204,
@@ -2666,8 +2292,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81586657,
@@ -2676,8 +2301,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81713858,
@@ -2686,8 +2310,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81691739,
@@ -2696,8 +2319,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81252916,
@@ -2706,8 +2328,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81513233,
@@ -2716,8 +2337,7 @@
     "imdbRating": 9.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80217863,
@@ -2726,8 +2346,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81675379,
@@ -2736,8 +2355,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81596972,
@@ -2746,8 +2364,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81488912,
@@ -2756,8 +2373,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81233755,
@@ -2766,8 +2382,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81495803,
@@ -2776,8 +2391,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81682804,
@@ -2786,8 +2400,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1999",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81666165,
@@ -2796,8 +2409,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81480322,
@@ -2806,8 +2418,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81594904,
@@ -2816,8 +2427,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81663074,
@@ -2826,8 +2436,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81422314,
@@ -2836,8 +2445,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81410834,
@@ -2846,8 +2454,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81516751,
@@ -2856,8 +2463,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81116060,
@@ -2866,8 +2472,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2023",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81296695,
@@ -2876,8 +2481,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81642952,
@@ -2886,8 +2490,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2003",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81439256,
@@ -2896,8 +2499,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81296714,
@@ -2906,8 +2508,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80214497,
@@ -2916,8 +2517,7 @@
     "imdbRating": 9.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81258637,
@@ -2926,8 +2526,7 @@
     "imdbRating": 9.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81580687,
@@ -2936,8 +2535,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81104486,
@@ -2946,8 +2544,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81305674,
@@ -2956,8 +2553,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81186296,
@@ -2966,8 +2562,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81556894,
@@ -2976,8 +2571,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81342553,
@@ -2986,8 +2580,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81245457,
@@ -2996,8 +2589,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81415962,
@@ -3006,8 +2598,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81610895,
@@ -3016,8 +2607,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81341765,
@@ -3026,8 +2616,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81609084,
@@ -3036,8 +2625,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81587524,
@@ -3046,8 +2634,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81314938,
@@ -3056,8 +2643,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81123425,
@@ -3066,8 +2652,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81281864,
@@ -3076,8 +2661,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80177090,
@@ -3086,8 +2670,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81566868,
@@ -3096,8 +2679,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81520295,
@@ -3106,8 +2688,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81503460,
@@ -3116,8 +2697,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81275353,
@@ -3126,8 +2706,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81484461,
@@ -3136,8 +2715,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2022",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81556822,
@@ -3146,18 +2724,16 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81556755,
     "title": "Black & White",
     "type": "Series",
-    "imdbRating": 8.2,
-    "ratingSource": "unogs_imdb",
+    "imdbRating": 8.1,
+    "ratingSource": "imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81552562,
@@ -3166,8 +2742,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81520381,
@@ -3176,8 +2751,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80995819,
@@ -3186,8 +2760,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81011211,
@@ -3196,8 +2769,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81329721,
@@ -3206,8 +2778,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70153373,
@@ -3216,8 +2787,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1997",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81409812,
@@ -3226,8 +2796,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81249783,
@@ -3236,8 +2805,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80205626,
@@ -3246,8 +2814,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80219915,
@@ -3256,8 +2823,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80991848,
@@ -3266,8 +2832,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81183492,
@@ -3276,8 +2841,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81452916,
@@ -3286,8 +2850,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81354663,
@@ -3296,8 +2859,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81443941,
@@ -3306,8 +2868,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81450719,
@@ -3316,8 +2877,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80154285,
@@ -3326,8 +2886,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80176893,
@@ -3336,8 +2895,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81415945,
@@ -3346,8 +2904,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81357286,
@@ -3356,8 +2913,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80206099,
@@ -3366,8 +2922,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81239555,
@@ -3376,8 +2931,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81415947,
@@ -3386,8 +2940,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81277858,
@@ -3396,18 +2949,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81332264,
-    "title": "Blippi",
-    "type": "Series",
-    "imdbRating": 7.9,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80994082,
@@ -3416,8 +2958,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2021",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81249833,
@@ -3426,8 +2967,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81354739,
@@ -3436,8 +2976,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80221410,
@@ -3446,8 +2985,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81299264,
@@ -3456,8 +2994,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81009617,
@@ -3466,8 +3003,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81284341,
@@ -3476,8 +3012,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2006",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80234304,
@@ -3486,8 +3021,7 @@
     "imdbRating": 8.5,
     "ratingSource": "manual",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81343844,
@@ -3496,8 +3030,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81343862,
@@ -3506,8 +3039,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80990073,
@@ -3516,8 +3048,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80230534,
@@ -3526,8 +3057,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81002370,
@@ -3536,8 +3066,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80244296,
@@ -3546,18 +3075,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
-  },
-  {
-    "nfid": 81274961,
-    "title": "The Governor",
-    "type": "Series",
-    "imdbRating": 7.7,
-    "ratingSource": "unogs_imdb",
-    "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81265493,
@@ -3566,8 +3084,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81249660,
@@ -3576,8 +3093,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80223368,
@@ -3586,8 +3102,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80230601,
@@ -3596,8 +3111,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70302482,
@@ -3606,8 +3120,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81280732,
@@ -3616,8 +3129,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81280792,
@@ -3626,8 +3138,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81279126,
@@ -3636,8 +3147,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81166261,
@@ -3646,8 +3156,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81058498,
@@ -3656,8 +3165,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80201728,
@@ -3666,8 +3174,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81267691,
@@ -3676,8 +3183,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81220435,
@@ -3686,8 +3192,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81264882,
@@ -3696,8 +3201,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80179190,
@@ -3706,8 +3210,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81273378,
@@ -3716,8 +3219,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80203144,
@@ -3726,8 +3228,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81260283,
@@ -3736,8 +3237,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81054417,
@@ -3746,8 +3246,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81243994,
@@ -3756,8 +3255,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81019069,
@@ -3766,8 +3264,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81193152,
@@ -3776,8 +3273,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81239224,
@@ -3786,8 +3282,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80244781,
@@ -3796,8 +3291,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81243996,
@@ -3806,8 +3300,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81177545,
@@ -3816,8 +3309,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80221337,
@@ -3826,8 +3318,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81002576,
@@ -3836,8 +3327,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81193309,
@@ -3846,8 +3336,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80218938,
@@ -3856,8 +3345,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80990771,
@@ -3866,8 +3354,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80124041,
@@ -3876,8 +3363,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1999",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80991903,
@@ -3886,8 +3372,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81156880,
@@ -3895,9 +3380,8 @@
     "type": "Series",
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
-    "releaseDate": null,
-    "dateAdded": null,
-    "availableBE": true
+    "releaseDate": "",
+    "dateAdded": null
   },
   {
     "nfid": 80190519,
@@ -3906,8 +3390,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81225109,
@@ -3916,8 +3399,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81225012,
@@ -3926,8 +3408,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81039393,
@@ -3936,8 +3417,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80237347,
@@ -3946,8 +3426,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80201590,
@@ -3956,8 +3435,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117557,
@@ -3966,8 +3444,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2020",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81167119,
@@ -3976,8 +3453,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81054849,
@@ -3986,8 +3462,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80189685,
@@ -3996,8 +3471,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81031373,
@@ -4006,8 +3480,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81159258,
@@ -4016,8 +3489,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81083590,
@@ -4026,8 +3498,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80990849,
@@ -4036,8 +3507,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81211284,
@@ -4046,8 +3516,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81211166,
@@ -4056,8 +3525,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80244846,
@@ -4066,8 +3534,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81200229,
@@ -4076,8 +3543,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80057250,
@@ -4086,8 +3552,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80989924,
@@ -4096,8 +3561,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81142595,
@@ -4106,8 +3570,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81075744,
@@ -4116,8 +3579,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81142594,
@@ -4126,8 +3588,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81200228,
@@ -4136,8 +3597,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81038022,
@@ -4146,8 +3606,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80208910,
@@ -4156,8 +3615,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81054847,
@@ -4166,8 +3624,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80215730,
@@ -4176,8 +3633,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81161487,
@@ -4186,8 +3642,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80220715,
@@ -4196,8 +3651,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81095101,
@@ -4206,8 +3660,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81020518,
@@ -4216,8 +3669,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80184771,
@@ -4226,8 +3678,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81144925,
@@ -4236,8 +3687,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80153467,
@@ -4246,8 +3696,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80217669,
@@ -4256,8 +3705,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81098586,
@@ -4266,8 +3714,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81038696,
@@ -4276,8 +3723,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80148535,
@@ -4286,8 +3732,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80203254,
@@ -4296,8 +3741,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80189648,
@@ -4306,8 +3750,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80201543,
@@ -4316,8 +3759,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80063867,
@@ -4326,8 +3768,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80239462,
@@ -4336,8 +3777,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80992228,
@@ -4346,8 +3786,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81116487,
@@ -4356,8 +3795,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81046193,
@@ -4366,8 +3804,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81072109,
@@ -4376,8 +3813,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81093126,
@@ -4386,8 +3822,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81099996,
@@ -4396,8 +3831,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81093162,
@@ -4406,8 +3840,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81033445,
@@ -4416,8 +3849,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1995",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81070963,
@@ -4426,8 +3858,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81028317,
@@ -4436,8 +3867,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81028895,
@@ -4446,8 +3876,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188935,
@@ -4456,8 +3885,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80217946,
@@ -4466,8 +3894,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80200549,
@@ -4476,8 +3903,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80218448,
@@ -4486,8 +3912,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81094069,
@@ -4496,8 +3921,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81077065,
@@ -4506,8 +3930,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80225312,
@@ -4516,8 +3939,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80219707,
@@ -4526,8 +3948,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80244996,
@@ -4536,8 +3957,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80196883,
@@ -4546,8 +3966,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81091393,
@@ -4556,8 +3975,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80992137,
@@ -4566,8 +3984,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80049832,
@@ -4576,8 +3993,7 @@
     "imdbRating": 9.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80189632,
@@ -4586,8 +4002,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81076756,
@@ -4596,8 +4011,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80208298,
@@ -4606,8 +4020,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80174608,
@@ -4616,8 +4029,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80998491,
@@ -4626,8 +4038,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80204890,
@@ -4636,8 +4047,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81042328,
@@ -4646,8 +4056,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70215453,
@@ -4656,8 +4065,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80186863,
@@ -4666,8 +4074,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80211627,
@@ -4676,8 +4083,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81045349,
@@ -4686,8 +4092,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80991879,
@@ -4696,8 +4101,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80226612,
@@ -4706,8 +4110,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80167821,
@@ -4716,8 +4119,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81058649,
@@ -4726,8 +4128,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80218200,
@@ -4736,8 +4137,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80197526,
@@ -4746,8 +4146,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80243876,
@@ -4756,8 +4155,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1997",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80211991,
@@ -4766,8 +4164,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80238565,
@@ -4776,8 +4173,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80207046,
@@ -4786,8 +4182,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81019894,
@@ -4796,8 +4191,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2019",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80221207,
@@ -4806,8 +4200,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81002951,
@@ -4816,8 +4209,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80216094,
@@ -4826,8 +4218,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81030062,
@@ -4836,8 +4227,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80180600,
@@ -4846,8 +4236,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80201866,
@@ -4856,8 +4245,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80201680,
@@ -4866,8 +4254,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80191036,
@@ -4876,8 +4263,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81019520,
@@ -4886,8 +4272,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81029926,
@@ -4896,8 +4281,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81005091,
@@ -4906,8 +4290,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81022683,
@@ -4916,8 +4299,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80215086,
@@ -4926,8 +4308,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80039906,
@@ -4936,8 +4317,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80239931,
@@ -4946,8 +4326,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80039909,
@@ -4956,8 +4335,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80999060,
@@ -4966,8 +4344,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80235864,
@@ -4976,8 +4353,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80998960,
@@ -4986,8 +4362,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80998940,
@@ -4996,8 +4371,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80998959,
@@ -5006,8 +4380,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80189221,
@@ -5016,8 +4389,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81010662,
@@ -5026,8 +4398,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 81030044,
@@ -5036,8 +4407,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188662,
@@ -5046,8 +4416,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80115346,
@@ -5056,8 +4425,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80236253,
@@ -5066,8 +4434,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80212245,
@@ -5076,8 +4443,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80160935,
@@ -5086,8 +4452,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80177342,
@@ -5096,8 +4461,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80195811,
@@ -5106,8 +4470,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70245012,
@@ -5116,8 +4479,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188348,
@@ -5126,8 +4488,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80995578,
@@ -5136,8 +4497,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80233441,
@@ -5146,8 +4506,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188354,
@@ -5156,8 +4515,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80196931,
@@ -5166,8 +4524,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80996791,
@@ -5176,8 +4533,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80987077,
@@ -5186,8 +4542,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80198505,
@@ -5196,8 +4551,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80990935,
@@ -5206,8 +4560,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80191008,
@@ -5216,8 +4569,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80213803,
@@ -5226,8 +4578,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80120485,
@@ -5236,8 +4587,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80145240,
@@ -5246,8 +4596,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117809,
@@ -5256,8 +4605,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80156688,
@@ -5266,8 +4614,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80199128,
@@ -5276,8 +4623,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117555,
@@ -5286,8 +4632,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80170368,
@@ -5296,8 +4641,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80138915,
@@ -5306,8 +4650,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188351,
@@ -5316,8 +4659,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70278876,
@@ -5326,8 +4668,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80160037,
@@ -5336,8 +4677,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80097140,
@@ -5346,8 +4686,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80118100,
@@ -5356,8 +4695,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80209096,
@@ -5366,8 +4704,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80146601,
@@ -5376,8 +4713,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80182123,
@@ -5386,8 +4722,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2018",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80171362,
@@ -5396,8 +4731,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80175722,
@@ -5406,8 +4740,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70296735,
@@ -5416,8 +4749,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80188471,
@@ -5426,8 +4758,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80212301,
@@ -5436,8 +4767,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80193421,
@@ -5446,8 +4776,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2003",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80214405,
@@ -5456,8 +4785,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80161497,
@@ -5466,8 +4794,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80100172,
@@ -5476,8 +4803,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80214406,
@@ -5486,8 +4812,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80097141,
@@ -5496,8 +4821,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80175802,
@@ -5506,8 +4830,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80119411,
@@ -5516,8 +4839,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80114855,
@@ -5526,8 +4848,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80141270,
@@ -5536,8 +4857,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80195828,
@@ -5546,8 +4866,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117038,
@@ -5556,8 +4875,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80194792,
@@ -5566,8 +4884,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117545,
@@ -5576,8 +4893,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80113701,
@@ -5586,8 +4902,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80180182,
@@ -5596,8 +4911,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117540,
@@ -5606,8 +4920,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80092926,
@@ -5616,8 +4929,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117552,
@@ -5626,8 +4938,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095241,
@@ -5636,8 +4947,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80192098,
@@ -5646,8 +4956,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80114988,
@@ -5656,8 +4965,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80133042,
@@ -5666,8 +4974,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80187302,
@@ -5676,8 +4983,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80122179,
@@ -5686,8 +4992,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80136311,
@@ -5696,8 +5001,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80100929,
@@ -5706,8 +5010,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80179831,
@@ -5716,8 +5019,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117470,
@@ -5726,8 +5028,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80171965,
@@ -5736,8 +5037,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80169676,
@@ -5746,8 +5046,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80113090,
@@ -5756,8 +5055,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80132738,
@@ -5766,8 +5064,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80081170,
@@ -5776,8 +5073,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80117291,
@@ -5786,8 +5082,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80164216,
@@ -5796,8 +5091,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80057883,
@@ -5806,8 +5100,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095815,
@@ -5816,8 +5109,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80155793,
@@ -5826,8 +5118,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80050008,
@@ -5836,8 +5127,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80156387,
@@ -5846,8 +5136,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095532,
@@ -5856,8 +5145,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2017",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80075820,
@@ -5866,8 +5154,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80105699,
@@ -5876,8 +5163,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80133335,
@@ -5886,8 +5172,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80044950,
@@ -5896,8 +5181,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80119426,
@@ -5906,8 +5190,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80113612,
@@ -5916,8 +5199,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80141782,
@@ -5926,8 +5208,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80063153,
@@ -5936,8 +5217,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80109415,
@@ -5946,8 +5226,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80133187,
@@ -5956,8 +5235,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80025678,
@@ -5966,8 +5244,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80104434,
@@ -5976,8 +5253,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80108159,
@@ -5986,8 +5262,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80091742,
@@ -5996,8 +5271,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80057281,
@@ -6006,8 +5280,7 @@
     "imdbRating": 8.6,
     "ratingSource": "manual",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095626,
@@ -6016,8 +5289,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80014749,
@@ -6026,8 +5298,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70285581,
@@ -6036,8 +5307,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80095866,
@@ -6046,8 +5316,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80022456,
@@ -6056,8 +5325,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80026506,
@@ -6066,8 +5334,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80043576,
@@ -6076,8 +5343,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80081705,
@@ -6086,8 +5352,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80074249,
@@ -6096,8 +5361,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80028732,
@@ -6106,8 +5370,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80000770,
@@ -6116,8 +5379,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80001305,
@@ -6126,8 +5388,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1998",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80059465,
@@ -6136,8 +5397,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80027042,
@@ -6146,8 +5406,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80067942,
@@ -6156,8 +5415,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80044965,
@@ -6166,8 +5424,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80025172,
@@ -6176,8 +5433,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80030346,
@@ -6186,8 +5442,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80039394,
@@ -6196,8 +5451,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80035684,
@@ -6206,8 +5460,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80025744,
@@ -6216,8 +5469,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70236561,
@@ -6226,8 +5478,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70184207,
@@ -6236,8 +5487,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70303287,
@@ -6246,8 +5496,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70157304,
@@ -6256,8 +5505,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70155618,
@@ -6266,8 +5514,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2000",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80031790,
@@ -6276,8 +5523,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70205014,
@@ -6286,8 +5532,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2006",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80002479,
@@ -6296,8 +5541,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70264888,
@@ -6306,8 +5550,7 @@
     "imdbRating": 8.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70204981,
@@ -6316,8 +5559,7 @@
     "imdbRating": 9.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70136122,
@@ -6326,8 +5568,7 @@
     "imdbRating": 7.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70285368,
@@ -6336,8 +5577,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70281562,
@@ -6346,8 +5586,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70195800,
@@ -6356,8 +5595,7 @@
     "imdbRating": 8.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70136120,
@@ -6366,8 +5604,7 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70180387,
@@ -6376,8 +5613,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70136117,
@@ -6386,8 +5622,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2004",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70136123,
@@ -6396,8 +5631,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70213223,
@@ -6406,8 +5640,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70140403,
@@ -6416,8 +5649,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1999",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70140358,
@@ -6426,8 +5658,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2003",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80003196,
@@ -6436,8 +5667,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70301870,
@@ -6446,8 +5676,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80007945,
@@ -6456,8 +5685,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70205012,
@@ -6466,8 +5694,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2002",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80000603,
@@ -6476,8 +5703,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70215459,
@@ -6486,8 +5712,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80025601,
@@ -6496,8 +5721,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2016",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80017537,
@@ -6506,8 +5730,7 @@
     "imdbRating": 8.3,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80029197,
@@ -6516,8 +5739,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80031716,
@@ -6526,8 +5748,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70258489,
@@ -6536,8 +5757,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2012",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70205672,
@@ -6546,8 +5766,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70177057,
@@ -6556,8 +5775,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2010",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70143860,
@@ -6566,8 +5784,7 @@
     "imdbRating": 7.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70204970,
@@ -6576,8 +5793,7 @@
     "imdbRating": 9.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2006",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70136126,
@@ -6586,8 +5802,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2006",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80029647,
@@ -6596,8 +5811,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2007",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80025923,
@@ -6606,8 +5820,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70153385,
@@ -6616,8 +5829,7 @@
     "imdbRating": 8.4,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2001",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70300800,
@@ -6626,8 +5838,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70213130,
@@ -6636,8 +5847,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70242311,
@@ -6646,8 +5856,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80010655,
@@ -6656,8 +5865,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70155547,
@@ -6666,8 +5874,7 @@
     "imdbRating": 8.1,
     "ratingSource": "unogs_imdb",
     "releaseDate": "1999",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 80021955,
@@ -6676,8 +5883,7 @@
     "imdbRating": 8.7,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2015",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70215461,
@@ -6686,8 +5892,7 @@
     "imdbRating": 7.8,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70243420,
@@ -6696,8 +5901,7 @@
     "imdbRating": 8.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70171942,
@@ -6706,8 +5910,7 @@
     "imdbRating": 8.6,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2009",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70142405,
@@ -6716,8 +5919,7 @@
     "imdbRating": 9.2,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2005",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70281312,
@@ -6726,8 +5928,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2013",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70143836,
@@ -6736,8 +5937,7 @@
     "imdbRating": 9.5,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2008",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70305883,
@@ -6746,8 +5946,7 @@
     "imdbRating": 8.0,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2014",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   },
   {
     "nfid": 70300472,
@@ -6756,7 +5955,6 @@
     "imdbRating": 8.9,
     "ratingSource": "unogs_imdb",
     "releaseDate": "2011",
-    "dateAdded": null,
-    "availableBE": true
+    "dateAdded": null
   }
 ]
