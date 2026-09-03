@@ -123,6 +123,7 @@ def fetch_omdb_data(imdb_id, call_state):
         )
 
     api_key = require_omdb_key()
+    call_state["calls"] += 1
 
     response = requests.get(
         "https://www.omdbapi.com/",
@@ -133,7 +134,6 @@ def fetch_omdb_data(imdb_id, call_state):
         timeout=30,
     )
     response.raise_for_status()
-    call_state["calls"] += 1
 
     data = response.json()
 
