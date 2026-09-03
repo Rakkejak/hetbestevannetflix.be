@@ -49,7 +49,7 @@
   <section class="subintro">
     <div class="container">
       <p id="subtext" class="subtext">
-        Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Klassiekers voor oudere films of series.
+        Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Klassiekers voor oudere films of reeksen.
       </p>
       <div class="controls">
         <input id="search" type="search" placeholder="Zoek op titel…" aria-label="Zoek titel" />
@@ -324,8 +324,8 @@
     }
 
     function setTextsForTab(){
-      const subRecent = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Klassiekers voor oudere films of series.";
-      const subKlass  = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of imdb-score. Druk op Recent voor nieuwere films of series.";
+      const subRecent = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Klassiekers voor oudere films of reeksen.";
+      const subKlass  = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Recent voor recente toevoegingen.";
       $("#subtext").textContent = (TAB === "recent") ? subRecent : subKlass;
     }
 
