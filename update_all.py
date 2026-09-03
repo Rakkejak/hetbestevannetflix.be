@@ -249,9 +249,11 @@ def fetch_omdb_data(imdb_id, call_state):
     if not imdb_id:
         return None
 
-    if call_state["calls"] >= MAX_OMDB_CALLS_PER_RUN:
+    call_limit = call_state.get("limit", MAX_OMDB_CALLS_PER_RUN)
+
+    if call_state["calls"] >= call_limit:
         raise RuntimeError(
-            f"OMDb veiligheidslimiet bereikt: {MAX_OMDB_CALLS_PER_RUN} calls."
+            f"OMDb veiligheidslimiet bereikt: {call_limit} calls."
         )
 
     api_key = require_omdb_key()
@@ -478,29 +480,28 @@ def main():
         series,
     )
 
-    call_state = {"calls": 0}
+    per_media_limit = MAX_OMDB_CALLS_PER_RUN // 2
+
+    movie_call_state = {"calls": 0, "limit": per_media_limit}
+    series_call_state = {"calls": 0, "limit": per_media_limit}
 
     processed_movies, stopped_movies = process_catalog(
         movies,
         "movie",
         tmdb_imdb_cache,
         imdb_cache,
-        call_state,
+        movie_call_state,
         netflix_state,
     )
 
-    processed_series = []
-    stopped_series = False
-
-    if not stopped_movies:
-        processed_series, stopped_series = process_catalog(
-            series,
-            "tv",
-            tmdb_imdb_cache,
-            imdb_cache,
-            call_state,
-            netflix_state,
-        )
+    processed_series, stopped_series = process_catalog(
+        series,
+        "tv",
+        tmdb_imdb_cache,
+        imdb_cache,
+        series_call_state,
+        netflix_state,
+    )
 
     results = processed_movies + processed_series
 
@@ -515,7 +516,10 @@ def main():
     print("Netflix BE films gevonden:", len(movies))
     print("Netflix BE series gevonden:", len(series))
     print("Titels die voldoen:", len(results))
-    print("OMDb-calls gebruikt:", call_state["calls"])
+    total_omdb_calls = movie_call_state["calls"] + series_call_state["calls"]
+    print("OMDb-calls films:", movie_call_state["calls"])
+    print("OMDb-calls series:", series_call_state["calls"])
+    print("OMDb-calls totaal:", total_omdb_calls)
     print("Volledige run:", complete)
 
     if not complete:
