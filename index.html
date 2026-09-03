@@ -56,6 +56,8 @@
         <div class="sorts">
           <button id="sortImdb" class="sortbtn active" aria-pressed="true">IMDb (hoog→laag)</button>
           <button id="sortDate" class="sortbtn" aria-pressed="false">Datum ↓</button>
+          <button id="filterFilms" class="sortbtn" aria-pressed="false">Enkel films</button>
+          <button id="filterSeries" class="sortbtn" aria-pressed="false">Enkel reeksen</button>
         </div>
         <span id="count" class="count">0 resultaten</span>
       </div>
@@ -236,6 +238,7 @@
     let DATA_R = [], DATA_K = [];
     let sortMode = "imdb";          // "imdb" | "date"
     let sortDir  = "desc";          // voor "date"
+    let mediaFilter = null;         // null | "Film" | "Series"
 
     function card(item, idx){
       const y = yearOf(item.releaseDate);
@@ -279,15 +282,24 @@
       const q = ($("#search").value || "").toLowerCase().trim();
       let usedFallback = false;
       if (TAB === "recent" && !q && base.length === 0){
-        // pak 10 meest recente uit volledige database (klassiekers), na benchmark
-        base = sortByDate(applyBenchmark(DATA_K), "desc").slice(0, 10);
+        // pak 10 meest recente uit volledige database, rekening houdend met typefilter
+        let fallbackBase = applyBenchmark(DATA_K);
+
+        if (mediaFilter){
+          fallbackBase = fallbackBase.filter(x => x.type === mediaFilter);
+        }
+
+        base = sortByDate(fallbackBase, "desc").slice(0, 10);
         usedFallback = true;
+      } else if (mediaFilter){
+        // optionele film/reeksfilter
+        base = base.filter(x => x.type === mediaFilter);
       }
 
-      // 3) zoekfilter
+      // 4) zoekfilter
       const filtered = q ? base.filter(x => (x.title||"").toLowerCase().includes(q)) : base;
 
-      // 4) sortering
+      // 5) sortering
       const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir);
 
       // 5) render of leeg
@@ -341,6 +353,22 @@
         $("#sortDate").textContent = `Datum ${sortDir === "desc" ? "↓" : "↑"}`;
         render();
       });
+
+      // Film/reeksfilters
+      function setMediaFilter(next){
+        mediaFilter = (mediaFilter === next) ? null : next;
+
+        $("#filterFilms").classList.toggle("active", mediaFilter === "Film");
+        $("#filterSeries").classList.toggle("active", mediaFilter === "Series");
+
+        $("#filterFilms").setAttribute("aria-pressed", mediaFilter === "Film" ? "true" : "false");
+        $("#filterSeries").setAttribute("aria-pressed", mediaFilter === "Series" ? "true" : "false");
+
+        render();
+      }
+
+      $("#filterFilms").addEventListener("click", ()=> setMediaFilter("Film"));
+      $("#filterSeries").addEventListener("click", ()=> setMediaFilter("Series"));
 
       // Search
       let t; $("#search").addEventListener("input", ()=>{ clearTimeout(t); t = setTimeout(render, 120); });
