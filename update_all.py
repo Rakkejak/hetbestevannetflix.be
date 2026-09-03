@@ -5,7 +5,18 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, MIN_IMDB_VOTES, NETFLIX_STATE_FILE, BUILD_DATA_FILE
+from config import (
+    REGION,
+    NETFLIX_PROVIDER_ID,
+    MAX_OMDB_CALLS_PER_RUN,
+    MAX_OMDB_CALLS_PER_DAY,
+    OMDB_DAILY_USAGE_FILE,
+    TMDB_IMDB_CACHE_FILE,
+    MIN_IMDB_RATING,
+    MIN_IMDB_VOTES,
+    NETFLIX_STATE_FILE,
+    BUILD_DATA_FILE,
+)
 
 
 ROOT = Path(__file__).parent.resolve()
@@ -13,6 +24,7 @@ IMDB_CACHE_FILE = ROOT / "imdb_cache.json"
 TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
 NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
 BUILD_DATA_PATH = ROOT / BUILD_DATA_FILE
+OMDB_DAILY_USAGE_PATH = ROOT / OMDB_DAILY_USAGE_FILE
 
 
 
@@ -245,6 +257,49 @@ def resolve_imdb_score(media_type, tmdb_id, tmdb_imdb_cache, imdb_cache, call_st
     return imdb_id, score, votes
 
 
+def load_omdb_daily_usage():
+    today = datetime.now(timezone.utc).date().isoformat()
+
+    if not OMDB_DAILY_USAGE_PATH.exists():
+        return {"date": today, "calls": 0}
+
+    try:
+        data = json.loads(OMDB_DAILY_USAGE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"date": today, "calls": 0}
+
+    if data.get("date") != today:
+        return {"date": today, "calls": 0}
+
+    try:
+        calls = int(data.get("calls", 0))
+    except (TypeError, ValueError):
+        calls = 0
+
+    return {"date": today, "calls": max(calls, 0)}
+
+
+def reserve_omdb_daily_call():
+    usage = load_omdb_daily_usage()
+
+    if usage["calls"] >= MAX_OMDB_CALLS_PER_DAY:
+        raise RuntimeError(
+            f"OMDb veiligheidslimiet bereikt: daglimiet "
+            f"{MAX_OMDB_CALLS_PER_DAY} calls."
+        )
+
+    usage["calls"] += 1
+
+    tmp_path = OMDB_DAILY_USAGE_PATH.with_suffix(".tmp")
+    tmp_path.write_text(
+        json.dumps(usage, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(OMDB_DAILY_USAGE_PATH)
+
+    return usage["calls"]
+
+
 def fetch_omdb_data(imdb_id, call_state):
     if not imdb_id:
         return None
@@ -257,6 +312,10 @@ def fetch_omdb_data(imdb_id, call_state):
         )
 
     api_key = require_omdb_key()
+
+    # Reserveer de call vóór de request, zodat ook mislukte requests
+    # tegen de dagelijkse veiligheidslimiet tellen.
+    call_state["daily_calls"] = reserve_omdb_daily_call()
     call_state["calls"] += 1
 
     response = requests.get(
