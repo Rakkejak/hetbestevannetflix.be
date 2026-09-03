@@ -2,3 +2,5 @@
 .env
 __pycache__/
 *.pyc
+
+netflix_data_build.json
