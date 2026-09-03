@@ -331,6 +331,27 @@ def process_tmdb_item(
     }
 
 
+
+def print_progress(label, current, total, extra=""):
+    total = max(total, 1)
+    current = min(current, total)
+    fraction = current / total
+    width = 30
+    filled = round(width * fraction)
+    bar = "█" * filled + "░" * (width - filled)
+    percent = fraction * 100
+
+    suffix = f" · {extra}" if extra else ""
+    print(
+        f"\r\033[2K{label}: [{bar}] {percent:6.2f}% · {current}/{total}{suffix}",
+        end="",
+        flush=True,
+    )
+
+    if current >= total:
+        print()
+
+
 def fetch_netflix_catalog(media_type):
     api_key = require_tmdb_key()
 
@@ -397,6 +418,15 @@ def process_catalog(
     results = []
     stopped_at_limit = False
 
+    label = "Ratings films" if media_type == "movie" else "Ratings series"
+
+    print_progress(
+        label,
+        0,
+        len(items),
+        f"OMDb {call_state['calls']}/{MAX_OMDB_CALLS_PER_RUN} · geselecteerd 0",
+    )
+
     for index, item in enumerate(items, start=1):
         try:
             result = process_tmdb_item(
@@ -412,11 +442,22 @@ def process_catalog(
                 raise
 
             stopped_at_limit = True
+            print()
             print(f"{media_type}: gestopt bij item {index}/{len(items)} wegens OMDb-limiet.")
             break
 
         if result is not None:
             results.append(result)
+
+        print_progress(
+            label,
+            index,
+            len(items),
+            (
+                f"OMDb {call_state['calls']}/{MAX_OMDB_CALLS_PER_RUN}"
+                f" · geselecteerd {len(results)}"
+            ),
+        )
 
     return results, stopped_at_limit
 
