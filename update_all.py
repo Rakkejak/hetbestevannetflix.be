@@ -1,12 +1,15 @@
+import json
 import os
 from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN
 
 
 ROOT = Path(__file__).parent.resolve()
+IMDB_CACHE_FILE = ROOT / "imdb_cache.json"
+
 
 
 def load_local_env():
@@ -28,6 +31,89 @@ def require_tmdb_key():
     if not key:
         raise SystemExit("TMDB_API_KEY ontbreekt.")
     return key
+
+
+
+def require_omdb_key():
+    key = os.getenv("OMDB_API_KEY", "").strip()
+    if not key:
+        raise SystemExit("OMDB_API_KEY ontbreekt.")
+    return key
+
+
+def load_imdb_cache():
+    if not IMDB_CACHE_FILE.exists():
+        return {}
+
+    with IMDB_CACHE_FILE.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data if isinstance(data, dict) else {}
+
+
+def cached_imdb_score(cache, imdb_id):
+    if not imdb_id:
+        return None
+
+    for key in (f"imdb:{imdb_id}", imdb_id):
+        value = cache.get(key)
+        if not isinstance(value, dict):
+            continue
+
+        score = value.get("val")
+        if score is None:
+            score = value.get("imdb")
+
+        try:
+            return float(score)
+        except (TypeError, ValueError):
+            continue
+
+    return None
+
+
+def fetch_imdb_id_from_tmdb(media_type, tmdb_id):
+    api_key = require_tmdb_key()
+
+    response = requests.get(
+        f"https://api.themoviedb.org/3/{media_type}/{tmdb_id}/external_ids",
+        params={"api_key": api_key},
+        timeout=30,
+    )
+    response.raise_for_status()
+
+    return response.json().get("imdb_id")
+
+
+
+def fetch_omdb_data(imdb_id, call_state):
+    if not imdb_id:
+        return None
+
+    if call_state["calls"] >= MAX_OMDB_CALLS_PER_RUN:
+        raise RuntimeError(
+            f"OMDb veiligheidslimiet bereikt: {MAX_OMDB_CALLS_PER_RUN} calls."
+        )
+
+    api_key = require_omdb_key()
+
+    response = requests.get(
+        "https://www.omdbapi.com/",
+        params={
+            "apikey": api_key,
+            "i": imdb_id,
+        },
+        timeout=30,
+    )
+    response.raise_for_status()
+    call_state["calls"] += 1
+
+    data = response.json()
+
+    if data.get("Response") != "True":
+        return None
+
+    return data
 
 
 def fetch_netflix_catalog(media_type):
