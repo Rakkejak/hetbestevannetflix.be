@@ -273,6 +273,12 @@ def fetch_netflix_catalog(media_type):
 
 
 
+
+def save_caches(tmdb_imdb_cache, imdb_cache):
+    save_tmdb_imdb_cache(tmdb_imdb_cache)
+    save_imdb_cache(imdb_cache)
+
+
 def process_catalog(items, media_type, tmdb_imdb_cache, imdb_cache, call_state):
     results = []
     stopped_at_limit = False
