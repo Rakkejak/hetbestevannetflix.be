@@ -5,13 +5,14 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, MIN_IMDB_VOTES, NETFLIX_STATE_FILE
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, MIN_IMDB_VOTES, NETFLIX_STATE_FILE, BUILD_DATA_FILE
 
 
 ROOT = Path(__file__).parent.resolve()
 IMDB_CACHE_FILE = ROOT / "imdb_cache.json"
 TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
 NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
+BUILD_DATA_PATH = ROOT / BUILD_DATA_FILE
 
 
 
@@ -372,6 +373,12 @@ def fetch_netflix_catalog(media_type):
     return items
 
 
+
+
+
+def save_build_data(items):
+    with BUILD_DATA_PATH.open("w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
 
 
 def save_caches(tmdb_imdb_cache, imdb_cache):

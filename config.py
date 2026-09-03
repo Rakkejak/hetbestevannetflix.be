@@ -8,3 +8,5 @@ TMDB_IMDB_CACHE_FILE = "tmdb_imdb_cache.json"
 NETFLIX_STATE_FILE = "netflix_be_state.json"
 
 MIN_IMDB_VOTES = 1000
+
+BUILD_DATA_FILE = "netflix_data_build.json"
