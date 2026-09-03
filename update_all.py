@@ -4,11 +4,12 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE
 
 
 ROOT = Path(__file__).parent.resolve()
 IMDB_CACHE_FILE = ROOT / "imdb_cache.json"
+TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
 
 
 
@@ -72,7 +73,28 @@ def cached_imdb_score(cache, imdb_id):
     return None
 
 
-def fetch_imdb_id_from_tmdb(media_type, tmdb_id):
+
+def load_tmdb_imdb_cache():
+    if not TMDB_IMDB_CACHE_PATH.exists():
+        return {}
+
+    with TMDB_IMDB_CACHE_PATH.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data if isinstance(data, dict) else {}
+
+
+def save_tmdb_imdb_cache(cache):
+    with TMDB_IMDB_CACHE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def fetch_imdb_id_from_tmdb(media_type, tmdb_id, cache=None):
+    cache_key = f"{media_type}:{tmdb_id}"
+
+    if cache is not None and cache_key in cache:
+        return cache[cache_key] or None
+
     api_key = require_tmdb_key()
 
     response = requests.get(
@@ -82,7 +104,12 @@ def fetch_imdb_id_from_tmdb(media_type, tmdb_id):
     )
     response.raise_for_status()
 
-    return response.json().get("imdb_id")
+    imdb_id = response.json().get("imdb_id")
+
+    if cache is not None:
+        cache[cache_key] = imdb_id
+
+    return imdb_id
 
 
 
