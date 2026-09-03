@@ -84,8 +84,8 @@
   <footer class="footer">
     <div class="container footer-grid">
       <p class="muted">
-        Deze website maakt gebruik van data afkomstig van The Movie Database (TMDb), IMDb, en Trakt.tv.
-        Titels waarvan de Trakt.tv-score 30% lager is dan de IMDb-score worden automatisch uitgesloten.
+        We tonen films en series die beschikbaar zijn op Netflix in België en een IMDb-score van minstens 7,8 hebben.
+        De beschikbaarheidsgegevens zijn afkomstig van TMDb/JustWatch. IMDb-scores worden via OMDb opgehaald.
       </p>
       <p class="muted small">
         “Recent” toont de beste reeksen en films van de laaste 90 dagen. Als dat leeg is, tonen we automatisch de 10 meest recente titels uit de volledige database.
@@ -182,7 +182,6 @@
         title: it.title || it.name || "",
         type: niceType(it.type),
         imdb: isNum(it.imdbRating) ? +it.imdbRating : (isNum(it.imdb) ? +it.imdb : NaN),
-        trakt: isNum(it.traktRating) ? +it.traktRating : (isNum(it.trakt) ? +it.trakt : NaN),
         releaseDate: it.releaseDate || it.first_air_date || it.release_date || "",
         dateAdded: it.dateAdded || "",
         poster: posterFor(it),
@@ -207,12 +206,9 @@
       return { klassiekers: klassiekers.map(normalize), recent: recent.map(normalize) };
     }
 
-    // Benchmark: Trakt aanwezig én ≥ 70% van IMDb
+    // Alleen titels met IMDb-score van minstens 7.8
     function meetsBenchmark(item){
-      const hasImdb  = isNum(item.imdb) && item.imdb > 0;
-      const hasTrakt = isNum(item.trakt) && item.trakt > 0;
-      if (!hasImdb || !hasTrakt) return false;
-      return item.trakt >= item.imdb * 0.7;
+      return isNum(item.imdb) && item.imdb >= 7.8;
     }
 
     // Sorteren
@@ -231,9 +227,6 @@
         const ai = isNum(a.imdb) ? +a.imdb : -Infinity;
         const bi = isNum(b.imdb) ? +b.imdb : -Infinity;
         if (bi !== ai) return bi - ai;
-        const at = isNum(a.trakt) ? +a.trakt : -Infinity;
-        const bt = isNum(b.trakt) ? +b.trakt : -Infinity;
-        if (bt !== at) return bt - at;
         return a.title.localeCompare(b.title);
       });
     }
@@ -262,7 +255,6 @@
             <div class="badges">
               ${item.type ? `<span class="chip ${item.type==='Film'?'film':'series'}">${item.type}</span>` : ""}
               <span class="badge imdb" title="IMDb rating">★ ${fmt1(item.imdb)}</span>
-              <span class="badge trakt" title="Trakt.tv rating">★ ${fmt1(item.trakt)}</span>
               ${item.lang ? `<span class="badge lang" title="Originele taal">${item.lang}</span>` : ""}
             </div>
           </div>
