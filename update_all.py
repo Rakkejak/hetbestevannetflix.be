@@ -5,7 +5,7 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, NETFLIX_STATE_FILE
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, MIN_IMDB_VOTES, NETFLIX_STATE_FILE
 
 
 ROOT = Path(__file__).parent.resolve()
@@ -82,6 +82,26 @@ def store_omdb_in_cache(cache, imdb_id, data):
     }
 
     return score
+
+
+
+def cached_imdb_votes(cache, imdb_id):
+    if not imdb_id:
+        return 0
+
+    for key in (f"imdb:{imdb_id}", imdb_id):
+        value = cache.get(key)
+        if not isinstance(value, dict):
+            continue
+
+        votes = value.get("votes", 0)
+
+        try:
+            return int(str(votes).replace(",", ""))
+        except (TypeError, ValueError):
+            continue
+
+    return 0
 
 
 def cached_imdb_score(cache, imdb_id):
@@ -207,16 +227,21 @@ def resolve_imdb_score(media_type, tmdb_id, tmdb_imdb_cache, imdb_cache, call_st
     imdb_id = fetch_imdb_id_from_tmdb(media_type, tmdb_id, tmdb_imdb_cache)
 
     if not imdb_id:
-        return None, None
+        return None, None, 0
 
     score = cached_imdb_score(imdb_cache, imdb_id)
-    if score is not None:
-        return imdb_id, score
+    votes = cached_imdb_votes(imdb_cache, imdb_id)
+
+    # Oude cachewaarden zonder stemmentotaal zijn onvolledig:
+    # controleer ze opnieuw via OMDb.
+    if score is not None and votes > 0:
+        return imdb_id, score, votes
 
     data = fetch_omdb_data(imdb_id, call_state)
     score = store_omdb_in_cache(imdb_cache, imdb_id, data)
+    votes = cached_imdb_votes(imdb_cache, imdb_id)
 
-    return imdb_id, score
+    return imdb_id, score, votes
 
 
 def fetch_omdb_data(imdb_id, call_state):
@@ -262,7 +287,7 @@ def process_tmdb_item(
     if not tmdb_id:
         return None
 
-    imdb_id, imdb_score = resolve_imdb_score(
+    imdb_id, imdb_score, imdb_votes = resolve_imdb_score(
         media_type,
         tmdb_id,
         tmdb_imdb_cache,
@@ -270,7 +295,11 @@ def process_tmdb_item(
         call_state,
     )
 
-    if imdb_score is None or imdb_score < MIN_IMDB_RATING:
+    if (
+        imdb_score is None
+        or imdb_score < MIN_IMDB_RATING
+        or imdb_votes < MIN_IMDB_VOTES
+    ):
         return None
 
     if media_type == "movie":
@@ -288,6 +317,7 @@ def process_tmdb_item(
         "title": title,
         "type": item_type,
         "imdbRating": imdb_score,
+        "imdbVotes": imdb_votes,
         "releaseDate": release_date,
         "dateAdded": (
             (netflix_state or {})
