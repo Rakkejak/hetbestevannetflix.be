@@ -214,10 +214,10 @@
     }
 
     // Sorteren
-    function sortByDate(arr, dir="desc"){
+    function sortByDate(arr, dir="desc", field="releaseDate"){
       const mul = (dir === "desc" ? -1 : 1);
       return arr.slice().sort((a,b)=>{
-        const ad = parseDateAny(a.releaseDate); const bd = parseDateAny(b.releaseDate);
+        const ad = parseDateAny(a[field]); const bd = parseDateAny(b[field]);
         const av = ad ? ad.getTime() : -Infinity;
         const bv = bd ? bd.getTime() : -Infinity;
         if (av === bv) return a.title.localeCompare(b.title);
@@ -300,7 +300,8 @@
       const filtered = q ? base.filter(x => (x.title||"").toLowerCase().includes(q)) : base;
 
       // 5) sortering
-      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir);
+      const dateField = (TAB === "recent" && !usedFallback) ? "dateAdded" : "releaseDate";
+      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir, dateField);
 
       // 5) render of leeg
       if (!rows.length){
@@ -309,7 +310,7 @@
         if (TAB === "recent" && !usedFallback){
           empty.hidden = false;
           emptyText.textContent =
-            "Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. " +
+            "Als je deze tekst ziet, dan is geen topserie of -film in de laatste 90 dagen aan Netflix België toegevoegd. " +
             "Ga naar Klassiekers en sorteer via release date om de meest recente topserie of -film te zien.";
           gotoBtn.hidden = false;
         } else {
