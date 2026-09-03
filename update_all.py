@@ -1,6 +1,6 @@
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
@@ -25,6 +25,8 @@ TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
 NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
 BUILD_DATA_PATH = ROOT / BUILD_DATA_FILE
 OMDB_DAILY_USAGE_PATH = ROOT / OMDB_DAILY_USAGE_FILE
+PRODUCT_DATA_PATH = ROOT / "netflix_data.json"
+RECENT_DATA_PATH = ROOT / "netflix_last_month.json"
 
 
 
@@ -463,6 +465,67 @@ def save_build_data(items):
         json.dump(items, f, ensure_ascii=False, indent=2)
 
 
+def write_json_atomic(path, data):
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    tmp_path.write_text(
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp_path.replace(path)
+
+
+def active_product_items(items, netflix_state):
+    active = []
+
+    for item in items:
+        tmdb_id = item.get("tmdbId")
+        if not tmdb_id:
+            continue
+
+        media_type = "movie" if item.get("type") == "Film" else "tv"
+        state_entry = netflix_state.get(f"{media_type}:{tmdb_id}", {})
+
+        if not isinstance(state_entry, dict) or not state_entry.get("active"):
+            continue
+
+        active.append(item)
+
+    return active
+
+
+def recent_product_items(items, today=None):
+    if today is None:
+        today = datetime.now(timezone.utc).date()
+
+    cutoff = today - timedelta(days=90)
+    recent = []
+
+    for item in items:
+        raw = item.get("dateAdded")
+        if not raw:
+            continue
+
+        try:
+            added = datetime.fromisoformat(str(raw)).date()
+        except ValueError:
+            continue
+
+        if cutoff <= added <= today:
+            recent.append(item)
+
+    return recent
+
+
+def publish_product_data(items, netflix_state):
+    active = active_product_items(items, netflix_state)
+    recent = recent_product_items(active)
+
+    write_json_atomic(PRODUCT_DATA_PATH, active)
+    write_json_atomic(RECENT_DATA_PATH, recent)
+
+    return len(active), len(recent)
+
+
 def save_caches(tmdb_imdb_cache, imdb_cache):
     save_tmdb_imdb_cache(tmdb_imdb_cache)
     save_imdb_cache(imdb_cache)
@@ -581,7 +644,15 @@ def main():
     print("OMDb-calls totaal:", total_omdb_calls)
     print("Volledige run:", complete)
 
-    if not complete:
+    if complete:
+        active_count, recent_count = publish_product_data(
+            results,
+            netflix_state,
+        )
+        print("Productiedata veilig gepubliceerd.")
+        print("Actieve titels gepubliceerd:", active_count)
+        print("Recente toevoegingen gepubliceerd:", recent_count)
+    else:
         print("Productiedata NIET overschreven.")
         print(f"Tussentijdse resultaten staan in {BUILD_DATA_FILE}.")
 
