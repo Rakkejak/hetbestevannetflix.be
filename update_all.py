@@ -5,12 +5,13 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING, NETFLIX_STATE_FILE
 
 
 ROOT = Path(__file__).parent.resolve()
 IMDB_CACHE_FILE = ROOT / "imdb_cache.json"
 TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
+NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
 
 
 
@@ -103,6 +104,63 @@ def cached_imdb_score(cache, imdb_id):
 
     return None
 
+
+
+
+def load_netflix_state():
+    if not NETFLIX_STATE_PATH.exists():
+        return {}
+
+    with NETFLIX_STATE_PATH.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data if isinstance(data, dict) else {}
+
+
+def save_netflix_state(state):
+    with NETFLIX_STATE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+
+def update_netflix_state(state, movies, series, today=None):
+    if today is None:
+        today = datetime.now(timezone.utc).date().isoformat()
+
+    current_keys = {
+        *(f"movie:{item['id']}" for item in movies if item.get("id")),
+        *(f"tv:{item['id']}" for item in series if item.get("id")),
+    }
+
+    is_baseline = not state
+
+    # Eerst alleen titels markeren die verdwenen zijn.
+    for key, entry in state.items():
+        if isinstance(entry, dict) and key not in current_keys:
+            entry["active"] = False
+
+    # Daarna huidige catalogus verwerken.
+    for key in current_keys:
+        if key not in state:
+            state[key] = {
+                "active": True,
+                "firstSeen": None if is_baseline else today,
+            }
+            continue
+
+        entry = state[key]
+        if not isinstance(entry, dict):
+            entry = {"active": False, "firstSeen": None}
+            state[key] = entry
+
+        was_active = bool(entry.get("active"))
+
+        if not was_active:
+            entry["firstSeen"] = today
+
+        entry["active"] = True
+
+    return state
 
 
 def load_tmdb_imdb_cache():

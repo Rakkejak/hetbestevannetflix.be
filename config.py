@@ -4,3 +4,5 @@ REGION = "BE"
 NETFLIX_PROVIDER_ID = 8
 
 TMDB_IMDB_CACHE_FILE = "tmdb_imdb_cache.json"
+
+NETFLIX_STATE_FILE = "netflix_be_state.json"
