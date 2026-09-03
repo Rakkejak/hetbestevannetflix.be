@@ -5,7 +5,7 @@ from pathlib import Path
 
 import requests
 
-from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE
+from config import REGION, NETFLIX_PROVIDER_ID, MAX_OMDB_CALLS_PER_RUN, TMDB_IMDB_CACHE_FILE, MIN_IMDB_RATING
 
 
 ROOT = Path(__file__).parent.resolve()
@@ -189,6 +189,45 @@ def fetch_omdb_data(imdb_id, call_state):
         return None
 
     return data
+
+
+
+def process_tmdb_item(item, media_type, tmdb_imdb_cache, imdb_cache, call_state):
+    tmdb_id = item.get("id")
+    if not tmdb_id:
+        return None
+
+    imdb_id, imdb_score = resolve_imdb_score(
+        media_type,
+        tmdb_id,
+        tmdb_imdb_cache,
+        imdb_cache,
+        call_state,
+    )
+
+    if imdb_score is None or imdb_score < MIN_IMDB_RATING:
+        return None
+
+    if media_type == "movie":
+        title = item.get("title")
+        release_date = item.get("release_date") or ""
+        item_type = "Film"
+    else:
+        title = item.get("name")
+        release_date = item.get("first_air_date") or ""
+        item_type = "Serie"
+
+    return {
+        "tmdbId": tmdb_id,
+        "imdbId": imdb_id,
+        "title": title,
+        "type": item_type,
+        "imdbRating": imdb_score,
+        "releaseDate": release_date[:4] if release_date else "",
+        "poster_path": item.get("poster_path"),
+        "availableBE": True,
+        "ratingSource": "imdb",
+    }
 
 
 def fetch_netflix_catalog(media_type):
