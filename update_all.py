@@ -379,7 +379,14 @@ def save_caches(tmdb_imdb_cache, imdb_cache):
     save_imdb_cache(imdb_cache)
 
 
-def process_catalog(items, media_type, tmdb_imdb_cache, imdb_cache, call_state):
+def process_catalog(
+    items,
+    media_type,
+    tmdb_imdb_cache,
+    imdb_cache,
+    call_state,
+    netflix_state=None,
+):
     results = []
     stopped_at_limit = False
 
@@ -391,6 +398,7 @@ def process_catalog(items, media_type, tmdb_imdb_cache, imdb_cache, call_state):
                 tmdb_imdb_cache,
                 imdb_cache,
                 call_state,
+                netflix_state,
             )
         except RuntimeError as exc:
             if "OMDb veiligheidslimiet bereikt" not in str(exc):
