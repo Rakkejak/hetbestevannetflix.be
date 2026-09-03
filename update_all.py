@@ -250,7 +250,14 @@ def fetch_omdb_data(imdb_id, call_state):
 
 
 
-def process_tmdb_item(item, media_type, tmdb_imdb_cache, imdb_cache, call_state):
+def process_tmdb_item(
+    item,
+    media_type,
+    tmdb_imdb_cache,
+    imdb_cache,
+    call_state,
+    netflix_state=None,
+):
     tmdb_id = item.get("id")
     if not tmdb_id:
         return None
@@ -282,6 +289,11 @@ def process_tmdb_item(item, media_type, tmdb_imdb_cache, imdb_cache, call_state)
         "type": item_type,
         "imdbRating": imdb_score,
         "releaseDate": release_date,
+        "dateAdded": (
+            (netflix_state or {})
+            .get(f"{media_type}:{tmdb_id}", {})
+            .get("firstSeen")
+        ),
         "poster_path": item.get("poster_path"),
         "availableBE": True,
         "ratingSource": "imdb",
