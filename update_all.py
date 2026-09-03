@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -50,6 +51,36 @@ def load_imdb_cache():
         data = json.load(f)
 
     return data if isinstance(data, dict) else {}
+
+
+
+def save_imdb_cache(cache):
+    with IMDB_CACHE_FILE.open("w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def store_omdb_in_cache(cache, imdb_id, data):
+    if not imdb_id or not data:
+        return None
+
+    try:
+        score = float(data.get("imdbRating"))
+    except (TypeError, ValueError):
+        return None
+
+    votes_raw = str(data.get("imdbVotes", "")).replace(",", "")
+    try:
+        votes = int(votes_raw)
+    except ValueError:
+        votes = 0
+
+    cache[f"imdb:{imdb_id}"] = {
+        "val": score,
+        "votes": votes,
+        "ts": datetime.now(timezone.utc).isoformat(),
+    }
+
+    return score
 
 
 def cached_imdb_score(cache, imdb_id):
@@ -111,6 +142,23 @@ def fetch_imdb_id_from_tmdb(media_type, tmdb_id, cache=None):
 
     return imdb_id
 
+
+
+
+def resolve_imdb_score(media_type, tmdb_id, tmdb_imdb_cache, imdb_cache, call_state):
+    imdb_id = fetch_imdb_id_from_tmdb(media_type, tmdb_id, tmdb_imdb_cache)
+
+    if not imdb_id:
+        return None, None
+
+    score = cached_imdb_score(imdb_cache, imdb_id)
+    if score is not None:
+        return imdb_id, score
+
+    data = fetch_omdb_data(imdb_id, call_state)
+    score = store_omdb_in_cache(imdb_cache, imdb_id, data)
+
+    return imdb_id, score
 
 
 def fetch_omdb_data(imdb_id, call_state):
