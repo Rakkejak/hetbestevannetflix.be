@@ -240,6 +240,11 @@
     let sortDir  = "desc";          // voor "date"
     let mediaFilter = null;         // null | "Film" | "Series"
 
+    function updateDateSortLabel(){
+      const label = (TAB === "recent") ? "Toegevoegd" : "Releasedatum";
+      $("#sortDate").textContent = `${label} ${sortDir === "desc" ? "↓" : "↑"}`;
+    }
+
     function card(item, idx){
       const y = yearOf(item.releaseDate);
       const posterHtml = item.poster
@@ -351,7 +356,7 @@
         } else {
           sortDir = (sortDir === "desc" ? "asc" : "desc");
         }
-        $("#sortDate").textContent = `Datum ${sortDir === "desc" ? "↓" : "↑"}`;
+        updateDateSortLabel();
         render();
       });
 
@@ -381,7 +386,7 @@
           sortMode = "imdb"; sortDir = "desc";
           $("#sortImdb").classList.add("active");
           $("#sortDate").classList.remove("active");
-          $("#sortDate").textContent = "Datum ↓";
+          updateDateSortLabel();
           setTextsForTab();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
@@ -395,7 +400,7 @@
           sortMode = "imdb"; sortDir = "desc";
           $("#sortImdb").classList.add("active");
           $("#sortDate").classList.remove("active");
-          $("#sortDate").textContent = "Datum ↓";
+          updateDateSortLabel();
           setTextsForTab();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
