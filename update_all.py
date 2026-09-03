@@ -426,7 +426,7 @@ def process_catalog(
         label,
         0,
         len(items),
-        f"OMDb {call_state['calls']}/{MAX_OMDB_CALLS_PER_RUN} · geselecteerd 0",
+        f"OMDb {call_state['calls']}/{call_state.get('limit', MAX_OMDB_CALLS_PER_RUN)} · geselecteerd 0",
     )
 
     for index, item in enumerate(items, start=1):
@@ -456,7 +456,7 @@ def process_catalog(
             index,
             len(items),
             (
-                f"OMDb {call_state['calls']}/{MAX_OMDB_CALLS_PER_RUN}"
+                f"OMDb {call_state['calls']}/{call_state.get('limit', MAX_OMDB_CALLS_PER_RUN)}"
                 f" · geselecteerd {len(results)}"
             ),
         )
