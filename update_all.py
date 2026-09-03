@@ -427,11 +427,59 @@ def main():
     movies = fetch_netflix_catalog("movie")
     series = fetch_netflix_catalog("tv")
 
+    tmdb_imdb_cache = load_tmdb_imdb_cache()
+    imdb_cache = load_imdb_cache()
+    netflix_state = load_netflix_state()
+
+    netflix_state = update_netflix_state(
+        netflix_state,
+        movies,
+        series,
+    )
+
+    call_state = {"calls": 0}
+
+    processed_movies, stopped_movies = process_catalog(
+        movies,
+        "movie",
+        tmdb_imdb_cache,
+        imdb_cache,
+        call_state,
+        netflix_state,
+    )
+
+    processed_series = []
+    stopped_series = False
+
+    if not stopped_movies:
+        processed_series, stopped_series = process_catalog(
+            series,
+            "tv",
+            tmdb_imdb_cache,
+            imdb_cache,
+            call_state,
+            netflix_state,
+        )
+
+    results = processed_movies + processed_series
+
+    save_caches(tmdb_imdb_cache, imdb_cache)
+    save_netflix_state(netflix_state)
+    save_build_data(results)
+
+    complete = not stopped_movies and not stopped_series
+
     print()
     print("=== RESULTAAT ===")
-    print("Netflix BE films:", len(movies))
-    print("Netflix BE series:", len(series))
-    print("Totaal:", len(movies) + len(series))
+    print("Netflix BE films gevonden:", len(movies))
+    print("Netflix BE series gevonden:", len(series))
+    print("Titels die voldoen:", len(results))
+    print("OMDb-calls gebruikt:", call_state["calls"])
+    print("Volledige run:", complete)
+
+    if not complete:
+        print("Productiedata NIET overschreven.")
+        print(f"Tussentijdse resultaten staan in {BUILD_DATA_FILE}.")
 
 
 if __name__ == "__main__":
