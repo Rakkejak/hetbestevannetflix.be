@@ -8,8 +8,8 @@ from imdb._exceptions import IMDbDataAccessError
 import datetime  # Added import for datetime
 
 # API-sleutels en regio
-TMDB_API_KEY = "ca7bc87061528b91ac4b42e235851f9a"  # TMDb API-sleutel
-TRAKT_CLIENT_ID = "1c0cbb71ec18b665a18642f01cac9c2a46f3a35435f505d46150eb403ccdcf1c"
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+TRAKT_CLIENT_ID = os.getenv("TRAKT_CLIENT_ID")
 REGION = "BE"  # Landcode voor België
 
 # IMDbPy initialisatie
