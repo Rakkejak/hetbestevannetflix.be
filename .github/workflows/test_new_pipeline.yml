@@ -1,8 +1,6 @@
 name: Update & Deploy Data (new pipeline)
 
 on:
-  schedule:
-    - cron: "0 4 * * 1"   # ma 06:00 Brussels ≈ 04:00 UTC
   workflow_dispatch:
 
 permissions:
