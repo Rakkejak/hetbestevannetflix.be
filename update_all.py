@@ -272,6 +272,34 @@ def fetch_netflix_catalog(media_type):
     return items
 
 
+
+def process_catalog(items, media_type, tmdb_imdb_cache, imdb_cache, call_state):
+    results = []
+    stopped_at_limit = False
+
+    for index, item in enumerate(items, start=1):
+        try:
+            result = process_tmdb_item(
+                item,
+                media_type,
+                tmdb_imdb_cache,
+                imdb_cache,
+                call_state,
+            )
+        except RuntimeError as exc:
+            if "OMDb veiligheidslimiet bereikt" not in str(exc):
+                raise
+
+            stopped_at_limit = True
+            print(f"{media_type}: gestopt bij item {index}/{len(items)} wegens OMDb-limiet.")
+            break
+
+        if result is not None:
+            results.append(result)
+
+    return results, stopped_at_limit
+
+
 def main():
     load_local_env()
 
