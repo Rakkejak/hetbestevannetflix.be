@@ -223,7 +223,7 @@ def process_tmdb_item(item, media_type, tmdb_imdb_cache, imdb_cache, call_state)
         "title": title,
         "type": item_type,
         "imdbRating": imdb_score,
-        "releaseDate": release_date[:4] if release_date else "",
+        "releaseDate": release_date,
         "poster_path": item.get("poster_path"),
         "availableBE": True,
         "ratingSource": "imdb",
