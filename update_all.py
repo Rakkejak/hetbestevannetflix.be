@@ -858,6 +858,7 @@ def main():
     save_build_data(results)
 
     complete = not stopped_movies and not stopped_series
+    build_only = os.getenv("BUILD_ONLY") == "1"
 
     print()
     print("=== RESULTAAT ===")
@@ -867,7 +868,7 @@ def main():
     print("Ratingbron: IMDb Daily")
     print("Volledige run:", complete)
 
-    if complete:
+    if complete and not build_only:
         active_count, recent_count = publish_product_data(
             results,
             netflix_state,
@@ -877,7 +878,9 @@ def main():
         print("Recente toevoegingen gepubliceerd:", recent_count)
     else:
         print("Productiedata NIET overschreven.")
-        print(f"Tussentijdse resultaten staan in {BUILD_DATA_FILE}.")
+        print(f"Resultaten staan in {BUILD_DATA_FILE}.")
+        if complete and build_only:
+            print("Build-only modus actief.")
 
 
 if __name__ == "__main__":
