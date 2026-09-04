@@ -7,7 +7,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260904-3" />
+  <link rel="stylesheet" href="style.css?v=20260904-4" />
 </head>
 <body>
 
@@ -65,6 +65,7 @@
         </div>
         <span id="count" class="count">0 resultaten</span>
       </div>
+      <div id="genreFilters" class="genre-filters" hidden aria-label="Filter op genre"></div>
     </div>
   </section>
 
@@ -137,6 +138,7 @@
         el.dataset.variant = variant.id;
       });
     }
+
     function parseDateAny(s){
       if (s === undefined || s === null) return null;
       const str = String(s);
@@ -223,7 +225,8 @@
         dateAdded: it.dateAdded || "",
         poster: posterFor(it),
         nurl: netflixUrlFor(it),
-        lang: pickOriginalLanguage(it)
+        lang: pickOriginalLanguage(it),
+        genres: Array.isArray(it.genres) ? it.genres : []
       };
     }
 
@@ -246,6 +249,30 @@
     // Onze kwaliteitsdrempel
     function meetsBenchmark(item){
       return isNum(item.imdb) && item.imdb >= 7.8 && item.votes >= 1000;
+    }
+
+    // Genre-groepen voor één consistente filter over films en reeksen
+    const GENRE_GROUPS = [
+      { id:"actie-avontuur", label:"Actie & avontuur", names:["Action","Adventure","Action & Adventure"] },
+      { id:"animatie", label:"Animatie", names:["Animation"] },
+      { id:"komedie", label:"Komedie", names:["Comedy"] },
+      { id:"misdaad", label:"Misdaad", names:["Crime"] },
+      { id:"documentaire", label:"Documentaire", names:["Documentary"] },
+      { id:"drama", label:"Drama", names:["Drama"] },
+      { id:"familie", label:"Familie", names:["Family","Kids"] },
+      { id:"fantasy-scifi", label:"Fantasy & sci-fi", names:["Fantasy","Science Fiction","Sci-Fi & Fantasy"] },
+      { id:"historisch", label:"Historisch", names:["History"] },
+      { id:"horror", label:"Horror", names:["Horror"] },
+      { id:"mysterie", label:"Mysterie", names:["Mystery"] },
+      { id:"muziek", label:"Muziek", names:["Music"] },
+      { id:"romantiek", label:"Romantiek", names:["Romance"] },
+      { id:"thriller", label:"Thriller", names:["Thriller"] },
+      { id:"oorlog-politiek", label:"Oorlog & politiek", names:["War","War & Politics"] },
+      { id:"western", label:"Western", names:["Western"] }
+    ];
+
+    function hasGenre(item, group){
+      return group.names.some(name => item.genres.includes(name));
     }
 
     // Sorteren
@@ -275,10 +302,55 @@
     let sortMode = "imdb";          // "imdb" | "date"
     let sortDir  = "desc";          // voor "date"
     let mediaFilter = null;         // null | "Film" | "Series"
+    let genreFilter = null;         // null | GENRE_GROUPS.id
 
     function updateDateSortLabel(){
       const label = (TAB === "recent") ? "Toegevoegd" : "Releasedatum";
       $("#sortDate").textContent = `${label} ${sortDir === "desc" ? "↓" : "↑"}`;
+    }
+
+    function renderGenreButtons(){
+      const wrap = $("#genreFilters");
+
+      if (TAB !== "all"){
+        wrap.hidden = true;
+        return;
+      }
+
+      let base = applyBenchmark(DATA_A);
+      if (mediaFilter){
+        base = base.filter(x => x.type === mediaFilter);
+      }
+
+      const available = GENRE_GROUPS.filter(group =>
+        base.some(item => hasGenre(item, group))
+      );
+
+      if (!available.length){
+        genreFilter = null;
+        wrap.hidden = true;
+        return;
+      }
+
+      if (genreFilter && !available.some(group => group.id === genreFilter)){
+        genreFilter = null;
+      }
+
+      wrap.hidden = false;
+      wrap.innerHTML = [
+        `<button class="genre-btn ${genreFilter ? "" : "active"}" data-genre="" aria-pressed="${genreFilter ? "false" : "true"}">Alle genres</button>`,
+        ...available.map(group =>
+          `<button class="genre-btn ${genreFilter === group.id ? "active" : ""}" data-genre="${group.id}" aria-pressed="${genreFilter === group.id ? "true" : "false"}">${group.label}</button>`
+        )
+      ].join("");
+
+      $$("#genreFilters .genre-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          genreFilter = btn.dataset.genre || null;
+          renderGenreButtons();
+          render();
+        });
+      });
     }
 
     function card(item, idx){
@@ -333,6 +405,13 @@
         base = base.filter(x => x.type === mediaFilter);
       }
 
+      if (TAB === "all" && genreFilter){
+        const group = GENRE_GROUPS.find(g => g.id === genreFilter);
+        if (group){
+          base = base.filter(item => hasGenre(item, group));
+        }
+      }
+
       const filtered = q
         ? base.filter(x => (x.title || "").toLowerCase().includes(q))
         : base;
@@ -369,7 +448,7 @@
       const texts = {
         toppers: "De 67 best beoordeelde films én 67 best beoordeelde reeksen op Netflix in België.",
         recent: "Films en reeksen uit de laatste 100 dagen, met minstens 7,8 op IMDb en 1.000 stemmen.",
-        all: "Alle films en reeksen op Netflix België met minstens 7,8 op IMDb en 1.000 stemmen."
+        all: "Alle films en reeksen op Netflix België met minstens 7,8 op IMDb en 1.000 stemmen. Filter verder op genre."
       };
       $("#subtext").textContent = texts[TAB] || texts.toppers;
     }
@@ -410,6 +489,7 @@
         $("#filterFilms").setAttribute("aria-pressed", mediaFilter === "Film" ? "true" : "false");
         $("#filterSeries").setAttribute("aria-pressed", mediaFilter === "Series" ? "true" : "false");
 
+        renderGenreButtons();
         render();
       }
 
@@ -428,6 +508,7 @@
           $("#sortDate").classList.remove("active");
           updateDateSortLabel();
           setTextsForTab();
+          renderGenreButtons();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
         });
@@ -442,6 +523,7 @@
           $("#sortDate").classList.remove("active");
           updateDateSortLabel();
           setTextsForTab();
+          renderGenreButtons();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
         });
@@ -449,11 +531,16 @@
 
       // Lege-state → Toppers
       $("#goto-toppers").addEventListener("click", ()=>{
-        $("#menu-toppers").click();
+        TAB = "toppers";
+        genreFilter = null;
+        setTextsForTab();
+        renderGenreButtons();
+        render();
       });
 
       // Start op Toppers
       setTextsForTab();
+      renderGenreButtons();
       render();
     })();
   </script>
