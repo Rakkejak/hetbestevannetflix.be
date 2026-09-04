@@ -228,3 +228,50 @@
     .title{font-size:1.2rem}
   }
   
+
+/* ===== MOBILE HEADER FIX ===== */
+@media (max-width: 680px){
+  .nav{
+    grid-template-columns:1fr;
+    row-gap:.55rem;
+    padding-top:.65rem;
+    padding-bottom:.65rem;
+  }
+
+  .brand{
+    justify-self:center;
+    font-size:1.05rem;
+  }
+
+  .menu{
+    grid-template-columns:1fr;
+    gap:.55rem;
+  }
+
+  .menu-links{
+    grid-template-columns:1.5fr 1fr 1fr;
+    gap:.25rem;
+  }
+
+  .menu-link{
+    min-width:0;
+    height:32px;
+    font-size:.64rem;
+    letter-spacing:.06em;
+  }
+
+  .menu-link-blog{
+    min-width:0;
+  }
+
+  .menu .coffee-cta{
+    width:100%;
+    box-sizing:border-box;
+    height:38px;
+    font-size:.82rem;
+  }
+
+  .lead-title{
+    font-size:clamp(2.7rem,11vw,3.4rem);
+  }
+}
