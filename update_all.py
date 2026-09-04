@@ -145,7 +145,7 @@ def cached_imdb_score(cache, imdb_id):
 
 
 def load_legacy_netflix_id_map():
-    path = ROOT / "netflix_data.json"
+    path = ROOT / "legacy_netflix_data.json"
 
     if not path.exists():
         return {}
