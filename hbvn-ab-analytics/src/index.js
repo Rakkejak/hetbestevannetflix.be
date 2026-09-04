@@ -48,7 +48,7 @@ export default {
     const event = String(body.event || "");
 
     if (
-      experiment !== "support_cta_v1" ||
+      experiment !== "support_cta_v2" ||
       !["pintje", "half-pintje", "waterke"].includes(variant) ||
       !["impression", "click"].includes(event)
     ) {

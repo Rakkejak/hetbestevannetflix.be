@@ -1,6 +1,6 @@
 (() => {
   const ENDPOINT = "https://hbvn-ab-analytics.rakkejak.workers.dev/event";
-  const EXPERIMENT = "support_cta_v1";
+  const EXPERIMENT = "support_cta_v2";
   const VALID_VARIANTS = new Set(["pintje", "half-pintje", "waterke"]);
 
   let impressionSent = false;
