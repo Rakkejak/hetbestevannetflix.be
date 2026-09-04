@@ -45,6 +45,9 @@ jobs:
       - name: Update Netflix Belgium data
         run: python -u update_all.py
 
+      - name: Enrich titles with genres
+        run: python -u enrich_genres.py
+
       - name: Validate generated data
         run: |
           python - <<'PY'
@@ -86,7 +89,8 @@ jobs:
             netflix_last_month.json \
             netflix_be_state.json \
             tmdb_imdb_cache.json \
-            netflix_id_cache.json
+            netflix_id_cache.json \
+            tmdb_genre_cache.json
 
           if ! git diff --cached --quiet; then
             git commit -m "Weekly Netflix Belgium update [skip ci]"
