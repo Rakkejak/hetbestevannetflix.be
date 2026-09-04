@@ -1,6 +1,8 @@
+import gzip
 import json
 import os
 import time
+import urllib.request
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -27,6 +29,8 @@ NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
 BUILD_DATA_PATH = ROOT / BUILD_DATA_FILE
 OMDB_DAILY_USAGE_PATH = ROOT / OMDB_DAILY_USAGE_FILE
 NETFLIX_ID_CACHE_PATH = ROOT / "netflix_id_cache.json"
+IMDB_DAILY_RATINGS_PATH = ROOT / "imdb_daily_ratings.tsv.gz"
+MANUAL_AVAILABILITY_OVERRIDES_PATH = ROOT / "manual_availability_overrides.json"
 PRODUCT_DATA_PATH = ROOT / "netflix_data.json"
 RECENT_DATA_PATH = ROOT / "netflix_last_month.json"
 
@@ -59,6 +63,58 @@ def require_omdb_key():
     if not key:
         raise SystemExit("OMDB_API_KEY ontbreekt.")
     return key
+
+
+def download_imdb_daily_ratings():
+    if IMDB_DAILY_RATINGS_PATH.exists():
+        age_seconds = time.time() - IMDB_DAILY_RATINGS_PATH.stat().st_mtime
+
+        if age_seconds < 7 * 24 * 60 * 60:
+            print("IMDb Daily: lokale kopie jonger dan 7 dagen hergebruikt.")
+            return IMDB_DAILY_RATINGS_PATH
+
+    url = "https://datasets.imdbws.com/title.ratings.tsv.gz"
+    tmp_path = IMDB_DAILY_RATINGS_PATH.with_suffix(".tmp")
+
+    print("IMDb Daily: nieuwe dataset downloaden...")
+    urllib.request.urlretrieve(url, tmp_path)
+    tmp_path.replace(IMDB_DAILY_RATINGS_PATH)
+
+    return IMDB_DAILY_RATINGS_PATH
+
+
+def load_imdb_daily_ratings(path=None):
+    if path is None:
+        path = IMDB_DAILY_RATINGS_PATH
+
+    ratings = {}
+
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        header = next(f, None)
+
+        for line in f:
+            imdb_id, rating, votes = line.rstrip("\n").split("\t")
+
+            ratings[imdb_id] = {
+                "rating": float(rating),
+                "votes": int(votes),
+            }
+
+    return ratings
+
+
+def load_manual_availability_overrides():
+    if not MANUAL_AVAILABILITY_OVERRIDES_PATH.exists():
+        return {}
+
+    try:
+        data = json.loads(
+            MANUAL_AVAILABILITY_OVERRIDES_PATH.read_text(encoding="utf-8")
+        )
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    return data if isinstance(data, dict) else {}
 
 
 def load_imdb_cache():
@@ -339,23 +395,22 @@ def fetch_imdb_id_from_tmdb(media_type, tmdb_id, cache=None):
 
 
 
-def resolve_imdb_score(media_type, tmdb_id, tmdb_imdb_cache, imdb_cache, call_state):
+def resolve_imdb_score(media_type, tmdb_id, tmdb_imdb_cache, imdb_daily_ratings):
     imdb_id = fetch_imdb_id_from_tmdb(media_type, tmdb_id, tmdb_imdb_cache)
 
     if not imdb_id:
         return None, None, 0
 
-    score = cached_imdb_score(imdb_cache, imdb_id)
-    votes = cached_imdb_votes(imdb_cache, imdb_id)
+    current = imdb_daily_ratings.get(imdb_id)
 
-    # Oude cachewaarden zonder stemmentotaal zijn onvolledig:
-    # controleer ze opnieuw via OMDb.
-    if score is not None and votes > 0:
-        return imdb_id, score, votes
+    if not isinstance(current, dict):
+        return imdb_id, None, 0
 
-    data = fetch_omdb_data(imdb_id, call_state)
-    score = store_omdb_in_cache(imdb_cache, imdb_id, data)
-    votes = cached_imdb_votes(imdb_cache, imdb_id)
+    try:
+        score = float(current.get("rating"))
+        votes = int(current.get("votes", 0))
+    except (TypeError, ValueError):
+        return imdb_id, None, 0
 
     return imdb_id, score, votes
 
@@ -444,11 +499,11 @@ def process_tmdb_item(
     item,
     media_type,
     tmdb_imdb_cache,
-    imdb_cache,
-    call_state,
+    imdb_daily_ratings,
     netflix_state=None,
     netflix_id_cache=None,
     legacy_netflix_ids=None,
+    manual_availability_overrides=None,
 ):
     tmdb_id = item.get("id")
     if not tmdb_id:
@@ -458,8 +513,7 @@ def process_tmdb_item(
         media_type,
         tmdb_id,
         tmdb_imdb_cache,
-        imdb_cache,
-        call_state,
+        imdb_daily_ratings,
     )
 
     if (
@@ -467,6 +521,9 @@ def process_tmdb_item(
         or imdb_score < MIN_IMDB_RATING
         or imdb_votes < MIN_IMDB_VOTES
     ):
+        return None
+
+    if (manual_availability_overrides or {}).get(imdb_id) is False:
         return None
 
     if media_type == "movie":
@@ -648,8 +705,27 @@ def recent_product_items(items, today=None):
     return recent
 
 
+def dedupe_product_items(items):
+    seen_netflix_ids = set()
+    deduped = []
+
+    for item in items:
+        netflix_id = str(item.get("netflix_id") or "").strip()
+
+        if netflix_id:
+            if netflix_id in seen_netflix_ids:
+                continue
+            seen_netflix_ids.add(netflix_id)
+
+        deduped.append(item)
+
+    return deduped
+
+
 def publish_product_data(items, netflix_state):
-    active = active_product_items(items, netflix_state)
+    active = dedupe_product_items(
+        active_product_items(items, netflix_state)
+    )
     recent = recent_product_items(active)
 
     write_json_atomic(PRODUCT_DATA_PATH, active)
@@ -667,14 +743,14 @@ def process_catalog(
     items,
     media_type,
     tmdb_imdb_cache,
-    imdb_cache,
-    call_state,
+    imdb_daily_ratings,
     netflix_state=None,
     netflix_id_cache=None,
     legacy_netflix_ids=None,
+    manual_availability_overrides=None,
 ):
     results = []
-    stopped_at_limit = False
+    stopped_early = False
 
     label = "Ratings films" if media_type == "movie" else "Ratings series"
 
@@ -682,7 +758,7 @@ def process_catalog(
         label,
         0,
         len(items),
-        f"OMDb {call_state['calls']}/{call_state.get('limit', MAX_OMDB_CALLS_PER_RUN)} · geselecteerd 0",
+        "geselecteerd 0",
     )
 
     for index, item in enumerate(items, start=1):
@@ -691,52 +767,41 @@ def process_catalog(
                 item,
                 media_type,
                 tmdb_imdb_cache,
-                imdb_cache,
-                call_state,
+                imdb_daily_ratings,
                 netflix_state,
                 netflix_id_cache,
                 legacy_netflix_ids,
+                manual_availability_overrides,
             )
         except RuntimeError as exc:
             message = str(exc)
 
-            if (
-                "OMDb veiligheidslimiet bereikt" not in message
-                and "Wikidata tijdelijk onbeschikbaar" not in message
-            ):
+            if "Wikidata tijdelijk onbeschikbaar" not in message:
                 raise
 
-            stopped_at_limit = True
+            stopped_early = True
+            save_tmdb_imdb_cache(tmdb_imdb_cache)
             print()
-
-            if "Wikidata tijdelijk onbeschikbaar" in message:
-                print(
-                    f"{media_type}: gestopt bij item {index}/{len(items)} "
-                    "omdat Wikidata tijdelijk onbeschikbaar is."
-                )
-            else:
-                print(
-                    f"{media_type}: gestopt bij item {index}/{len(items)} "
-                    "wegens OMDb-limiet."
-                )
-
+            print(
+                f"{media_type}: gestopt bij item {index}/{len(items)} "
+                "omdat Wikidata tijdelijk onbeschikbaar is."
+            )
             break
 
         if result is not None:
             results.append(result)
 
+        if index % 50 == 0:
+            save_tmdb_imdb_cache(tmdb_imdb_cache)
+
         print_progress(
             label,
             index,
             len(items),
-            (
-                f"OMDb {call_state['calls']}/{call_state.get('limit', MAX_OMDB_CALLS_PER_RUN)}"
-                f" · geselecteerd {len(results)}"
-            ),
+            f"geselecteerd {len(results)}",
         )
 
-    return results, stopped_at_limit
-
+    return results, stopped_early
 
 def main():
     load_local_env()
@@ -744,11 +809,16 @@ def main():
     movies = fetch_netflix_catalog("movie")
     series = fetch_netflix_catalog("tv")
 
+    print("IMDb Daily ratings downloaden...")
+    ratings_path = download_imdb_daily_ratings()
+    imdb_daily_ratings = load_imdb_daily_ratings(ratings_path)
+    print("IMDb Daily ratings geladen:", len(imdb_daily_ratings))
+
     tmdb_imdb_cache = load_tmdb_imdb_cache()
-    imdb_cache = load_imdb_cache()
     netflix_state = load_netflix_state()
     netflix_id_cache = load_netflix_id_cache()
     legacy_netflix_ids = load_legacy_netflix_id_map()
+    manual_availability_overrides = load_manual_availability_overrides()
 
     netflix_state = update_netflix_state(
         netflix_state,
@@ -756,36 +826,33 @@ def main():
         series,
     )
 
-    per_media_limit = MAX_OMDB_CALLS_PER_RUN // 2
-
-    movie_call_state = {"calls": 0, "limit": per_media_limit}
-    series_call_state = {"calls": 0, "limit": per_media_limit}
-
     processed_movies, stopped_movies = process_catalog(
         movies,
         "movie",
         tmdb_imdb_cache,
-        imdb_cache,
-        movie_call_state,
+        imdb_daily_ratings,
         netflix_state,
         netflix_id_cache,
         legacy_netflix_ids,
+        manual_availability_overrides,
     )
 
     processed_series, stopped_series = process_catalog(
         series,
         "tv",
         tmdb_imdb_cache,
-        imdb_cache,
-        series_call_state,
+        imdb_daily_ratings,
         netflix_state,
         netflix_id_cache,
         legacy_netflix_ids,
+        manual_availability_overrides,
     )
 
-    results = processed_movies + processed_series
+    results = dedupe_product_items(
+        processed_movies + processed_series
+    )
 
-    save_caches(tmdb_imdb_cache, imdb_cache)
+    save_tmdb_imdb_cache(tmdb_imdb_cache)
     save_netflix_state(netflix_state)
     save_netflix_id_cache(netflix_id_cache)
     save_build_data(results)
@@ -797,10 +864,7 @@ def main():
     print("Netflix BE films gevonden:", len(movies))
     print("Netflix BE series gevonden:", len(series))
     print("Titels die voldoen:", len(results))
-    total_omdb_calls = movie_call_state["calls"] + series_call_state["calls"]
-    print("OMDb-calls films:", movie_call_state["calls"])
-    print("OMDb-calls series:", series_call_state["calls"])
-    print("OMDb-calls totaal:", total_omdb_calls)
+    print("Ratingbron: IMDb Daily")
     print("Volledige run:", complete)
 
     if complete:
