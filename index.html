@@ -137,7 +137,6 @@
         el.dataset.variant = variant.id;
       });
     }
-
     function parseDateAny(s){
       if (s === undefined || s === null) return null;
       const str = String(s);
@@ -458,5 +457,9 @@
       render();
     })();
   </script>
+
+  <!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1dec3c77ab8744369890345885730fa9"}'></script>
+  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
