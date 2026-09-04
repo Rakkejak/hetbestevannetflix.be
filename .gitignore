@@ -7,3 +7,6 @@ netflix_data_build.json
 
 imdb_daily_ratings.tsv.gz
 imdb_daily_ratings.tsv.tmp
+
+.netflix_browser_profile/
+netflix_top67_build.json

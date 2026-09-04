@@ -249,8 +249,8 @@ def fetch_netflix_id_from_wikidata(imdb_id, cache=None):
     if not imdb_id:
         return None
 
-    if cache is not None and imdb_id in cache:
-        return cache[imdb_id] or None
+    if cache is not None and cache.get(imdb_id):
+        return cache[imdb_id]
 
     query = f"""
     SELECT ?netflix WHERE {{
@@ -294,7 +294,10 @@ def fetch_netflix_id_from_wikidata(imdb_id, cache=None):
     )
 
     if cache is not None:
-        cache[imdb_id] = netflix_id
+        if netflix_id:
+            cache[imdb_id] = netflix_id
+        else:
+            cache.pop(imdb_id, None)
 
     return netflix_id
 
@@ -547,9 +550,6 @@ def process_tmdb_item(
             netflix_id_cache,
         )
 
-    if not netflix_id:
-        return None
-
     if media_type == "movie":
         title = item.get("title")
         original_title = item.get("original_title") or title
@@ -706,15 +706,31 @@ def recent_product_items(items, today=None):
 
 
 def dedupe_product_items(items):
+    seen_tmdb_ids = set()
+    seen_imdb_ids = set()
     seen_netflix_ids = set()
     deduped = []
 
     for item in items:
+        media_type = str(item.get("type") or "")
+        tmdb_id = item.get("tmdbId")
+        imdb_id = str(item.get("imdbId") or "").strip()
         netflix_id = str(item.get("netflix_id") or "").strip()
 
+        tmdb_key = (media_type, tmdb_id) if tmdb_id else None
+
+        if tmdb_key and tmdb_key in seen_tmdb_ids:
+            continue
+        if imdb_id and imdb_id in seen_imdb_ids:
+            continue
+        if netflix_id and netflix_id in seen_netflix_ids:
+            continue
+
+        if tmdb_key:
+            seen_tmdb_ids.add(tmdb_key)
+        if imdb_id:
+            seen_imdb_ids.add(imdb_id)
         if netflix_id:
-            if netflix_id in seen_netflix_ids:
-                continue
             seen_netflix_ids.add(netflix_id)
 
         deduped.append(item)
