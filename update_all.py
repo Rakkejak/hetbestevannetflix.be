@@ -1,5 +1,6 @@
 import json
 import os
+import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -25,6 +26,7 @@ TMDB_IMDB_CACHE_PATH = ROOT / TMDB_IMDB_CACHE_FILE
 NETFLIX_STATE_PATH = ROOT / NETFLIX_STATE_FILE
 BUILD_DATA_PATH = ROOT / BUILD_DATA_FILE
 OMDB_DAILY_USAGE_PATH = ROOT / OMDB_DAILY_USAGE_FILE
+NETFLIX_ID_CACHE_PATH = ROOT / "netflix_id_cache.json"
 PRODUCT_DATA_PATH = ROOT / "netflix_data.json"
 RECENT_DATA_PATH = ROOT / "netflix_last_month.json"
 
@@ -140,6 +142,105 @@ def cached_imdb_score(cache, imdb_id):
     return None
 
 
+
+
+def load_legacy_netflix_id_map():
+    path = ROOT / "netflix_data.json"
+
+    if not path.exists():
+        return {}
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    result = {}
+
+    for item in data if isinstance(data, list) else []:
+        netflix_id = item.get("nfid") or item.get("netflix_id")
+        if not netflix_id:
+            continue
+
+        title = str(item.get("title", "")).strip().casefold()
+        item_type = item.get("type")
+        year = str(item.get("releaseDate", ""))[:4]
+
+        if title and item_type and year:
+            result[(title, item_type, year)] = str(netflix_id)
+
+    return result
+
+
+def load_netflix_id_cache():
+    if not NETFLIX_ID_CACHE_PATH.exists():
+        return {}
+
+    try:
+        data = json.loads(NETFLIX_ID_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    return data if isinstance(data, dict) else {}
+
+
+def save_netflix_id_cache(cache):
+    with NETFLIX_ID_CACHE_PATH.open("w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def fetch_netflix_id_from_wikidata(imdb_id, cache=None):
+    if not imdb_id:
+        return None
+
+    if cache is not None and imdb_id in cache:
+        return cache[imdb_id] or None
+
+    query = f"""
+    SELECT ?netflix WHERE {{
+      ?item wdt:P345 "{imdb_id}" ;
+            wdt:P1874 ?netflix .
+    }}
+    """
+
+    response = None
+
+    for attempt in range(3):
+        try:
+            response = requests.get(
+                "https://query.wikidata.org/sparql",
+                params={"query": query, "format": "json"},
+                headers={
+                    "User-Agent": "HetBesteVanNetflix/1.0 https://hetbestevannetflix.be"
+                },
+                timeout=30,
+            )
+
+            if response.status_code == 429 or response.status_code >= 500:
+                if attempt < 2:
+                    time.sleep(2 ** attempt)
+                    continue
+
+            response.raise_for_status()
+            break
+
+        except requests.RequestException as exc:
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError("Wikidata tijdelijk onbeschikbaar.") from exc
+
+    rows = response.json().get("results", {}).get("bindings", [])
+    netflix_id = (
+        rows[0].get("netflix", {}).get("value")
+        if rows
+        else None
+    )
+
+    if cache is not None:
+        cache[imdb_id] = netflix_id
+
+    return netflix_id
 
 
 def load_netflix_state():
@@ -346,6 +447,8 @@ def process_tmdb_item(
     imdb_cache,
     call_state,
     netflix_state=None,
+    netflix_id_cache=None,
+    legacy_netflix_ids=None,
 ):
     tmdb_id = item.get("id")
     if not tmdb_id:
@@ -367,18 +470,46 @@ def process_tmdb_item(
         return None
 
     if media_type == "movie":
+        legacy_type = "Film"
+        legacy_title = str(item.get("title", "")).strip().casefold()
+        legacy_year = str(item.get("release_date", ""))[:4]
+    else:
+        legacy_type = "Series"
+        legacy_title = str(item.get("name", "")).strip().casefold()
+        legacy_year = str(item.get("first_air_date", ""))[:4]
+
+    legacy_key = (legacy_title, legacy_type, legacy_year)
+    netflix_id = (legacy_netflix_ids or {}).get(legacy_key)
+
+    if netflix_id:
+        if netflix_id_cache is not None:
+            netflix_id_cache[imdb_id] = netflix_id
+    else:
+        netflix_id = fetch_netflix_id_from_wikidata(
+            imdb_id,
+            netflix_id_cache,
+        )
+
+    if not netflix_id:
+        return None
+
+    if media_type == "movie":
         title = item.get("title")
+        original_title = item.get("original_title") or title
         release_date = item.get("release_date") or ""
         item_type = "Film"
     else:
         title = item.get("name")
+        original_title = item.get("original_name") or title
         release_date = item.get("first_air_date") or ""
         item_type = "Serie"
 
     return {
         "tmdbId": tmdb_id,
         "imdbId": imdb_id,
+        "netflix_id": netflix_id,
         "title": title,
+        "originalTitle": original_title,
         "type": item_type,
         "imdbRating": imdb_score,
         "imdbVotes": imdb_votes,
@@ -433,6 +564,7 @@ def fetch_netflix_catalog(media_type):
             endpoint,
             params={
                 "api_key": api_key,
+                "language": "en-US",
                 "watch_region": REGION,
                 "with_watch_providers": NETFLIX_PROVIDER_ID,
                 "with_watch_monetization_types": "flatrate",
@@ -538,6 +670,8 @@ def process_catalog(
     imdb_cache,
     call_state,
     netflix_state=None,
+    netflix_id_cache=None,
+    legacy_netflix_ids=None,
 ):
     results = []
     stopped_at_limit = False
@@ -560,14 +694,32 @@ def process_catalog(
                 imdb_cache,
                 call_state,
                 netflix_state,
+                netflix_id_cache,
+                legacy_netflix_ids,
             )
         except RuntimeError as exc:
-            if "OMDb veiligheidslimiet bereikt" not in str(exc):
+            message = str(exc)
+
+            if (
+                "OMDb veiligheidslimiet bereikt" not in message
+                and "Wikidata tijdelijk onbeschikbaar" not in message
+            ):
                 raise
 
             stopped_at_limit = True
             print()
-            print(f"{media_type}: gestopt bij item {index}/{len(items)} wegens OMDb-limiet.")
+
+            if "Wikidata tijdelijk onbeschikbaar" in message:
+                print(
+                    f"{media_type}: gestopt bij item {index}/{len(items)} "
+                    "omdat Wikidata tijdelijk onbeschikbaar is."
+                )
+            else:
+                print(
+                    f"{media_type}: gestopt bij item {index}/{len(items)} "
+                    "wegens OMDb-limiet."
+                )
+
             break
 
         if result is not None:
@@ -595,6 +747,8 @@ def main():
     tmdb_imdb_cache = load_tmdb_imdb_cache()
     imdb_cache = load_imdb_cache()
     netflix_state = load_netflix_state()
+    netflix_id_cache = load_netflix_id_cache()
+    legacy_netflix_ids = load_legacy_netflix_id_map()
 
     netflix_state = update_netflix_state(
         netflix_state,
@@ -614,6 +768,8 @@ def main():
         imdb_cache,
         movie_call_state,
         netflix_state,
+        netflix_id_cache,
+        legacy_netflix_ids,
     )
 
     processed_series, stopped_series = process_catalog(
@@ -623,12 +779,15 @@ def main():
         imdb_cache,
         series_call_state,
         netflix_state,
+        netflix_id_cache,
+        legacy_netflix_ids,
     )
 
     results = processed_movies + processed_series
 
     save_caches(tmdb_imdb_cache, imdb_cache)
     save_netflix_state(netflix_state)
+    save_netflix_id_cache(netflix_id_cache)
     save_build_data(results)
 
     complete = not stopped_movies and not stopped_series
