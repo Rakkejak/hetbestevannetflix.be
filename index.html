@@ -23,8 +23,8 @@
           <a class="menu-link" href="https://rakkejak.be" target="_blank" rel="noopener">RAKKEJAK</a>
         </div>
         <!-- helemaal rechts -->
-        <a class="coffee-cta" href="https://buymeacoffee.com/rakkejak" target="_blank" rel="noopener">
-          TRAKTEER ONS OP EEN KOFFIE
+        <a class="coffee-cta" href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
+          TRAKTEER ONS OP EEN PINT
         </a>
       </nav>
     </div>
@@ -76,8 +76,8 @@
 
     <section id="rakkejak" class="about">
       <p class="about-lead">Wij maken gratis websites.</p>
-      <a class="coffee big" href="https://buymeacoffee.com/rakkejak" target="_blank" rel="noopener">
-        ☕ Trakteer ons op een koffie
+      <a class="coffee big" href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
+        Trakteer ons op een pint
       </a>
     </section>
   </main>
@@ -86,11 +86,11 @@
   <footer class="footer">
     <div class="container footer-grid">
       <p class="muted">
-        We tonen films en series die beschikbaar zijn op Netflix in België en een IMDb-score van minstens 7,8 hebben.
-        De beschikbaarheidsgegevens zijn afkomstig van TMDb/JustWatch. IMDb-scores worden via OMDb opgehaald.
+        We tonen films en series die beschikbaar zijn op Netflix in België, een IMDb-score van minstens 7,8 én minstens 1.000 IMDb-stemmen hebben.
+        De beschikbaarheidsgegevens zijn afkomstig van TMDb/JustWatch. IMDb-scores en stemaantallen worden via OMDb opgehaald.
       </p>
       <p class="muted small">
-        “Recent” toont de beste reeksen en films van de laaste 90 dagen. Als dat leeg is, tonen we automatisch de 10 meest recente titels uit de volledige database.
+        “Recent” toont de best beoordeelde films en series die in de laatste 90 dagen aan Netflix België zijn toegevoegd. Als er geen recente toevoegingen zijn, tonen we als fallback de 10 nieuwste releases uit de volledige database.
       </p>
     </div>
   </footer>
@@ -214,10 +214,10 @@
     }
 
     // Sorteren
-    function sortByDate(arr, dir="desc"){
+    function sortByDate(arr, dir="desc", field="releaseDate"){
       const mul = (dir === "desc" ? -1 : 1);
       return arr.slice().sort((a,b)=>{
-        const ad = parseDateAny(a.releaseDate); const bd = parseDateAny(b.releaseDate);
+        const ad = parseDateAny(a[field]); const bd = parseDateAny(b[field]);
         const av = ad ? ad.getTime() : -Infinity;
         const bv = bd ? bd.getTime() : -Infinity;
         if (av === bv) return a.title.localeCompare(b.title);
@@ -239,6 +239,11 @@
     let sortMode = "imdb";          // "imdb" | "date"
     let sortDir  = "desc";          // voor "date"
     let mediaFilter = null;         // null | "Film" | "Series"
+
+    function updateDateSortLabel(){
+      const label = (TAB === "recent") ? "Toegevoegd" : "Releasedatum";
+      $("#sortDate").textContent = `${label} ${sortDir === "desc" ? "↓" : "↑"}`;
+    }
 
     function card(item, idx){
       const y = yearOf(item.releaseDate);
@@ -300,7 +305,8 @@
       const filtered = q ? base.filter(x => (x.title||"").toLowerCase().includes(q)) : base;
 
       // 5) sortering
-      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir);
+      const dateField = (TAB === "recent" && !usedFallback) ? "dateAdded" : "releaseDate";
+      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir, dateField);
 
       // 5) render of leeg
       if (!rows.length){
@@ -309,7 +315,7 @@
         if (TAB === "recent" && !usedFallback){
           empty.hidden = false;
           emptyText.textContent =
-            "Als je deze tekst ziet, dan is geen topserie of -film verschenen in de laatste 90 dagen. " +
+            "Als je deze tekst ziet, dan is geen topserie of -film in de laatste 90 dagen aan Netflix België toegevoegd. " +
             "Ga naar Klassiekers en sorteer via release date om de meest recente topserie of -film te zien.";
           gotoBtn.hidden = false;
         } else {
@@ -350,7 +356,7 @@
         } else {
           sortDir = (sortDir === "desc" ? "asc" : "desc");
         }
-        $("#sortDate").textContent = `Datum ${sortDir === "desc" ? "↓" : "↑"}`;
+        updateDateSortLabel();
         render();
       });
 
@@ -380,7 +386,7 @@
           sortMode = "imdb"; sortDir = "desc";
           $("#sortImdb").classList.add("active");
           $("#sortDate").classList.remove("active");
-          $("#sortDate").textContent = "Datum ↓";
+          updateDateSortLabel();
           setTextsForTab();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
@@ -394,7 +400,7 @@
           sortMode = "imdb"; sortDir = "desc";
           $("#sortImdb").classList.add("active");
           $("#sortDate").classList.remove("active");
-          $("#sortDate").textContent = "Datum ↓";
+          updateDateSortLabel();
           setTextsForTab();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
