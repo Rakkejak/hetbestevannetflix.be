@@ -150,6 +150,31 @@
   .sortbtn:hover{background:#0d1b1e}
   .sortbtn.active{box-shadow:0 0 0 2px rgba(58,163,255,.35) inset; border-color:rgba(58,163,255,.65)}
   .count{font-weight:700;color:#cbe0e6}
+
+  .genre-filters{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:.4rem;
+    margin:.75rem auto 0;
+    max-width:1000px;
+  }
+  .genre-filters[hidden]{display:none}
+  .genre-btn{
+    border:1px solid #173942;
+    background:#0a171a;
+    color:#dcecef;
+    padding:.45rem .72rem;
+    border-radius:999px;
+    cursor:pointer;
+    font:700 .82rem/1 Inter, sans-serif;
+  }
+  .genre-btn:hover{background:#0d1b1e}
+  .genre-btn.active{
+    border-color:#59f3a5;
+    color:#59f3a5;
+    box-shadow:0 0 0 1px rgba(89,243,165,.25) inset;
+  }
   
   /* ===== CARDS ===== */
   .cards{display:flex;flex-direction:column;gap:.9rem;margin-top:1.1rem}
@@ -226,6 +251,8 @@
     .card.no-poster{grid-template-columns:40px 1fr}
     .poster{width:72px;height:108px}
     .title{font-size:1.2rem}
+    .genre-filters{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;padding-bottom:.25rem}
+    .genre-btn{white-space:nowrap;flex:0 0 auto}
   }
   
 
