@@ -7,12 +7,15 @@
     "originalTitle": "MOURINHO",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 3659,
+    "imdbVotes": 3687,
     "releaseDate": "2026-08-11",
     "dateAdded": null,
     "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Documentary"
+    ]
   },
   {
     "tmdbId": 284753,
@@ -22,12 +25,35 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6448,
+    "imdbVotes": 6495,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Drama"
+    ]
+  },
+  {
+    "tmdbId": 1443961,
+    "imdbId": "tt37895011",
+    "netflix_id": null,
+    "title": "Rao Bahadur",
+    "originalTitle": "రావు బహదూర్",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "imdbVotes": 5768,
+    "releaseDate": "2026-07-02",
+    "dateAdded": "2026-09-04",
+    "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Thriller"
+    ]
   },
   {
     "tmdbId": 1431068,
@@ -37,12 +63,17 @@
     "originalTitle": "मैं वापस आऊंगा",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12554,
+    "imdbVotes": 12589,
     "releaseDate": "2026-06-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Romance",
+      "Drama",
+      "Mystery"
+    ]
   },
   {
     "tmdbId": 276161,
@@ -52,12 +83,17 @@
     "originalTitle": "참교육",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 19434,
+    "imdbVotes": 19441,
     "releaseDate": "2026-06-05",
     "dateAdded": null,
     "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Comedy"
+    ]
   },
   {
     "tmdbId": 279884,
@@ -67,12 +103,15 @@
     "originalTitle": "Rafa",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 4959,
+    "imdbVotes": 4965,
     "releaseDate": "2026-05-29",
     "dateAdded": "2026-09-04",
     "poster_path": "/utyZY9NKMC0Ci9Rh0ohW9giFKee.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Documentary"
+    ]
   },
   {
     "tmdbId": 304597,
@@ -82,11 +121,17 @@
     "originalTitle": "Due spicci",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 2678,
+    "imdbVotes": 2682,
     "releaseDate": "2026-05-27",
     "dateAdded": null,
     "poster_path": "/ezu9oAG68yRoFRsx5qzb1yt5MMJ.jpg",
     "availableBE": true,
-    "ratingSource": "imdb"
+    "ratingSource": "imdb",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Crime"
+    ]
   }
 ]
