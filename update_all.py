@@ -683,24 +683,36 @@ def active_product_items(items, netflix_state):
 
 
 def recent_product_items(items, today=None):
+
     if today is None:
         today = datetime.now(timezone.utc).date()
 
-    cutoff = today - timedelta(days=90)
+    cutoff = today - timedelta(days=100)
+
     recent = []
 
     for item in items:
-        raw = item.get("dateAdded")
+        raw = item.get("releaseDate")
+
         if not raw:
             continue
 
         try:
-            added = datetime.fromisoformat(str(raw)).date()
+            released = datetime.fromisoformat(str(raw)[:10]).date()
         except ValueError:
             continue
 
-        if cutoff <= added <= today:
+        if cutoff <= released <= today:
             recent.append(item)
+
+    recent.sort(
+        key=lambda item: (
+            item.get("releaseDate") or "",
+            item.get("imdbRating") or 0,
+            item.get("imdbVotes") or 0,
+        ),
+        reverse=True,
+    )
 
     return recent
 
