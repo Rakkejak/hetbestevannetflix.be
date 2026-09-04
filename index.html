@@ -7,23 +7,26 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=20260904-1" />
 </head>
 <body>
 
   <!-- FIXED TOP NAV -->
   <header class="site-header">
     <div class="container nav">
-      <div class="brand">Het Beste van <span>Netflix</span> <em>België</em></div>
+      <div class="brand">
+        <div>Het Beste van <span>Netflix</span></div>
+        <em>België</em>
+      </div>
 
       <nav class="menu">
         <div class="menu-links">
-          <a class="menu-link" data-tab="recent" id="menu-recent">RECENT</a>
-          <a class="menu-link" data-tab="klassiekers" id="menu-klassiekers">KLASSIEKERS</a>
+          <a class="menu-link" href="#entertainment" id="menu-entertainment">LET ME ENTERTAIN YOU</a>
           <a class="menu-link" href="https://rakkejak.be" target="_blank" rel="noopener">RAKKEJAK</a>
+          <a class="menu-link" href="mailto:hetbestevannetflix.be@gmail.com">CONTACT</a>
         </div>
         <!-- helemaal rechts -->
-        <a class="coffee-cta" href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
+        <a class="coffee-cta" data-support-cta href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
           TRAKTEER ONS OP EEN PINT
         </a>
       </nav>
@@ -35,11 +38,12 @@
     <div class="container hero-grid">
       <div class="lead">
         <h1 class="lead-title">
-          Ontdek de best beoordeelde films en series beschikbaar op Netflix in België.
+          Ontdek de 67 best beoordeelde films en reeksen op Netflix in België.
         </h1>
         <div class="lead-ctas">
-          <button class="cta large" id="hero-klassiekers" data-tab="klassiekers">Klassiekers</button>
+          <button class="cta large" id="hero-toppers" data-tab="toppers">Toppers</button>
           <button class="cta large" id="hero-recent" data-tab="recent">Recent</button>
+          <button class="cta large" id="hero-all" data-tab="all">Allemaal goed</button>
         </div>
       </div>
     </div>
@@ -49,15 +53,15 @@
   <section class="subintro">
     <div class="container">
       <p id="subtext" class="subtext">
-        Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Klassiekers voor oudere films of reeksen.
+        Onze selectie gebruikt IMDb-scores en minstens 1.000 stemmen. Kies Toppers, Recent of bekijk ze Allemaal Goed.
       </p>
       <div class="controls">
         <input id="search" type="search" placeholder="Zoek op titel…" aria-label="Zoek titel" />
         <div class="sorts">
           <button id="sortImdb" class="sortbtn active" aria-pressed="true">IMDb (hoog→laag)</button>
           <button id="sortDate" class="sortbtn" aria-pressed="false">Datum ↓</button>
-          <button id="filterFilms" class="sortbtn" aria-pressed="false">Enkel films</button>
-          <button id="filterSeries" class="sortbtn" aria-pressed="false">Enkel reeksen</button>
+          <button id="filterFilms" class="sortbtn" aria-pressed="false">Films</button>
+          <button id="filterSeries" class="sortbtn" aria-pressed="false">Reeksen</button>
         </div>
         <span id="count" class="count">0 resultaten</span>
       </div>
@@ -68,15 +72,15 @@
   <main class="container">
     <section id="cards" class="cards" aria-live="polite"></section>
 
-    <!-- optionele lege-staat (wordt verborgen als we fallback tonen) -->
+    <!-- lege staat -->
     <div id="empty" class="empty" hidden>
       <p id="empty-text"></p>
-      <button id="goto-classics" class="cta small" hidden>Bekijk Klassiekers</button>
+      <button id="goto-toppers" class="cta small" hidden>Bekijk Toppers</button>
     </div>
 
     <section id="rakkejak" class="about">
       <p class="about-lead">Wij maken gratis websites.</p>
-      <a class="coffee big" href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
+      <a class="coffee big" data-support-cta href="https://buy.stripe.com/28E28rc17c4RezOg7LgA800" target="_blank" rel="noopener">
         Trakteer ons op een pint
       </a>
     </section>
@@ -90,7 +94,7 @@
         De beschikbaarheidsgegevens zijn afkomstig van TMDb/JustWatch.
       </p>
       <p class="muted small">
-        “Recent” toont de best beoordeelde films en series die in de laatste 90 dagen aan Netflix België zijn toegevoegd. Als er geen recente toevoegingen zijn, tonen we als fallback de 10 nieuwste releases uit de volledige database.
+        “Recent” toont titels die in de laatste 90 dagen aan Netflix België zijn toegevoegd, minstens 7,8 op IMDb scoren en minstens 1.000 stemmen hebben.
       </p>
     </div>
   </footer>
@@ -102,6 +106,37 @@
     const $$ = s => Array.from(document.querySelectorAll(s));
     const isNum = v => Number.isFinite(+v);
     const fmt1  = v => (isNum(v) && +v > 0 ? (+v).toFixed(1) : "—");
+
+    // A/B/C-test supportknop: één vaste variant per browser
+    const SUPPORT_VARIANTS = [
+      { id: "pintje", text: "Trakteer ons op een pintje" },
+      { id: "half-pintje", text: "Trakteer ons op een half pintje" },
+      { id: "waterke", text: "Trakteer ons op een waterke" }
+    ];
+
+    function supportVariant(){
+      const key = "hbvn_support_variant_v1";
+      let id = localStorage.getItem(key);
+      let variant = SUPPORT_VARIANTS.find(v => v.id === id);
+
+      if (!variant){
+        variant = SUPPORT_VARIANTS[
+          Math.floor(Math.random() * SUPPORT_VARIANTS.length)
+        ];
+        localStorage.setItem(key, variant.id);
+      }
+
+      return variant;
+    }
+
+    function applySupportVariant(){
+      const variant = supportVariant();
+
+      $$("[data-support-cta]").forEach(el => {
+        el.textContent = variant.text;
+        el.dataset.variant = variant.id;
+      });
+    }
 
     function parseDateAny(s){
       if (s === undefined || s === null) return null;
@@ -184,6 +219,7 @@
         title: it.title || it.name || "",
         type: niceType(it.type),
         imdb: isNum(it.imdbRating) ? +it.imdbRating : (isNum(it.imdb) ? +it.imdb : NaN),
+        votes: isNum(it.imdbVotes) ? +it.imdbVotes : 0,
         releaseDate: it.releaseDate || it.first_air_date || it.release_date || "",
         dateAdded: it.dateAdded || "",
         poster: posterFor(it),
@@ -198,19 +234,19 @@
       return res.json();
     }
     async function loadDatasets(){
-      let klassiekers = [];
+      let all = [];
       let recent = [];
-      try { klassiekers = await loadJSON("netflix_data.json"); } catch {}
+      try { all = await loadJSON("netflix_data.json"); } catch {}
       try {
         const lm = await loadJSON("netflix_last_month.json");
-        if (Array.isArray(lm) && lm.length) recent = lm;
+        if (Array.isArray(lm)) recent = lm;
       } catch {}
-      return { klassiekers: klassiekers.map(normalize), recent: recent.map(normalize) };
+      return { all: all.map(normalize), recent: recent.map(normalize) };
     }
 
-    // Alleen titels met IMDb-score van minstens 7.8
+    // Onze kwaliteitsdrempel
     function meetsBenchmark(item){
-      return isNum(item.imdb) && item.imdb >= 7.8;
+      return isNum(item.imdb) && item.imdb >= 7.8 && item.votes >= 1000;
     }
 
     // Sorteren
@@ -229,13 +265,14 @@
         const ai = isNum(a.imdb) ? +a.imdb : -Infinity;
         const bi = isNum(b.imdb) ? +b.imdb : -Infinity;
         if (bi !== ai) return bi - ai;
+        if (b.votes !== a.votes) return b.votes - a.votes;
         return a.title.localeCompare(b.title);
       });
     }
 
     // State
-    let TAB = "recent";             // start op Recent
-    let DATA_R = [], DATA_K = [];
+    let TAB = "toppers";            // start op Toppers
+    let DATA_R = [], DATA_A = [];
     let sortMode = "imdb";          // "imdb" | "date"
     let sortDir  = "desc";          // voor "date"
     let mediaFilter = null;         // null | "Film" | "Series"
@@ -272,73 +309,77 @@
 
     function applyBenchmark(arr){ return arr.filter(meetsBenchmark); }
 
+    function top67PerType(arr){
+      const films = sortByImdb(arr.filter(x => x.type === "Film")).slice(0, 67);
+      const series = sortByImdb(arr.filter(x => x.type === "Series")).slice(0, 67);
+      return sortByImdb([...films, ...series]);
+    }
+
     function render(){
       const cards = $("#cards");
       const empty = $("#empty");
       const emptyText = $("#empty-text");
-      const gotoBtn = $("#goto-classics");
+      const gotoBtn = $("#goto-toppers");
       const count = $("#count");
 
-      // 1) kies bron
-      const baseRaw = (TAB === "recent") ? DATA_R : DATA_K;
-      let base = applyBenchmark(baseRaw);
-
-      // 2) RECENT fallback: als er geen recente titels zijn (na benchmark) en geen zoekterm:
       const q = ($("#search").value || "").toLowerCase().trim();
-      let usedFallback = false;
-      if (TAB === "recent" && !q && base.length === 0){
-        // pak 10 meest recente uit volledige database, rekening houdend met typefilter
-        let fallbackBase = applyBenchmark(DATA_K);
 
-        if (mediaFilter){
-          fallbackBase = fallbackBase.filter(x => x.type === mediaFilter);
-        }
+      let base = applyBenchmark(TAB === "recent" ? DATA_R : DATA_A);
 
-        base = sortByDate(fallbackBase, "desc").slice(0, 10);
-        usedFallback = true;
-      } else if (mediaFilter){
-        // optionele film/reeksfilter
+      if (TAB === "toppers" || TAB === "recent"){
+        base = top67PerType(base);
+      }
+
+      if (mediaFilter){
         base = base.filter(x => x.type === mediaFilter);
       }
 
-      // 4) zoekfilter
-      const filtered = q ? base.filter(x => (x.title||"").toLowerCase().includes(q)) : base;
+      const filtered = q
+        ? base.filter(x => (x.title || "").toLowerCase().includes(q))
+        : base;
 
-      // 5) sortering
-      const dateField = (TAB === "recent" && !usedFallback) ? "dateAdded" : "releaseDate";
-      const rows = (sortMode === "imdb") ? sortByImdb(filtered) : sortByDate(filtered, sortDir, dateField);
+      const dateField = TAB === "recent" ? "dateAdded" : "releaseDate";
 
-      // 5) render of leeg
+      const rows = sortMode === "imdb"
+        ? sortByImdb(filtered)
+        : sortByDate(filtered, sortDir, dateField);
+
       if (!rows.length){
         cards.innerHTML = "";
         count.textContent = "0 resultaten";
-        if (TAB === "recent" && !usedFallback){
-          empty.hidden = false;
+        empty.hidden = false;
+
+        if (TAB === "recent"){
           emptyText.textContent =
-            "Als je deze tekst ziet, dan is geen topserie of -film in de laatste 90 dagen aan Netflix België toegevoegd. " +
-            "Ga naar Klassiekers en sorteer via release date om de meest recente topserie of -film te zien.";
+            "Er zijn momenteel geen titels in deze selectie die in de laatste 90 dagen aan Netflix België zijn toegevoegd en onze IMDb-drempel halen.";
           gotoBtn.hidden = false;
         } else {
-          empty.hidden = true;
+          emptyText.textContent = "Geen titels gevonden voor deze selectie.";
+          gotoBtn.hidden = true;
         }
         return;
       }
 
       empty.hidden = true;
+      gotoBtn.hidden = true;
       cards.innerHTML = rows.map((it,i)=>card(it,i)).join("");
-      count.textContent = `${rows.length} resultaat${rows.length===1?"":"ten"}`;
+      count.textContent = `${rows.length} resulta${rows.length===1?"at":"ten"}`;
     }
 
     function setTextsForTab(){
-      const subRecent = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Klassiekers voor oudere films of reeksen.";
-      const subKlass  = "Klik op de titel om meteen naar Netflix te gaan. Sorteren kan via datum of IMDb-score. Je kunt ook filteren op enkel films of enkel reeksen. Druk op Recent voor recente toevoegingen.";
-      $("#subtext").textContent = (TAB === "recent") ? subRecent : subKlass;
+      const texts = {
+        toppers: "De 67 best beoordeelde films én 67 best beoordeelde reeksen op Netflix in België.",
+        recent: "Toegevoegd aan Netflix België in de laatste 90 dagen, met minstens 7,8 op IMDb en 1.000 stemmen.",
+        all: "Alle films en reeksen op Netflix België met minstens 7,8 op IMDb en 1.000 stemmen."
+      };
+      $("#subtext").textContent = texts[TAB] || texts.toppers;
     }
 
     // Init
     (async function(){
-      const { recent, klassiekers } = await loadDatasets();
-      DATA_R = recent; DATA_K = klassiekers;
+      applySupportVariant();
+      const { recent, all } = await loadDatasets();
+      DATA_R = recent; DATA_A = all;
 
       // Sort buttons
       $("#sortImdb").addEventListener("click", ()=>{
@@ -407,12 +448,12 @@
         });
       });
 
-      // Lege-staat → klassiekers
-      $("#goto-classics").addEventListener("click", ()=>{
-        $("#menu-klassiekers").click();
+      // Lege-state → Toppers
+      $("#goto-toppers").addEventListener("click", ()=>{
+        $("#menu-toppers").click();
       });
 
-      // Start op Recent
+      // Start op Toppers
       setTextsForTab();
       render();
     })();
