@@ -1,0 +1,11 @@
+{
+  "name": "hbvn-ab-analytics",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-04",
+  "analytics_engine_datasets": [
+    {
+      "binding": "AB_EVENTS",
+      "dataset": "hbvn_ab_events"
+    }
+  ]
+}
