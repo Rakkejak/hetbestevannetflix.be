@@ -34,23 +34,20 @@ def media_type(item):
 def fetch_metadata(item, api_key, cache):
     tmdb_id = item.get("tmdbId")
     if not tmdb_id:
-        return [], None
+        return [], None, None
 
     kind = media_type(item)
     key = f"{kind}:{tmdb_id}"
     cached = cache.get(key)
 
-    # Nieuwe cachevorm: genres + land.
+    # Cachevorm: genres + land + oorspronkelijke taal.
     if isinstance(cached, dict):
         genres = cached.get("genres", [])
         origin_country = cached.get("originCountry")
-        if kind == "movie" or "originCountry" in cached:
-            return genres, origin_country
+        original_language = cached.get("originalLanguage")
 
-    # Oude movie-cache mag blijven zoals hij is:
-    # land is alleen nodig voor onze verborgen parels (reeksen).
-    if isinstance(cached, list) and kind == "movie":
-        return cached, None
+        if original_language and (kind == "movie" or "originCountry" in cached):
+            return genres, origin_country, original_language
 
     response = requests.get(
         f"https://api.themoviedb.org/3/{kind}/{tmdb_id}",
@@ -72,12 +69,15 @@ def fetch_metadata(item, api_key, cache):
         if countries:
             origin_country = countries[0]
 
+    original_language = payload.get("original_language") or None
+
     cache[key] = {
         "genres": genres,
         "originCountry": origin_country,
+        "originalLanguage": original_language,
     }
 
-    return genres, origin_country
+    return genres, origin_country, original_language
 
 
 def main():
@@ -99,11 +99,14 @@ def main():
     total = len(items)
 
     for index, item in enumerate(items, start=1):
-        genres, origin_country = fetch_metadata(item, api_key, cache)
+        genres, origin_country, original_language = fetch_metadata(item, api_key, cache)
         item["genres"] = genres
 
         if origin_country:
             item["originCountry"] = origin_country
+
+        if original_language:
+            item["originalLanguage"] = original_language
 
         if index == 1 or index % 25 == 0 or index == total:
             print(f"TMDb metadata: {index}/{total}")
@@ -112,6 +115,7 @@ def main():
         (item.get("type"), item.get("tmdbId")): {
             "genres": item.get("genres", []),
             "originCountry": item.get("originCountry"),
+            "originalLanguage": item.get("originalLanguage"),
         }
         for item in items
     }
@@ -126,15 +130,20 @@ def main():
         if metadata.get("originCountry"):
             item["originCountry"] = metadata["originCountry"]
 
+        if metadata.get("originalLanguage"):
+            item["originalLanguage"] = metadata["originalLanguage"]
+
     write_json_atomic(DATA_PATH, items)
     write_json_atomic(RECENT_PATH, recent)
     write_json_atomic(CACHE_PATH, cache)
 
     with_genres = sum(bool(item.get("genres")) for item in items)
     with_country = sum(bool(item.get("originCountry")) for item in items if item.get("type") == "Serie")
+    with_language = sum(bool(item.get("originalLanguage")) for item in items)
 
     print(f"Genre-enrichment klaar: {with_genres}/{total} titels met genres.")
     print(f"Land-enrichment klaar: {with_country} reeksen met land van oorsprong.")
+    print(f"Taal-enrichment klaar: {with_language}/{total} titels met oorspronkelijke taal.")
 
 
 if __name__ == "__main__":
