@@ -15,7 +15,8 @@
     "ratingSource": "imdb",
     "genres": [
       "Documentary"
-    ]
+    ],
+    "originCountry": "US"
   },
   {
     "tmdbId": 284753,
@@ -33,7 +34,8 @@
     "ratingSource": "imdb",
     "genres": [
       "Drama"
-    ]
+    ],
+    "originCountry": "IN"
   },
   {
     "tmdbId": 1443961,
@@ -93,7 +95,8 @@
       "Action & Adventure",
       "Drama",
       "Comedy"
-    ]
+    ],
+    "originCountry": "KR"
   },
   {
     "tmdbId": 279884,
@@ -111,27 +114,7 @@
     "ratingSource": "imdb",
     "genres": [
       "Documentary"
-    ]
-  },
-  {
-    "tmdbId": 304597,
-    "imdbId": "tt38821531",
-    "netflix_id": "81738479",
-    "title": "My 2 Cents",
-    "originalTitle": "Due spicci",
-    "type": "Serie",
-    "imdbRating": 8.3,
-    "imdbVotes": 2682,
-    "releaseDate": "2026-05-27",
-    "dateAdded": null,
-    "poster_path": "/ezu9oAG68yRoFRsx5qzb1yt5MMJ.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Animation",
-      "Comedy",
-      "Drama",
-      "Crime"
-    ]
+    ],
+    "originCountry": "US"
   }
 ]

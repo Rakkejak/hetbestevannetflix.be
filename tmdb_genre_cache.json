@@ -694,2305 +694,4102 @@
     "Drama",
     "War"
   ],
-  "tv:5920": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:2734": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:79744": [
-    "Crime",
-    "Drama",
-    "Comedy"
-  ],
-  "tv:2316": [
-    "Comedy"
-  ],
-  "tv:1396": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:34307": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:60625": [
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:502": [
-    "Kids",
-    "Comedy"
-  ],
-  "tv:1911": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:236235": [
-    "Comedy",
-    "Drama",
-    "Crime"
-  ],
-  "tv:1668": [
-    "Comedy"
-  ],
-  "tv:1402": [
-    "Action & Adventure",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:94664": [
-    "Action & Adventure",
-    "Animation",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:1405": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:1408": [
-    "Drama"
-  ],
-  "tv:71712": [
-    "Drama"
-  ],
-  "tv:46952": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:58841": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:44217": [
-    "Action & Adventure",
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:71789": [
-    "Action & Adventure",
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:66732": [
-    "Action & Adventure",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:269": [
-    "Drama"
-  ],
-  "tv:37680": [
-    "Drama"
-  ],
-  "tv:73586": [
-    "Western",
-    "Drama"
-  ],
-  "tv:71728": [
-    "Comedy",
-    "Family",
-    "Drama"
-  ],
-  "tv:46298": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:56570": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:4629": [
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:60574": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:95479": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:209867": [
-    "Animation",
-    "Action & Adventure",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:60059": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:1407": [
-    "Drama",
-    "War & Politics",
-    "Crime"
-  ],
-  "tv:220542": [
-    "Animation",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:45790": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:63174": [
-    "Crime",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:120089": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy"
-  ],
-  "tv:1411": [
-    "Action & Adventure",
-    "Crime",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:69478": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:38693": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Comedy",
-    "Family"
-  ],
-  "tv:1400": [
-    "Comedy"
-  ],
-  "tv:42009": [
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:33765": [
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Kids"
-  ],
-  "tv:60622": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:259140": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy"
-  ],
-  "tv:119051": [
-    "Sci-Fi & Fantasy",
-    "Mystery",
-    "Comedy"
-  ],
-  "tv:46260": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:1424": [
-    "Drama",
-    "Comedy",
-    "Crime"
-  ],
-  "tv:126027": [
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:30981": [
-    "Animation",
-    "Drama",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:48891": [
-    "Comedy",
-    "Crime"
-  ],
-  "tv:31911": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:31910": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:81356": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:65494": [
-    "Drama"
-  ],
-  "tv:61222": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:212989": [
-    "Animation",
-    "Kids",
-    "Action & Adventure"
-  ],
-  "tv:4589": [
-    "Comedy"
-  ],
-  "tv:276161": [
-    "Action & Adventure",
-    "Drama",
-    "Comedy"
-  ],
-  "tv:93405": [
-    "Action & Adventure",
-    "Mystery",
-    "Drama"
-  ],
-  "tv:2942": [
-    "Drama",
-    "Romance"
-  ],
-  "tv:37854": [
-    "Action & Adventure",
-    "Comedy",
-    "Animation"
-  ],
-  "tv:94605": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:4588": [
-    "Drama"
-  ],
-  "tv:4608": [
-    "Comedy"
-  ],
-  "tv:18347": [
-    "Comedy"
-  ],
-  "tv:71912": [
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:66025": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:37606": [
-    "Animation",
-    "Family",
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:890": [
-    "Sci-Fi & Fantasy",
-    "Animation",
-    "Drama"
-  ],
-  "tv:4344": [
-    "Drama"
-  ],
-  "tv:116799": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:33907": [
-    "Drama"
-  ],
-  "tv:207333": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:63333": [
-    "Action & Adventure",
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:200709": [
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:74016": [
-    "Drama"
-  ],
-  "tv:1425": [
-    "Drama"
-  ],
-  "tv:62320": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:77169": [
-    "Action & Adventure",
-    "Drama",
-    "Comedy"
-  ],
-  "tv:30991": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Western"
-  ],
-  "tv:13916": [
-    "Animation",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:105248": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Crime"
-  ],
-  "tv:70523": [
-    "Crime",
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Mystery"
-  ],
-  "tv:110316": [
-    "Mystery",
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:10283": [
-    "Comedy",
-    "Action & Adventure",
-    "Animation"
-  ],
-  "tv:63351": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:201834": [
-    "Comedy"
-  ],
-  "tv:117465": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:97645": [
-    "Comedy",
-    "Animation",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:186": [
-    "Comedy",
-    "Crime",
-    "Drama"
-  ],
-  "tv:271607": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:18123": [
-    "Animation",
-    "Mystery",
-    "Family",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:75006": [
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:68854": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:246": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:80350": [
-    "Drama"
-  ],
-  "tv:67075": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:127529": [
-    "Drama",
-    "Action & Adventure",
-    "Crime"
-  ],
-  "tv:207784": [
-    "Animation",
-    "Comedy",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:260463": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:46437": [
-    "Action & Adventure",
-    "Animation",
-    "Drama"
-  ],
-  "tv:63926": [
-    "Animation",
-    "Comedy",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:100883": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:62017": [
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:64513": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:203737": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:65844": [
-    "Action & Adventure",
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:46261": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:69557": [
-    "Drama",
-    "Action & Adventure",
-    "War & Politics"
-  ],
-  "tv:123249": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:21762": [
-    "Drama"
-  ],
-  "tv:240411": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:86831": [
-    "Animation",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:219246": [
-    "Drama"
-  ],
-  "tv:93812": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:96580": [
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:42705": [
-    "Animation",
-    "Comedy",
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:71446": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:74204": [
-    "Comedy",
-    "Animation"
-  ],
-  "tv:69740": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:39852": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:279388": [
-    "Drama",
-    "Action & Adventure",
-    "War & Politics"
-  ],
-  "tv:119769": [
-    "Action & Adventure",
-    "Crime",
-    "Drama"
-  ],
-  "tv:207347": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:35790": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:78173": [
-    "Family",
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:207250": [
-    "Animation",
-    "Comedy"
-  ],
-  "tv:283428": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:43348": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:66573": [
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:154385": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:131041": [
-    "Animation",
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:111110": [
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:203857": [
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:112888": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:71411": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:68398": [
-    "Drama"
-  ],
-  "tv:80968": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:70785": [
-    "Drama",
-    "Family"
-  ],
-  "tv:249042": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:136283": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:79141": [
-    "Animation",
-    "Comedy",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:135157": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure",
-    "Mystery"
-  ],
-  "tv:42951": [
-    "Animation",
-    "Drama",
-    "Crime"
-  ],
-  "tv:67744": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:72750": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:113268": [
-    "Drama",
-    "Mystery",
-    "Action & Adventure"
-  ],
-  "tv:65930": [
-    "Action & Adventure",
-    "Animation",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:35935": [
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Animation"
-  ],
-  "tv:197067": [
-    "Drama"
-  ],
-  "tv:204635": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:62110": [
-    "Animation",
-    "Comedy",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:387": [
-    "Animation",
-    "Comedy",
-    "Family"
-  ],
-  "tv:17611": [
-    "Drama"
-  ],
-  "tv:91997": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:61459": [
-    "Animation",
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:68421": [
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:68267": [
-    "Family",
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:87739": [
-    "Drama"
-  ],
-  "tv:278196": [
-    "Animation",
-    "Drama",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:94796": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:261145": [
-    "Animation",
-    "Comedy",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:61664": [
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:96102": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:118357": [
-    "Drama",
-    "Western"
-  ],
-  "tv:69061": [
-    "Sci-Fi & Fantasy",
-    "Mystery",
-    "Drama"
-  ],
-  "tv:71024": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:85937": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:67683": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:62455": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:87083": [
-    "Documentary"
-  ],
-  "tv:66256": [
-    "Comedy",
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:37863": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:225180": [
-    "Action & Adventure",
-    "Animation",
-    "Drama"
-  ],
-  "tv:64414": [
-    "Animation",
-    "Action & Adventure",
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:75214": [
-    "Animation",
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "War & Politics"
-  ],
-  "tv:72844": [
-    "Mystery",
-    "Drama"
-  ],
-  "tv:124834": [
-    "Drama"
-  ],
-  "tv:43017": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:80307": [
-    "Crime",
-    "Drama",
-    "War & Politics",
-    "Mystery"
-  ],
-  "tv:93816": [
-    "Animation",
-    "Drama",
-    "Comedy",
-    "Action & Adventure"
-  ],
-  "tv:306762": [
-    "Animation",
-    "Drama"
-  ],
-  "tv:81357": [
-    "Drama",
-    "Comedy",
-    "Crime"
-  ],
-  "tv:62084": [
-    "Drama"
-  ],
-  "tv:67676": [
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:86957": [
-    "Kids",
-    "Family",
-    "Animation",
-    "Comedy",
-    "Action & Adventure"
-  ],
-  "tv:81046": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Family"
-  ],
-  "tv:34791": [
-    "Action & Adventure",
-    "Animation",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:69555": [
-    "Comedy"
-  ],
-  "tv:94404": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:110070": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:79410": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:230915": [
-    "Drama",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:99489": [
-    "Drama",
-    "Mystery"
-  ],
-  "tv:68106": [
-    "Comedy"
-  ],
-  "tv:66310": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:69017": [
-    "Comedy"
-  ],
-  "tv:3796": [
-    "Comedy"
-  ],
-  "tv:71809": [
-    "Sci-Fi & Fantasy",
-    "Action & Adventure",
-    "Family"
-  ],
-  "tv:215720": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:64010": [
-    "Comedy"
-  ],
-  "tv:157065": [
-    "Mystery",
-    "Drama"
-  ],
-  "tv:71578": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:212204": [
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:70593": [
-    "Drama",
-    "Mystery"
-  ],
-  "tv:110534": [
-    "Drama",
-    "Action & Adventure",
-    "Crime"
-  ],
-  "tv:117376": [
-    "Action & Adventure",
-    "Comedy",
-    "Drama",
-    "Crime"
-  ],
-  "tv:230923": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Comedy",
-    "Mystery"
-  ],
-  "tv:31586": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:67773": [
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Crime"
-  ],
-  "tv:70573": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:1043": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:60699": [
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:76557": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:32406": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:154825": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:63522": [
-    "Comedy",
-    "Animation"
-  ],
-  "tv:225647": [
-    "Comedy",
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:88803": [
-    "Animation",
-    "War & Politics",
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:90660": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:205319": [
-    "Drama"
-  ],
-  "tv:229891": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:280945": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:223447": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:128883": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:64165": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:74577": [
-    "Comedy",
-    "Drama",
-    "Crime"
-  ],
-  "tv:79746": [
-    "Documentary"
-  ],
-  "tv:64254": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:289424": [
-    "Drama"
-  ],
-  "tv:112833": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:329274": [
-    "Documentary"
-  ],
-  "tv:61986": [
-    "Drama"
-  ],
-  "tv:94028": [
-    "Drama"
-  ],
-  "tv:93097": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:105797": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:68814": [
-    "Comedy",
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:108284": [
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Comedy",
-    "Mystery"
-  ],
-  "tv:86031": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:70626": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:65143": [
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:59717": [
-    "Comedy",
-    "Talk"
-  ],
-  "tv:61148": [
-    "Drama",
-    "War & Politics"
-  ],
-  "tv:91275": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:245703": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:110356": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:47008": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:69470": [
-    "Comedy",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:60957": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:111141": [
-    "Drama"
-  ],
-  "tv:262280": [
-    "Action & Adventure",
-    "Crime",
-    "Drama"
-  ],
-  "tv:210955": [
-    "Drama"
-  ],
-  "tv:62057": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:95941": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:64852": [
-    "Drama",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:81290": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:96462": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:206693": [
-    "Drama",
-    "War & Politics",
-    "Mystery"
-  ],
-  "tv:66330": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:129478": [
-    "Drama"
-  ],
-  "tv:96162": [
-    "Drama"
-  ],
-  "tv:284753": [
-    "Drama"
-  ],
-  "tv:92983": [
-    "Drama",
-    "Mystery",
-    "Action & Adventure"
-  ],
-  "tv:90447": [
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Comedy"
-  ],
-  "tv:73467": [
-    "Western",
-    "Drama"
-  ],
-  "tv:79070": [
-    "Drama",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:129888": [
-    "Drama"
-  ],
-  "tv:119988": [
-    "Crime",
-    "Mystery",
-    "Drama"
-  ],
-  "tv:42445": [
-    "Drama"
-  ],
-  "tv:135840": [
-    "Drama"
-  ],
-  "tv:74728": [
-    "Animation",
-    "Action & Adventure",
-    "Crime",
-    "Kids"
-  ],
-  "tv:235355": [
-    "Drama"
-  ],
-  "tv:217553": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:130842": [
-    "Drama"
-  ],
-  "tv:132141": [
-    "Animation",
-    "Family",
-    "Action & Adventure",
-    "Comedy",
-    "Kids"
-  ],
-  "tv:125910": [
-    "Drama"
-  ],
-  "tv:108261": [
-    "Drama",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:86942": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:69293": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Comedy",
-    "Action & Adventure",
-    "Kids"
-  ],
-  "tv:136369": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure"
-  ],
-  "tv:88463": [
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:289485": [
-    "Documentary"
-  ],
-  "tv:131488": [
-    "Drama"
-  ],
-  "tv:94659": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:76148": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:230448": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:196474": [
-    "Drama"
-  ],
-  "tv:75820": [
-    "Drama"
-  ],
-  "tv:99494": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:216310": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:51078": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:97219": [
-    "Sci-Fi & Fantasy",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:86830": [
-    "Crime",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:135897": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:64840": [
-    "Crime",
-    "Mystery",
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:219651": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:209332": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:122781": [
-    "Animation",
-    "Action & Adventure",
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Family"
-  ],
-  "tv:73126": [
-    "Comedy",
-    "Crime"
-  ],
-  "tv:74074": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:240667": [
-    "Drama"
-  ],
-  "tv:116386": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:81355": [
-    "Drama"
-  ],
-  "tv:93846": [
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:75701": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:83880": [
-    "Documentary",
-    "Family"
-  ],
-  "tv:78385": [
-    "Drama"
-  ],
-  "tv:284744": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:70813": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:214999": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:87508": [
-    "Crime"
-  ],
-  "tv:16660": [
-    "Animation",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:96713": [
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Mystery"
-  ],
-  "tv:76662": [
-    "Drama"
-  ],
-  "tv:236450": [
-    "Comedy"
-  ],
-  "tv:245684": [
-    "Reality"
-  ],
-  "tv:91725": [
-    "Drama"
-  ],
-  "tv:215866": [
-    "Western",
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:76922": [
-    "Reality"
-  ],
-  "tv:201124": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:61838": [
-    "Animation",
-    "Family"
-  ],
-  "tv:68349": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:78941": [
-    "Animation",
-    "Comedy"
-  ],
-  "tv:88728": [
-    "Comedy"
-  ],
-  "tv:61611": [
-    "Drama",
-    "Comedy",
-    "Mystery"
-  ],
-  "tv:84327": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:211051": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:118043": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:261980": [
-    "Drama"
-  ],
+  "tv:5920": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:2734": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:79744": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:2316": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1396": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:34307": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:60625": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:502": {
+    "genres": [
+      "Kids",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1911": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:236235": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:1668": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1402": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:94664": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:1405": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1408": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:71712": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:46952": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:58841": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:44217": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:71789": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:66732": {
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:269": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:37680": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:73586": {
+    "genres": [
+      "Western",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:71728": {
+    "genres": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:46298": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:56570": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:4629": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:60574": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:95479": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:209867": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:60059": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1407": {
+    "genres": [
+      "Drama",
+      "War & Politics",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:220542": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:45790": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:63174": {
+    "genres": [
+      "Crime",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:120089": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:1411": {
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:69478": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:38693": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1400": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:42009": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:33765": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "originCountry": "US"
+  },
+  "tv:60622": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:259140": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:119051": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Mystery",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:46260": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:1424": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:126027": {
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:30981": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:48891": {
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:31911": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:31910": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:81356": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:65494": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:61222": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:212989": {
+    "genres": [
+      "Animation",
+      "Kids",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:4589": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:276161": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:93405": {
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:2942": {
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "originCountry": "US"
+  },
+  "tv:37854": {
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Animation"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:94605": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:4588": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:4608": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:18347": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:71912": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:66025": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:37606": {
+    "genres": [
+      "Animation",
+      "Family",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:890": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:4344": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:116799": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:33907": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:207333": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "CO"
+  },
+  "tv:63333": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:200709": {
+    "genres": [
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:74016": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1425": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:62320": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:77169": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:30991": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Western"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:13916": {
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:105248": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Crime"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:70523": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Mystery"
+    ],
+    "originCountry": "DE"
+  },
+  "tv:110316": {
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:10283": {
+    "genres": [
+      "Comedy",
+      "Action & Adventure",
+      "Animation"
+    ],
+    "originCountry": "US"
+  },
+  "tv:63351": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:201834": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:117465": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:97645": {
+    "genres": [
+      "Comedy",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:186": {
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:271607": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:18123": {
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Family",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:75006": {
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:68854": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:246": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:80350": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:67075": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:127529": {
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:207784": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:260463": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:46437": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:63926": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:100883": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:62017": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:64513": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:203737": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:65844": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:46261": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:69557": {
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "War & Politics"
+    ],
+    "originCountry": "IL"
+  },
+  "tv:123249": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:21762": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:240411": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:86831": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:219246": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:93812": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:96580": {
+    "genres": [
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:42705": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:71446": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "ES"
+  },
+  "tv:74204": {
+    "genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "originCountry": "US"
+  },
+  "tv:69740": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:39852": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:279388": {
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "War & Politics"
+    ],
+    "originCountry": "CN"
+  },
+  "tv:119769": {
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:207347": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:35790": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:78173": {
+    "genres": [
+      "Family",
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:207250": {
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:283428": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:43348": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "CO"
+  },
+  "tv:66573": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:154385": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:131041": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:111110": {
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:203857": {
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:112888": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:71411": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:68398": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:80968": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:70785": {
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:249042": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:136283": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:79141": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "CN"
+  },
+  "tv:135157": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:42951": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:67744": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:72750": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:113268": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:65930": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:35935": {
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Animation"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:197067": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:204635": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:62110": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:387": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:17611": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:91997": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:61459": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:68421": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:68267": {
+    "genres": [
+      "Family",
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:87739": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:278196": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:94796": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:261145": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:61664": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:96102": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:118357": {
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "originCountry": "US"
+  },
+  "tv:69061": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:71024": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:85937": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:67683": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:62455": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "ES"
+  },
+  "tv:87083": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:66256": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:37863": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:225180": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:64414": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:75214": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "War & Politics"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:72844": {
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:124834": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:43017": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:80307": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "War & Politics",
+      "Mystery"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:93816": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Comedy",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:306762": {
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:81357": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:62084": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:67676": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:86957": {
+    "genres": [
+      "Kids",
+      "Family",
+      "Animation",
+      "Comedy",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:81046": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:34791": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:69555": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:94404": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:110070": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:79410": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:230915": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "TH"
+  },
+  "tv:99489": {
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:68106": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:66310": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:69017": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:3796": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:71809": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:215720": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:64010": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:157065": {
+    "genres": [
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:71578": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:212204": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:70593": {
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:110534": {
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:117376": {
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:230923": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:31586": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:67773": {
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:70573": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:1043": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:60699": {
+    "genres": [
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:76557": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:32406": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:154825": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:63522": {
+    "genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "originCountry": "US"
+  },
+  "tv:225647": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:88803": {
+    "genres": [
+      "Animation",
+      "War & Politics",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:90660": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:205319": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:229891": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:280945": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:223447": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:128883": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:64165": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:74577": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:79746": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:64254": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:289424": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:112833": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:329274": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:61986": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:94028": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:93097": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:105797": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:68814": {
+    "genres": [
+      "Comedy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:108284": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Comedy",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:86031": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:70626": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:65143": {
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:59717": {
+    "genres": [
+      "Comedy",
+      "Talk"
+    ],
+    "originCountry": "US"
+  },
+  "tv:61148": {
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:91275": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:245703": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:110356": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:47008": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:69470": {
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:60957": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:111141": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:262280": {
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:210955": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:62057": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:95941": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:64852": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "IS"
+  },
+  "tv:81290": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:96462": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:206693": {
+    "genres": [
+      "Drama",
+      "War & Politics",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:66330": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:129478": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:96162": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:284753": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:92983": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:90447": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:73467": {
+    "genres": [
+      "Western",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:79070": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:129888": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:119988": {
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "ES"
+  },
+  "tv:42445": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "DK"
+  },
+  "tv:135840": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:74728": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Crime",
+      "Kids"
+    ],
+    "originCountry": "US"
+  },
+  "tv:235355": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:217553": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:130842": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:132141": {
+    "genres": [
+      "Animation",
+      "Family",
+      "Action & Adventure",
+      "Comedy",
+      "Kids"
+    ],
+    "originCountry": "MX"
+  },
+  "tv:125910": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "SE"
+  },
+  "tv:108261": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:86942": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "BE"
+  },
+  "tv:69293": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Action & Adventure",
+      "Kids"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:136369": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:88463": {
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:289485": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:131488": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "DE"
+  },
+  "tv:94659": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:76148": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:230448": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:196474": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:75820": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:99494": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:216310": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:51078": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "DK"
+  },
+  "tv:97219": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:86830": {
+    "genres": [
+      "Crime",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:135897": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:64840": {
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:219651": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:209332": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:122781": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Family"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:73126": {
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:74074": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:240667": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:116386": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:81355": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:93846": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:75701": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:83880": {
+    "genres": [
+      "Documentary",
+      "Family"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:78385": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:284744": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:70813": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:214999": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:87508": {
+    "genres": [
+      "Crime"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:16660": {
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:96713": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:76662": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:236450": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "PL"
+  },
+  "tv:245684": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:91725": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "BE"
+  },
+  "tv:215866": {
+    "genres": [
+      "Western",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:76922": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:201124": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:61838": {
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:68349": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:78941": {
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:88728": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:61611": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:84327": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:211051": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "TH"
+  },
+  "tv:118043": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:261980": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
   "tv:73671": [
     "Crime",
     "Drama"
   ],
-  "tv:79525": [
-    "Documentary"
-  ],
-  "tv:207717": [
-    "Drama"
-  ],
-  "tv:82456": [
-    "Action & Adventure",
-    "Animation",
-    "Family",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:67014": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:154887": [
-    "Drama"
-  ],
-  "tv:89557": [
-    "Documentary"
-  ],
-  "tv:76747": [
-    "Comedy"
-  ],
-  "tv:99581": [
-    "Drama"
-  ],
-  "tv:133357": [
-    "Drama"
-  ],
-  "tv:66496": [
-    "Drama",
-    "Comedy",
-    "Action & Adventure"
-  ],
-  "tv:69926": [
-    "Animation",
-    "Kids"
-  ],
-  "tv:91470": [
-    "Action & Adventure",
-    "Drama"
-  ],
-  "tv:74682": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:281004": [
-    "Drama"
-  ],
-  "tv:89604": [
-    "Drama"
-  ],
-  "tv:61670": [
-    "Comedy",
-    "Action & Adventure",
-    "Mystery",
-    "Drama"
-  ],
-  "tv:3215": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:286788": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:123403": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:119466": [
-    "Drama"
-  ],
-  "tv:74821": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:214582": [
-    "Reality"
-  ],
-  "tv:96164": [
-    "Drama"
-  ],
-  "tv:70437": [
-    "Kids",
-    "Animation"
-  ],
-  "tv:96481": [
-    "Documentary",
-    "War & Politics",
-    "Action & Adventure"
-  ],
-  "tv:80919": [
-    "Drama",
-    "Comedy",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:96571": [
-    "Drama"
-  ],
-  "tv:46198": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:75123": [
-    "Comedy",
-    "Mystery",
-    "Sci-Fi & Fantasy",
-    "Drama"
-  ],
-  "tv:137094": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:63314": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:32023": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:146102": [
-    "Crime",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:247670": [
-    "Drama"
-  ],
-  "tv:79352": [
-    "Drama",
-    "Crime",
-    "Action & Adventure"
-  ],
-  "tv:80665": [
-    "Comedy",
-    "Animation"
-  ],
-  "tv:219063": [
-    "Drama"
-  ],
-  "tv:210269": [
-    "Drama"
-  ],
-  "tv:256220": [
-    "Reality"
-  ],
-  "tv:200731": [
-    "Documentary",
-    "Reality"
-  ],
-  "tv:90720": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:116249": [
-    "Animation",
-    "Action & Adventure"
-  ],
-  "tv:206903": [
-    "Drama"
-  ],
-  "tv:293613": [
-    "Reality"
-  ],
-  "tv:209504": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:99048": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:152471": [
-    "Comedy",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:320472": [
-    "Documentary"
-  ],
-  "tv:213609": [
-    "Documentary"
-  ],
-  "tv:72548": [
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:235345": [
-    "Documentary"
-  ],
-  "tv:16069": [
-    "Drama"
-  ],
-  "tv:112442": [
-    "Animation",
-    "Kids"
-  ],
-  "tv:245926": [
-    "Documentary"
-  ],
-  "tv:45579": [
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:76307": [
-    "Crime",
-    "Documentary"
-  ],
-  "tv:37636": [
-    "Comedy",
-    "Drama",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:116612": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:97009": [
-    "Animation",
-    "Comedy"
-  ],
-  "tv:271152": [
-    "Drama"
-  ],
-  "tv:75387": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:7030": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:4939": [
-    "Drama",
-    "Crime",
-    "Comedy",
-    "Action & Adventure",
-    "Mystery"
-  ],
-  "tv:249054": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:106761": [
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:68945": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:34166": [
-    "Animation",
-    "Sci-Fi & Fantasy",
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:81821": [
-    "Comedy",
-    "Drama",
-    "Mystery"
-  ],
-  "tv:97401": [
-    "Documentary"
-  ],
-  "tv:112745": [
-    "Drama",
-    "Mystery"
-  ],
-  "tv:224414": [
-    "Drama"
-  ],
-  "tv:74064": [
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:26101": [
-    "Documentary",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:304597": [
-    "Animation",
-    "Comedy",
-    "Drama",
-    "Crime"
-  ],
-  "tv:213895": [
-    "Drama"
-  ],
-  "tv:300894": [
-    "Action & Adventure",
-    "Drama",
-    "Animation"
-  ],
-  "tv:21421": [
-    "Documentary",
-    "Crime"
-  ],
-  "tv:90706": [
-    "Drama"
-  ],
-  "tv:79008": [
-    "Drama"
-  ],
-  "tv:91348": [
-    "Comedy",
-    "Crime",
-    "Kids"
-  ],
-  "tv:211039": [
-    "Drama"
-  ],
-  "tv:99491": [
-    "Drama",
-    "Sci-Fi & Fantasy",
-    "Comedy"
-  ],
-  "tv:292625": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:76178": [
-    "Talk",
-    "Comedy"
-  ],
-  "tv:276903": [
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:68293": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:61678": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:83519": [
-    "Comedy",
-    "Talk"
-  ],
-  "tv:156406": [
-    "Drama"
-  ],
-  "tv:69857": [
-    "Drama"
-  ],
-  "tv:90721": [
-    "Drama"
-  ],
-  "tv:2268": [
-    "Drama"
-  ],
-  "tv:74829": [
-    "Drama"
-  ],
-  "tv:94647": [
-    "Documentary"
-  ],
-  "tv:6100": [
-    "Drama"
-  ],
-  "tv:246483": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:76305": [
-    "Documentary",
-    "Reality"
-  ],
-  "tv:66647": [
-    "Reality"
-  ],
-  "tv:85220": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:134581": [
-    "Animation",
-    "Drama",
-    "Comedy"
-  ],
-  "tv:93297": [
-    "Drama"
-  ],
-  "tv:57646": [
-    "Sci-Fi & Fantasy",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:155094": [
-    "Documentary"
-  ],
-  "tv:119773": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:106292": [
-    "Family",
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:61192": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:86824": [
-    "Drama",
-    "Crime",
-    "Mystery",
-    "War & Politics"
-  ],
-  "tv:154916": [
-    "Drama"
-  ],
-  "tv:74939": [
-    "Drama",
-    "Mystery",
-    "Crime"
-  ],
-  "tv:226135": [
-    "Documentary"
-  ],
-  "tv:313100": [
-    "Drama"
-  ],
-  "tv:83109": [
-    "Documentary"
-  ],
-  "tv:54477": [
-    "Comedy",
-    "Drama",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:34142": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:93490": [
-    "Drama",
-    "Action & Adventure"
-  ],
-  "tv:279884": [
-    "Documentary"
-  ],
-  "tv:213635": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:62391": [
-    "Documentary"
-  ],
-  "tv:95484": [
-    "Drama"
-  ],
-  "tv:250463": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:95718": [
-    "Drama"
-  ],
-  "tv:65345": [
-    "Drama"
-  ],
-  "tv:221869": [
-    "Drama"
-  ],
-  "tv:125350": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:60655": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:82357": [
-    "Reality"
-  ],
-  "tv:225335": [
-    "Documentary"
-  ],
-  "tv:41889": [
-    "Drama"
-  ],
-  "tv:61174": [
-    "Animation",
-    "Comedy",
-    "Sci-Fi & Fantasy",
-    "Family"
-  ],
-  "tv:131651": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:221522": [
-    "Documentary"
-  ],
-  "tv:64439": [
-    "Documentary",
-    "Crime"
-  ],
-  "tv:234590": [
-    "Drama",
-    "Crime",
-    "Mystery"
-  ],
-  "tv:66806": [
-    "Comedy"
-  ],
-  "tv:136125": [
-    "Drama"
-  ],
-  "tv:76954": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:93514": [
-    "Documentary"
-  ],
-  "tv:70177": [
-    "Documentary"
-  ],
-  "tv:218137": [
-    "Documentary"
-  ],
-  "tv:89113": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:102281": [
-    "Documentary"
-  ],
-  "tv:137646": [
-    "Documentary"
-  ],
-  "tv:67706": [
-    "Documentary"
-  ],
-  "tv:119464": [
-    "Drama"
-  ],
-  "tv:222792": [
-    "Documentary"
-  ],
-  "tv:70508": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:279339": [
-    "Drama",
-    "Crime"
-  ],
-  "tv:220998": [
-    "Documentary"
-  ],
-  "tv:91766": [
-    "Reality"
-  ],
-  "tv:91724": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:112164": [
-    "Comedy",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:121040": [
-    "Comedy",
-    "Drama"
-  ],
-  "tv:228957": [
-    "Drama"
-  ],
-  "tv:201213": [
-    "Animation",
-    "Action & Adventure",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:108298": [
-    "Documentary"
-  ],
-  "tv:105288": [
-    "Documentary"
-  ],
-  "tv:77601": [
-    "Documentary",
-    "Crime"
-  ],
-  "tv:135918": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:82862": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:256355": [
-    "Reality"
-  ],
-  "tv:114419": [
-    "Documentary",
-    "Animation"
-  ],
-  "tv:75814": [
-    "Reality"
-  ],
-  "tv:106590": [
-    "Drama",
-    "Mystery",
-    "Sci-Fi & Fantasy"
-  ],
-  "tv:128240": [
-    "Comedy",
-    "Animation"
-  ],
-  "tv:84777": [
-    "Documentary"
-  ],
-  "tv:78704": [
-    "Documentary",
-    "Drama"
-  ],
-  "tv:283776": [
-    "Drama"
-  ],
-  "tv:233237": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:115497": [
-    "Documentary",
-    "Comedy"
-  ],
-  "tv:214609": [
-    "Comedy"
-  ],
-  "tv:70781": [
-    "Comedy"
-  ],
-  "tv:96129": [
-    "Crime",
-    "Documentary"
-  ],
-  "tv:77591": [
-    "Documentary",
-    "Crime",
-    "Action & Adventure"
-  ],
-  "tv:86546": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:84655": [
-    "Animation",
-    "Comedy",
-    "Drama",
-    "Kids"
-  ],
-  "tv:97861": [
-    "Documentary"
-  ],
-  "tv:75871": [
-    "Documentary"
-  ],
-  "tv:242238": [
-    "Documentary"
-  ],
-  "tv:233051": [
-    "Documentary"
-  ],
-  "tv:99626": [
-    "Documentary",
-    "Crime"
-  ],
-  "tv:219819": [
-    "Documentary"
-  ],
-  "tv:70490": [
-    "Documentary"
-  ],
-  "tv:130521": [
-    "Documentary"
-  ],
-  "tv:67027": [
-    "Documentary"
-  ],
-  "tv:86943": [
-    "Drama"
-  ],
-  "tv:226907": [
-    "Reality"
-  ],
-  "tv:77393": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:83602": [
-    "Documentary"
-  ],
-  "tv:220030": [
-    "Documentary"
-  ],
-  "tv:93016": [
-    "Documentary"
-  ],
-  "tv:211694": [
-    "Documentary"
-  ],
-  "tv:235356": [
-    "Drama"
-  ],
-  "tv:125970": [
-    "Documentary"
-  ],
-  "tv:70830": [
-    "Comedy"
-  ],
-  "tv:213611": [
-    "Documentary"
-  ],
-  "tv:214603": [
-    "Animation",
-    "Comedy",
-    "Drama"
-  ],
-  "tv:279942": [
-    "Documentary"
-  ],
-  "tv:82193": [
-    "Talk",
-    "Comedy"
-  ],
-  "tv:195258": [
-    "Documentary"
-  ],
-  "tv:87832": [
-    "Documentary"
-  ],
-  "tv:109369": [
-    "Drama"
-  ],
-  "tv:204304": [
-    "Documentary",
-    "Mystery"
-  ],
-  "tv:138328": [
-    "Drama",
-    "Comedy"
-  ],
-  "tv:114893": [
-    "Drama"
-  ],
-  "tv:158345": [
-    "Crime",
-    "Drama"
-  ],
-  "tv:95730": [
-    "Documentary"
-  ],
-  "tv:91065": [
-    "Documentary"
-  ],
-  "tv:270977": [
-    "Documentary"
-  ],
-  "tv:100379": [
-    "Documentary"
-  ],
-  "tv:118876": [
-    "Documentary"
-  ],
-  "tv:119815": [
-    "Documentary"
-  ],
-  "tv:95074": [
-    "Comedy",
-    "Reality"
-  ],
-  "tv:231483": [
-    "Documentary",
-    "Mystery"
-  ],
-  "tv:73061": [
-    "Documentary"
-  ],
-  "tv:111086": [
-    "Crime",
-    "Documentary"
-  ],
-  "tv:102349": [
-    "Comedy"
-  ],
-  "tv:75140": [
-    "Reality",
-    "Documentary"
-  ],
-  "tv:78319": [
-    "Comedy",
-    "Talk"
-  ],
-  "tv:69959": [
-    "Documentary"
-  ],
-  "tv:65517": [
-    "Documentary"
-  ],
-  "tv:79932": [
-    "Documentary"
-  ],
-  "tv:230716": [
-    "Documentary",
-    "Crime"
-  ],
-  "tv:113647": [
-    "Documentary"
-  ],
-  "tv:73073": [
-    "Documentary"
-  ],
-  "tv:153966": [
-    "Documentary",
-    "War & Politics"
-  ],
-  "tv:91252": [
-    "Comedy"
-  ]
+  "tv:79525": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:207717": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:82456": {
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Family",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:67014": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:154887": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:89557": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:76747": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:99581": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "DE"
+  },
+  "tv:133357": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "DE"
+  },
+  "tv:66496": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:69926": {
+    "genres": [
+      "Animation",
+      "Kids"
+    ],
+    "originCountry": "IE"
+  },
+  "tv:91470": {
+    "genres": [
+      "Action & Adventure",
+      "Drama"
+    ],
+    "originCountry": "CN"
+  },
+  "tv:74682": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:281004": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:89604": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:61670": {
+    "genres": [
+      "Comedy",
+      "Action & Adventure",
+      "Mystery",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:3215": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:286788": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:123403": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "NO"
+  },
+  "tv:119466": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:74821": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:214582": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:96164": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:70437": {
+    "genres": [
+      "Kids",
+      "Animation"
+    ],
+    "originCountry": "US"
+  },
+  "tv:96481": {
+    "genres": [
+      "Documentary",
+      "War & Politics",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:80919": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:96571": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:46198": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:75123": {
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:137094": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:63314": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:32023": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:146102": {
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:247670": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:79352": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Action & Adventure"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:80665": {
+    "genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:219063": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "CO"
+  },
+  "tv:210269": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:256220": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:200731": {
+    "genres": [
+      "Documentary",
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:90720": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:116249": {
+    "genres": [
+      "Animation",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:206903": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:293613": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:209504": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "GR"
+  },
+  "tv:99048": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:152471": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:320472": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:213609": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:72548": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:235345": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:16069": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:112442": {
+    "genres": [
+      "Animation",
+      "Kids"
+    ],
+    "originCountry": "US"
+  },
+  "tv:245926": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:45579": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:76307": {
+    "genres": [
+      "Crime",
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:37636": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:116612": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:97009": {
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:271152": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "MX"
+  },
+  "tv:75387": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "CN"
+  },
+  "tv:7030": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:4939": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Comedy",
+      "Action & Adventure",
+      "Mystery"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:249054": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:106761": {
+    "genres": [
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:68945": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:34166": {
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:81821": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:97401": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:112745": {
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "originCountry": "TR"
+  },
+  "tv:224414": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:74064": {
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:26101": {
+    "genres": [
+      "Documentary",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:304597": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "IT"
+  },
+  "tv:213895": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:300894": {
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Animation"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:21421": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:90706": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:79008": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "MX"
+  },
+  "tv:91348": {
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Kids"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:211039": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "BR"
+  },
+  "tv:99491": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:292625": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:76178": {
+    "genres": [
+      "Talk",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:276903": {
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:68293": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:61678": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:83519": {
+    "genres": [
+      "Comedy",
+      "Talk"
+    ],
+    "originCountry": "US"
+  },
+  "tv:156406": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:69857": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:90721": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:2268": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:74829": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:94647": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:6100": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:246483": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:76305": {
+    "genres": [
+      "Documentary",
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:66647": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:85220": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:134581": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:93297": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "MX"
+  },
+  "tv:57646": {
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:155094": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:119773": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:106292": {
+    "genres": [
+      "Family",
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:61192": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:86824": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery",
+      "War & Politics"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:154916": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:74939": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:226135": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:313100": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:83109": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:54477": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:34142": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:93490": {
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:279884": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:213635": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:62391": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:95484": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:250463": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:95718": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:65345": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:221869": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "TW"
+  },
+  "tv:125350": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:60655": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:82357": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:225335": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:41889": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:61174": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi & Fantasy",
+      "Family"
+    ],
+    "originCountry": "US"
+  },
+  "tv:131651": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:221522": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:64439": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:234590": {
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:66806": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "ES"
+  },
+  "tv:136125": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "TR"
+  },
+  "tv:76954": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "BR"
+  },
+  "tv:93514": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:70177": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:218137": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:89113": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:102281": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:137646": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:67706": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:119464": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:222792": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:70508": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "US"
+  },
+  "tv:279339": {
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:220998": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:91766": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:91724": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:112164": {
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:121040": {
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:228957": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "ID"
+  },
+  "tv:201213": {
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:108298": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:105288": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:77601": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:135918": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "IT"
+  },
+  "tv:82862": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:256355": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:114419": {
+    "genres": [
+      "Documentary",
+      "Animation"
+    ],
+    "originCountry": "US"
+  },
+  "tv:75814": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:106590": {
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "EG"
+  },
+  "tv:128240": {
+    "genres": [
+      "Comedy",
+      "Animation"
+    ],
+    "originCountry": "SA"
+  },
+  "tv:84777": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:78704": {
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
+    "originCountry": "US"
+  },
+  "tv:283776": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "TH"
+  },
+  "tv:233237": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:115497": {
+    "genres": [
+      "Documentary",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:214609": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "ES"
+  },
+  "tv:70781": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:96129": {
+    "genres": [
+      "Crime",
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:77591": {
+    "genres": [
+      "Documentary",
+      "Crime",
+      "Action & Adventure"
+    ],
+    "originCountry": "US"
+  },
+  "tv:86546": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:84655": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama",
+      "Kids"
+    ],
+    "originCountry": "JP"
+  },
+  "tv:97861": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:75871": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:242238": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:233051": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:99626": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": "US"
+  },
+  "tv:219819": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:70490": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:130521": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:67027": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:86943": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "BR"
+  },
+  "tv:226907": {
+    "genres": [
+      "Reality"
+    ],
+    "originCountry": "KR"
+  },
+  "tv:77393": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:83602": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:220030": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:93016": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:211694": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "CA"
+  },
+  "tv:235356": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:125970": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "ZA"
+  },
+  "tv:70830": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:213611": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:214603": {
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "originCountry": "IT"
+  },
+  "tv:279942": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:82193": {
+    "genres": [
+      "Talk",
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:195258": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:87832": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:109369": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "PT"
+  },
+  "tv:204304": {
+    "genres": [
+      "Documentary",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:138328": {
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:114893": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:158345": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:95730": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:91065": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "MX"
+  },
+  "tv:270977": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:100379": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:118876": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:119815": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:95074": {
+    "genres": [
+      "Comedy",
+      "Reality"
+    ],
+    "originCountry": "US"
+  },
+  "tv:231483": {
+    "genres": [
+      "Documentary",
+      "Mystery"
+    ],
+    "originCountry": "US"
+  },
+  "tv:73061": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "AU"
+  },
+  "tv:111086": {
+    "genres": [
+      "Crime",
+      "Documentary"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:102349": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "US"
+  },
+  "tv:75140": {
+    "genres": [
+      "Reality",
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:78319": {
+    "genres": [
+      "Comedy",
+      "Talk"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:69959": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:65517": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:79932": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "FR"
+  },
+  "tv:230716": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": "IN"
+  },
+  "tv:113647": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "tv:73073": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US"
+  },
+  "tv:153966": {
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "originCountry": "GB"
+  },
+  "tv:91252": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "GB"
+  },
+  "movie:149871": {
+    "genres": [
+      "Animation",
+      "Drama",
+      "Fantasy"
+    ],
+    "originCountry": null
+  },
+  "movie:492188": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": null
+  },
+  "movie:1623125": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:1074313": {
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "originCountry": null
+  },
+  "movie:801058": {
+    "genres": [
+      "Documentary",
+      "Crime"
+    ],
+    "originCountry": null
+  },
+  "movie:624932": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": null
+  },
+  "movie:823754": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": null
+  },
+  "movie:407806": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:45287": {
+    "genres": [
+      "Animation",
+      "Action",
+      "Comedy",
+      "TV Movie"
+    ],
+    "originCountry": null
+  },
+  "movie:367735": {
+    "genres": [
+      "Comedy",
+      "TV Movie",
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:726887": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:289333": {
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": null
+  },
+  "movie:1233531": {
+    "genres": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "originCountry": null
+  },
+  "movie:282297": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:1284878": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:904689": {
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "originCountry": null
+  },
+  "movie:563708": {
+    "genres": [
+      "Music",
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:250700": {
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": null
+  },
+  "movie:1057663": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": null
+  }
 }
