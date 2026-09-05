@@ -66,7 +66,17 @@
         </div>
         <span id="count" class="count">0 resultaten</span>
       </div>
-      <div id="genreFilters" class="genre-filters" hidden aria-label="Filter op genre"></div>
+      <div id="filterFamilies" class="filter-families" hidden>
+        <div class="filter-row filter-row-genre">
+          <div id="genreFilters" class="choice-filters" aria-label="Filter op genre"></div>
+        </div>
+        <div class="filter-row filter-row-language">
+          <div id="languageFilters" class="choice-filters" aria-label="Filter op taal"></div>
+        </div>
+        <div class="filter-row filter-row-region">
+          <div id="regionFilters" class="choice-filters" aria-label="Filter op regio of taalfamilie"></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -227,6 +237,7 @@
         poster: posterFor(it),
         nurl: netflixUrlFor(it),
         lang: pickOriginalLanguage(it),
+        originalLanguage: cleanLangToken(it.originalLanguage || it.original_language || ""),
         genres: Array.isArray(it.genres) ? it.genres : [],
         originCountry: it.originCountry || (Array.isArray(it.origin_country) ? it.origin_country[0] : null)
       };
@@ -337,6 +348,135 @@
       return group.names.some(name => item.genres.includes(name));
     }
 
+    const LANGUAGE_DISPLAY = (
+      typeof Intl !== "undefined" && Intl.DisplayNames
+        ? new Intl.DisplayNames(["nl"], { type:"language" })
+        : null
+    );
+
+    function languageLabel(code){
+      if (!code) return "";
+      try {
+        if (LANGUAGE_DISPLAY) return LANGUAGE_DISPLAY.of(code) || langName(code);
+      } catch {}
+      return langName(code);
+    }
+
+    function languageGroupsFor(items){
+      return [...new Set(
+        items.map(item => item.originalLanguage).filter(Boolean)
+      )]
+        .map(code => ({
+          id: code,
+          label: languageLabel(code),
+          codes: [code]
+        }))
+        .sort((a,b) => a.label.localeCompare(b.label, "nl"));
+    }
+
+    const REGION_GROUPS = [
+      {
+        id:"noord-amerika",
+        label:"Noord-Amerika",
+        test:item => ["US","CA"].includes(item.originCountry)
+      },
+      {
+        id:"midden-amerika-caraiben",
+        label:"Midden-Amerika & Caraïben",
+        test:item => [
+          "MX","BZ","CR","SV","GT","HN","NI","PA",
+          "CU","DO","HT","JM","PR","TT"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"zuid-amerika",
+        label:"Zuid-Amerika",
+        test:item => [
+          "AR","BO","BR","CL","CO","EC","GY","PY",
+          "PE","SR","UY","VE"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"scandinavie-noord-europa",
+        label:"Scandinavië & Noord-Europa",
+        test:item => ["DK","NO","SE","FI","IS","FO"].includes(item.originCountry)
+      },
+      {
+        id:"west-europa",
+        label:"West-Europa",
+        test:item => ["BE","NL","LU","FR","DE","AT","CH","GB","IE"].includes(item.originCountry)
+      },
+      {
+        id:"zuid-europa",
+        label:"Zuid-Europa",
+        test:item => ["ES","PT","IT","GR","MT","CY"].includes(item.originCountry)
+      },
+      {
+        id:"centraal-oost-europa",
+        label:"Centraal/Oost-Europa",
+        test:item => [
+          "PL","CZ","SK","HU","RO","BG","SI","HR","RS","BA",
+          "ME","MK","AL","UA","MD","BY","RU","EE","LV","LT"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"midden-oosten",
+        label:"Midden-Oosten",
+        test:item => [
+          "IR","IQ","IL","PS","JO","LB","SY","TR","SA",
+          "AE","QA","KW","BH","OM","YE"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"afrika",
+        label:"Afrika",
+        test:item => [
+          "ZA","NG","EG","MA","DZ","TN","KE","GH","ET","SN",
+          "UG","TZ","CM","CI","AO","ZW","ZM","RW","CD","CG"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"zuid-azie",
+        label:"Zuid-Azië",
+        test:item => ["IN","PK","BD","LK","NP","BT","MV"].includes(item.originCountry)
+      },
+      {
+        id:"oost-azie",
+        label:"Oost-Azië",
+        test:item => ["JP","KR","CN","TW","HK","MN"].includes(item.originCountry)
+      },
+      {
+        id:"zuidoost-azie",
+        label:"Zuidoost-Azië",
+        test:item => [
+          "ID","MY","SG","TH","VN","PH","KH","MM","LA","BN","TL"
+        ].includes(item.originCountry)
+      },
+      {
+        id:"oceanie",
+        label:"Oceanië",
+        test:item => ["AU","NZ","FJ","PG"].includes(item.originCountry)
+      },
+      {
+        id:"germaans",
+        label:"Germaanse talen",
+        test:item => ["en","de","nl","sv","da","no","is","af"].includes(item.originalLanguage)
+      },
+      {
+        id:"romaans",
+        label:"Romaanse talen",
+        test:item => ["fr","es","pt","it","ro","ca"].includes(item.originalLanguage)
+      }
+    ];
+
+    function hasLanguage(item, group){
+      return group.codes.includes(item.originalLanguage);
+    }
+
+    function hasRegionGroup(item, group){
+      return group.test(item);
+    }
+
     // Sorteren
     function sortByDate(arr, dir="desc", field="releaseDate"){
       const mul = (dir === "desc" ? -1 : 1);
@@ -365,20 +505,15 @@
     let sortDir  = "desc";          // voor "date"
     let mediaFilter = null;         // null | "Film" | "Series"
     let genreFilter = null;         // null | GENRE_GROUPS.id
+    let languageFilter = null;      // null | LANGUAGE_GROUPS.id
+    let regionFilter = null;        // null | REGION_GROUPS.id
 
     function updateDateSortLabel(){
       const label = (TAB === "recent") ? "Toegevoegd" : "Releasedatum";
       $("#sortDate").textContent = `${label} ${sortDir === "desc" ? "↓" : "↑"}`;
     }
 
-    function renderGenreButtons(){
-      const wrap = $("#genreFilters");
-
-      if (!["toppers", "hidden", "all"].includes(TAB)){
-        wrap.hidden = true;
-        return;
-      }
-
+    function filterBase(){
       let base = applyBenchmark(DATA_A);
 
       if (TAB === "toppers"){
@@ -388,39 +523,131 @@
       if (TAB === "hidden"){
         base = capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5);
       }
+
       if (mediaFilter){
         base = base.filter(x => x.type === mediaFilter);
       }
+
+      return base;
+    }
+
+    function facetBase({ genre=true, language=true, region=true } = {}){
+      let base = filterBase();
+
+      if (genre && genreFilter){
+        const group = GENRE_GROUPS.find(g => g.id === genreFilter);
+        if (group) base = base.filter(item => hasGenre(item, group));
+      }
+
+      if (language && languageFilter){
+        base = base.filter(item => item.originalLanguage === languageFilter);
+      }
+
+      if (region && regionFilter){
+        const group = REGION_GROUPS.find(g => g.id === regionFilter);
+        if (group) base = base.filter(item => hasRegionGroup(item, group));
+      }
+
+      return base;
+    }
+
+    function renderGenreButtons(){
+      const wrap = $("#genreFilters");
+
+      // Voor genre kijken we al naar gekozen taal + regio.
+      const base = facetBase({ genre:false });
 
       const available = GENRE_GROUPS.filter(group =>
         base.some(item => hasGenre(item, group))
       );
 
-      if (!available.length){
-        genreFilter = null;
-        wrap.hidden = true;
-        return;
-      }
-
       if (genreFilter && !available.some(group => group.id === genreFilter)){
         genreFilter = null;
       }
 
-      wrap.hidden = false;
       wrap.innerHTML = [
-        `<button class="genre-btn ${genreFilter ? "" : "active"}" data-genre="" aria-pressed="${genreFilter ? "false" : "true"}">Alle genres</button>`,
+        `<button class="filter-btn genre-btn ${genreFilter ? "" : "active"}" data-genre="" aria-pressed="${genreFilter ? "false" : "true"}">Alle genres</button>`,
         ...available.map(group =>
-          `<button class="genre-btn ${genreFilter === group.id ? "active" : ""}" data-genre="${group.id}" aria-pressed="${genreFilter === group.id ? "true" : "false"}">${group.label}</button>`
+          `<button class="filter-btn genre-btn ${genreFilter === group.id ? "active" : ""}" data-genre="${group.id}" aria-pressed="${genreFilter === group.id ? "true" : "false"}">${group.label}</button>`
         )
       ].join("");
 
       $$("#genreFilters .genre-btn").forEach(btn => {
         btn.addEventListener("click", () => {
           genreFilter = btn.dataset.genre || null;
-          renderGenreButtons();
+          renderAllFilters();
           render();
         });
       });
+    }
+
+    function renderLanguageButtons(){
+      const wrap = $("#languageFilters");
+
+      // Voor taal kijken we al naar gekozen genre + regio.
+      const base = facetBase({ language:false });
+      const available = languageGroupsFor(base);
+
+      if (languageFilter && !available.some(group => group.id === languageFilter)){
+        languageFilter = null;
+      }
+
+      wrap.innerHTML = [
+        `<button class="filter-btn language-btn ${languageFilter ? "" : "active"}" data-language="" aria-pressed="${languageFilter ? "false" : "true"}">Alle talen</button>`,
+        ...available.map(group =>
+          `<button class="filter-btn language-btn ${languageFilter === group.id ? "active" : ""}" data-language="${group.id}" aria-pressed="${languageFilter === group.id ? "true" : "false"}">${group.label}</button>`
+        )
+      ].join("");
+
+      $$("#languageFilters .language-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          languageFilter = btn.dataset.language || null;
+          renderAllFilters();
+          render();
+        });
+      });
+    }
+
+    function renderRegionButtons(){
+      const wrap = $("#regionFilters");
+
+      // Voor regio/taalfamilie kijken we al naar gekozen genre + taal.
+      const base = facetBase({ region:false });
+
+      const available = REGION_GROUPS.filter(group =>
+        base.some(item => hasRegionGroup(item, group))
+      );
+
+      if (regionFilter && !available.some(group => group.id === regionFilter)){
+        regionFilter = null;
+      }
+
+      wrap.innerHTML = [
+        `<button class="filter-btn region-btn ${regionFilter ? "" : "active"}" data-region="" aria-pressed="${regionFilter ? "false" : "true"}">Alle regio's</button>`,
+        ...available.map(group =>
+          `<button class="filter-btn region-btn ${regionFilter === group.id ? "active" : ""}" data-region="${group.id}" aria-pressed="${regionFilter === group.id ? "true" : "false"}">${group.label}</button>`
+        )
+      ].join("");
+
+      $$("#regionFilters .region-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          regionFilter = btn.dataset.region || null;
+          renderAllFilters();
+          render();
+        });
+      });
+    }
+
+    function renderAllFilters(){
+      const wrap = $("#filterFamilies");
+      const visible = ["toppers", "hidden", "all"].includes(TAB);
+
+      wrap.hidden = !visible;
+      if (!visible) return;
+
+      renderGenreButtons();
+      renderLanguageButtons();
+      renderRegionButtons();
     }
 
     function card(item, idx){
@@ -483,6 +710,17 @@
         const group = GENRE_GROUPS.find(g => g.id === genreFilter);
         if (group){
           base = base.filter(item => hasGenre(item, group));
+        }
+      }
+
+      if (["toppers", "hidden", "all"].includes(TAB) && languageFilter){
+        base = base.filter(item => item.originalLanguage === languageFilter);
+      }
+
+      if (["toppers", "hidden", "all"].includes(TAB) && regionFilter){
+        const group = REGION_GROUPS.find(g => g.id === regionFilter);
+        if (group){
+          base = base.filter(item => hasRegionGroup(item, group));
         }
       }
 
@@ -576,7 +814,7 @@
         $("#filterFilms").setAttribute("aria-pressed", mediaFilter === "Film" ? "true" : "false");
         $("#filterSeries").setAttribute("aria-pressed", mediaFilter === "Series" ? "true" : "false");
 
-        renderGenreButtons();
+        renderAllFilters();
         render();
       }
 
@@ -595,7 +833,7 @@
           $("#sortDate").classList.remove("active");
           updateDateSortLabel();
           setTextsForTab();
-          renderGenreButtons();
+          renderAllFilters();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
         });
@@ -610,7 +848,7 @@
           $("#sortDate").classList.remove("active");
           updateDateSortLabel();
           setTextsForTab();
-          renderGenreButtons();
+          renderAllFilters();
           render();
           window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
         });
@@ -621,13 +859,13 @@
         TAB = "toppers";
         genreFilter = null;
         setTextsForTab();
-        renderGenreButtons();
+        renderAllFilters();
         render();
       });
 
       // Start op Toppers
       setTextsForTab();
-      renderGenreButtons();
+      renderAllFilters();
       render();
     })();
   </script>
