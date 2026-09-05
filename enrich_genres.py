@@ -31,17 +31,26 @@ def media_type(item):
     return "movie" if item.get("type") == "Film" else "tv"
 
 
-def fetch_genres(item, api_key, cache):
+def fetch_metadata(item, api_key, cache):
     tmdb_id = item.get("tmdbId")
     if not tmdb_id:
-        return []
+        return [], None
 
     kind = media_type(item)
     key = f"{kind}:{tmdb_id}"
-
     cached = cache.get(key)
-    if isinstance(cached, list):
-        return cached
+
+    # Nieuwe cachevorm: genres + land.
+    if isinstance(cached, dict):
+        genres = cached.get("genres", [])
+        origin_country = cached.get("originCountry")
+        if kind == "movie" or "originCountry" in cached:
+            return genres, origin_country
+
+    # Oude movie-cache mag blijven zoals hij is:
+    # land is alleen nodig voor onze verborgen parels (reeksen).
+    if isinstance(cached, list) and kind == "movie":
+        return cached, None
 
     response = requests.get(
         f"https://api.themoviedb.org/3/{kind}/{tmdb_id}",
@@ -49,14 +58,26 @@ def fetch_genres(item, api_key, cache):
         timeout=30,
     )
     response.raise_for_status()
+    payload = response.json()
 
     genres = [
         genre.get("name")
-        for genre in response.json().get("genres", [])
+        for genre in payload.get("genres", [])
         if genre.get("name")
     ]
-    cache[key] = genres
-    return genres
+
+    origin_country = None
+    if kind == "tv":
+        countries = payload.get("origin_country", [])
+        if countries:
+            origin_country = countries[0]
+
+    cache[key] = {
+        "genres": genres,
+        "originCountry": origin_country,
+    }
+
+    return genres, origin_country
 
 
 def main():
@@ -76,28 +97,44 @@ def main():
         cache = {}
 
     total = len(items)
-    for index, item in enumerate(items, start=1):
-        item["genres"] = fetch_genres(item, api_key, cache)
-        if index == 1 or index % 25 == 0 or index == total:
-            print(f"Genres: {index}/{total}")
 
-    genres_by_title = {
-        (item.get("type"), item.get("tmdbId")): item.get("genres", [])
+    for index, item in enumerate(items, start=1):
+        genres, origin_country = fetch_metadata(item, api_key, cache)
+        item["genres"] = genres
+
+        if origin_country:
+            item["originCountry"] = origin_country
+
+        if index == 1 or index % 25 == 0 or index == total:
+            print(f"TMDb metadata: {index}/{total}")
+
+    metadata_by_title = {
+        (item.get("type"), item.get("tmdbId")): {
+            "genres": item.get("genres", []),
+            "originCountry": item.get("originCountry"),
+        }
         for item in items
     }
 
     for item in recent:
-        item["genres"] = genres_by_title.get(
+        metadata = metadata_by_title.get(
             (item.get("type"), item.get("tmdbId")),
-            [],
+            {},
         )
+        item["genres"] = metadata.get("genres", [])
+
+        if metadata.get("originCountry"):
+            item["originCountry"] = metadata["originCountry"]
 
     write_json_atomic(DATA_PATH, items)
     write_json_atomic(RECENT_PATH, recent)
     write_json_atomic(CACHE_PATH, cache)
 
     with_genres = sum(bool(item.get("genres")) for item in items)
+    with_country = sum(bool(item.get("originCountry")) for item in items if item.get("type") == "Serie")
+
     print(f"Genre-enrichment klaar: {with_genres}/{total} titels met genres.")
+    print(f"Land-enrichment klaar: {with_country} reeksen met land van oorsprong.")
 
 
 if __name__ == "__main__":

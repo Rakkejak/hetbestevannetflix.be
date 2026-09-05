@@ -227,7 +227,8 @@
         poster: posterFor(it),
         nurl: netflixUrlFor(it),
         lang: pickOriginalLanguage(it),
-        genres: Array.isArray(it.genres) ? it.genres : []
+        genres: Array.isArray(it.genres) ? it.genres : [],
+        originCountry: it.originCountry || (Array.isArray(it.origin_country) ? it.origin_country[0] : null)
       };
     }
 
@@ -292,6 +293,23 @@
 
         if (a.votes !== b.votes) return a.votes - b.votes;
         return a.title.localeCompare(b.title);
+      });
+    }
+
+    function capHiddenGemsPerCountry(arr, limit=5){
+      const counts = new Map();
+
+      return sortHiddenGems(arr).filter(item => {
+        const country = item.originCountry;
+
+        // Als TMDb uitzonderlijk geen land heeft, sluiten we de titel niet uit.
+        if (!country) return true;
+
+        const count = counts.get(country) || 0;
+        if (count >= limit) return false;
+
+        counts.set(country, count + 1);
+        return true;
       });
     }
 
@@ -442,7 +460,7 @@
       let base = applyBenchmark(TAB === "recent" ? DATA_R : DATA_A);
 
       if (TAB === "hidden"){
-        base = DATA_A.filter(isHiddenGem);
+        base = capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5);
       }
 
       if (TAB === "toppers" || TAB === "recent"){
@@ -496,7 +514,7 @@
       const texts = {
         toppers: "De 67 best beoordeelde films én 67 best beoordeelde reeksen op Netflix in België.",
         recent: "Films en reeksen uit de laatste 100 dagen, met minstens 7,8 op IMDb en 1.000 stemmen.",
-        hidden: "Verborgen parels: reeksen met minstens 8,3 op IMDb, 2.500–35.000 stemmen, minstens één jaar oud en maximaal 6.000 IMDb-stemmen per jaar. Geen documentaires, reality of animatie.",
+        hidden: "Verborgen parels: reeksen met minstens 8,3 op IMDb, 2.500–35.000 stemmen, minstens één jaar oud en maximaal 6.000 IMDb-stemmen per jaar. Maximaal 5 titels per land; geen documentaires, reality of animatie.",
         all: "Alle films en reeksen op Netflix België met minstens 7,8 op IMDb en 1.000 stemmen. Filter verder op genre."
       };
       $("#subtext").textContent = texts[TAB] || texts.toppers;
