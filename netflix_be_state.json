@@ -2900,8 +2900,8 @@
     "firstSeen": "2026-09-04"
   },
   "movie:1160562": {
-    "active": false,
-    "firstSeen": "2026-09-04"
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:1160793": {
     "active": true,
@@ -4308,8 +4308,8 @@
     "firstSeen": "2026-09-05"
   },
   "movie:1253762": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:1253971": {
     "active": true,
@@ -9096,8 +9096,8 @@
     "firstSeen": null
   },
   "movie:241656": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:242828": {
     "active": true,
@@ -11340,8 +11340,8 @@
     "firstSeen": "2026-09-05"
   },
   "movie:395992": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:396292": {
     "active": true,
@@ -13908,8 +13908,8 @@
     "firstSeen": null
   },
   "movie:50619": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:50620": {
     "active": true,
@@ -14412,8 +14412,8 @@
     "firstSeen": null
   },
   "movie:5255": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:525660": {
     "active": true,
@@ -14928,8 +14928,8 @@
     "firstSeen": null
   },
   "movie:546550": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:546553": {
     "active": true,
@@ -15952,8 +15952,8 @@
     "firstSeen": "2026-09-05"
   },
   "movie:587996": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:588001": {
     "active": true,
@@ -21884,8 +21884,8 @@
     "firstSeen": null
   },
   "movie:912649": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "movie:912886": {
     "active": true,
@@ -23432,8 +23432,8 @@
     "firstSeen": null
   },
   "tv:101146": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:101200": {
     "active": true,
@@ -25728,8 +25728,8 @@
     "firstSeen": null
   },
   "tv:137899": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:137903": {
     "active": true,
@@ -29188,8 +29188,8 @@
     "firstSeen": null
   },
   "tv:244571": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:244587": {
     "active": true,
@@ -29952,8 +29952,8 @@
     "firstSeen": null
   },
   "tv:259669": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:259709": {
     "active": true,
@@ -30432,8 +30432,8 @@
     "firstSeen": null
   },
   "tv:278146": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:278178": {
     "active": true,
@@ -31264,8 +31264,8 @@
     "firstSeen": null
   },
   "tv:299483": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:299675": {
     "active": true,
@@ -31536,7 +31536,7 @@
     "firstSeen": null
   },
   "tv:313101": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:313117": {
@@ -31804,7 +31804,7 @@
     "firstSeen": null
   },
   "tv:323579": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:323660": {
@@ -33416,8 +33416,8 @@
     "firstSeen": null
   },
   "tv:73671": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:73673": {
     "active": true,
@@ -33788,8 +33788,8 @@
     "firstSeen": null
   },
   "tv:78239": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:78319": {
     "active": true,
@@ -35948,8 +35948,8 @@
     "firstSeen": null
   },
   "tv:97970": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-09-05"
   },
   "tv:98033": {
     "active": true,

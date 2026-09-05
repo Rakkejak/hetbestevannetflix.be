@@ -1,24 +1,5 @@
 [
   {
-    "tmdbId": 329274,
-    "imdbId": "tt43673968",
-    "netflix_id": null,
-    "title": "MOURINHO",
-    "originalTitle": "MOURINHO",
-    "type": "Serie",
-    "imdbRating": 7.8,
-    "imdbVotes": 3687,
-    "releaseDate": "2026-08-11",
-    "dateAdded": null,
-    "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Documentary"
-    ],
-    "originCountry": "US"
-  },
-  {
     "tmdbId": 284753,
     "imdbId": "tt36643714",
     "netflix_id": "81616273",
@@ -26,7 +7,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6495,
+    "imdbVotes": 6547,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -35,7 +16,8 @@
     "genres": [
       "Drama"
     ],
-    "originCountry": "IN"
+    "originCountry": "IN",
+    "originalLanguage": "hi"
   },
   {
     "tmdbId": 1443961,
@@ -45,7 +27,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 5768,
+    "imdbVotes": 5947,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
@@ -55,7 +37,8 @@
       "Fantasy",
       "Drama",
       "Thriller"
-    ]
+    ],
+    "originalLanguage": "te"
   },
   {
     "tmdbId": 1431068,
@@ -65,7 +48,7 @@
     "originalTitle": "मैं वापस आऊंगा",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12589,
+    "imdbVotes": 12668,
     "releaseDate": "2026-06-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
@@ -75,7 +58,8 @@
       "Romance",
       "Drama",
       "Mystery"
-    ]
+    ],
+    "originalLanguage": "hi"
   },
   {
     "tmdbId": 276161,
@@ -85,7 +69,7 @@
     "originalTitle": "참교육",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 19441,
+    "imdbVotes": 19524,
     "releaseDate": "2026-06-05",
     "dateAdded": null,
     "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
@@ -96,7 +80,8 @@
       "Drama",
       "Comedy"
     ],
-    "originCountry": "KR"
+    "originCountry": "KR",
+    "originalLanguage": "ko"
   },
   {
     "tmdbId": 279884,
@@ -106,7 +91,7 @@
     "originalTitle": "Rafa",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 4965,
+    "imdbVotes": 4983,
     "releaseDate": "2026-05-29",
     "dateAdded": "2026-09-04",
     "poster_path": "/utyZY9NKMC0Ci9Rh0ohW9giFKee.jpg",
@@ -115,6 +100,7 @@
     "genres": [
       "Documentary"
     ],
-    "originCountry": "US"
+    "originCountry": "US",
+    "originalLanguage": "en"
   }
 ]
