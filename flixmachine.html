@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FLIXMACHINE — Het Beste van Netflix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#061316;
+      --panel:#0a1a1e;
+      --line:#173942;
+      --text:#f5fbfc;
+      --muted:#9fb6bd;
+      --green:#59f3a5;
+      --blue:#58b7ff;
+      --yellow:#ffd86a;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Inter,sans-serif;
+    }
+
+    a{color:inherit}
+
+    .wrap{
+      width:min(1180px,calc(100% - 32px));
+      margin:auto;
+    }
+
+    header{
+      border-bottom:1px solid var(--line);
+      padding:18px 0;
+    }
+
+    .nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+    }
+
+    .brand{
+      font-family:"Libre Baskerville",serif;
+      font-weight:700;
+    }
+
+    .brand span{color:#e50914}
+
+    .back{
+      text-decoration:none;
+      font-weight:800;
+      font-size:.85rem;
+    }
+
+    main{
+      text-align:center;
+      padding:48px 0 70px;
+    }
+
+    h1{
+      font-family:"Libre Baskerville",serif;
+      font-size:clamp(2.6rem,7vw,5.5rem);
+      margin:0;
+      line-height:1;
+    }
+
+    .intro{
+      color:var(--muted);
+      margin:16px auto 30px;
+      max-width:700px;
+      line-height:1.5;
+    }
+
+    .machine{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:16px;
+      margin:0;
+    }
+
+    .machine-shell{
+      max-width:1040px;
+      margin:14px auto 22px;
+      padding:14px;
+      border:1px solid rgba(255,216,106,.28);
+      border-radius:22px;
+      background:
+        linear-gradient(180deg,rgba(255,255,255,.025),rgba(255,255,255,0)),
+        #07171b;
+      box-shadow:
+        0 18px 45px rgba(0,0,0,.24),
+        inset 0 0 0 1px rgba(255,255,255,.025);
+    }
+
+    .machine-lights{
+      height:10px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:10px;
+      margin:0 0 12px;
+    }
+
+    .machine-lights span{
+      width:6px;
+      height:6px;
+      border-radius:50%;
+      background:#ffd86a;
+      box-shadow:0 0 9px rgba(255,216,106,.45);
+      opacity:.75;
+    }
+
+    .slot{
+      position:relative;
+      background:var(--panel);
+      border:2px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+      min-height:430px;
+      transition:.2s ease;
+    }
+
+    .slot.locked{
+      border-color:var(--yellow);
+      box-shadow:0 0 0 2px rgba(255,216,106,.12);
+    }
+
+    .poster{
+      display:block;
+      width:100%;
+      height:330px;
+      background:#081113;
+      overflow:hidden;
+    }
+
+    .poster img{
+      width:100%;
+      height:100%;
+      display:block;
+      object-fit:contain;
+      background:#061316;
+    }
+
+    .no-poster{
+      height:100%;
+      display:grid;
+      place-items:center;
+      color:var(--muted);
+      padding:20px;
+    }
+
+    .info{
+      padding:16px;
+      text-align:left;
+    }
+
+    .title{
+      font-family:"Libre Baskerville",serif;
+      font-size:1.15rem;
+      margin:0 0 10px;
+    }
+
+    .title a{
+      text-decoration:none;
+    }
+
+    .title a:hover{
+      text-decoration:underline;
+    }
+
+    .meta{
+      display:flex;
+      gap:7px;
+      flex-wrap:wrap;
+      margin-bottom:14px;
+    }
+
+    .badge{
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:.25rem .55rem;
+      font-size:.78rem;
+      font-weight:800;
+    }
+
+    .imdb{
+      color:var(--yellow);
+      border-color:#5b4a15;
+    }
+
+    .language{
+      color:#d8e8ee;
+      border-color:#39515a;
+      background:rgba(200,220,230,.06);
+    }
+
+    .keep{
+      width:100%;
+      border:1px solid var(--blue);
+      color:var(--blue);
+      background:transparent;
+      border-radius:999px;
+      padding:.7rem .8rem;
+      font-weight:800;
+      cursor:pointer;
+    }
+
+    .slot.locked .keep{
+      color:#111;
+      background:var(--yellow);
+      border-color:var(--yellow);
+    }
+
+    .locked-label{
+      position:absolute;
+      top:12px;
+      right:12px;
+      z-index:3;
+      border-radius:999px;
+      background:var(--yellow);
+      color:#111;
+      padding:.35rem .6rem;
+      font-size:.75rem;
+      font-weight:900;
+    }
+
+    .controls{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:24px;
+    }
+
+    button.control{
+      border:1px solid var(--line);
+      background:#0a171a;
+      color:white;
+      border-radius:999px;
+      padding:.8rem 1.1rem;
+      font-weight:800;
+      cursor:pointer;
+    }
+
+    button.spin{
+      background:var(--green);
+      color:#042d1b;
+      border-color:var(--green);
+      font-size:1rem;
+      padding:.95rem 1.45rem;
+    }
+
+    .mode.active{
+      border-color:var(--blue);
+      color:var(--blue);
+    }
+
+    .hint{
+      color:var(--muted);
+      margin-top:18px;
+      font-size:.9rem;
+    }
+
+    @media(max-width:760px){
+      main{
+        padding-top:30px;
+      }
+
+      .machine-shell{
+        overflow-x:auto;
+        padding:10px;
+        border-radius:16px;
+      }
+
+      .machine{
+        grid-template-columns:repeat(3, minmax(155px,1fr));
+        min-width:500px;
+        gap:9px;
+      }
+
+      .slot{
+        min-height:0;
+      }
+
+      .poster{
+        height:230px;
+      }
+
+      .info{
+        padding:10px;
+      }
+
+      .title{
+        font-size:.92rem;
+      }
+
+      .badge{
+        font-size:.68rem;
+        padding:.2rem .42rem;
+      }
+
+      .keep{
+        font-size:.72rem;
+        padding:.55rem .5rem;
+      }
+
+      .machine-actions{
+        position:sticky;
+        top:8px;
+        z-index:10;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">Het Beste van <span>Netflix</span> · België</div>
+      <a class="back" href="index.html">← TERUG</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>FLIXMACHINE</h1>
+    <p class="intro">
+      Drie goede titels. Hou je favoriet vast en spin de andere twee opnieuw.
+      Blijf kiezen tot je weet wat je vanavond kijkt.
+    </p>
+
+    <div class="controls">
+      <button class="control mode active" data-mode="all">Alles</button>
+      <button class="control mode" data-mode="Film">Films</button>
+      <button class="control mode" data-mode="Series">Reeksen</button>
+    </div>
+
+    <div class="controls machine-actions">
+      <button id="spin" class="control spin">SPIN OPNIEUW</button>
+      <button id="reset" class="control">ALLES LOSLATEN</button>
+    </div>
+
+    <div class="machine-shell">
+      <div class="machine-lights" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <section id="machine" class="machine"></section>
+    </div>
+
+    <p class="hint">Klik op een poster of titel om die titel op Netflix te openen.</p>
+  </main>
+
+<script>
+  const machine = document.querySelector("#machine");
+  const spinButton = document.querySelector("#spin");
+  const resetButton = document.querySelector("#reset");
+
+  let allTitles = [];
+  let mode = "all";
+  let slots = [null,null,null];
+  let lockedIndex = null;
+  let spinning = false;
+  const seen = new Set();
+
+  function niceType(raw){
+    const t = String(raw || "").toLowerCase();
+    if (t === "tv" || t.startsWith("s")) return "Series";
+    if (t.startsWith("m") || t === "film") return "Film";
+    return raw || "";
+  }
+
+  function netflixUrl(item){
+    const id = item.nfid || item.netflixid || item.netflix_id || item.title_id;
+    if (id) return `https://www.netflix.com/title/${id}`;
+    return `https://www.netflix.com/search?q=${encodeURIComponent(item.title || "")}`;
+  }
+
+  function poster(item){
+    if (item.poster) return item.poster;
+    if (item.image) return item.image;
+    if (item.poster_path) return `https://image.tmdb.org/t/p/w500${item.poster_path}`;
+    return "";
+  }
+
+  const languageNames = (
+    typeof Intl !== "undefined" && Intl.DisplayNames
+      ? new Intl.DisplayNames(["nl"], {type:"language"})
+      : null
+  );
+
+  function languageName(code){
+    if (!code) return "";
+    try {
+      return languageNames ? languageNames.of(code) || code : code;
+    } catch {
+      return code;
+    }
+  }
+
+  function normalize(item){
+    const languageCode = item.originalLanguage || item.original_language || "";
+
+    return {
+      ...item,
+      title:item.title || item.name || "",
+      type:niceType(item.type),
+      rating:Number(item.imdbRating ?? item.imdb ?? 0),
+      votes:Number(item.imdbVotes ?? item.votes ?? 0),
+      posterUrl:poster(item),
+      netflixUrl:netflixUrl(item),
+      language:languageName(languageCode)
+    };
+  }
+
+  function pool(){
+    return allTitles.filter(item =>
+      (mode === "all" || item.type === mode) &&
+      item.rating >= 7.8 &&
+      item.votes >= 1000
+    );
+  }
+
+  function randomTitle(exclude=[]){
+    let candidates = pool().filter(item =>
+      !exclude.includes(item.title) &&
+      !seen.has(item.title)
+    );
+
+    if (!candidates.length){
+      seen.clear();
+      candidates = pool().filter(item => !exclude.includes(item.title));
+    }
+
+    if (!candidates.length) return null;
+
+    const item = candidates[Math.floor(Math.random() * candidates.length)];
+    seen.add(item.title);
+    return item;
+  }
+
+  function card(item,index){
+    if (!item) return "";
+
+    const locked = index === lockedIndex;
+
+    return `
+      <article class="slot ${locked ? "locked" : ""}">
+        ${locked ? `<span class="locked-label">VAST</span>` : ""}
+        <a class="poster" href="${item.netflixUrl}" target="_blank" rel="noopener">
+          ${item.posterUrl
+            ? `<img src="${item.posterUrl}" alt="Poster ${item.title}">`
+            : `<div class="no-poster">Geen poster beschikbaar</div>`
+          }
+        </a>
+
+        <div class="info">
+          <h2 class="title">
+            <a href="${item.netflixUrl}" target="_blank" rel="noopener">${item.title}</a>
+          </h2>
+
+          <div class="meta">
+            <span class="badge">${item.type}</span>
+            <span class="badge imdb">★ ${item.rating.toFixed(1)}</span>
+            ${item.language ? `<span class="badge language">${item.language}</span>` : ""}
+          </div>
+
+          <button class="keep" data-index="${index}">
+            ${locked ? "VASTGEZET" : "HOU DEZE"}
+          </button>
+        </div>
+      </article>
+    `;
+  }
+
+  function render(){
+    machine.innerHTML = slots.map(card).join("");
+
+    document.querySelectorAll(".keep").forEach(button => {
+      button.addEventListener("click", () => {
+        const index = Number(button.dataset.index);
+        lockedIndex = lockedIndex === index ? null : index;
+        render();
+      });
+    });
+  }
+
+  function fillInitial(){
+    const chosen = [];
+
+    slots = [0,1,2].map(() => {
+      const item = randomTitle(chosen.map(x => x.title));
+      if (item) chosen.push(item);
+      return item;
+    });
+
+    render();
+  }
+
+  function spin(){
+    if (spinning) return;
+    spinning = true;
+    spinButton.disabled = true;
+
+    const start = Date.now();
+
+    const timer = setInterval(() => {
+      const exclude = [];
+
+      slots = slots.map((item,index) => {
+        if (index === lockedIndex){
+          if (item) exclude.push(item.title);
+          return item;
+        }
+
+        const next = randomTitle(exclude);
+        if (next) exclude.push(next.title);
+        return next;
+      });
+
+      render();
+
+      if (Date.now() - start > 900){
+        clearInterval(timer);
+        spinning = false;
+        spinButton.disabled = false;
+      }
+    },90);
+  }
+
+  spinButton.addEventListener("click",spin);
+
+  resetButton.addEventListener("click",() => {
+    lockedIndex = null;
+    seen.clear();
+    fillInitial();
+  });
+
+  document.querySelectorAll(".mode").forEach(button => {
+    button.addEventListener("click",() => {
+      mode = button.dataset.mode;
+      lockedIndex = null;
+      seen.clear();
+
+      document.querySelectorAll(".mode").forEach(b =>
+        b.classList.toggle("active",b === button)
+      );
+
+      fillInitial();
+    });
+  });
+
+  fetch("netflix_data.json",{cache:"no-store"})
+    .then(r => r.json())
+    .then(data => {
+      allTitles = data.map(normalize);
+      fillInitial();
+    })
+    .catch(() => {
+      machine.innerHTML = "<p>De titels konden niet geladen worden.</p>";
+    });
+</script>
+</body>
+</html>
