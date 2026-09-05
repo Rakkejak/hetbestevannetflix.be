@@ -43,6 +43,7 @@
         <div class="lead-ctas">
           <button class="cta large" id="hero-toppers" data-tab="toppers">Toppers</button>
           <button class="cta large" id="hero-recent" data-tab="recent">Recent</button>
+          <button class="cta large" id="hero-hidden" data-tab="hidden">Verborgen parels</button>
           <button class="cta large" id="hero-all" data-tab="all">Allemaal goed</button>
         </div>
       </div>
@@ -251,6 +252,49 @@
       return isNum(item.imdb) && item.imdb >= 7.8 && item.votes >= 1000;
     }
 
+    // Verborgen parels:
+    // reeksen met IMDb >= 8,3, 2.500-35.000 stemmen,
+    // minstens 1 jaar oud en maximaal 6.000 stemmen per jaar.
+    // Documentaires, reality en animatie/anime worden uitgesloten.
+    const HIDDEN_BAD_GENRES = new Set(["Documentary", "Reality", "Animation"]);
+
+    function hiddenGemAgeYears(item){
+      const d = parseDateAny(item.releaseDate);
+      if (!d) return 0;
+      return (Date.now() - d.getTime()) / (365.25 * 24 * 60 * 60 * 1000);
+    }
+
+    function votesPerYear(item){
+      const years = hiddenGemAgeYears(item);
+      return years > 0 ? item.votes / years : Infinity;
+    }
+
+    function isHiddenGem(item){
+      const years = hiddenGemAgeYears(item);
+
+      return item.type === "Series"
+        && isNum(item.imdb)
+        && item.imdb >= 8.3
+        && item.votes >= 2500
+        && item.votes <= 35000
+        && years >= 1
+        && votesPerYear(item) <= 6000
+        && !item.genres.some(g => HIDDEN_BAD_GENRES.has(g));
+    }
+
+    function sortHiddenGems(arr){
+      return arr.slice().sort((a,b)=>{
+        if (b.imdb !== a.imdb) return b.imdb - a.imdb;
+
+        const av = votesPerYear(a);
+        const bv = votesPerYear(b);
+        if (av !== bv) return av - bv;
+
+        if (a.votes !== b.votes) return a.votes - b.votes;
+        return a.title.localeCompare(b.title);
+      });
+    }
+
     // Genre-groepen voor één consistente filter over films en reeksen
     const GENRE_GROUPS = [
       { id:"actie-avontuur", label:"Actie & avontuur", names:["Action","Adventure","Action & Adventure"] },
@@ -397,6 +441,10 @@
 
       let base = applyBenchmark(TAB === "recent" ? DATA_R : DATA_A);
 
+      if (TAB === "hidden"){
+        base = DATA_A.filter(isHiddenGem);
+      }
+
       if (TAB === "toppers" || TAB === "recent"){
         base = top67PerType(base);
       }
@@ -419,7 +467,7 @@
       const dateField = TAB === "recent" ? "dateAdded" : "releaseDate";
 
       const rows = sortMode === "imdb"
-        ? sortByImdb(filtered)
+        ? (TAB === "hidden" ? sortHiddenGems(filtered) : sortByImdb(filtered))
         : sortByDate(filtered, sortDir, dateField);
 
       if (!rows.length){
@@ -448,9 +496,22 @@
       const texts = {
         toppers: "De 67 best beoordeelde films én 67 best beoordeelde reeksen op Netflix in België.",
         recent: "Films en reeksen uit de laatste 100 dagen, met minstens 7,8 op IMDb en 1.000 stemmen.",
+        hidden: "Verborgen parels: reeksen met minstens 8,3 op IMDb, 2.500–35.000 stemmen, minstens één jaar oud en maximaal 6.000 IMDb-stemmen per jaar. Geen documentaires, reality of animatie.",
         all: "Alle films en reeksen op Netflix België met minstens 7,8 op IMDb en 1.000 stemmen. Filter verder op genre."
       };
       $("#subtext").textContent = texts[TAB] || texts.toppers;
+
+      const hiddenTab = TAB === "hidden";
+      $("#filterFilms").hidden = hiddenTab;
+      $("#filterSeries").hidden = hiddenTab;
+
+      if (hiddenTab){
+        mediaFilter = null;
+        $("#filterFilms").classList.remove("active");
+        $("#filterSeries").classList.remove("active");
+        $("#filterFilms").setAttribute("aria-pressed", "false");
+        $("#filterSeries").setAttribute("aria-pressed", "false");
+      }
     }
 
     // Init
