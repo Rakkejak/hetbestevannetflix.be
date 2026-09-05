@@ -374,12 +374,20 @@
     function renderGenreButtons(){
       const wrap = $("#genreFilters");
 
-      if (TAB !== "all"){
+      if (!["toppers", "hidden", "all"].includes(TAB)){
         wrap.hidden = true;
         return;
       }
 
       let base = applyBenchmark(DATA_A);
+
+      if (TAB === "toppers"){
+        base = top67PerType(base);
+      }
+
+      if (TAB === "hidden"){
+        base = capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5);
+      }
       if (mediaFilter){
         base = base.filter(x => x.type === mediaFilter);
       }
@@ -471,7 +479,7 @@
         base = base.filter(x => x.type === mediaFilter);
       }
 
-      if (TAB === "all" && genreFilter){
+      if (["toppers", "hidden", "all"].includes(TAB) && genreFilter){
         const group = GENRE_GROUPS.find(g => g.id === genreFilter);
         if (group){
           base = base.filter(item => hasGenre(item, group));
