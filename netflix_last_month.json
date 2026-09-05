@@ -1,5 +1,25 @@
 [
   {
+    "tmdbId": 329274,
+    "imdbId": "tt43673968",
+    "netflix_id": null,
+    "title": "MOURINHO",
+    "originalTitle": "MOURINHO",
+    "type": "Serie",
+    "imdbRating": 7.8,
+    "imdbVotes": 3710,
+    "releaseDate": "2026-08-11",
+    "dateAdded": null,
+    "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en"
+  },
+  {
     "tmdbId": 284753,
     "imdbId": "tt36643714",
     "netflix_id": "81616273",
@@ -7,7 +27,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6547,
+    "imdbVotes": 6522,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -27,7 +47,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 5947,
+    "imdbVotes": 5835,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
@@ -38,6 +58,7 @@
       "Drama",
       "Thriller"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -48,7 +69,7 @@
     "originalTitle": "मैं वापस आऊंगा",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12668,
+    "imdbVotes": 12612,
     "releaseDate": "2026-06-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
@@ -59,6 +80,7 @@
       "Drama",
       "Mystery"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -69,7 +91,7 @@
     "originalTitle": "참교육",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 19524,
+    "imdbVotes": 19495,
     "releaseDate": "2026-06-05",
     "dateAdded": null,
     "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
@@ -91,7 +113,7 @@
     "originalTitle": "Rafa",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 4983,
+    "imdbVotes": 4972,
     "releaseDate": "2026-05-29",
     "dateAdded": "2026-09-04",
     "poster_path": "/utyZY9NKMC0Ci9Rh0ohW9giFKee.jpg",

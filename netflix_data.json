@@ -7,7 +7,7 @@
     "originalTitle": "The Dark Knight",
     "type": "Film",
     "imdbRating": 9.1,
-    "imdbVotes": 3222329,
+    "imdbVotes": 3222086,
     "releaseDate": "2008-07-16",
     "dateAdded": null,
     "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
@@ -18,6 +18,7 @@
       "Crime",
       "Thriller"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -28,7 +29,7 @@
     "originalTitle": "Inception",
     "type": "Film",
     "imdbRating": 8.8,
-    "imdbVotes": 2864634,
+    "imdbVotes": 2864417,
     "releaseDate": "2010-07-15",
     "dateAdded": null,
     "poster_path": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
@@ -39,6 +40,7 @@
       "Science Fiction",
       "Adventure"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -49,7 +51,7 @@
     "originalTitle": "Fight Club",
     "type": "Film",
     "imdbRating": 8.8,
-    "imdbVotes": 2657069,
+    "imdbVotes": 2656847,
     "releaseDate": "1999-10-15",
     "dateAdded": null,
     "poster_path": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
@@ -59,6 +61,7 @@
       "Drama",
       "Thriller"
     ],
+    "originCountry": "DE",
     "originalLanguage": "en"
   },
   {
@@ -69,7 +72,7 @@
     "originalTitle": "Spider-Man: Into the Spider-Verse",
     "type": "Film",
     "imdbRating": 8.4,
-    "imdbVotes": 814570,
+    "imdbVotes": 814467,
     "releaseDate": "2018-12-06",
     "dateAdded": null,
     "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
@@ -81,6 +84,7 @@
       "Adventure",
       "Science Fiction"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -91,7 +95,7 @@
     "originalTitle": "千と千尋の神隠し",
     "type": "Film",
     "imdbRating": 8.6,
-    "imdbVotes": 983288,
+    "imdbVotes": 983209,
     "releaseDate": "2001-07-20",
     "dateAdded": null,
     "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
@@ -102,6 +106,7 @@
       "Family",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -112,7 +117,7 @@
     "originalTitle": "Whiplash",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 1179112,
+    "imdbVotes": 1179006,
     "releaseDate": "2014-10-10",
     "dateAdded": null,
     "poster_path": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
@@ -123,6 +128,7 @@
       "Music",
       "Thriller"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -133,7 +139,7 @@
     "originalTitle": "The Dark Knight Rises",
     "type": "Film",
     "imdbRating": 8.4,
-    "imdbVotes": 2025181,
+    "imdbVotes": 2025056,
     "releaseDate": "2012-07-17",
     "dateAdded": null,
     "poster_path": "/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
@@ -145,6 +151,7 @@
       "Drama",
       "Thriller"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -155,7 +162,7 @@
     "originalTitle": "Joker",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 1723265,
+    "imdbVotes": 1723114,
     "releaseDate": "2019-10-01",
     "dateAdded": null,
     "poster_path": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
@@ -166,6 +173,7 @@
       "Thriller",
       "Drama"
     ],
+    "originCountry": "CA",
     "originalLanguage": "en"
   },
   {
@@ -176,7 +184,7 @@
     "originalTitle": "Blade Runner 2049",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 767552,
+    "imdbVotes": 767484,
     "releaseDate": "2017-10-04",
     "dateAdded": null,
     "poster_path": "/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
@@ -186,6 +194,7 @@
       "Science Fiction",
       "Drama"
     ],
+    "originCountry": "CA",
     "originalLanguage": "en"
   },
   {
@@ -196,7 +205,7 @@
     "originalTitle": "The Wolf of Wall Street",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1822778,
+    "imdbVotes": 1822625,
     "releaseDate": "2013-12-25",
     "dateAdded": null,
     "poster_path": "/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg",
@@ -207,6 +216,7 @@
       "Drama",
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -217,7 +227,7 @@
     "originalTitle": "ハウルの動く城",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 520942,
+    "imdbVotes": 520913,
     "releaseDate": "2004-09-09",
     "dateAdded": null,
     "poster_path": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
@@ -228,6 +238,7 @@
       "Animation",
       "Adventure"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -238,7 +249,7 @@
     "originalTitle": "Scarface",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 1032895,
+    "imdbVotes": 1032824,
     "releaseDate": "1983-12-09",
     "dateAdded": "2026-09-04",
     "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
@@ -249,6 +260,7 @@
       "Crime",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -259,7 +271,7 @@
     "originalTitle": "The Truman Show",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1403049,
+    "imdbVotes": 1402908,
     "releaseDate": "1998-06-04",
     "dateAdded": null,
     "poster_path": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
@@ -269,6 +281,7 @@
       "Comedy",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -279,7 +292,7 @@
     "originalTitle": "The Notebook",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 701265,
+    "imdbVotes": 701212,
     "releaseDate": "2004-06-25",
     "dateAdded": null,
     "poster_path": "/rNzQyW4f8B8cQeg7Dgj3n6eT5k9.jpg",
@@ -289,6 +302,7 @@
       "Romance",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -299,7 +313,7 @@
     "originalTitle": "Django Unchained",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 1911091,
+    "imdbVotes": 1910980,
     "releaseDate": "2012-12-25",
     "dateAdded": null,
     "poster_path": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
@@ -309,6 +323,7 @@
       "Drama",
       "Western"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -319,7 +334,7 @@
     "originalTitle": "Batman Begins",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1742198,
+    "imdbVotes": 1742083,
     "releaseDate": "2005-06-10",
     "dateAdded": null,
     "poster_path": "/sPX89Td70IDDjVr85jdSBb4rWGr.jpg",
@@ -330,6 +345,7 @@
       "Crime",
       "Action"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -340,7 +356,7 @@
     "originalTitle": "The Hobbit: An Unexpected Journey",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 936555,
+    "imdbVotes": 936523,
     "releaseDate": "2012-12-12",
     "dateAdded": null,
     "poster_path": "/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg",
@@ -351,6 +367,7 @@
       "Fantasy",
       "Action"
     ],
+    "originCountry": "NZ",
     "originalLanguage": "en"
   },
   {
@@ -361,7 +378,7 @@
     "originalTitle": "The Revenant",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 960499,
+    "imdbVotes": 960425,
     "releaseDate": "2015-12-25",
     "dateAdded": null,
     "poster_path": "/ji3ecJphATlVgWNY0B0RVXZizdf.jpg",
@@ -372,6 +389,7 @@
       "Drama",
       "Adventure"
     ],
+    "originCountry": "CA",
     "originalLanguage": "en"
   },
   {
@@ -382,7 +400,7 @@
     "originalTitle": "Arrival",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 878292,
+    "imdbVotes": 878231,
     "releaseDate": "2016-11-10",
     "dateAdded": null,
     "poster_path": "/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
@@ -393,6 +411,7 @@
       "Science Fiction",
       "Mystery"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -403,7 +422,7 @@
     "originalTitle": "Knives Out",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 889816,
+    "imdbVotes": 889766,
     "releaseDate": "2019-11-27",
     "dateAdded": null,
     "poster_path": "/pThyQovXQrw2m0s9x82twj48Jq4.jpg",
@@ -414,6 +433,7 @@
       "Crime",
       "Mystery"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -424,7 +444,7 @@
     "originalTitle": "Kill Bill: Vol. 1",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1323493,
+    "imdbVotes": 1323421,
     "releaseDate": "2003-10-10",
     "dateAdded": null,
     "poster_path": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
@@ -434,6 +454,7 @@
       "Action",
       "Crime"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -444,7 +465,7 @@
     "originalTitle": "La La Land",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 777178,
+    "imdbVotes": 777109,
     "releaseDate": "2016-12-01",
     "dateAdded": null,
     "poster_path": "/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
@@ -455,6 +476,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -465,7 +487,7 @@
     "originalTitle": "Pride & Prejudice",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 382556,
+    "imdbVotes": 382530,
     "releaseDate": "2005-09-16",
     "dateAdded": null,
     "poster_path": "/o8UhmEbWPHmTUxP0lMuCoqNkbB3.jpg",
@@ -475,6 +497,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "FR",
     "originalLanguage": "en"
   },
   {
@@ -485,7 +508,7 @@
     "originalTitle": "風の谷のナウシカ",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 199154,
+    "imdbVotes": 199148,
     "releaseDate": "1984-03-11",
     "dateAdded": null,
     "poster_path": "/tcrkfB8SRPQCgwI88hQScua6nxh.jpg",
@@ -496,6 +519,7 @@
       "Animation",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -506,7 +530,7 @@
     "originalTitle": "Dunkirk",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 825632,
+    "imdbVotes": 825566,
     "releaseDate": "2017-07-19",
     "dateAdded": null,
     "poster_path": "/b4Oe15CGLL61Ped0RAS9JpqdmCt.jpg",
@@ -517,6 +541,7 @@
       "Action",
       "Drama"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -527,7 +552,7 @@
     "originalTitle": "Edge of Tomorrow",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 814797,
+    "imdbVotes": 814748,
     "releaseDate": "2014-05-27",
     "dateAdded": null,
     "poster_path": "/nBM9MMa2WCwvMG4IJ3eiGUdbPe6.jpg",
@@ -537,6 +562,7 @@
       "Action",
       "Science Fiction"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -547,7 +573,7 @@
     "originalTitle": "卧虎藏龍",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 297100,
+    "imdbVotes": 297098,
     "releaseDate": "2000-07-06",
     "dateAdded": null,
     "poster_path": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
@@ -560,6 +586,7 @@
       "Romance",
       "Fantasy"
     ],
+    "originCountry": "HK",
     "originalLanguage": "zh"
   },
   {
@@ -570,7 +597,7 @@
     "originalTitle": "Rocky",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 700791,
+    "imdbVotes": 700761,
     "releaseDate": "1976-12-03",
     "dateAdded": null,
     "poster_path": "/xSI0dbKLDETwhiVUy6hGE8KXUln.jpg",
@@ -579,6 +606,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -589,7 +617,7 @@
     "originalTitle": "もののけ姫",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 490219,
+    "imdbVotes": 490183,
     "releaseDate": "1997-07-12",
     "dateAdded": null,
     "poster_path": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
@@ -600,6 +628,7 @@
       "Fantasy",
       "Animation"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -610,7 +639,7 @@
     "originalTitle": "AKIRA",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 230666,
+    "imdbVotes": 230639,
     "releaseDate": "1988-06-10",
     "dateAdded": "2026-09-04",
     "poster_path": "/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg",
@@ -621,6 +650,7 @@
       "Science Fiction",
       "Action"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -631,7 +661,7 @@
     "originalTitle": "The Hobbit: The Desolation of Smaug",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 760992,
+    "imdbVotes": 760966,
     "releaseDate": "2013-12-11",
     "dateAdded": null,
     "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
@@ -642,6 +672,7 @@
       "Adventure",
       "Action"
     ],
+    "originCountry": "NZ",
     "originalLanguage": "en"
   },
   {
@@ -652,7 +683,7 @@
     "originalTitle": "魔女の宅急便",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 191577,
+    "imdbVotes": 191565,
     "releaseDate": "1989-07-29",
     "dateAdded": null,
     "poster_path": "/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg",
@@ -663,6 +694,7 @@
       "Family",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -673,7 +705,7 @@
     "originalTitle": "Atonement",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 333274,
+    "imdbVotes": 333262,
     "releaseDate": "2007-02-27",
     "dateAdded": null,
     "poster_path": "/hMRIyBjPzxaSXWM06se3OcNjIQa.jpg",
@@ -683,6 +715,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "FR",
     "originalLanguage": "en"
   },
   {
@@ -693,7 +726,7 @@
     "originalTitle": "新世紀エヴァンゲリオン劇場版 Air／まごころを、君に",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 78873,
+    "imdbVotes": 78865,
     "releaseDate": "1997-07-19",
     "dateAdded": null,
     "poster_path": "/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg",
@@ -706,6 +739,7 @@
       "Fantasy",
       "Action"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -716,7 +750,7 @@
     "originalTitle": "A Beautiful Mind",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1063085,
+    "imdbVotes": 1063043,
     "releaseDate": "2001-12-14",
     "dateAdded": null,
     "poster_path": "/rEIg5yJdNOt9fmX4P8gU9LeNoTQ.jpg",
@@ -726,6 +760,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -736,7 +771,7 @@
     "originalTitle": "1917",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 784974,
+    "imdbVotes": 784909,
     "releaseDate": "2019-12-25",
     "dateAdded": null,
     "poster_path": "/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
@@ -747,6 +782,7 @@
       "Drama",
       "History"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -757,7 +793,7 @@
     "originalTitle": "Kill Bill: Vol. 2",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 879451,
+    "imdbVotes": 879403,
     "releaseDate": "2004-04-16",
     "dateAdded": null,
     "poster_path": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
@@ -768,6 +804,7 @@
       "Crime",
       "Thriller"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -778,7 +815,7 @@
     "originalTitle": "Young Hearts",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 9503,
+    "imdbVotes": 9500,
     "releaseDate": "2024-10-26",
     "dateAdded": null,
     "poster_path": "/iGCtYxfuvXfy0BD5m6p7vKuPOxS.jpg",
@@ -788,6 +825,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "BE",
     "originalLanguage": "nl"
   },
   {
@@ -798,7 +836,7 @@
     "originalTitle": "American Gangster",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 493060,
+    "imdbVotes": 493041,
     "releaseDate": "2007-11-02",
     "dateAdded": null,
     "poster_path": "/sX9idXDqRUxE5ffww3n3RV5gL55.jpg",
@@ -808,6 +846,7 @@
       "Drama",
       "Crime"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -818,7 +857,7 @@
     "originalTitle": "Mystic River",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 530608,
+    "imdbVotes": 530582,
     "releaseDate": "2003-10-08",
     "dateAdded": null,
     "poster_path": "/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
@@ -830,6 +869,7 @@
       "Mystery",
       "Crime"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -840,7 +880,7 @@
     "originalTitle": "となりのトトロ",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 439146,
+    "imdbVotes": 439116,
     "releaseDate": "1988-04-16",
     "dateAdded": "2026-09-04",
     "poster_path": "/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
@@ -851,6 +891,7 @@
       "Animation",
       "Family"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -861,7 +902,7 @@
     "originalTitle": "Mulholland Drive",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 433668,
+    "imdbVotes": 433651,
     "releaseDate": "2001-06-06",
     "dateAdded": null,
     "poster_path": "/x7A59t6ySylr1L7aubOQEA480vM.jpg",
@@ -872,6 +913,7 @@
       "Drama",
       "Mystery"
     ],
+    "originCountry": "FR",
     "originalLanguage": "en"
   },
   {
@@ -882,7 +924,7 @@
     "originalTitle": "The Irishman",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 479104,
+    "imdbVotes": 479068,
     "releaseDate": "2019-11-01",
     "dateAdded": null,
     "poster_path": "/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg",
@@ -893,6 +935,7 @@
       "Drama",
       "History"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -903,7 +946,7 @@
     "originalTitle": "Bohemian Rhapsody",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 653924,
+    "imdbVotes": 653889,
     "releaseDate": "2018-10-24",
     "dateAdded": "2026-09-04",
     "poster_path": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
@@ -913,6 +956,7 @@
       "Music",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -923,7 +967,7 @@
     "originalTitle": "Jurassic Park",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 1197311,
+    "imdbVotes": 1197227,
     "releaseDate": "1993-06-11",
     "dateAdded": null,
     "poster_path": "/63viWuPfYQjRYLSZSZNq7dglJP5.jpg",
@@ -933,6 +977,7 @@
       "Adventure",
       "Science Fiction"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -943,7 +988,7 @@
     "originalTitle": "耳をすませば",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 84668,
+    "imdbVotes": 84662,
     "releaseDate": "1995-07-15",
     "dateAdded": null,
     "poster_path": "/5FROLD8zpWFs9ja7aYho1uOMJHg.jpg",
@@ -954,6 +999,7 @@
       "Drama",
       "Family"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -964,7 +1010,7 @@
     "originalTitle": "Shaun of the Dead",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 644247,
+    "imdbVotes": 644229,
     "releaseDate": "2004-04-09",
     "dateAdded": null,
     "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
@@ -974,6 +1020,7 @@
       "Horror",
       "Comedy"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -984,7 +1031,7 @@
     "originalTitle": "12 Years a Slave",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 794008,
+    "imdbVotes": 793977,
     "releaseDate": "2013-10-18",
     "dateAdded": null,
     "poster_path": "/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
@@ -994,6 +1041,7 @@
       "Drama",
       "History"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1004,7 +1052,7 @@
     "originalTitle": "Im Westen nichts Neues",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 345527,
+    "imdbVotes": 345478,
     "releaseDate": "2022-10-07",
     "dateAdded": null,
     "poster_path": "/2IRjbi9cADuDMKmHdLK7LaqQDKA.jpg",
@@ -1014,6 +1062,7 @@
       "War",
       "Drama"
     ],
+    "originCountry": "DE",
     "originalLanguage": "de"
   },
   {
@@ -1024,7 +1073,7 @@
     "originalTitle": "धुरंधर: द रिवेंज",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 71361,
+    "imdbVotes": 71288,
     "releaseDate": "2026-03-18",
     "dateAdded": null,
     "poster_path": "/ov8vrRLZGoXHpYjSY9Vpv1tHJX7.jpg",
@@ -1035,6 +1084,7 @@
       "Crime",
       "Thriller"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1045,7 +1095,7 @@
     "originalTitle": "धुरंधर",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 150260,
+    "imdbVotes": 150214,
     "releaseDate": "2025-12-05",
     "dateAdded": null,
     "poster_path": "/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
@@ -1056,6 +1106,7 @@
       "Crime",
       "Thriller"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1066,7 +1117,7 @@
     "originalTitle": "दिलवाले दुल्हनिया ले जायेंगे",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 86721,
+    "imdbVotes": 86714,
     "releaseDate": "1995-10-20",
     "dateAdded": null,
     "poster_path": "/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
@@ -1077,6 +1128,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1087,7 +1139,7 @@
     "originalTitle": "風立ちぬ",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 115056,
+    "imdbVotes": 115049,
     "releaseDate": "2013-07-20",
     "dateAdded": null,
     "poster_path": "/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg",
@@ -1099,6 +1151,7 @@
       "History",
       "Romance"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1109,7 +1162,7 @@
     "originalTitle": "天空の城ラピュタ",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 200500,
+    "imdbVotes": 200494,
     "releaseDate": "1986-08-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/41XxSsJc5OrulP0m7TrrUeO2hoz.jpg",
@@ -1122,6 +1175,7 @@
       "Action",
       "Family"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1132,7 +1186,7 @@
     "originalTitle": "หลานม่า",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 23227,
+    "imdbVotes": 23220,
     "releaseDate": "2024-04-04",
     "dateAdded": null,
     "poster_path": "/9Xa0Grd2jq2lM2gqcoTB4F9TjMd.jpg",
@@ -1141,6 +1195,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "TH",
     "originalLanguage": "th"
   },
   {
@@ -1151,7 +1206,7 @@
     "originalTitle": "రౌద్రం రణం రుధిరం",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 226982,
+    "imdbVotes": 226959,
     "releaseDate": "2022-03-24",
     "dateAdded": null,
     "poster_path": "/u0XUBNQWlOvrh0Gd97ARGpIkL0.jpg",
@@ -1162,6 +1217,7 @@
       "History",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -1172,7 +1228,7 @@
     "originalTitle": "The Bridge on the River Kwai",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 250569,
+    "imdbVotes": 250550,
     "releaseDate": "1957-10-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/7paXMt2e3Tr5dLmEZOGgFEn2Vo7.jpg",
@@ -1183,6 +1239,7 @@
       "History",
       "War"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1193,7 +1250,7 @@
     "originalTitle": "Hunt for the Wilderpeople",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 155923,
+    "imdbVotes": 155912,
     "releaseDate": "2016-01-22",
     "dateAdded": null,
     "poster_path": "/hkmz9rxgcweizXNElozGeKwmAJE.jpg",
@@ -1204,6 +1261,7 @@
       "Comedy",
       "Drama"
     ],
+    "originCountry": "NZ",
     "originalLanguage": "en"
   },
   {
@@ -1214,7 +1272,7 @@
     "originalTitle": "My Octopus Teacher",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 72515,
+    "imdbVotes": 72511,
     "releaseDate": "2020-09-04",
     "dateAdded": null,
     "poster_path": "/hvTVZb7hBC8tZAGoEhH5eiMJu2B.jpg",
@@ -1223,6 +1281,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "ZA",
     "originalLanguage": "en"
   },
   {
@@ -1233,7 +1292,7 @@
     "originalTitle": "劇場版 呪術廻戦 0",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 66662,
+    "imdbVotes": 66636,
     "releaseDate": "2021-12-24",
     "dateAdded": null,
     "poster_path": "/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg",
@@ -1244,6 +1303,7 @@
       "Action",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1254,7 +1314,7 @@
     "originalTitle": "The Sting",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 305464,
+    "imdbVotes": 305441,
     "releaseDate": "1973-12-25",
     "dateAdded": null,
     "poster_path": "/ckmYng37zey8INYf6d10cVgIG93.jpg",
@@ -1265,6 +1325,7 @@
       "Crime",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -1275,7 +1336,7 @@
     "originalTitle": "かぐや姫の物語",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 63023,
+    "imdbVotes": 63018,
     "releaseDate": "2013-11-23",
     "dateAdded": "2026-09-05",
     "poster_path": "/cQidJuA546OSSXKWXoiCeINDxuj.jpg",
@@ -1286,6 +1347,7 @@
       "Drama",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1296,7 +1358,7 @@
     "originalTitle": "मैं वापस आऊंगा",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12668,
+    "imdbVotes": 12612,
     "releaseDate": "2026-06-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
@@ -1307,6 +1369,7 @@
       "Drama",
       "Mystery"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1317,7 +1380,7 @@
     "originalTitle": "도가니",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 28291,
+    "imdbVotes": 28290,
     "releaseDate": "2011-09-22",
     "dateAdded": null,
     "poster_path": "/mbMp0oIFmYnw0i5gzRoKt8cH5ve.jpg",
@@ -1326,6 +1389,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "KR",
     "originalLanguage": "ko"
   },
   {
@@ -1336,7 +1400,7 @@
     "originalTitle": "La sociedad de la nieve",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 177475,
+    "imdbVotes": 177459,
     "releaseDate": "2023-12-15",
     "dateAdded": null,
     "poster_path": "/2e853FDVSIso600RqAMunPxiZjq.jpg",
@@ -1346,6 +1410,7 @@
       "Drama",
       "History"
     ],
+    "originCountry": "ES",
     "originalLanguage": "es"
   },
   {
@@ -1368,6 +1433,7 @@
       "Fantasy",
       "Romance"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1378,7 +1444,7 @@
     "originalTitle": "Klaus",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 242057,
+    "imdbVotes": 242033,
     "releaseDate": "2019-11-08",
     "dateAdded": null,
     "poster_path": "/q125RHUDgR4gjwh1QkfYuJLYkL.jpg",
@@ -1389,6 +1455,7 @@
       "Family",
       "Comedy"
     ],
+    "originCountry": "ES",
     "originalLanguage": "en"
   },
   {
@@ -1399,7 +1466,7 @@
     "originalTitle": "Marriage Story",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 375098,
+    "imdbVotes": 375080,
     "releaseDate": "2019-09-28",
     "dateAdded": "2026-09-05",
     "poster_path": "/2JRyCKaRKyJAVpsIHeLvPw5nHmw.jpg",
@@ -1408,6 +1475,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1418,7 +1486,7 @@
     "originalTitle": "दंगल",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 247721,
+    "imdbVotes": 247697,
     "releaseDate": "2016-12-21",
     "dateAdded": null,
     "poster_path": "/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg",
@@ -1429,6 +1497,7 @@
       "Family",
       "Comedy"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1439,7 +1508,7 @@
     "originalTitle": "బాహుబలి:ద బిగినింగ్",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 156423,
+    "imdbVotes": 156401,
     "releaseDate": "2015-07-10",
     "dateAdded": null,
     "poster_path": "/9BAjt8nSSms62uOVYn1t3C3dVto.jpg",
@@ -1449,6 +1518,7 @@
       "Action",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -1459,7 +1529,7 @@
     "originalTitle": "Boyz n the Hood",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 170463,
+    "imdbVotes": 170461,
     "releaseDate": "1991-07-12",
     "dateAdded": null,
     "poster_path": "/kaS8BkTZESnkoB5i1zRQ02FIRGk.jpg",
@@ -1469,6 +1539,7 @@
       "Drama",
       "Crime"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -1479,7 +1550,7 @@
     "originalTitle": "पीके",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 225877,
+    "imdbVotes": 225858,
     "releaseDate": "2014-12-18",
     "dateAdded": null,
     "poster_path": "/z2x2Y4tncefsIU7h82gmUM5vnBJ.jpg",
@@ -1490,6 +1561,7 @@
       "Drama",
       "Science Fiction"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1500,7 +1572,7 @@
     "originalTitle": "僕のヒーローアカデミア THE MOVIE ヒーローズ：ライジング",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 13261,
+    "imdbVotes": 13260,
     "releaseDate": "2019-12-20",
     "dateAdded": null,
     "poster_path": "/kpWsIkfXrnQ1pmR79qAHHq7DPxc.jpg",
@@ -1512,6 +1584,7 @@
       "Fantasy",
       "Adventure"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1522,7 +1595,7 @@
     "originalTitle": "David Attenborough: A Life on Our Planet",
     "type": "Film",
     "imdbRating": 8.9,
-    "imdbVotes": 36395,
+    "imdbVotes": 36394,
     "releaseDate": "2020-09-28",
     "dateAdded": null,
     "poster_path": "/zSKwyUDKDHiFU5syTTvQRDcGBPS.jpg",
@@ -1532,6 +1605,7 @@
       "Documentary",
       "Drama"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1542,7 +1616,7 @@
     "originalTitle": "A Gorilla Story: Told by David Attenborough",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 2152,
+    "imdbVotes": 2150,
     "releaseDate": "2026-04-16",
     "dateAdded": "2026-09-05",
     "poster_path": "/5X6VyjG0YYMbJu94l6xEY2YQvss.jpg",
@@ -1551,6 +1625,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1561,7 +1636,7 @@
     "originalTitle": "On the Waterfront",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 180846,
+    "imdbVotes": 180835,
     "releaseDate": "1954-06-22",
     "dateAdded": null,
     "poster_path": "/d4S8LpbCyFJsh1tGgwGQSJdGzKm.jpg",
@@ -1572,6 +1647,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -1582,7 +1658,7 @@
     "originalTitle": "లక్కీ భాస్కర్‌",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 43435,
+    "imdbVotes": 43427,
     "releaseDate": "2024-10-30",
     "dateAdded": null,
     "poster_path": "/a47JQFl9L7VDa79tEvnTOJe0rPa.jpg",
@@ -1593,6 +1669,7 @@
       "Crime",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -1603,7 +1680,7 @@
     "originalTitle": "Gandhi",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 247002,
+    "imdbVotes": 246998,
     "releaseDate": "1982-12-01",
     "dateAdded": null,
     "poster_path": "/rOXftt7SluxskrFrvU7qFJa5zeN.jpg",
@@ -1613,6 +1690,7 @@
       "Drama",
       "History"
     ],
+    "originCountry": "IN",
     "originalLanguage": "en"
   },
   {
@@ -1636,6 +1714,7 @@
       "Adventure",
       "Fantasy"
     ],
+    "originCountry": "FR",
     "originalLanguage": "fr"
   },
   {
@@ -1646,7 +1725,7 @@
     "originalTitle": "The Greatest Night in Pop",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 16869,
+    "imdbVotes": 16868,
     "releaseDate": "2024-01-19",
     "dateAdded": null,
     "poster_path": "/jDz4wFujk94tQP9Sx6EMKDULvkn.jpg",
@@ -1656,6 +1735,7 @@
       "Documentary",
       "Music"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1666,7 +1746,7 @@
     "originalTitle": "Bāhubali: The Epic",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 2471,
+    "imdbVotes": 2469,
     "releaseDate": "2025-10-29",
     "dateAdded": null,
     "poster_path": "/z9YIo2qscyaXYgRqIdRJtND3bw8.jpg",
@@ -1676,6 +1756,7 @@
       "Action",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -1686,7 +1767,7 @@
     "originalTitle": "மகாராஜா",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 85181,
+    "imdbVotes": 85164,
     "releaseDate": "2024-06-14",
     "dateAdded": null,
     "poster_path": "/s0m4TM1XRAftQStgKpw024RvkJo.jpg",
@@ -1697,6 +1778,7 @@
       "Thriller",
       "Mystery"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -1707,7 +1789,7 @@
     "originalTitle": "The Remains of the Day",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 94068,
+    "imdbVotes": 94066,
     "releaseDate": "1993-11-05",
     "dateAdded": null,
     "poster_path": "/uDGDtqSvuch324WnM7Ukdp1bCAQ.jpg",
@@ -1717,6 +1799,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -1737,6 +1820,7 @@
       "Music",
       "Documentary"
     ],
+    "originCountry": "GB",
     "originalLanguage": "ko"
   },
   {
@@ -1747,7 +1831,7 @@
     "originalTitle": "映画 この素晴らしい世界に祝福を！紅伝説",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 7567,
+    "imdbVotes": 7563,
     "releaseDate": "2019-08-30",
     "dateAdded": "2026-09-04",
     "poster_path": "/6hdIiFKf504I2uAMk7sXh6mATPy.jpg",
@@ -1758,6 +1842,7 @@
       "Comedy",
       "Fantasy"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -1768,7 +1853,7 @@
     "originalTitle": "டிராகன்",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 19323,
+    "imdbVotes": 19318,
     "releaseDate": "2025-02-21",
     "dateAdded": null,
     "poster_path": "/vKNJPuejtE6Xrp6RK6LKsQcbL8L.jpg",
@@ -1779,6 +1864,7 @@
       "Romance",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -1789,7 +1875,7 @@
     "originalTitle": "गंगूबाई काठियावाड़ी",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 67875,
+    "imdbVotes": 67870,
     "releaseDate": "2022-02-24",
     "dateAdded": null,
     "poster_path": "/x9ihTw6lJzPRiM2imWoER42FBZZ.jpg",
@@ -1799,6 +1885,7 @@
       "Crime",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1809,7 +1896,7 @@
     "originalTitle": "वीर-ज़ारा",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 67278,
+    "imdbVotes": 67275,
     "releaseDate": "2004-11-12",
     "dateAdded": null,
     "poster_path": "/j267YqLvKAHeyykTflxzpgVgviQ.jpg",
@@ -1819,6 +1906,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1840,6 +1928,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "ID",
     "originalLanguage": "id"
   },
   {
@@ -1850,7 +1939,7 @@
     "originalTitle": "Seaspiracy",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 35882,
+    "imdbVotes": 35883,
     "releaseDate": "2021-03-24",
     "dateAdded": "2026-09-05",
     "poster_path": "/iFNri0fwn1WfCoxf3H3v1z8dCm4.jpg",
@@ -1860,6 +1949,7 @@
       "Documentary",
       "Crime"
     ],
+    "originCountry": "FO",
     "originalLanguage": "en"
   },
   {
@@ -1870,7 +1960,7 @@
     "originalTitle": "Super/Man: The Christopher Reeve Story",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 11877,
+    "imdbVotes": 11876,
     "releaseDate": "2024-09-21",
     "dateAdded": null,
     "poster_path": "/73WchlI0Hj4HQd0T2KOztKquOek.jpg",
@@ -1879,6 +1969,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -1889,7 +1980,7 @@
     "originalTitle": "அமரன்",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 24471,
+    "imdbVotes": 24467,
     "releaseDate": "2024-10-31",
     "dateAdded": null,
     "poster_path": "/eCB06m1KUGilEOlIzb40nkQhVY0.jpg",
@@ -1901,6 +1992,7 @@
       "Adventure",
       "War"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -1911,7 +2003,7 @@
     "originalTitle": "Ernest et Célestine",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 24621,
+    "imdbVotes": 24620,
     "releaseDate": "2012-12-12",
     "dateAdded": null,
     "poster_path": "/iJPbRASktYW0I009Ktc2zUE6Fvg.jpg",
@@ -1924,6 +2016,7 @@
       "Drama",
       "Comedy"
     ],
+    "originCountry": "BE",
     "originalLanguage": "fr"
   },
   {
@@ -1934,7 +2027,7 @@
     "originalTitle": "कल हो ना हो",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 82509,
+    "imdbVotes": 82504,
     "releaseDate": "2003-11-27",
     "dateAdded": null,
     "poster_path": "/zhMI6I0kSLnewTMwE0A8Tz3Cj2f.jpg",
@@ -1945,6 +2038,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -1955,7 +2049,7 @@
     "originalTitle": "Ibelin",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 15430,
+    "imdbVotes": 15427,
     "releaseDate": "2024-03-08",
     "dateAdded": null,
     "poster_path": "/73vRLcc0syVTMXmXyztUWaPJiK3.jpg",
@@ -1965,6 +2059,7 @@
       "Documentary",
       "Animation"
     ],
+    "originCountry": "NO",
     "originalLanguage": "no"
   },
   {
@@ -1975,7 +2070,7 @@
     "originalTitle": "Dave Chappelle: Sticks & Stones",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 29106,
+    "imdbVotes": 29105,
     "releaseDate": "2019-08-26",
     "dateAdded": "2026-09-05",
     "poster_path": "/hsyPTPoFDhUw5aGcj7dxAx3i1Qp.jpg",
@@ -1984,6 +2079,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2005,6 +2101,7 @@
       "History",
       "Drama"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2015,7 +2112,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 5947,
+    "imdbVotes": 5835,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
@@ -2026,6 +2123,7 @@
       "Drama",
       "Thriller"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -2036,7 +2134,7 @@
     "originalTitle": "Bo Burnham: Inside",
     "type": "Film",
     "imdbRating": 8.6,
-    "imdbVotes": 60176,
+    "imdbVotes": 60175,
     "releaseDate": "2021-07-22",
     "dateAdded": "2026-09-05",
     "poster_path": "/ku1UvTWYvhFQbSesOD6zteY7bXT.jpg",
@@ -2045,6 +2143,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2055,7 +2154,7 @@
     "originalTitle": "बजरंगी भाईजान",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 113470,
+    "imdbVotes": 113457,
     "releaseDate": "2015-07-17",
     "dateAdded": null,
     "poster_path": "/vhlliI7HZZlWfo5d6CiyfBAGLrW.jpg",
@@ -2066,6 +2165,7 @@
       "Drama",
       "Adventure"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2076,7 +2176,7 @@
     "originalTitle": "होमबाउंड",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 14481,
+    "imdbVotes": 14475,
     "releaseDate": "2025-09-26",
     "dateAdded": null,
     "poster_path": "/vyezjSvSdLO0bvr6jSNuFi6yuiw.jpg",
@@ -2085,6 +2185,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2095,7 +2196,7 @@
     "originalTitle": "ಮಹಾವತಾರ ನರಸಿಂಹ",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 48708,
+    "imdbVotes": 48699,
     "releaseDate": "2025-07-25",
     "dateAdded": null,
     "poster_path": "/uGTF87VyfjtwwqRlT2apQg5YnEp.jpg",
@@ -2107,6 +2208,7 @@
       "Fantasy",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "kn"
   },
   {
@@ -2117,7 +2219,7 @@
     "originalTitle": "కోర్ట్: State vs. A Nobody",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 12477,
+    "imdbVotes": 12476,
     "releaseDate": "2025-03-14",
     "dateAdded": null,
     "poster_path": "/4pEX67LJd7ZIqYWtksBtOgQEGcQ.jpg",
@@ -2128,6 +2230,7 @@
       "Romance",
       "Crime"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -2138,7 +2241,7 @@
     "originalTitle": "హాయ్ నాన్న",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 27202,
+    "imdbVotes": 27197,
     "releaseDate": "2023-12-07",
     "dateAdded": "2026-09-04",
     "poster_path": "/hhMLtq9m1aK0dpY9Wcq26XeDH2z.jpg",
@@ -2149,6 +2252,7 @@
       "Family",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -2159,7 +2263,7 @@
     "originalTitle": "Noah Kahan: Out of Body",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 1004,
+    "imdbVotes": 1001,
     "releaseDate": "2026-03-16",
     "dateAdded": null,
     "poster_path": "/8VtZAonOgK8hae7FwOZCSg7XmCu.jpg",
@@ -2169,6 +2273,7 @@
       "Documentary",
       "Music"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2190,6 +2295,7 @@
       "Music",
       "History"
     ],
+    "originCountry": "BR",
     "originalLanguage": "pt"
   },
   {
@@ -2209,6 +2315,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2219,7 +2326,7 @@
     "originalTitle": "मिमी",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 46614,
+    "imdbVotes": 46612,
     "releaseDate": "2021-07-26",
     "dateAdded": "2026-09-04",
     "poster_path": "/AtCUHSf5sG31FL0vugxplft5FXW.jpg",
@@ -2229,6 +2336,7 @@
       "Comedy",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2239,7 +2347,7 @@
     "originalTitle": "Ricky Gervais: Humanity",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 25390,
+    "imdbVotes": 25389,
     "releaseDate": "2018-03-13",
     "dateAdded": null,
     "poster_path": "/vXNvvb9RUXSZS08PvXxLtA9wrfV.jpg",
@@ -2248,6 +2356,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -2258,7 +2367,7 @@
     "originalTitle": "Icarus",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 58583,
+    "imdbVotes": 58582,
     "releaseDate": "2017-06-03",
     "dateAdded": "2026-09-04",
     "poster_path": "/x5azMi1KvZWbBbfjmGqpHNGqjH.jpg",
@@ -2267,6 +2376,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2277,7 +2387,7 @@
     "originalTitle": "लापता लेडीज़",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 62014,
+    "imdbVotes": 62008,
     "releaseDate": "2024-03-01",
     "dateAdded": null,
     "poster_path": "/yXt07MYeiyQRzS69PMHy0BPjCGP.jpg",
@@ -2288,6 +2398,7 @@
       "Drama",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2298,7 +2409,7 @@
     "originalTitle": "லவ் டுடே",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 18774,
+    "imdbVotes": 18770,
     "releaseDate": "2022-11-04",
     "dateAdded": null,
     "poster_path": "/iRfIti4RhDFZ11UyCmz5Mk5wtGI.jpg",
@@ -2308,6 +2419,7 @@
       "Comedy",
       "Romance"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -2318,7 +2430,7 @@
     "originalTitle": "If Anything Happens I Love You",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 24569,
+    "imdbVotes": 24568,
     "releaseDate": "2020-11-20",
     "dateAdded": "2026-09-04",
     "poster_path": "/85tDhACvKDQxQoJhBYLvDU0ik1n.jpg",
@@ -2328,6 +2440,7 @@
       "Drama",
       "Animation"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2351,6 +2464,7 @@
       "Action",
       "TV Movie"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -2361,7 +2475,7 @@
     "originalTitle": "The Last Days",
     "type": "Film",
     "imdbRating": 7.9,
-    "imdbVotes": 6615,
+    "imdbVotes": 6614,
     "releaseDate": "1998-10-23",
     "dateAdded": null,
     "poster_path": "/kWr6QDDcO2HHKqvJvgsJ1hQz4Gs.jpg",
@@ -2371,6 +2485,7 @@
       "Documentary",
       "History"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2381,7 +2496,7 @@
     "originalTitle": "மெய்யழகன்",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 23900,
+    "imdbVotes": 23889,
     "releaseDate": "2024-09-27",
     "dateAdded": null,
     "poster_path": "/ngDEH7YqVaMCAD4LpNxRl6ScJnw.jpg",
@@ -2391,6 +2506,7 @@
       "Family",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -2401,7 +2517,7 @@
     "originalTitle": "हक़",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 16903,
+    "imdbVotes": 16897,
     "releaseDate": "2025-11-07",
     "dateAdded": null,
     "poster_path": "/tO7OI5MyzPSiVmlXXnlBKlAJH92.jpg",
@@ -2410,6 +2526,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2420,7 +2537,7 @@
     "originalTitle": "13th",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 39601,
+    "imdbVotes": 39597,
     "releaseDate": "2016-10-07",
     "dateAdded": "2026-09-05",
     "poster_path": "/tcKNWD6IFPPsvkpvyZ548naz0is.jpg",
@@ -2429,6 +2546,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2451,6 +2569,7 @@
       "Comedy",
       "TV Movie"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -2471,6 +2590,7 @@
       "Documentary",
       "War"
     ],
+    "originCountry": "CD",
     "originalLanguage": "en"
   },
   {
@@ -2481,7 +2601,7 @@
     "originalTitle": "മിന്നൽ മുരളി",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 35476,
+    "imdbVotes": 35475,
     "releaseDate": "2021-12-16",
     "dateAdded": "2026-09-04",
     "poster_path": "/efetKFDyptrRpoHBb103Tg3Auw5.jpg",
@@ -2492,6 +2612,7 @@
       "Comedy",
       "Fantasy"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ml"
   },
   {
@@ -2512,6 +2633,7 @@
       "Comedy",
       "TV Movie"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2531,6 +2653,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -2551,6 +2674,7 @@
       "Documentary",
       "History"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2561,7 +2685,7 @@
     "originalTitle": "ஜிகர்தண்டா டபுள்X",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12091,
+    "imdbVotes": 12088,
     "releaseDate": "2023-11-10",
     "dateAdded": null,
     "poster_path": "/rlPTdgLfgsSv8WiQXRZ2AVIDwAi.jpg",
@@ -2572,6 +2696,7 @@
       "Drama",
       "Comedy"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ta"
   },
   {
@@ -2592,6 +2717,7 @@
       "Comedy",
       "TV Movie"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2611,6 +2737,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2631,6 +2758,7 @@
       "Drama",
       "Family"
     ],
+    "originCountry": "ID",
     "originalLanguage": "id"
   },
   {
@@ -2652,6 +2780,7 @@
       "TV Movie",
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2671,6 +2800,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -2690,6 +2820,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2700,7 +2831,7 @@
     "originalTitle": "Jim Jefferies: Bare",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 6145,
+    "imdbVotes": 6144,
     "releaseDate": "2014-08-29",
     "dateAdded": "2026-09-05",
     "poster_path": "/pqGtStSCU0F3cZyEItCaqol24Mi.jpg",
@@ -2709,6 +2840,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2719,7 +2851,7 @@
     "originalTitle": "आर्टिकल 370",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 28952,
+    "imdbVotes": 28950,
     "releaseDate": "2024-02-23",
     "dateAdded": "2026-09-05",
     "poster_path": "/9VTemjHMpyxzfC3JsG2aFy8Bf9Y.jpg",
@@ -2730,6 +2862,7 @@
       "Thriller",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2749,6 +2882,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2759,7 +2893,7 @@
     "originalTitle": "L'albero degli zoccoli",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 9516,
+    "imdbVotes": 9515,
     "releaseDate": "1978-09-21",
     "dateAdded": null,
     "poster_path": "/ld4l2XWuECX6c6lWd2BWv1olg2N.jpg",
@@ -2768,6 +2902,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "IT",
     "originalLanguage": "it"
   },
   {
@@ -2791,6 +2926,7 @@
       "Family",
       "Science Fiction"
     ],
+    "originCountry": "MY",
     "originalLanguage": "ms"
   },
   {
@@ -2801,7 +2937,7 @@
     "originalTitle": "A Secret Love",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 5338,
+    "imdbVotes": 5337,
     "releaseDate": "2020-04-06",
     "dateAdded": null,
     "poster_path": "/28LNd4KEpqt9i8sgXrVcrdr2kgI.jpg",
@@ -2810,6 +2946,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2829,6 +2966,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "NO",
     "originalLanguage": "no"
   },
   {
@@ -2848,6 +2986,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "GB",
     "originalLanguage": "en"
   },
   {
@@ -2867,6 +3006,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2877,7 +3017,7 @@
     "originalTitle": "बदला",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 35246,
+    "imdbVotes": 35244,
     "releaseDate": "2019-03-08",
     "dateAdded": null,
     "poster_path": "/eKpzbERuhogYTwI3PwfVsAHXnuO.jpg",
@@ -2889,6 +3029,7 @@
       "Mystery",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2908,6 +3049,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2918,7 +3060,7 @@
     "originalTitle": "चकदे! इंडिया",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 92686,
+    "imdbVotes": 92682,
     "releaseDate": "2007-08-09",
     "dateAdded": "2026-09-04",
     "poster_path": "/mmFMgEsTRCAGAtwffGpuo3mJsxN.jpg",
@@ -2927,6 +3069,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -2946,6 +3089,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2965,6 +3109,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -2984,6 +3129,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3003,6 +3149,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -3022,6 +3169,7 @@
     "genres": [
       "Music"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3042,6 +3190,7 @@
       "Comedy",
       "Music"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3052,7 +3201,7 @@
     "originalTitle": "तलवार",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 43956,
+    "imdbVotes": 43951,
     "releaseDate": "2015-10-02",
     "dateAdded": null,
     "poster_path": "/vye2RxyxXKeTIJBSHo0HkvFuTCR.jpg",
@@ -3063,6 +3212,7 @@
       "Drama",
       "Mystery"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -3073,7 +3223,7 @@
     "originalTitle": "ജന ഗണ മന",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 22328,
+    "imdbVotes": 22326,
     "releaseDate": "2022-04-28",
     "dateAdded": "2026-09-04",
     "poster_path": "/1bSPVn6HlkGYTQ4tJYJ0UGWnQM9.jpg",
@@ -3084,6 +3234,7 @@
       "Thriller",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "ml"
   },
   {
@@ -3094,7 +3245,7 @@
     "originalTitle": "మేజర్",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 34589,
+    "imdbVotes": 34585,
     "releaseDate": "2022-06-03",
     "dateAdded": "2026-09-04",
     "poster_path": "/25tkF57bdYLDUnJTUEOkM8ovaEt.jpg",
@@ -3105,6 +3256,7 @@
       "History",
       "Drama"
     ],
+    "originCountry": "IN",
     "originalLanguage": "te"
   },
   {
@@ -3124,6 +3276,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3134,7 +3287,7 @@
     "originalTitle": "Hasan Minhaj: Homecoming King",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 8197,
+    "imdbVotes": 8196,
     "releaseDate": "2017-05-23",
     "dateAdded": null,
     "poster_path": "/clFR57vfc0BXGYFIo3LYryopyY.jpg",
@@ -3143,6 +3296,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3163,6 +3317,7 @@
       "Documentary",
       "Crime"
     ],
+    "originCountry": "US",
     "originalLanguage": "es"
   },
   {
@@ -3173,7 +3328,7 @@
     "originalTitle": "अमर सिंह चमकीला",
     "type": "Film",
     "imdbRating": 7.8,
-    "imdbVotes": 17946,
+    "imdbVotes": 17942,
     "releaseDate": "2024-04-12",
     "dateAdded": null,
     "poster_path": "/t9wSGgaPfbGUBBlne7xw8GaArvu.jpg",
@@ -3183,6 +3338,7 @@
       "Drama",
       "Music"
     ],
+    "originCountry": "IN",
     "originalLanguage": "hi"
   },
   {
@@ -3204,6 +3360,7 @@
       "Family",
       "Comedy"
     ],
+    "originCountry": "ID",
     "originalLanguage": "id"
   },
   {
@@ -3223,6 +3380,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3243,6 +3401,7 @@
       "Documentary",
       "Music"
     ],
+    "originCountry": "BR",
     "originalLanguage": "pt"
   },
   {
@@ -3262,6 +3421,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "AT",
     "originalLanguage": "en"
   },
   {
@@ -3281,6 +3441,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3301,6 +3462,7 @@
       "Comedy",
       "TV Movie"
     ],
+    "originCountry": "CA",
     "originalLanguage": "en"
   },
   {
@@ -3311,7 +3473,7 @@
     "originalTitle": "Cuba and the Cameraman",
     "type": "Film",
     "imdbRating": 8.2,
-    "imdbVotes": 6012,
+    "imdbVotes": 6011,
     "releaseDate": "2017-09-08",
     "dateAdded": null,
     "poster_path": "/qaHgQmUAAsB7FzMFQZUp6MfG1r2.jpg",
@@ -3320,6 +3482,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "CU",
     "originalLanguage": "en"
   },
   {
@@ -3341,6 +3504,7 @@
       "Comedy",
       "Family"
     ],
+    "originCountry": "ID",
     "originalLanguage": "id"
   },
   {
@@ -3351,7 +3515,7 @@
     "originalTitle": "Springsteen on Broadway",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 2578,
+    "imdbVotes": 2577,
     "releaseDate": "2018-12-15",
     "dateAdded": "2026-09-05",
     "poster_path": "/ng9F8AbD82ldwwdZpCvTAUAQ0rr.jpg",
@@ -3361,6 +3525,7 @@
       "Music",
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3380,6 +3545,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3399,6 +3565,7 @@
     "genres": [
       "Drama"
     ],
+    "originCountry": "ID",
     "originalLanguage": "id"
   },
   {
@@ -3418,6 +3585,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "CA",
     "originalLanguage": "en"
   },
   {
@@ -3428,7 +3596,7 @@
     "originalTitle": "Hannah Gadsby: Nanette",
     "type": "Film",
     "imdbRating": 8.1,
-    "imdbVotes": 14113,
+    "imdbVotes": 14114,
     "releaseDate": "2018-06-19",
     "dateAdded": "2026-09-04",
     "poster_path": "/xyDapdXEqic7pkLFvvvEW5dI3or.jpg",
@@ -3437,6 +3605,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "AU",
     "originalLanguage": "en"
   },
   {
@@ -3456,6 +3625,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3475,6 +3645,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "IS",
     "originalLanguage": "en"
   },
   {
@@ -3494,6 +3665,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3513,6 +3685,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3533,6 +3706,7 @@
       "Documentary",
       "Music"
     ],
+    "originCountry": "BR",
     "originalLanguage": "pt"
   },
   {
@@ -3543,7 +3717,7 @@
     "originalTitle": "Our Planet: Behind the Scenes",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 2081,
+    "imdbVotes": 2083,
     "releaseDate": "2019-04-05",
     "dateAdded": null,
     "poster_path": "/rLQWByPlwOyLfQAoDA1t9pQaEKV.jpg",
@@ -3552,6 +3726,7 @@
     "genres": [
       "Documentary"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3572,6 +3747,7 @@
       "Comedy",
       "Music"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3591,6 +3767,7 @@
     "genres": [
       "Comedy"
     ],
+    "originCountry": "US",
     "originalLanguage": "en"
   },
   {
@@ -3601,7 +3778,7 @@
     "originalTitle": "火垂るの墓",
     "type": "Film",
     "imdbRating": 8.5,
-    "imdbVotes": 395315,
+    "imdbVotes": 395275,
     "releaseDate": "1988-04-16",
     "dateAdded": null,
     "poster_path": "/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
@@ -3612,6 +3789,7 @@
       "Drama",
       "War"
     ],
+    "originCountry": "JP",
     "originalLanguage": "ja"
   },
   {
@@ -3622,7 +3800,7 @@
     "originalTitle": "The Mentalist",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 246666,
+    "imdbVotes": 246530,
     "releaseDate": "2008-09-23",
     "dateAdded": null,
     "poster_path": "/acYXu4KaDj1NIkMgObnhe4C4a0T.jpg",
@@ -3644,7 +3822,7 @@
     "originalTitle": "Law & Order: Special Victims Unit",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 147044,
+    "imdbVotes": 147034,
     "releaseDate": "1999-09-20",
     "dateAdded": null,
     "poster_path": "/iofokHZoUB4Qhik4PflvJl8TT6a.jpg",
@@ -3666,7 +3844,7 @@
     "originalTitle": "The Rookie",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 134792,
+    "imdbVotes": 134761,
     "releaseDate": "2018-10-16",
     "dateAdded": null,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
@@ -3688,7 +3866,7 @@
     "originalTitle": "The Office",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 848394,
+    "imdbVotes": 848327,
     "releaseDate": "2005-03-24",
     "dateAdded": null,
     "poster_path": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
@@ -3708,7 +3886,7 @@
     "originalTitle": "Breaking Bad",
     "type": "Serie",
     "imdbRating": 9.5,
-    "imdbVotes": 2670900,
+    "imdbVotes": 2670628,
     "releaseDate": "2008-01-20",
     "dateAdded": null,
     "poster_path": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
@@ -3729,7 +3907,7 @@
     "originalTitle": "Shameless",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 338104,
+    "imdbVotes": 338078,
     "releaseDate": "2011-01-09",
     "dateAdded": null,
     "poster_path": "/ifo31fMWLmyOVpdak9K0kY4jldQ.jpg",
@@ -3750,7 +3928,7 @@
     "originalTitle": "Rick and Morty",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 710965,
+    "imdbVotes": 710895,
     "releaseDate": "2013-12-02",
     "dateAdded": null,
     "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
@@ -3794,7 +3972,7 @@
     "originalTitle": "Bones",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 192610,
+    "imdbVotes": 192606,
     "releaseDate": "2005-09-13",
     "dateAdded": null,
     "poster_path": "/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg",
@@ -3815,7 +3993,7 @@
     "originalTitle": "The Gentlemen",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 183658,
+    "imdbVotes": 183351,
     "releaseDate": "2024-03-07",
     "dateAdded": null,
     "poster_path": "/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
@@ -3837,7 +4015,7 @@
     "originalTitle": "Friends",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 1206340,
+    "imdbVotes": 1206266,
     "releaseDate": "1994-09-22",
     "dateAdded": null,
     "poster_path": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
@@ -3857,7 +4035,7 @@
     "originalTitle": "The Walking Dead",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 1212162,
+    "imdbVotes": 1212081,
     "releaseDate": "2010-10-31",
     "dateAdded": null,
     "poster_path": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
@@ -3879,7 +4057,7 @@
     "originalTitle": "無職転生 ～異世界行ったら本気だす～",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 56566,
+    "imdbVotes": 56478,
     "releaseDate": "2021-01-11",
     "dateAdded": null,
     "poster_path": "/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
@@ -3901,7 +4079,7 @@
     "originalTitle": "Dexter",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 953359,
+    "imdbVotes": 953262,
     "releaseDate": "2006-10-01",
     "dateAdded": null,
     "poster_path": "/q8dWfc4JwQuv3HayIZeO84jAXED.jpg",
@@ -3923,7 +4101,7 @@
     "originalTitle": "House",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 599916,
+    "imdbVotes": 599879,
     "releaseDate": "2004-11-16",
     "dateAdded": null,
     "poster_path": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -3943,7 +4121,7 @@
     "originalTitle": "The Good Doctor",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 132129,
+    "imdbVotes": 132128,
     "releaseDate": "2017-09-25",
     "dateAdded": null,
     "poster_path": "/luhKkdD80qe62fwop6sdrXK9jUT.jpg",
@@ -3963,7 +4141,7 @@
     "originalTitle": "The Blacklist",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 303821,
+    "imdbVotes": 303800,
     "releaseDate": "2013-09-23",
     "dateAdded": null,
     "poster_path": "/4HTfd1PhgFUenJxVuBDNdLmdr0c.jpg",
@@ -3985,7 +4163,7 @@
     "originalTitle": "Chicago P.D.",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 53007,
+    "imdbVotes": 53001,
     "releaseDate": "2014-01-08",
     "dateAdded": null,
     "poster_path": "/bez40PgT36RUu4gstD2A6GSM0tP.jpg",
@@ -4006,7 +4184,7 @@
     "originalTitle": "Vikings",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 649283,
+    "imdbVotes": 649232,
     "releaseDate": "2013-03-03",
     "dateAdded": null,
     "poster_path": "/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
@@ -4028,7 +4206,7 @@
     "originalTitle": "SEAL Team",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 40824,
+    "imdbVotes": 40811,
     "releaseDate": "2017-09-27",
     "dateAdded": null,
     "poster_path": "/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg",
@@ -4050,7 +4228,7 @@
     "originalTitle": "Stranger Things",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 1735802,
+    "imdbVotes": 1735624,
     "releaseDate": "2016-07-15",
     "dateAdded": null,
     "poster_path": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
@@ -4072,7 +4250,7 @@
     "originalTitle": "One Tree Hill",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 95879,
+    "imdbVotes": 95871,
     "releaseDate": "2003-09-23",
     "dateAdded": null,
     "poster_path": "/sOrelBaAhp7DZbPTivDwKEyPslC.jpg",
@@ -4092,7 +4270,7 @@
     "originalTitle": "Suits",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 548927,
+    "imdbVotes": 548883,
     "releaseDate": "2011-06-23",
     "dateAdded": null,
     "poster_path": "/vQiryp6LioFxQThywxbC6TuoDjy.jpg",
@@ -4112,7 +4290,7 @@
     "originalTitle": "Yellowstone",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 320896,
+    "imdbVotes": 320856,
     "releaseDate": "2018-06-20",
     "dateAdded": null,
     "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
@@ -4133,7 +4311,7 @@
     "originalTitle": "Young Sheldon",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 152357,
+    "imdbVotes": 152336,
     "releaseDate": "2017-09-25",
     "dateAdded": null,
     "poster_path": "/kidkbZRBGbsEIrX7pODRSKi9ipl.jpg",
@@ -4155,7 +4333,7 @@
     "originalTitle": "HUNTER×HUNTER",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 204101,
+    "imdbVotes": 204050,
     "releaseDate": "2011-10-02",
     "dateAdded": null,
     "poster_path": "/i2EEr2uBvRlAwJ8d8zTG2Y19mIa.jpg",
@@ -4177,7 +4355,7 @@
     "originalTitle": "Outlander",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 204300,
+    "imdbVotes": 204284,
     "releaseDate": "2014-08-09",
     "dateAdded": null,
     "poster_path": "/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
@@ -4198,7 +4376,7 @@
     "originalTitle": "Stargate SG-1",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 110630,
+    "imdbVotes": 110623,
     "releaseDate": "1997-07-27",
     "dateAdded": null,
     "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
@@ -4219,7 +4397,7 @@
     "originalTitle": "Peaky Blinders",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 791571,
+    "imdbVotes": 791492,
     "releaseDate": "2013-09-12",
     "dateAdded": null,
     "poster_path": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
@@ -4240,7 +4418,7 @@
     "originalTitle": "呪術廻戦",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 220332,
+    "imdbVotes": 220264,
     "releaseDate": "2020-10-03",
     "dateAdded": null,
     "poster_path": "/6qQzMJG27XOJsyAEEIisoJB45j2.jpg",
@@ -4262,7 +4440,7 @@
     "originalTitle": "葬送のフリーレン",
     "type": "Serie",
     "imdbRating": 8.9,
-    "imdbVotes": 83859,
+    "imdbVotes": 83830,
     "releaseDate": "2023-09-29",
     "dateAdded": null,
     "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
@@ -4285,7 +4463,7 @@
     "originalTitle": "Better Call Saul",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 860991,
+    "imdbVotes": 860878,
     "releaseDate": "2015-02-08",
     "dateAdded": null,
     "poster_path": "/zjg4jpK1Wp2kiRvtt5ND0kznako.jpg",
@@ -4306,7 +4484,7 @@
     "originalTitle": "Homeland",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 387984,
+    "imdbVotes": 387964,
     "releaseDate": "2011-10-02",
     "dateAdded": null,
     "poster_path": "/6GAvS2e6VIRsms9FpVt33PsCoEW.jpg",
@@ -4328,7 +4506,7 @@
     "originalTitle": "薬屋のひとりごと",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 27391,
+    "imdbVotes": 27382,
     "releaseDate": "2023-10-22",
     "dateAdded": null,
     "poster_path": "/e3ojpANrFnmJCyeBNTinYwyBCIN.jpg",
@@ -4350,7 +4528,7 @@
     "originalTitle": "ジョジョの奇妙な冒険",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 60691,
+    "imdbVotes": 60677,
     "releaseDate": "2012-10-06",
     "dateAdded": null,
     "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
@@ -4372,7 +4550,7 @@
     "originalTitle": "Lucifer",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 397322,
+    "imdbVotes": 397300,
     "releaseDate": "2016-01-25",
     "dateAdded": null,
     "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
@@ -4393,7 +4571,7 @@
     "originalTitle": "SPY×FAMILY",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 64915,
+    "imdbVotes": 64901,
     "releaseDate": "2022-04-09",
     "dateAdded": null,
     "poster_path": "/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
@@ -4415,7 +4593,7 @@
     "originalTitle": "Person of Interest",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 215053,
+    "imdbVotes": 215024,
     "releaseDate": "2011-09-22",
     "dateAdded": null,
     "poster_path": "/f8aIvYk5h7Z8EP3dinCmVgQFYow.jpg",
@@ -4437,7 +4615,7 @@
     "originalTitle": "The Handmaid's Tale",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 304265,
+    "imdbVotes": 304246,
     "releaseDate": "2017-04-26",
     "dateAdded": null,
     "poster_path": "/eGUT7j3n3rn5yGihlCgwUnD70HV.jpg",
@@ -4459,7 +4637,7 @@
     "originalTitle": "Ninjago: Masters of Spinjitzu",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 14162,
+    "imdbVotes": 14158,
     "releaseDate": "2012-01-11",
     "dateAdded": null,
     "poster_path": "/wz6ZqlyndVpdRayZi1gbYHWcqFi.jpg",
@@ -4483,7 +4661,7 @@
     "originalTitle": "Seinfeld",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 388305,
+    "imdbVotes": 388290,
     "releaseDate": "1989-07-05",
     "dateAdded": null,
     "poster_path": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
@@ -4503,7 +4681,7 @@
     "originalTitle": "Black Mirror",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 747657,
+    "imdbVotes": 747614,
     "releaseDate": "2011-12-04",
     "dateAdded": null,
     "poster_path": "/seN6rRfN0I6n8iDXjlSMk1QjNcq.jpg",
@@ -4525,7 +4703,7 @@
     "originalTitle": "My Little Pony: Friendship Is Magic",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 26568,
+    "imdbVotes": 26566,
     "releaseDate": "2010-10-10",
     "dateAdded": null,
     "poster_path": "/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg",
@@ -4548,7 +4726,7 @@
     "originalTitle": "Fargo",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 474585,
+    "imdbVotes": 474544,
     "releaseDate": "2014-04-15",
     "dateAdded": null,
     "poster_path": "/a3VW6khsyUVKrG0GBCWFG3NzWPX.jpg",
@@ -4569,7 +4747,7 @@
     "originalTitle": "らんま1/2",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 4672,
+    "imdbVotes": 4670,
     "releaseDate": "2024-10-06",
     "dateAdded": null,
     "poster_path": "/cDThx8yRYbdPOSgHbjihS4q7GYc.jpg",
@@ -4591,7 +4769,7 @@
     "originalTitle": "Wednesday",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 508144,
+    "imdbVotes": 508111,
     "releaseDate": "2022-11-23",
     "dateAdded": null,
     "poster_path": "/9PFonBhy4cQy7Jz20NpMygczOkv.jpg",
@@ -4613,7 +4791,7 @@
     "originalTitle": "ナルト",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 173624,
+    "imdbVotes": 173594,
     "releaseDate": "2002-10-03",
     "dateAdded": null,
     "poster_path": "/xppeysfvDKVx775MFuH8Z9BlpMk.jpg",
@@ -4635,7 +4813,7 @@
     "originalTitle": "Orange Is the New Black",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 338382,
+    "imdbVotes": 338370,
     "releaseDate": "2013-07-11",
     "dateAdded": null,
     "poster_path": "/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg",
@@ -4657,7 +4835,7 @@
     "originalTitle": "Ghosts",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 51123,
+    "imdbVotes": 51114,
     "releaseDate": "2021-10-07",
     "dateAdded": null,
     "poster_path": "/8yBQYa6AdvMY5H9CiAv0HkvF3UE.jpg",
@@ -4678,7 +4856,7 @@
     "originalTitle": "MONSTER",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 74925,
+    "imdbVotes": 74893,
     "releaseDate": "2004-04-07",
     "dateAdded": null,
     "poster_path": "/n5XNKXnoXpoXyfiCtXHOf8q8PFM.jpg",
@@ -4701,7 +4879,7 @@
     "originalTitle": "Brooklyn Nine-Nine",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 423305,
+    "imdbVotes": 423274,
     "releaseDate": "2013-09-17",
     "dateAdded": null,
     "poster_path": "/mpjlDzVjp7oyHUe2LaF9ltKe6f1.jpg",
@@ -4722,7 +4900,7 @@
     "originalTitle": "鋼の錬金術師 FULLMETAL ALCHEMIST",
     "type": "Serie",
     "imdbRating": 9.1,
-    "imdbVotes": 257141,
+    "imdbVotes": 257092,
     "releaseDate": "2009-04-05",
     "dateAdded": null,
     "poster_path": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
@@ -4745,7 +4923,7 @@
     "originalTitle": "ナルト 疾風伝",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 230348,
+    "imdbVotes": 230309,
     "releaseDate": "2007-02-15",
     "dateAdded": null,
     "poster_path": "/kV27j3Nz4d5z8u6mN3EJw9RiLg2.jpg",
@@ -4767,7 +4945,7 @@
     "originalTitle": "Sex Education",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 403469,
+    "imdbVotes": 403425,
     "releaseDate": "2019-01-11",
     "dateAdded": null,
     "poster_path": "/bc3bmTdnoKcRuO9xdQKgAbB7Y9Z.jpg",
@@ -4788,7 +4966,7 @@
     "originalTitle": "The Crown",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 284558,
+    "imdbVotes": 284537,
     "releaseDate": "2016-11-04",
     "dateAdded": null,
     "poster_path": "/1M876KPjulVwppEpldhdc8V4o68.jpg",
@@ -4808,7 +4986,7 @@
     "originalTitle": "BoJack Horseman",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 238433,
+    "imdbVotes": 238404,
     "releaseDate": "2014-08-22",
     "dateAdded": null,
     "poster_path": "/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg",
@@ -4830,7 +5008,7 @@
     "originalTitle": "LEGO Ninjago: Dragons Rising",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 2892,
+    "imdbVotes": 2889,
     "releaseDate": "2023-06-01",
     "dateAdded": null,
     "poster_path": "/5q3tfPVAcL9AlFcb8HXsOdHEtJR.jpg",
@@ -4852,7 +5030,7 @@
     "originalTitle": "Arrested Development",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 346414,
+    "imdbVotes": 346401,
     "releaseDate": "2003-11-02",
     "dateAdded": null,
     "poster_path": "/p4r4RD7RsNcJVoz0H6z3dBoTBtW.jpg",
@@ -4872,7 +5050,7 @@
     "originalTitle": "참교육",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 19524,
+    "imdbVotes": 19495,
     "releaseDate": "2026-06-05",
     "dateAdded": null,
     "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
@@ -4894,7 +5072,7 @@
     "originalTitle": "오징어 게임",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 775497,
+    "imdbVotes": 775430,
     "releaseDate": "2021-09-17",
     "dateAdded": null,
     "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
@@ -4916,7 +5094,7 @@
     "originalTitle": "The Tudors",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 88270,
+    "imdbVotes": 88265,
     "releaseDate": "2007-04-01",
     "dateAdded": null,
     "poster_path": "/7pdeNK1CUqj1yuG9VMDeynnq9xK.jpg",
@@ -4937,7 +5115,7 @@
     "originalTitle": "ワンピース",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 365869,
+    "imdbVotes": 365808,
     "releaseDate": "1999-10-20",
     "dateAdded": null,
     "poster_path": "/dB4EDhre2dsC2kxYDavyKWqLQwi.jpg",
@@ -4959,7 +5137,7 @@
     "originalTitle": "Arcane",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 455630,
+    "imdbVotes": 455569,
     "releaseDate": "2021-11-06",
     "dateAdded": null,
     "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
@@ -4981,7 +5159,7 @@
     "originalTitle": "ER",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 80228,
+    "imdbVotes": 80223,
     "releaseDate": "1994-09-19",
     "dateAdded": null,
     "poster_path": "/fuS63AoFTkprf8PFeL1f8z68zJr.jpg",
@@ -5001,7 +5179,7 @@
     "originalTitle": "30 Rock",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 139849,
+    "imdbVotes": 139845,
     "releaseDate": "2006-10-11",
     "dateAdded": null,
     "poster_path": "/eYYQWACx7ttUzRwTNYuo6zveqpE.jpg",
@@ -5021,7 +5199,7 @@
     "originalTitle": "Community",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 314212,
+    "imdbVotes": 314190,
     "releaseDate": "2009-09-17",
     "dateAdded": null,
     "poster_path": "/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
@@ -5041,7 +5219,7 @@
     "originalTitle": "The Witcher",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 624778,
+    "imdbVotes": 624750,
     "releaseDate": "2019-12-20",
     "dateAdded": null,
     "poster_path": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
@@ -5063,7 +5241,7 @@
     "originalTitle": "Animal Kingdom",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 59901,
+    "imdbVotes": 59891,
     "releaseDate": "2016-06-14",
     "dateAdded": null,
     "poster_path": "/rzvdKrnSRKPFI0pgqMQknDPpRC9.jpg",
@@ -5084,7 +5262,7 @@
     "originalTitle": "The Amazing World of Gumball",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 55844,
+    "imdbVotes": 55838,
     "releaseDate": "2011-05-03",
     "dateAdded": null,
     "poster_path": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
@@ -5107,7 +5285,7 @@
     "originalTitle": "新世紀エヴァンゲリオン",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 114687,
+    "imdbVotes": 114666,
     "releaseDate": "1995-10-04",
     "dateAdded": null,
     "poster_path": "/y2ah9t0navXyIvoHg1uIbIHO3tt.jpg",
@@ -5129,7 +5307,7 @@
     "originalTitle": "Rescue Me",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 30118,
+    "imdbVotes": 30117,
     "releaseDate": "2004-07-21",
     "dateAdded": null,
     "poster_path": "/gnOwOb82chSJkQEZ9pd6jf2ZrEX.jpg",
@@ -5149,7 +5327,7 @@
     "originalTitle": "The Lincoln Lawyer",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 100648,
+    "imdbVotes": 100636,
     "releaseDate": "2022-05-13",
     "dateAdded": null,
     "poster_path": "/4jSaIqEU8CPBBNn4iVCK6wzPjSx.jpg",
@@ -5170,7 +5348,7 @@
     "originalTitle": "Downton Abbey",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 248738,
+    "imdbVotes": 248726,
     "releaseDate": "2010-09-26",
     "dateAdded": null,
     "poster_path": "/cf9vkwFmwvdzBlcpAYEVQfsKoTp.jpg",
@@ -5190,7 +5368,7 @@
     "originalTitle": "Cien años de soledad",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 21622,
+    "imdbVotes": 21599,
     "releaseDate": "2024-12-11",
     "dateAdded": null,
     "poster_path": "/9zrvktj9JYQwQxZD4lAySfcYlmI.jpg",
@@ -5211,7 +5389,7 @@
     "originalTitle": "The Last Kingdom",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 192566,
+    "imdbVotes": 192552,
     "releaseDate": "2015-10-10",
     "dateAdded": null,
     "poster_path": "/8eJf0hxgIhE6QSxbtuNCekTddy1.jpg",
@@ -5233,7 +5411,7 @@
     "originalTitle": "약한영웅",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 29546,
+    "imdbVotes": 29536,
     "releaseDate": "2022-11-18",
     "dateAdded": null,
     "poster_path": "/5Sd01WeraL2oA3Vv6O4rcRxockn.jpg",
@@ -5254,7 +5432,7 @@
     "originalTitle": "The Resident",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 44537,
+    "imdbVotes": 44532,
     "releaseDate": "2018-01-21",
     "dateAdded": null,
     "poster_path": "/2IkYQJlT26yXef2iot7dhRtavSC.jpg",
@@ -5274,7 +5452,7 @@
     "originalTitle": "House of Cards",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 562985,
+    "imdbVotes": 562963,
     "releaseDate": "2013-02-01",
     "dateAdded": null,
     "poster_path": "/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
@@ -5294,7 +5472,7 @@
     "originalTitle": "Grace and Frankie",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 62538,
+    "imdbVotes": 62536,
     "releaseDate": "2015-05-08",
     "dateAdded": null,
     "poster_path": "/3aD3PaSeF8eHJFLliLlWYw4EcPt.jpg",
@@ -5315,7 +5493,7 @@
     "originalTitle": "Cobra Kai",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 246431,
+    "imdbVotes": 246416,
     "releaseDate": "2018-05-02",
     "dateAdded": null,
     "poster_path": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
@@ -5337,7 +5515,7 @@
     "originalTitle": "カウボーイビバップ",
     "type": "Serie",
     "imdbRating": 8.9,
-    "imdbVotes": 173126,
+    "imdbVotes": 173106,
     "releaseDate": "1998-04-03",
     "dateAdded": null,
     "poster_path": "/xDiXDfZwC6XYC6fxHI1jl3A3Ill.jpg",
@@ -5360,7 +5538,7 @@
     "originalTitle": "DEATH NOTE",
     "type": "Serie",
     "imdbRating": 8.9,
-    "imdbVotes": 497788,
+    "imdbVotes": 497695,
     "releaseDate": "2006-10-04",
     "dateAdded": null,
     "poster_path": "/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
@@ -5382,7 +5560,7 @@
     "originalTitle": "サイバーパンク: エッジランナーズ",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 134256,
+    "imdbVotes": 134225,
     "releaseDate": "2022-09-13",
     "dateAdded": null,
     "poster_path": "/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
@@ -5405,7 +5583,7 @@
     "originalTitle": "Dark",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 560495,
+    "imdbVotes": 560425,
     "releaseDate": "2017-12-01",
     "dateAdded": null,
     "poster_path": "/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
@@ -5428,7 +5606,7 @@
     "originalTitle": "今際の国のアリス",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 151904,
+    "imdbVotes": 151885,
     "releaseDate": "2020-12-10",
     "dateAdded": null,
     "poster_path": "/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
@@ -5450,7 +5628,7 @@
     "originalTitle": "Archer",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 176716,
+    "imdbVotes": 176713,
     "releaseDate": "2009-09-17",
     "dateAdded": null,
     "poster_path": "/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
@@ -5472,7 +5650,7 @@
     "originalTitle": "Narcos",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 535593,
+    "imdbVotes": 535550,
     "releaseDate": "2015-08-28",
     "dateAdded": null,
     "poster_path": "/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
@@ -5493,7 +5671,7 @@
     "originalTitle": "ted",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 48710,
+    "imdbVotes": 48683,
     "releaseDate": "2024-01-11",
     "dateAdded": null,
     "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
@@ -5513,7 +5691,7 @@
     "originalTitle": "地獄楽",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 32960,
+    "imdbVotes": 32945,
     "releaseDate": "2023-04-01",
     "dateAdded": null,
     "poster_path": "/1V9I7SvZbYoMbSvdtnlkkq9SB1k.jpg",
@@ -5535,7 +5713,7 @@
     "originalTitle": "Solar Opposites",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 37734,
+    "imdbVotes": 37733,
     "releaseDate": "2020-05-08",
     "dateAdded": null,
     "poster_path": "/nuBD4dlO7gfg4RhW0sS0pTeiYRc.jpg",
@@ -5557,7 +5735,7 @@
     "originalTitle": "Weeds",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 123594,
+    "imdbVotes": 123588,
     "releaseDate": "2005-08-07",
     "dateAdded": null,
     "poster_path": "/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
@@ -5579,7 +5757,7 @@
     "originalTitle": "薫る花は凛と咲く",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 15852,
+    "imdbVotes": 15842,
     "releaseDate": "2025-07-06",
     "dateAdded": null,
     "poster_path": "/g1sYAQt0OeCxzyfagSEqxUlsLnt.jpg",
@@ -5600,7 +5778,7 @@
     "originalTitle": "Scooby-Doo! Mystery Incorporated",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 23370,
+    "imdbVotes": 23368,
     "releaseDate": "2010-07-12",
     "dateAdded": null,
     "poster_path": "/mu8zU2jQfPbGO5bC6RHYrSypxUd.jpg",
@@ -5623,7 +5801,7 @@
     "originalTitle": "The Umbrella Academy",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 317861,
+    "imdbVotes": 317849,
     "releaseDate": "2019-02-15",
     "dateAdded": null,
     "poster_path": "/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg",
@@ -5645,7 +5823,7 @@
     "originalTitle": "君に届け",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 8828,
+    "imdbVotes": 8827,
     "releaseDate": "2009-10-07",
     "dateAdded": null,
     "poster_path": "/lLUAZzJc6vfyE2TeY56AGGb3E5K.jpg",
@@ -5666,7 +5844,7 @@
     "originalTitle": "Avatar: The Last Airbender",
     "type": "Serie",
     "imdbRating": 9.3,
-    "imdbVotes": 454650,
+    "imdbVotes": 454587,
     "releaseDate": "2005-02-21",
     "dateAdded": null,
     "poster_path": "/yaGt4GIutpbXHsv48tWceWg6s56.jpg",
@@ -5688,7 +5866,7 @@
     "originalTitle": "New Amsterdam",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 56314,
+    "imdbVotes": 56310,
     "releaseDate": "2018-09-25",
     "dateAdded": null,
     "poster_path": "/jsH4AeGZn5Q6h314A3OTUHKxHhR.jpg",
@@ -5708,7 +5886,7 @@
     "originalTitle": "モブサイコ100",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 71088,
+    "imdbVotes": 71067,
     "releaseDate": "2016-07-12",
     "dateAdded": null,
     "poster_path": "/vR7hwaGQ0ySRoq1WobiNRaPs4WO.jpg",
@@ -5731,7 +5909,7 @@
     "originalTitle": "사냥개들",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 31465,
+    "imdbVotes": 31454,
     "releaseDate": "2023-06-09",
     "dateAdded": null,
     "poster_path": "/uSQzD7TXsL96J5ggDrJFdUs8uXU.jpg",
@@ -5753,7 +5931,7 @@
     "originalTitle": "ダンジョン飯",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 15175,
+    "imdbVotes": 15170,
     "releaseDate": "2024-01-04",
     "dateAdded": null,
     "poster_path": "/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg",
@@ -5776,7 +5954,7 @@
     "originalTitle": "黄泉のツガイ",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 2992,
+    "imdbVotes": 2984,
     "releaseDate": "2026-04-04",
     "dateAdded": null,
     "poster_path": "/vIE1llfr1lcmzlsV4xn8vhgtlQN.jpg",
@@ -5798,7 +5976,7 @@
     "originalTitle": "キングダム",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 6998,
+    "imdbVotes": 6995,
     "releaseDate": "2012-06-04",
     "dateAdded": null,
     "poster_path": "/dehuJJkKo50nYvCYppigrWejqLe.jpg",
@@ -5820,7 +5998,7 @@
     "originalTitle": "ワンパンマン",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 229829,
+    "imdbVotes": 229800,
     "releaseDate": "2015-10-05",
     "dateAdded": null,
     "poster_path": "/dT10AxJIXVvRwFAew4tt2RhzJrD.jpg",
@@ -5843,7 +6021,7 @@
     "originalTitle": "Never Have I Ever",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 96849,
+    "imdbVotes": 96846,
     "releaseDate": "2020-04-27",
     "dateAdded": null,
     "poster_path": "/hd5fnBixab6IzfUwjC5wfdbX3eM.jpg",
@@ -5864,7 +6042,7 @@
     "originalTitle": "The Man in the High Castle",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 126241,
+    "imdbVotes": 126238,
     "releaseDate": "2015-01-15",
     "dateAdded": null,
     "poster_path": "/xhoDZbMNeyCA0BGPZQsdIiO43Dp.jpg",
@@ -5885,7 +6063,7 @@
     "originalTitle": "American Crime Story",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 103047,
+    "imdbVotes": 103045,
     "releaseDate": "2016-02-02",
     "dateAdded": null,
     "poster_path": "/dtIS3Qk8ny1FWQLiuJ77MTDX5bZ.jpg",
@@ -5906,7 +6084,7 @@
     "originalTitle": "【推しの子】",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 18005,
+    "imdbVotes": 17999,
     "releaseDate": "2023-04-12",
     "dateAdded": null,
     "poster_path": "/qoW507a8RoGbpILCxt2N87USn8H.jpg",
@@ -5927,7 +6105,7 @@
     "originalTitle": "この素晴らしい世界に祝福を！",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 22395,
+    "imdbVotes": 22384,
     "releaseDate": "2016-01-14",
     "dateAdded": null,
     "poster_path": "/oRaOeQlwktbGSd2T31FYAcgHZlh.jpg",
@@ -5950,7 +6128,7 @@
     "originalTitle": "FAIRY TAIL",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 32858,
+    "imdbVotes": 32855,
     "releaseDate": "2009-10-12",
     "dateAdded": null,
     "poster_path": "/AsfCVSHnFnUnbepLucvIB1N30Il.jpg",
@@ -5973,7 +6151,7 @@
     "originalTitle": "פאודה",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 43974,
+    "imdbVotes": 43966,
     "releaseDate": "2015-02-15",
     "dateAdded": null,
     "poster_path": "/bc6XIKP1TrnugYMzIIUz9YCL8VM.jpg",
@@ -5995,7 +6173,7 @@
     "originalTitle": "その着せ替え人形は恋をする",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 29048,
+    "imdbVotes": 29037,
     "releaseDate": "2022-01-09",
     "dateAdded": null,
     "poster_path": "/j5tZc3bbdxLQic4TmFATwSkTIPa.jpg",
@@ -6017,7 +6195,7 @@
     "originalTitle": "Parenthood",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 44612,
+    "imdbVotes": 44605,
     "releaseDate": "2010-03-02",
     "dateAdded": null,
     "poster_path": "/9KjKLJrrUI1sU9bNsQaQ5H8kTyY.jpg",
@@ -6037,7 +6215,7 @@
     "originalTitle": "ダンダダン",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 58527,
+    "imdbVotes": 58507,
     "releaseDate": "2024-10-04",
     "dateAdded": null,
     "poster_path": "/6qfZAOEUFIrbUH3JvePclx1nXzz.jpg",
@@ -6060,7 +6238,7 @@
     "originalTitle": "Love, Death & Robots",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 232377,
+    "imdbVotes": 232361,
     "releaseDate": "2019-03-15",
     "dateAdded": null,
     "poster_path": "/vL5BQvXH96cJzmNK5n7QliQxy90.jpg",
@@ -6081,7 +6259,7 @@
     "originalTitle": "폭싹 속았수다",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 42546,
+    "imdbVotes": 42531,
     "releaseDate": "2025-03-07",
     "dateAdded": null,
     "poster_path": "/Afrz3QAcQcsT6w4S5wrKUxmYPWM.jpg",
@@ -6101,7 +6279,7 @@
     "originalTitle": "The Great",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 66221,
+    "imdbVotes": 66212,
     "releaseDate": "2020-05-15",
     "dateAdded": null,
     "poster_path": "/tpz9UQ3hUwYufNcKWVW00FCjWyc.jpg",
@@ -6122,7 +6300,7 @@
     "originalTitle": "Resident Alien",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 91391,
+    "imdbVotes": 91376,
     "releaseDate": "2021-01-27",
     "dateAdded": null,
     "poster_path": "/5van3ktOTqWr5lcixh5aR8NlqqW.jpg",
@@ -6142,7 +6320,7 @@
     "originalTitle": "はじめの一歩",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 19643,
+    "imdbVotes": 19637,
     "releaseDate": "2000-10-03",
     "dateAdded": null,
     "poster_path": "/fEYVJu08En9A7n0e5TTpeoSjtIm.jpg",
@@ -6165,7 +6343,7 @@
     "originalTitle": "La casa de papel",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 618206,
+    "imdbVotes": 618153,
     "releaseDate": "2017-05-02",
     "dateAdded": null,
     "poster_path": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
@@ -6186,7 +6364,7 @@
     "originalTitle": "Big Mouth",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 99568,
+    "imdbVotes": 99560,
     "releaseDate": "2017-09-29",
     "dateAdded": null,
     "poster_path": "/1Zio9w1tAd3r5Gu4d9AzTSx2hnT.jpg",
@@ -6207,7 +6385,7 @@
     "originalTitle": "Ozark",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 398532,
+    "imdbVotes": 398489,
     "releaseDate": "2017-07-21",
     "dateAdded": null,
     "poster_path": "/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
@@ -6228,7 +6406,7 @@
     "originalTitle": "The Sinner",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 154042,
+    "imdbVotes": 154033,
     "releaseDate": "2017-08-02",
     "dateAdded": null,
     "poster_path": "/rmibFGdqOe0kKKhPls0jVOdZCWw.jpg",
@@ -6249,7 +6427,7 @@
     "originalTitle": "逐玉",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 5058,
+    "imdbVotes": 5050,
     "releaseDate": "2026-03-06",
     "dateAdded": null,
     "poster_path": "/g2CSCJuWm7IcpuRjxySQvZcJYnp.jpg",
@@ -6293,7 +6471,7 @@
     "originalTitle": "アオのハコ",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 9118,
+    "imdbVotes": 9114,
     "releaseDate": "2024-10-03",
     "dateAdded": null,
     "poster_path": "/hBwmRpHriNX8wOOTwg8HZg9cRwf.jpg",
@@ -6359,7 +6537,7 @@
     "originalTitle": "僕の心のヤバイやつ",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 7070,
+    "imdbVotes": 7066,
     "releaseDate": "2023-04-02",
     "dateAdded": null,
     "poster_path": "/bC8Bx0VHLZzvPCXzuDnvTIbzVIU.jpg",
@@ -6380,7 +6558,7 @@
     "originalTitle": "氷の城壁",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 2315,
+    "imdbVotes": 2306,
     "releaseDate": "2026-04-02",
     "dateAdded": null,
     "poster_path": "/x7o4iZDnwCZphxkWzFyW3RujLMO.jpg",
@@ -6422,7 +6600,7 @@
     "originalTitle": "The Good Place",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 224715,
+    "imdbVotes": 224692,
     "releaseDate": "2016-09-19",
     "dateAdded": null,
     "poster_path": "/qIhsuhoIYR5yTnDta0IL4senbeN.jpg",
@@ -6443,7 +6621,7 @@
     "originalTitle": "BEEF",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 179797,
+    "imdbVotes": 179775,
     "releaseDate": "2023-04-06",
     "dateAdded": null,
     "poster_path": "/25ih0Xq2zWbxhhKxwhvswKYQyEr.jpg",
@@ -6464,7 +6642,7 @@
     "originalTitle": "ブルーロック",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 34407,
+    "imdbVotes": 34392,
     "releaseDate": "2022-10-09",
     "dateAdded": null,
     "poster_path": "/fcKH1NQzoTXiYO1OrhaFFwTKhBp.jpg",
@@ -6486,7 +6664,7 @@
     "originalTitle": "ONE PIECE",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 210763,
+    "imdbVotes": 210748,
     "releaseDate": "2023-08-31",
     "dateAdded": null,
     "poster_path": "/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
@@ -6507,7 +6685,7 @@
     "originalTitle": "The Diplomat",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 100284,
+    "imdbVotes": 100275,
     "releaseDate": "2023-04-20",
     "dateAdded": null,
     "poster_path": "/cOKXV0FalCYixNmZYCfHXgyQ0VX.jpg",
@@ -6528,7 +6706,7 @@
     "originalTitle": "여신강림",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 26616,
+    "imdbVotes": 26613,
     "releaseDate": "2020-12-09",
     "dateAdded": null,
     "poster_path": "/I9WCyKUbKAiu95tAitaHOx8EVO.jpg",
@@ -6549,7 +6727,7 @@
     "originalTitle": "El Chapo",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 22687,
+    "imdbVotes": 22684,
     "releaseDate": "2017-04-23",
     "dateAdded": null,
     "poster_path": "/3FzlvQ5Ea35Zdz71Ye7JSvB6VdB.jpg",
@@ -6590,7 +6768,7 @@
     "originalTitle": "Narcos: Mexico",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 102760,
+    "imdbVotes": 102749,
     "releaseDate": "2018-11-16",
     "dateAdded": null,
     "poster_path": "/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
@@ -6611,7 +6789,7 @@
     "originalTitle": "Anne with an E",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 83136,
+    "imdbVotes": 83123,
     "releaseDate": "2017-03-19",
     "dateAdded": null,
     "poster_path": "/6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg",
@@ -6632,7 +6810,7 @@
     "originalTitle": "Adolescence",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 315215,
+    "imdbVotes": 315172,
     "releaseDate": "2025-03-13",
     "dateAdded": null,
     "poster_path": "/20i4nShZZg1g1VFHSB8xpaYM4r7.jpg",
@@ -6653,7 +6831,7 @@
     "originalTitle": "더 글로리",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 46507,
+    "imdbVotes": 46500,
     "releaseDate": "2022-12-30",
     "dateAdded": null,
     "poster_path": "/uUM4LVlPgIrww07OoEKrGWlS1Ej.jpg",
@@ -6697,7 +6875,7 @@
     "originalTitle": "환혼",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 30555,
+    "imdbVotes": 30545,
     "releaseDate": "2022-06-18",
     "dateAdded": null,
     "poster_path": "/gvOZN1NlAoL8iz9ghpES1zWA3w3.jpg",
@@ -6742,7 +6920,7 @@
     "originalTitle": "MINDHUNTER",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 405063,
+    "imdbVotes": 405013,
     "releaseDate": "2017-10-13",
     "dateAdded": null,
     "poster_path": "/fbKE87mojpIETWepSbD5Qt741fp.jpg",
@@ -6763,7 +6941,7 @@
     "originalTitle": "Killing Eve",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 155662,
+    "imdbVotes": 155652,
     "releaseDate": "2018-04-08",
     "dateAdded": null,
     "poster_path": "/4wKhTVw8aGq5AZMa0Q1spERdi7n.jpg",
@@ -6784,7 +6962,7 @@
     "originalTitle": "경이로운 소문",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 15538,
+    "imdbVotes": 15539,
     "releaseDate": "2020-11-28",
     "dateAdded": null,
     "poster_path": "/tKU34QiJUfVipcuhAs5S3TdCpAF.jpg",
@@ -6806,7 +6984,7 @@
     "originalTitle": "僕のヒーローアカデミア",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 126649,
+    "imdbVotes": 126624,
     "releaseDate": "2016-04-03",
     "dateAdded": null,
     "poster_path": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
@@ -6828,7 +7006,7 @@
     "originalTitle": "剣風伝奇ベルセルク",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 82788,
+    "imdbVotes": 82760,
     "releaseDate": "1997-10-08",
     "dateAdded": null,
     "poster_path": "/xctRBSZzvoHDHz38ZZUGxRYetvG.jpg",
@@ -6850,7 +7028,7 @@
     "originalTitle": "이상한 변호사 우영우",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 39792,
+    "imdbVotes": 39785,
     "releaseDate": "2022-06-29",
     "dateAdded": null,
     "poster_path": "/zuNOQVI4rEaqwknrfQUVKtlKE2C.jpg",
@@ -6870,7 +7048,7 @@
     "originalTitle": "チ。―地球の運動について―",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 7562,
+    "imdbVotes": 7560,
     "releaseDate": "2024-10-05",
     "dateAdded": null,
     "poster_path": "/crV1eBtpI5F4nlMwzrBrh4zZuFV.jpg",
@@ -6891,7 +7069,7 @@
     "originalTitle": "暗殺教室",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 29907,
+    "imdbVotes": 29893,
     "releaseDate": "2015-01-10",
     "dateAdded": null,
     "poster_path": "/qf0l0nQ2t06Es3cSXflqx6l6vsJ.jpg",
@@ -6914,7 +7092,7 @@
     "originalTitle": "SpongeBob SquarePants",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 127902,
+    "imdbVotes": 127890,
     "releaseDate": "1999-05-01",
     "dateAdded": null,
     "poster_path": "/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
@@ -6936,7 +7114,7 @@
     "originalTitle": "Southland",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 34930,
+    "imdbVotes": 34926,
     "releaseDate": "2009-04-09",
     "dateAdded": null,
     "poster_path": "/flj41WynQKea6DVHgRbbPSWOB1t.jpg",
@@ -6956,7 +7134,7 @@
     "originalTitle": "PLUTO",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 21279,
+    "imdbVotes": 21273,
     "releaseDate": "2023-10-26",
     "dateAdded": null,
     "poster_path": "/xKoSqmA1yjQ7ngqosspYEN53v3R.jpg",
@@ -6979,7 +7157,7 @@
     "originalTitle": "寄生獣 セイの格率",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 64974,
+    "imdbVotes": 64964,
     "releaseDate": "2014-10-09",
     "dateAdded": null,
     "poster_path": "/cXBfjZSdJelu2r0wKD7qCxS71kb.jpg",
@@ -7002,7 +7180,7 @@
     "originalTitle": "Altered Carbon",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 204116,
+    "imdbVotes": 204104,
     "releaseDate": "2018-02-02",
     "dateAdded": null,
     "poster_path": "/AisK4uFsnwwmMkSynFpNl0VeGR.jpg",
@@ -7023,7 +7201,7 @@
     "originalTitle": "Trollhunters: Tales of Arcadia",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 22613,
+    "imdbVotes": 22612,
     "releaseDate": "2016-12-23",
     "dateAdded": null,
     "poster_path": "/9VZmMzINVdO3ZYGsKItU39pNO2l.jpg",
@@ -7047,7 +7225,7 @@
     "originalTitle": "The Queen's Gambit",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 676990,
+    "imdbVotes": 676923,
     "releaseDate": "2020-10-23",
     "dateAdded": null,
     "poster_path": "/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
@@ -7067,7 +7245,7 @@
     "originalTitle": "光が死んだ夏",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 8732,
+    "imdbVotes": 8727,
     "releaseDate": "2025-07-06",
     "dateAdded": null,
     "poster_path": "/x0wiTO87UMiVCUe24nKaHlp7AIc.jpg",
@@ -7090,7 +7268,7 @@
     "originalTitle": "사랑의 불시착",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 60849,
+    "imdbVotes": 60844,
     "releaseDate": "2019-12-14",
     "dateAdded": null,
     "poster_path": "/fgBNLPr6mC8pxuR79ENAJY4nBmj.jpg",
@@ -7111,7 +7289,7 @@
     "originalTitle": "The Amazing Digital Circus",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 22181,
+    "imdbVotes": 22171,
     "releaseDate": "2023-10-13",
     "dateAdded": null,
     "poster_path": "/lpfrgfomX8uNFxv4VaEzvJGs9TK.jpg",
@@ -7134,7 +7312,7 @@
     "originalTitle": "Sense8",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 172734,
+    "imdbVotes": 172730,
     "releaseDate": "2015-06-05",
     "dateAdded": null,
     "poster_path": "/kmyvlQ9QKzgdZY31rXaUlgCnzrB.jpg",
@@ -7155,7 +7333,7 @@
     "originalTitle": "슬기로운 의사생활",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 11187,
+    "imdbVotes": 11186,
     "releaseDate": "2020-03-12",
     "dateAdded": null,
     "poster_path": "/8MSjQkH2FrG0t4l84L5HmiSFrS7.jpg",
@@ -7176,7 +7354,7 @@
     "originalTitle": "1883",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 170816,
+    "imdbVotes": 170794,
     "releaseDate": "2021-12-19",
     "dateAdded": null,
     "poster_path": "/waLbm384SQDwLTCn6ttPqQS5kfV.jpg",
@@ -7197,7 +7375,7 @@
     "originalTitle": "The OA",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 128812,
+    "imdbVotes": 128804,
     "releaseDate": "2016-12-16",
     "dateAdded": null,
     "poster_path": "/rueY4slMeKtTGitm0raFUJvgaa5.jpg",
@@ -7219,7 +7397,7 @@
     "originalTitle": "Castlevania",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 96373,
+    "imdbVotes": 96363,
     "releaseDate": "2017-07-07",
     "dateAdded": null,
     "poster_path": "/WzFHnJY44uDERER0xi1jOdoafT.jpg",
@@ -7241,7 +7419,7 @@
     "originalTitle": "鬼滅の刃",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 236198,
+    "imdbVotes": 236146,
     "releaseDate": "2019-04-06",
     "dateAdded": null,
     "poster_path": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
@@ -7263,7 +7441,7 @@
     "originalTitle": "Travelers",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 73181,
+    "imdbVotes": 73176,
     "releaseDate": "2016-10-17",
     "dateAdded": null,
     "poster_path": "/aUVeyeyTrQrSFuUkqLCT8FtV7pp.jpg",
@@ -7284,7 +7462,7 @@
     "originalTitle": "Vis a vis",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 30904,
+    "imdbVotes": 30897,
     "releaseDate": "2015-04-20",
     "dateAdded": null,
     "poster_path": "/1kH9u5DkoDUuIlhFFWjz9VSlKhC.jpg",
@@ -7305,7 +7483,7 @@
     "originalTitle": "Formula 1: Drive to Survive",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 60771,
+    "imdbVotes": 60769,
     "releaseDate": "2019-03-08",
     "dateAdded": null,
     "poster_path": "/xGOGjJFYYeRSoOpnhN9IHZTXIxj.jpg",
@@ -7347,7 +7525,7 @@
     "originalTitle": "鋼の錬金術師",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 87119,
+    "imdbVotes": 87115,
     "releaseDate": "2003-10-04",
     "dateAdded": null,
     "poster_path": "/kKOQbCKbGB75h1d3Jlx9Gy4ZTfv.jpg",
@@ -7369,7 +7547,7 @@
     "originalTitle": "BLUE EYE SAMURAI",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 107052,
+    "imdbVotes": 107039,
     "releaseDate": "2023-11-03",
     "dateAdded": null,
     "poster_path": "/fXm3JT4WLQVnwukdvghtAblc1wc.jpg",
@@ -7391,7 +7569,7 @@
     "originalTitle": "Wakfu",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2762,
+    "imdbVotes": 2761,
     "releaseDate": "2008-10-30",
     "dateAdded": null,
     "poster_path": "/nA8Z1fq3OTE2IrM8BiWxlPmrCpU.jpg",
@@ -7415,7 +7593,7 @@
     "originalTitle": "ヴァイオレット・エヴァーガーデン",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 43036,
+    "imdbVotes": 43026,
     "releaseDate": "2018-01-11",
     "dateAdded": null,
     "poster_path": "/61EwFPqc0r1uJo6la49J55F8bQ8.jpg",
@@ -7438,7 +7616,7 @@
     "originalTitle": "The Haunting of Hill House",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 335570,
+    "imdbVotes": 335549,
     "releaseDate": "2018-10-12",
     "dateAdded": null,
     "poster_path": "/nWPZb800NCGiDPNGsKCfY0w44Z2.jpg",
@@ -7459,7 +7637,7 @@
     "originalTitle": "Heartstopper",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 95459,
+    "imdbVotes": 95452,
     "releaseDate": "2022-04-22",
     "dateAdded": null,
     "poster_path": "/dQc0QbDiHjGmWxTfKtBgYtS4bj5.jpg",
@@ -7479,7 +7657,7 @@
     "originalTitle": "グレート・ティーチャー・オニヅカ",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 15450,
+    "imdbVotes": 15447,
     "releaseDate": "1999-06-30",
     "dateAdded": null,
     "poster_path": "/cgcvNzLUQUjkur8zfhHwcadwzVz.jpg",
@@ -7501,7 +7679,7 @@
     "originalTitle": "Bodyguard",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 172974,
+    "imdbVotes": 172956,
     "releaseDate": "2018-08-26",
     "dateAdded": null,
     "poster_path": "/5DUJTrHTRLHLCKWriPhdusQogAv.jpg",
@@ -7524,7 +7702,7 @@
     "originalTitle": "GREAT PRETENDER",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 8484,
+    "imdbVotes": 8485,
     "releaseDate": "2020-07-09",
     "dateAdded": null,
     "poster_path": "/Ang6RR0n5a49lEsKRqQrmGyDekF.jpg",
@@ -7547,7 +7725,7 @@
     "originalTitle": "プリズム輪舞曲",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2479,
+    "imdbVotes": 2476,
     "releaseDate": "2026-01-15",
     "dateAdded": null,
     "poster_path": "/kAiyJdB6aPxTEmnXDqf6JMjdHf9.jpg",
@@ -7568,7 +7746,7 @@
     "originalTitle": "Dead to Me",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 111430,
+    "imdbVotes": 111425,
     "releaseDate": "2019-05-03",
     "dateAdded": null,
     "poster_path": "/mAj18PHeACxqcrEus4pD8pksRmB.jpg",
@@ -7590,7 +7768,7 @@
     "originalTitle": "Poldark",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 41427,
+    "imdbVotes": 41426,
     "releaseDate": "2015-03-08",
     "dateAdded": null,
     "poster_path": "/fTJZHMzlIGSJVPSe7Xz4p5SRwYP.jpg",
@@ -7610,7 +7788,7 @@
     "originalTitle": "斉木楠雄のΨ難",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 16712,
+    "imdbVotes": 16710,
     "releaseDate": "2016-07-11",
     "dateAdded": null,
     "poster_path": "/tpym31HVeQgenaubvCxkMF3kFHy.jpg",
@@ -7656,7 +7834,7 @@
     "originalTitle": "The Dragon Prince",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 32033,
+    "imdbVotes": 32031,
     "releaseDate": "2018-09-14",
     "dateAdded": null,
     "poster_path": "/d7PIRa6ez7ZEl9D4JUrnSsmcnVD.jpg",
@@ -7702,7 +7880,7 @@
     "originalTitle": "Workin' Moms",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 26498,
+    "imdbVotes": 26496,
     "releaseDate": "2017-01-10",
     "dateAdded": null,
     "poster_path": "/1TJkVKx7IeLadTFxOpUN3QEGI7Z.jpg",
@@ -7722,7 +7900,7 @@
     "originalTitle": "ドロヘドロ",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 16805,
+    "imdbVotes": 16801,
     "releaseDate": "2020-01-13",
     "dateAdded": null,
     "poster_path": "/zSMmRTopPIRr6913KX8pyiV6zsK.jpg",
@@ -7745,7 +7923,7 @@
     "originalTitle": "ホリミヤ",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 27023,
+    "imdbVotes": 27016,
     "releaseDate": "2021-01-10",
     "dateAdded": null,
     "poster_path": "/iSOKGl5KIeOCAtigUDCfFZe2cOi.jpg",
@@ -7767,7 +7945,7 @@
     "originalTitle": "After Life",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 171355,
+    "imdbVotes": 171341,
     "releaseDate": "2019-03-08",
     "dateAdded": null,
     "poster_path": "/6eJf4h9XcvqK64vbx27EFlLVURm.jpg",
@@ -7788,7 +7966,7 @@
     "originalTitle": "เขมจิราต้องรอด",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2079,
+    "imdbVotes": 2076,
     "releaseDate": "2025-08-09",
     "dateAdded": null,
     "poster_path": "/yW3fKmI8l7z27uZ2fsCFCyBxsh5.jpg",
@@ -7810,7 +7988,7 @@
     "originalTitle": "펜트하우스",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 6258,
+    "imdbVotes": 6257,
     "releaseDate": "2020-10-26",
     "dateAdded": null,
     "poster_path": "/wybv1VgIOMhcHdU3ooikn2LuR1o.jpg",
@@ -7831,7 +8009,7 @@
     "originalTitle": "Kim's Convenience",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 29253,
+    "imdbVotes": 29250,
     "releaseDate": "2016-10-11",
     "dateAdded": null,
     "poster_path": "/82Vue6MPuYZzlpggR65cvWdBdy.jpg",
@@ -7851,7 +8029,7 @@
     "originalTitle": "StartUp",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 33111,
+    "imdbVotes": 33110,
     "releaseDate": "2016-09-06",
     "dateAdded": null,
     "poster_path": "/mXiB1e0x3iaRaaPPVhC1c7rgwPr.jpg",
@@ -7872,7 +8050,7 @@
     "originalTitle": "One Day at a Time",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 20153,
+    "imdbVotes": 20152,
     "releaseDate": "2017-01-06",
     "dateAdded": null,
     "poster_path": "/yiQcmPm6pTYyAAp3Q9Ge2xMkf8b.jpg",
@@ -7892,7 +8070,7 @@
     "originalTitle": "Trailer Park Boys",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 58395,
+    "imdbVotes": 58391,
     "releaseDate": "2001-04-22",
     "dateAdded": null,
     "poster_path": "/nIcIwVTYcZnW1BDzexGfFO7KmX1.jpg",
@@ -7912,7 +8090,7 @@
     "originalTitle": "The Dark Crystal: Age of Resistance",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 29528,
+    "imdbVotes": 29527,
     "releaseDate": "2019-08-30",
     "dateAdded": null,
     "poster_path": "/xnMJ7mBC8Jx4emaj7TE4TU0Qm92.jpg",
@@ -7934,7 +8112,7 @@
     "originalTitle": "눈물의 여왕",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 28637,
+    "imdbVotes": 28632,
     "releaseDate": "2024-03-09",
     "dateAdded": null,
     "poster_path": "/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg",
@@ -7955,7 +8133,7 @@
     "originalTitle": "응답하라 1988",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 19939,
+    "imdbVotes": 19936,
     "releaseDate": "2015-11-06",
     "dateAdded": null,
     "poster_path": "/655MownSWwplhvVlXERRJ4OSOG2.jpg",
@@ -7975,7 +8153,7 @@
     "originalTitle": "The Fall of the House of Usher",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 137566,
+    "imdbVotes": 137557,
     "releaseDate": "2023-10-12",
     "dateAdded": null,
     "poster_path": "/2rl04pRCaGfz91lwfWdDQmOiGJp.jpg",
@@ -7996,7 +8174,7 @@
     "originalTitle": "Atypical",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 115029,
+    "imdbVotes": 115018,
     "releaseDate": "2017-08-11",
     "dateAdded": null,
     "poster_path": "/kNif3eZAjQ7qU3Ol9E7zo0kjPMo.jpg",
@@ -8017,7 +8195,7 @@
     "originalTitle": "반짝이는 워터멜론",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 16124,
+    "imdbVotes": 16116,
     "releaseDate": "2023-09-25",
     "dateAdded": null,
     "poster_path": "/bwTzW1wTgUxUOQruhT8DvinUYgR.jpg",
@@ -8038,7 +8216,7 @@
     "originalTitle": "킹덤",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 64977,
+    "imdbVotes": 64969,
     "releaseDate": "2019-01-25",
     "dateAdded": null,
     "poster_path": "/AsICtiVtz4icMQQRwDvOzfaTzjK.jpg",
@@ -8081,7 +8259,7 @@
     "originalTitle": "빈센조",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 42135,
+    "imdbVotes": 42132,
     "releaseDate": "2021-02-20",
     "dateAdded": null,
     "poster_path": "/qbkSS1cTjT4DzIwD44bdhTuYgdT.jpg",
@@ -8104,7 +8282,7 @@
     "originalTitle": "선재 업고 튀어",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 17494,
+    "imdbVotes": 17492,
     "releaseDate": "2024-04-08",
     "dateAdded": null,
     "poster_path": "/adcdNzLJ8LOjWJjNFrapXGzFco3.jpg",
@@ -8170,7 +8348,7 @@
     "originalTitle": "GLOW",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 55132,
+    "imdbVotes": 55129,
     "releaseDate": "2017-06-23",
     "dateAdded": null,
     "poster_path": "/aqQlgRgUwVTfbdxe33vfDEMiCa2.jpg",
@@ -8191,7 +8369,7 @@
     "originalTitle": "桜蘭高校ホスト部",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 14294,
+    "imdbVotes": 14292,
     "releaseDate": "2006-04-05",
     "dateAdded": null,
     "poster_path": "/5B8DAu0cfmzwZNny2B6NYNkDrTS.jpg",
@@ -8255,7 +8433,7 @@
     "originalTitle": "The Big C",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 20829,
+    "imdbVotes": 20823,
     "releaseDate": "2010-08-16",
     "dateAdded": null,
     "poster_path": "/osq7LBsULx9DEs67LeYZnGGyr70.jpg",
@@ -8276,7 +8454,7 @@
     "originalTitle": "사내맞선",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 44008,
+    "imdbVotes": 44001,
     "releaseDate": "2022-02-28",
     "dateAdded": null,
     "poster_path": "/iLh7L8ZuvgdxFaM9sImyv2iKYLe.jpg",
@@ -8318,7 +8496,7 @@
     "originalTitle": "Boots",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 27737,
+    "imdbVotes": 27728,
     "releaseDate": "2025-10-09",
     "dateAdded": null,
     "poster_path": "/eEwe68oPFFDU4ehZ3sXiETE44Rt.jpg",
@@ -8340,7 +8518,7 @@
     "originalTitle": "ヴィンランド・サガ",
     "type": "Serie",
     "imdbRating": 8.9,
-    "imdbVotes": 149860,
+    "imdbVotes": 149807,
     "releaseDate": "2019-07-08",
     "dateAdded": null,
     "poster_path": "/vUHlpA5c1NXkds59reY3HMb4Abs.jpg",
@@ -8363,7 +8541,7 @@
     "originalTitle": "ケンガンアシュラ",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 9349,
+    "imdbVotes": 9351,
     "releaseDate": "2019-07-31",
     "dateAdded": null,
     "poster_path": "/tqR96OMBKzHNCNwJB3f3NsCkXbL.jpg",
@@ -8385,7 +8563,7 @@
     "originalTitle": "정신병동에도 아침이 와요",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 6394,
+    "imdbVotes": 6392,
     "releaseDate": "2023-11-03",
     "dateAdded": null,
     "poster_path": "/d9hIiomaPXu6W9qATzPSqHgxze8.jpg",
@@ -8405,7 +8583,7 @@
     "originalTitle": "이 사랑 통역 되나요?",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 10244,
+    "imdbVotes": 10239,
     "releaseDate": "2026-01-16",
     "dateAdded": null,
     "poster_path": "/zgUh4cgalSzBjbsT5P0qmU7Rjzk.jpg",
@@ -8426,7 +8604,7 @@
     "originalTitle": "폭군의 셰프",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 15665,
+    "imdbVotes": 15662,
     "releaseDate": "2025-08-23",
     "dateAdded": null,
     "poster_path": "/exUXEOierAwZ597010TLQka9TFy.jpg",
@@ -8470,7 +8648,7 @@
     "originalTitle": "갯마을 차차차",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 30403,
+    "imdbVotes": 30400,
     "releaseDate": "2021-08-28",
     "dateAdded": null,
     "poster_path": "/en6lrlJ1DhyvkeZEqrk3R6EJz1p.jpg",
@@ -8491,7 +8669,7 @@
     "originalTitle": "Dix pour cent",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 18917,
+    "imdbVotes": 18915,
     "releaseDate": "2015-10-14",
     "dateAdded": null,
     "poster_path": "/3whFzxzeKuTIgPzm2c0pm5xAhEL.jpg",
@@ -8512,7 +8690,7 @@
     "originalTitle": "The End of the F***ing World",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 249314,
+    "imdbVotes": 249296,
     "releaseDate": "2017-10-24",
     "dateAdded": null,
     "poster_path": "/f1OV9xEJCZVYcYSDRr5xOD8NJw3.jpg",
@@ -8534,7 +8712,7 @@
     "originalTitle": "Explained",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 10424,
+    "imdbVotes": 10423,
     "releaseDate": "2018-05-23",
     "dateAdded": null,
     "poster_path": "/4iiV2Fh4EA5of5B9Wtgllu0WDWA.jpg",
@@ -8554,7 +8732,7 @@
     "originalTitle": "Master of None",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 79091,
+    "imdbVotes": 79089,
     "releaseDate": "2015-11-06",
     "dateAdded": null,
     "poster_path": "/AcJM86PhgHAfbrF4dMKBaqO3cHV.jpg",
@@ -8575,7 +8753,7 @@
     "originalTitle": "모두가 자신의 무가치함과 싸우고 있다",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 3773,
+    "imdbVotes": 3767,
     "releaseDate": "2026-04-18",
     "dateAdded": null,
     "poster_path": "/c2jswCrMoqDEBEXwSAlrCWtXdfZ.jpg",
@@ -8595,7 +8773,7 @@
     "originalTitle": "소년심판",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 8071,
+    "imdbVotes": 8070,
     "releaseDate": "2022-02-25",
     "dateAdded": null,
     "poster_path": "/xH2wTVlsUlYeFEOVGFDaamHkMCm.jpg",
@@ -8609,6 +8787,26 @@
     "originalLanguage": "ko"
   },
   {
+    "tmdbId": 329274,
+    "imdbId": "tt43673968",
+    "netflix_id": null,
+    "title": "MOURINHO",
+    "originalTitle": "MOURINHO",
+    "type": "Serie",
+    "imdbRating": 7.8,
+    "imdbVotes": 3710,
+    "releaseDate": "2026-08-11",
+    "dateAdded": null,
+    "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Documentary"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en"
+  },
+  {
     "tmdbId": 61986,
     "imdbId": "tt3520702",
     "netflix_id": "80010655",
@@ -8616,7 +8814,7 @@
     "originalTitle": "Bloodline",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 64140,
+    "imdbVotes": 64138,
     "releaseDate": "2015-03-20",
     "dateAdded": null,
     "poster_path": "/uEaqgEjAShqrziUia4XBzvXXGXP.jpg",
@@ -8636,7 +8834,7 @@
     "originalTitle": "RIPLEY",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 69682,
+    "imdbVotes": 69668,
     "releaseDate": "2024-04-04",
     "dateAdded": null,
     "poster_path": "/rpSo8z9alultGVTqQ3dkLEyU8xx.jpg",
@@ -8677,7 +8875,7 @@
     "originalTitle": "Wizards: Tales of Arcadia",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 6094,
+    "imdbVotes": 6093,
     "releaseDate": "2020-08-07",
     "dateAdded": null,
     "poster_path": "/aAMcPNLzCML40q7qmuB0jrZIcsI.jpg",
@@ -8700,7 +8898,7 @@
     "originalTitle": "힘쎈여자 도봉순",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 24551,
+    "imdbVotes": 24548,
     "releaseDate": "2017-02-24",
     "dateAdded": null,
     "poster_path": "/sPdS6oUdXfBNGKROE5RY5s5laqx.jpg",
@@ -8722,7 +8920,7 @@
     "originalTitle": "구미호뎐",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 13567,
+    "imdbVotes": 13566,
     "releaseDate": "2020-10-07",
     "dateAdded": null,
     "poster_path": "/v7VEIX1yOcFWY17eUprNhAS9xEp.jpg",
@@ -8745,7 +8943,7 @@
     "originalTitle": "Dr.STONE",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 46023,
+    "imdbVotes": 46010,
     "releaseDate": "2019-07-05",
     "dateAdded": null,
     "poster_path": "/xbZQ3fDl0y5mt0ARwfeyrgQ4JTw.jpg",
@@ -8790,7 +8988,7 @@
     "originalTitle": "태양의 후예",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 29675,
+    "imdbVotes": 29674,
     "releaseDate": "2016-02-24",
     "dateAdded": null,
     "poster_path": "/xxGomfml0x9iyPBS4StBjbRRu65.jpg",
@@ -8811,7 +9009,7 @@
     "originalTitle": "Comedians in Cars Getting Coffee",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 14317,
+    "imdbVotes": 14315,
     "releaseDate": "2012-07-19",
     "dateAdded": null,
     "poster_path": "/hpK5MsFa7k7RQdClvRglBo0wAoT.jpg",
@@ -8832,7 +9030,7 @@
     "originalTitle": "기황후",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 4721,
+    "imdbVotes": 4719,
     "releaseDate": "2013-10-28",
     "dateAdded": null,
     "poster_path": "/cH9PMmBkhtVMlCdi8fgvMqekNKi.jpg",
@@ -8853,7 +9051,7 @@
     "originalTitle": "Unbelievable",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 139143,
+    "imdbVotes": 139133,
     "releaseDate": "2019-09-13",
     "dateAdded": null,
     "poster_path": "/jHOrNJNM03Lsjdw7nsw7TlqBOhd.jpg",
@@ -8874,7 +9072,7 @@
     "originalTitle": "Dept. Q",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 118742,
+    "imdbVotes": 118728,
     "releaseDate": "2025-05-29",
     "dateAdded": null,
     "poster_path": "/8WdxigrmISyE84bxViHDX2hTI4T.jpg",
@@ -8939,7 +9137,7 @@
     "originalTitle": "Santa Clarita Diet",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 84093,
+    "imdbVotes": 84090,
     "releaseDate": "2017-02-03",
     "dateAdded": null,
     "poster_path": "/5rBjNm2sRubaXKBnU904NInFi7P.jpg",
@@ -8961,7 +9159,7 @@
     "originalTitle": "별에서 온 그대",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 20021,
+    "imdbVotes": 20018,
     "releaseDate": "2013-12-18",
     "dateAdded": null,
     "poster_path": "/o5EYVYCVtDUdajP4rWfv6q0BTmm.jpg",
@@ -8982,7 +9180,7 @@
     "originalTitle": "Maid",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 122567,
+    "imdbVotes": 122561,
     "releaseDate": "2021-09-30",
     "dateAdded": null,
     "poster_path": "/4brWcSXdH31BZUTtRTHj2BYFe6M.jpg",
@@ -9002,7 +9200,7 @@
     "originalTitle": "Legends",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 28418,
+    "imdbVotes": 28386,
     "releaseDate": "2026-05-07",
     "dateAdded": null,
     "poster_path": "/eYYTgBtsvvA3fC1feyvoqv0G9Gl.jpg",
@@ -9024,7 +9222,7 @@
     "originalTitle": "First Love 初恋",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 6993,
+    "imdbVotes": 6991,
     "releaseDate": "2022-11-24",
     "dateAdded": null,
     "poster_path": "/yYCefcDMt5A5OJe8Q6iiU866Oxr.jpg",
@@ -9044,7 +9242,7 @@
     "originalTitle": "GTO",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 4137,
+    "imdbVotes": 4136,
     "releaseDate": "1998-07-07",
     "dateAdded": null,
     "poster_path": "/3LICXOdsVbNWWDLe9xZAfuhUD60.jpg",
@@ -9065,7 +9263,7 @@
     "originalTitle": "Zoey's Extraordinary Playlist",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 20851,
+    "imdbVotes": 20849,
     "releaseDate": "2020-01-07",
     "dateAdded": null,
     "poster_path": "/xhF6IXlq4HjEqoAqoPTq4YkgHB1.jpg",
@@ -9108,7 +9306,7 @@
     "originalTitle": "The Kominsky Method",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 47621,
+    "imdbVotes": 47619,
     "releaseDate": "2018-11-16",
     "dateAdded": null,
     "poster_path": "/vnK8b6bNl1koSthTGbzgMPnh7Ky.jpg",
@@ -9129,7 +9327,7 @@
     "originalTitle": "사이코지만 괜찮아",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 47023,
+    "imdbVotes": 47017,
     "releaseDate": "2020-06-20",
     "dateAdded": null,
     "poster_path": "/8XSJfLeImX8NszDUFnK1lbseCi8.jpg",
@@ -9172,7 +9370,7 @@
     "originalTitle": "W(더블유)",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 18407,
+    "imdbVotes": 18405,
     "releaseDate": "2016-07-20",
     "dateAdded": null,
     "poster_path": "/rBuCoS0VB9M6zkEUCvnVrfeF0J.jpg",
@@ -9213,7 +9411,7 @@
     "originalTitle": "이태원 클라쓰",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 25925,
+    "imdbVotes": 25922,
     "releaseDate": "2020-01-31",
     "dateAdded": null,
     "poster_path": "/qg7q0piY0fTt2enlIRHwKKRwNjS.jpg",
@@ -9233,7 +9431,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6547,
+    "imdbVotes": 6522,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -9275,7 +9473,7 @@
     "originalTitle": "호텔 델루나",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 18935,
+    "imdbVotes": 18934,
     "releaseDate": "2019-07-12",
     "dateAdded": null,
     "poster_path": "/8bizZsXoAsOTbhyFKfBogC8mgG2.jpg",
@@ -9297,7 +9495,7 @@
     "originalTitle": "Godless",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 92374,
+    "imdbVotes": 92366,
     "releaseDate": "2017-11-22",
     "dateAdded": null,
     "poster_path": "/ePOD0ofGWFDTbZR84QhM7kpYMPX.jpg",
@@ -9339,8 +9537,8 @@
     "title": "Twenty Five Twenty One",
     "originalTitle": "스물다섯 스물하나",
     "type": "Serie",
-    "imdbRating": 8.5,
-    "imdbVotes": 23259,
+    "imdbRating": 8.6,
+    "imdbVotes": 23255,
     "releaseDate": "2022-02-12",
     "dateAdded": null,
     "poster_path": "/yCQFnmYhYf7XALMka2EoBRAFmPO.jpg",
@@ -9360,7 +9558,7 @@
     "originalTitle": "El inocente",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 44687,
+    "imdbVotes": 44683,
     "releaseDate": "2021-04-30",
     "dateAdded": null,
     "poster_path": "/iIwCuHSuor1PtTgUCzB04p3CrcU.jpg",
@@ -9402,7 +9600,7 @@
     "originalTitle": "우리들의 블루스",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 5660,
+    "imdbVotes": 5659,
     "releaseDate": "2022-04-09",
     "dateAdded": null,
     "poster_path": "/sT5Mlt5UmKiGfBisccwmD4LnPRD.jpg",
@@ -9422,7 +9620,7 @@
     "originalTitle": "Carmen Sandiego",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 8694,
+    "imdbVotes": 8696,
     "releaseDate": "2019-01-18",
     "dateAdded": null,
     "poster_path": "/jpis9X6awQ1X5MBm9eHRUc0N0pu.jpg",
@@ -9445,7 +9643,7 @@
     "originalTitle": "언젠가는 슬기로울 전공의생활",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 5254,
+    "imdbVotes": 5251,
     "releaseDate": "2025-04-12",
     "dateAdded": null,
     "poster_path": "/bB5Tu1Rzq6guKsMhV59aszN9c0a.jpg",
@@ -9465,7 +9663,7 @@
     "originalTitle": "중증외상센터",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 11781,
+    "imdbVotes": 11780,
     "releaseDate": "2025-01-24",
     "dateAdded": null,
     "poster_path": "/y8h2RwUZM5chv9tuaKVwSPoo3KE.jpg",
@@ -9506,7 +9704,7 @@
     "originalTitle": "Maya y los tres",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 5850,
+    "imdbVotes": 5849,
     "releaseDate": "2021-10-22",
     "dateAdded": null,
     "poster_path": "/zUBixNeHU0cbSUH7JMktl9OMEMV.jpg",
@@ -9530,7 +9728,7 @@
     "originalTitle": "Young Royals",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 52744,
+    "imdbVotes": 52738,
     "releaseDate": "2021-07-01",
     "dateAdded": null,
     "poster_path": "/6sr6hOeipKbiZEIsOKh9nTxeJhR.jpg",
@@ -9550,7 +9748,7 @@
     "originalTitle": "철인왕후",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 16345,
+    "imdbVotes": 16342,
     "releaseDate": "2020-12-12",
     "dateAdded": null,
     "poster_path": "/ozuyMnOO5pekDklyPpUL1Htkuzy.jpg",
@@ -9572,7 +9770,7 @@
     "originalTitle": "Undercover",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 22772,
+    "imdbVotes": 22771,
     "releaseDate": "2019-02-24",
     "dateAdded": null,
     "poster_path": "/ziOJNiNUbomrs81behksd0z9Qoz.jpg",
@@ -9593,7 +9791,7 @@
     "originalTitle": "リトルウィッチアカデミア",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 5090,
+    "imdbVotes": 5088,
     "releaseDate": "2017-01-09",
     "dateAdded": null,
     "poster_path": "/93Lz0LwbScZ5bmuqoIngLv1LKNb.jpg",
@@ -9617,7 +9815,7 @@
     "originalTitle": "내일",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 16648,
+    "imdbVotes": 16647,
     "releaseDate": "2022-04-01",
     "dateAdded": null,
     "poster_path": "/3SFVIdXXQ2DrAOARBdf1knqG7Pw.jpg",
@@ -9680,7 +9878,7 @@
     "originalTitle": "Die Kaiserin",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 22182,
+    "imdbVotes": 22180,
     "releaseDate": "2022-09-29",
     "dateAdded": null,
     "poster_path": "/9AWkNkZHwNLuM6H5u6dToioHMAI.jpg",
@@ -9700,7 +9898,7 @@
     "originalTitle": "Giri/Haji",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 19566,
+    "imdbVotes": 19565,
     "releaseDate": "2019-10-17",
     "dateAdded": null,
     "poster_path": "/mOeqBvuGOcq0eN1ssGCcRtWA7XW.jpg",
@@ -9721,7 +9919,7 @@
     "originalTitle": "Derry Girls",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 79584,
+    "imdbVotes": 79570,
     "releaseDate": "2018-01-04",
     "dateAdded": null,
     "poster_path": "/btIm8LOtm2qgHIA2IHmQJvD1Mju.jpg",
@@ -9742,7 +9940,7 @@
     "originalTitle": "Mr. 플랑크톤",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 10228,
+    "imdbVotes": 10225,
     "releaseDate": "2024-11-08",
     "dateAdded": null,
     "poster_path": "/c31cvdNNiAMvb4XVjAwYLNn3LNO.jpg",
@@ -9783,7 +9981,7 @@
     "originalTitle": "미스터 션샤인",
     "type": "Serie",
     "imdbRating": 8.7,
-    "imdbVotes": 14333,
+    "imdbVotes": 14332,
     "releaseDate": "2018-07-07",
     "dateAdded": null,
     "poster_path": "/p7ljjykSsiyWstGVAwIkbdfPzRV.jpg",
@@ -9803,7 +10001,7 @@
     "originalTitle": "악의 꽃",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 19879,
+    "imdbVotes": 19878,
     "releaseDate": "2020-07-29",
     "dateAdded": null,
     "poster_path": "/ozPDfBmsrJDFF9ZhwQNxcGLXvzm.jpg",
@@ -9825,7 +10023,7 @@
     "originalTitle": "무인도의 디바",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 5179,
+    "imdbVotes": 5178,
     "releaseDate": "2023-10-28",
     "dateAdded": null,
     "poster_path": "/oYOxdgfPogMoXPizBjKcZx7f9k2.jpg",
@@ -9846,7 +10044,7 @@
     "originalTitle": "Rita",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 11041,
+    "imdbVotes": 11040,
     "releaseDate": "2012-02-09",
     "dateAdded": null,
     "poster_path": "/1DVjL6rDc1B73rwYMWSgZMgYSGe.jpg",
@@ -9911,7 +10109,7 @@
     "originalTitle": "그 해 우리는",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 15325,
+    "imdbVotes": 15323,
     "releaseDate": "2021-12-06",
     "dateAdded": null,
     "poster_path": "/bA15g6OLmhQ2HkURRaCztA2jwqI.jpg",
@@ -9932,7 +10130,7 @@
     "originalTitle": "시그널",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 12537,
+    "imdbVotes": 12535,
     "releaseDate": "2016-01-22",
     "dateAdded": null,
     "poster_path": "/uIskxIo84jexPhnrzm1TpsUCI9w.jpg",
@@ -9955,7 +10153,7 @@
     "originalTitle": "웰컴투 삼달리",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 10829,
+    "imdbVotes": 10827,
     "releaseDate": "2023-12-02",
     "dateAdded": null,
     "poster_path": "/98IvA2i0PsTY8CThoHByCKOEAjz.jpg",
@@ -9976,7 +10174,7 @@
     "originalTitle": "Boy Swallows Universe",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 22904,
+    "imdbVotes": 22902,
     "releaseDate": "2024-01-11",
     "dateAdded": null,
     "poster_path": "/nb0ek7qonE0YkyaB4dsAw5J9NoH.jpg",
@@ -9998,7 +10196,7 @@
     "originalTitle": "Astérix & Obélix : Le Combat des chefs",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 7414,
+    "imdbVotes": 7413,
     "releaseDate": "2025-04-30",
     "dateAdded": null,
     "poster_path": "/yiBvCHwN3zFBTENZrkhMqy3BClO.jpg",
@@ -10022,7 +10220,7 @@
     "originalTitle": "American Vandal",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 35117,
+    "imdbVotes": 35116,
     "releaseDate": "2017-09-15",
     "dateAdded": null,
     "poster_path": "/hMbVY6f4zfUcX0xf2jo3xZFdrMp.jpg",
@@ -10043,7 +10241,7 @@
     "originalTitle": "이번 생은 처음이라",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 11377,
+    "imdbVotes": 11376,
     "releaseDate": "2017-10-09",
     "dateAdded": null,
     "poster_path": "/5RZRH8Pm9S5xLB2ZXtv3egHkTaF.jpg",
@@ -10064,7 +10262,7 @@
     "originalTitle": "One Day",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 67480,
+    "imdbVotes": 67473,
     "releaseDate": "2024-02-08",
     "dateAdded": null,
     "poster_path": "/smBWt8rHCCavV88C5gQVjh0NUFa.jpg",
@@ -10084,7 +10282,7 @@
     "originalTitle": "어느 날 우리 집 현관으로 멸망이 들어왔다",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 12143,
+    "imdbVotes": 12141,
     "releaseDate": "2021-05-10",
     "dateAdded": null,
     "poster_path": "/tgsWD4dJI5YFY8Kyk6vVjZoIKfO.jpg",
@@ -10106,7 +10304,7 @@
     "originalTitle": "When They See Us",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 161367,
+    "imdbVotes": 161356,
     "releaseDate": "2019-05-31",
     "dateAdded": null,
     "poster_path": "/oPv3nNtkuc6EPEql5lgdOuQNHuG.jpg",
@@ -10126,7 +10324,7 @@
     "originalTitle": "더 킹 : 영원의 군주",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 20226,
+    "imdbVotes": 20225,
     "releaseDate": "2020-04-17",
     "dateAdded": null,
     "poster_path": "/7SLlbkzOJb8v9wXVYIcqozx2hxe.jpg",
@@ -10147,7 +10345,7 @@
     "originalTitle": "Our Planet",
     "type": "Serie",
     "imdbRating": 9.2,
-    "imdbVotes": 63695,
+    "imdbVotes": 63691,
     "releaseDate": "2019-04-05",
     "dateAdded": null,
     "poster_path": "/wRSnArnQBmeUYb5GWDU595bGsBr.jpg",
@@ -10168,7 +10366,7 @@
     "originalTitle": "밥 잘 사주는 예쁜 누나",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 11551,
+    "imdbVotes": 11550,
     "releaseDate": "2018-03-30",
     "dateAdded": null,
     "poster_path": "/sTNXMCASbNn7cSzcQ7DVazixnAc.jpg",
@@ -10188,7 +10386,7 @@
     "originalTitle": "프로보노",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 1767,
+    "imdbVotes": 1765,
     "releaseDate": "2025-12-06",
     "dateAdded": null,
     "poster_path": "/8wovOkYH4CBH45jH1zzkyOMDMSb.jpg",
@@ -10209,7 +10407,7 @@
     "originalTitle": "쌈 마이웨이",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 12814,
+    "imdbVotes": 12813,
     "releaseDate": "2017-05-22",
     "dateAdded": null,
     "poster_path": "/55w33JzFKBkz1evjBjqeF0enDd1.jpg",
@@ -10230,7 +10428,7 @@
     "originalTitle": "나쁜 엄마",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 7799,
+    "imdbVotes": 7797,
     "releaseDate": "2023-04-26",
     "dateAdded": null,
     "poster_path": "/vtDLhvpTk1xcaBCKubSH0if575G.jpg",
@@ -10251,7 +10449,7 @@
     "originalTitle": "दिल्ली क्राइम",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 31185,
+    "imdbVotes": 31182,
     "releaseDate": "2019-03-22",
     "dateAdded": null,
     "poster_path": "/xkpkTj6KGsjSaet0VQaq0aTn31D.jpg",
@@ -10293,7 +10491,7 @@
     "originalTitle": "The Midnight Gospel",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 30365,
+    "imdbVotes": 30363,
     "releaseDate": "2020-04-20",
     "dateAdded": null,
     "poster_path": "/me3kxfiFRkdto6SmDQv0nczjfmP.jpg",
@@ -10316,7 +10514,7 @@
     "originalTitle": "나의 아저씨",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 16194,
+    "imdbVotes": 16191,
     "releaseDate": "2018-03-21",
     "dateAdded": null,
     "poster_path": "/gE9tZDycsA31wvtzUcDWVk6Nf7t.jpg",
@@ -10336,7 +10534,7 @@
     "originalTitle": "1670",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 10176,
+    "imdbVotes": 10173,
     "releaseDate": "2023-12-13",
     "dateAdded": null,
     "poster_path": "/dQ0bRkuVK3Lla9AfFGo6CpVwlCb.jpg",
@@ -10356,7 +10554,7 @@
     "originalTitle": "흑백요리사: 요리 계급 전쟁",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 5345,
+    "imdbVotes": 5344,
     "releaseDate": "2024-09-17",
     "dateAdded": null,
     "poster_path": "/dYMFQfzIJwCYAHwf3ZjiL2iVFIy.jpg",
@@ -10376,7 +10574,7 @@
     "originalTitle": "The Spy",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 58352,
+    "imdbVotes": 58349,
     "releaseDate": "2019-09-06",
     "dateAdded": null,
     "poster_path": "/bCGC6cAEKzm45J7SPsApAnp9mNx.jpg",
@@ -10396,7 +10594,7 @@
     "originalTitle": "American Primeval",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 87518,
+    "imdbVotes": 87510,
     "releaseDate": "2025-01-09",
     "dateAdded": null,
     "poster_path": "/ff0s9OHGNSZL6cVteIb7LNvTnJD.jpg",
@@ -10418,7 +10616,7 @@
     "originalTitle": "Queer Eye",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 22521,
+    "imdbVotes": 22519,
     "releaseDate": "2018-02-07",
     "dateAdded": null,
     "poster_path": "/zyuQwYNTkiPpyqiA9XAZuToZRhN.jpg",
@@ -10438,7 +10636,7 @@
     "originalTitle": "Mo",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 19654,
+    "imdbVotes": 19651,
     "releaseDate": "2022-08-24",
     "dateAdded": null,
     "poster_path": "/x3ojdK36AKestQaL2nAE6A7JYWO.jpg",
@@ -10480,7 +10678,7 @@
     "originalTitle": "역도요정 김복주",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 17568,
+    "imdbVotes": 17567,
     "releaseDate": "2016-11-16",
     "dateAdded": null,
     "poster_path": "/iLF6Jz6nL8uD8jKo6EvQ3XutDcR.jpg",
@@ -10501,7 +10699,7 @@
     "originalTitle": "アグレッシブ烈子",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 8348,
+    "imdbVotes": 8347,
     "releaseDate": "2018-04-20",
     "dateAdded": null,
     "poster_path": "/PAAskjDFxJRdgAlvI1AspfNCHe.jpg",
@@ -10522,7 +10720,7 @@
     "originalTitle": "I Think You Should Leave with Tim Robinson",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 27318,
+    "imdbVotes": 27315,
     "releaseDate": "2019-04-23",
     "dateAdded": null,
     "poster_path": "/26fMaTPRczCrTUOQ5svA1Db7l4h.jpg",
@@ -10542,7 +10740,7 @@
     "originalTitle": "피노키오",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 11086,
+    "imdbVotes": 11085,
     "releaseDate": "2014-11-12",
     "dateAdded": null,
     "poster_path": "/zVdHTEYEruxU8lis7OdY5tRg0UF.jpg",
@@ -10629,7 +10827,7 @@
     "originalTitle": "미지의 서울",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 5753,
+    "imdbVotes": 5752,
     "releaseDate": "2025-05-24",
     "dateAdded": null,
     "poster_path": "/4wnCkk4HmIzBuyyFGpcGxPKsyjI.jpg",
@@ -10649,7 +10847,7 @@
     "originalTitle": "Suburra: La serie",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 18249,
+    "imdbVotes": 18248,
     "releaseDate": "2017-10-06",
     "dateAdded": "2026-09-05",
     "poster_path": "/ri1WF0vxDfJcUW8iNUOu8OsmVeJ.jpg",
@@ -10670,7 +10868,7 @@
     "originalTitle": "The Last Dance",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 183844,
+    "imdbVotes": 183837,
     "releaseDate": "2020-04-19",
     "dateAdded": null,
     "poster_path": "/oVf4xGGbDtwVHiKn8uTuSriY7PH.jpg",
@@ -10690,7 +10888,7 @@
     "originalTitle": "From Scratch",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 20025,
+    "imdbVotes": 20023,
     "releaseDate": "2022-10-21",
     "dateAdded": null,
     "poster_path": "/s8D32MA8NlNgixnAIxVbmt9cazX.jpg",
@@ -10733,7 +10931,7 @@
     "originalTitle": "청춘시대",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 3380,
+    "imdbVotes": 3379,
     "releaseDate": "2016-07-22",
     "dateAdded": null,
     "poster_path": "/4MdSbKFGAzgFhF407e9fcZreqvm.jpg",
@@ -10754,7 +10952,7 @@
     "originalTitle": "나의 해방일지",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 7594,
+    "imdbVotes": 7593,
     "releaseDate": "2022-04-09",
     "dateAdded": null,
     "poster_path": "/olmfFeKZyQoTwj9Zo3Y5IUaioPB.jpg",
@@ -10794,7 +10992,7 @@
     "originalTitle": "On My Block",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 22575,
+    "imdbVotes": 22574,
     "releaseDate": "2018-03-16",
     "dateAdded": null,
     "poster_path": "/w6oviv65UEducvjAdH3sYYaxdu2.jpg",
@@ -10814,7 +11012,7 @@
     "originalTitle": "Unorthodox",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 99796,
+    "imdbVotes": 99789,
     "releaseDate": "2020-03-26",
     "dateAdded": null,
     "poster_path": "/5VxoSKUlNFOuqBaw8kAHwEAtuHE.jpg",
@@ -10834,7 +11032,7 @@
     "originalTitle": "The Billion Dollar Code",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 13019,
+    "imdbVotes": 13018,
     "releaseDate": "2021-10-07",
     "dateAdded": null,
     "poster_path": "/uWIqi6oer1eBX8C6DP6vIiVhs95.jpg",
@@ -10918,7 +11116,7 @@
     "originalTitle": "로봇이 아니야",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 9904,
+    "imdbVotes": 9902,
     "releaseDate": "2017-12-06",
     "dateAdded": null,
     "poster_path": "/2l1KTliFU7SjNT1OpTojbvjEnZe.jpg",
@@ -10939,7 +11137,7 @@
     "originalTitle": "에스콰이어: 변호사를 꿈꾸는 변호사들",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 5542,
+    "imdbVotes": 5541,
     "releaseDate": "2025-08-02",
     "dateAdded": null,
     "poster_path": "/nN6mZZxJBPZXBjLxnjgpnoRvswk.jpg",
@@ -10959,7 +11157,7 @@
     "originalTitle": "アンナチュラル",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 2989,
+    "imdbVotes": 2988,
     "releaseDate": "2018-01-12",
     "dateAdded": null,
     "poster_path": "/9dtVQyYAqnNOrCV0kodFELuUPdY.jpg",
@@ -10981,7 +11179,7 @@
     "originalTitle": "봄밤",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 5310,
+    "imdbVotes": 5309,
     "releaseDate": "2019-05-22",
     "dateAdded": null,
     "poster_path": "/gng7Ah3bYbVctiWuw6zVSKfEfY5.jpg",
@@ -11001,7 +11199,7 @@
     "originalTitle": "힐러",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 14413,
+    "imdbVotes": 14411,
     "releaseDate": "2014-12-08",
     "dateAdded": null,
     "poster_path": "/too4Zig9bDJOfvnFfU1SaxKmGlR.jpg",
@@ -11024,7 +11222,7 @@
     "originalTitle": "커피프린스 1호점",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 8235,
+    "imdbVotes": 8234,
     "releaseDate": "2007-07-02",
     "dateAdded": null,
     "poster_path": "/58sGxCprk1CSBXiXCG9fpr1S8D0.jpg",
@@ -11045,7 +11243,7 @@
     "originalTitle": "Turning Point: The Vietnam War",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 3215,
+    "imdbVotes": 3214,
     "releaseDate": "2025-04-30",
     "dateAdded": null,
     "poster_path": "/pwyhia2REWLVv3UmY9Cc5N7Gtfx.jpg",
@@ -11066,7 +11264,7 @@
     "originalTitle": "Pørni",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 5570,
+    "imdbVotes": 5568,
     "releaseDate": "2021-05-02",
     "dateAdded": null,
     "poster_path": "/zmyN5Z2VIlgUhK618yE7S8H53OV.jpg",
@@ -11107,7 +11305,7 @@
     "originalTitle": "슬기로운 감빵생활",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 6446,
+    "imdbVotes": 6444,
     "releaseDate": "2017-11-22",
     "dateAdded": null,
     "poster_path": "/6Z2Wrr8m8Fx9WN10Q3eqaPI9WgT.jpg",
@@ -11128,7 +11326,7 @@
     "originalTitle": "데블스 플랜",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 6475,
+    "imdbVotes": 6474,
     "releaseDate": "2023-09-26",
     "dateAdded": null,
     "poster_path": "/jNY6UVgvKz03yrSgCflkF5NF25K.jpg",
@@ -11189,7 +11387,7 @@
     "originalTitle": "Rise of Empires: Ottoman",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 48045,
+    "imdbVotes": 48043,
     "releaseDate": "2020-01-24",
     "dateAdded": null,
     "poster_path": "/nkvdPFYo7o2IQWooJvA9UE0nvAp.jpg",
@@ -11234,7 +11432,7 @@
     "originalTitle": "무브 투 헤븐: 나는 유품정리사입니다",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 13347,
+    "imdbVotes": 13346,
     "releaseDate": "2021-05-14",
     "dateAdded": null,
     "poster_path": "/gUvA20jcHABFPjYMIiZl5o9tWi3.jpg",
@@ -11254,7 +11452,7 @@
     "originalTitle": "JIN - 仁 -",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 1762,
+    "imdbVotes": 1761,
     "releaseDate": "2009-10-11",
     "dateAdded": null,
     "poster_path": "/1s7o7KC7UU6G0mtKLApZnFRhFAE.jpg",
@@ -11298,7 +11496,7 @@
     "originalTitle": "연애대전",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 7959,
+    "imdbVotes": 7958,
     "releaseDate": "2023-02-10",
     "dateAdded": null,
     "poster_path": "/ifOXQyDvpVnZvKq7pR8fujtbeQk.jpg",
@@ -11319,7 +11517,7 @@
     "originalTitle": "Club de Cuervos",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 7181,
+    "imdbVotes": 7180,
     "releaseDate": "2015-08-07",
     "dateAdded": null,
     "poster_path": "/fctsQt5NjZg5VxFVr9amJpHCjzo.jpg",
@@ -11340,7 +11538,7 @@
     "originalTitle": "How to Make It in America",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 17053,
+    "imdbVotes": 17052,
     "releaseDate": "2010-02-14",
     "dateAdded": null,
     "poster_path": "/xSKGT90ScJbHsL6FvMn7Aiov6tS.jpg",
@@ -11361,7 +11559,7 @@
     "originalTitle": "악의 마음을 읽는 자들",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 3264,
+    "imdbVotes": 3263,
     "releaseDate": "2022-01-14",
     "dateAdded": null,
     "poster_path": "/8sJW1IHZ4FQnHeE4cJIbR18L7If.jpg",
@@ -11403,7 +11601,7 @@
     "originalTitle": "Sacred Games",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 98871,
+    "imdbVotes": 98869,
     "releaseDate": "2018-07-06",
     "dateAdded": null,
     "poster_path": "/uEbNtFbK4At9WBDGap23lt1qO9n.jpg",
@@ -11466,7 +11664,7 @@
     "originalTitle": "サンクチュアリ -聖域-",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 5465,
+    "imdbVotes": 5464,
     "releaseDate": "2023-05-04",
     "dateAdded": null,
     "poster_path": "/fnr87DcGxKB02vcuZlLgxX8tHPs.jpg",
@@ -11506,7 +11704,7 @@
     "originalTitle": "Love on the Spectrum",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 7466,
+    "imdbVotes": 7467,
     "releaseDate": "2022-05-18",
     "dateAdded": null,
     "poster_path": "/7QnZq8yGLCHk4gFSsPRjAsAa4m1.jpg",
@@ -11527,7 +11725,7 @@
     "originalTitle": "멜로가 체질",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2457,
+    "imdbVotes": 2456,
     "releaseDate": "2019-08-09",
     "dateAdded": null,
     "poster_path": "/1JulSsxfpad3DtEACRjoGSNbx2f.jpg",
@@ -11569,7 +11767,7 @@
     "originalTitle": "Thai Cave Rescue",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 2903,
+    "imdbVotes": 2902,
     "releaseDate": "2022-09-22",
     "dateAdded": null,
     "poster_path": "/aTdJPB9DwF6XMAPYkTQ1RWMfhI8.jpg",
@@ -11589,7 +11787,7 @@
     "originalTitle": "피지컬: 아시아",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 3827,
+    "imdbVotes": 3826,
     "releaseDate": "2025-10-28",
     "dateAdded": null,
     "poster_path": "/osa3I6CuabnCEpNgFOvFMLLS7yP.jpg",
@@ -11630,7 +11828,7 @@
     "originalTitle": "스타트업",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 19747,
+    "imdbVotes": 19744,
     "releaseDate": "2020-10-17",
     "dateAdded": null,
     "poster_path": "/hxJQ3A2wtreuWDnVBbzzXI3YlOE.jpg",
@@ -11673,7 +11871,7 @@
     "originalTitle": "Kylie",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 2408,
+    "imdbVotes": 2407,
     "releaseDate": "2026-05-20",
     "dateAdded": null,
     "poster_path": "/89qQzMmXD5r0UOOxH6ob8U6T8ei.jpg",
@@ -11693,7 +11891,7 @@
     "originalTitle": "Life on Our Planet",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 8143,
+    "imdbVotes": 8141,
     "releaseDate": "2023-10-25",
     "dateAdded": null,
     "poster_path": "/xli64UUAmxX1ZAQGvBjEDrcBc3k.jpg",
@@ -11713,7 +11911,7 @@
     "originalTitle": "너도 인간이니",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 3907,
+    "imdbVotes": 3905,
     "releaseDate": "2018-06-04",
     "dateAdded": null,
     "poster_path": "/oVjRu96T5T68hoVwqPd8QZQo5Sp.jpg",
@@ -11796,7 +11994,7 @@
     "originalTitle": "Turning Point: The Bomb and the Cold War",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 6871,
+    "imdbVotes": 6870,
     "releaseDate": "2024-03-12",
     "dateAdded": null,
     "poster_path": "/5XBYN5Sb0yBvvodwr8fJa7iyuo2.jpg",
@@ -11880,7 +12078,7 @@
     "originalTitle": "괴물",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 8056,
+    "imdbVotes": 8053,
     "releaseDate": "2021-02-19",
     "dateAdded": null,
     "poster_path": "/qvR2V6BlXrJ7VTuhEfnXc4rTJTR.jpg",
@@ -11964,7 +12162,7 @@
     "originalTitle": "花ざかりの君たちへ 〜イケメン♂パラダイス〜",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 2292,
+    "imdbVotes": 2293,
     "releaseDate": "2007-07-03",
     "dateAdded": null,
     "poster_path": "/43O4Izb9jMBt6rv3bsPOqbIsz1i.jpg",
@@ -12030,7 +12228,7 @@
     "originalTitle": "미씽: 그들이 있었다",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 1772,
+    "imdbVotes": 1771,
     "releaseDate": "2020-08-29",
     "dateAdded": null,
     "poster_path": "/gRlEg8sjyA73pi3ZZF3WTPotmXO.jpg",
@@ -12137,7 +12335,7 @@
     "originalTitle": "Bir Başkadır",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 32343,
+    "imdbVotes": 32341,
     "releaseDate": "2020-11-12",
     "dateAdded": null,
     "poster_path": "/80xsUbpereUwUGaaMwcM9e2QLCq.jpg",
@@ -12158,7 +12356,7 @@
     "originalTitle": "은중과 상연",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 2414,
+    "imdbVotes": 2413,
     "releaseDate": "2025-09-12",
     "dateAdded": null,
     "poster_path": "/bFHooGj9D87pMp7xQK8VhSAfUo8.jpg",
@@ -12221,7 +12419,7 @@
     "originalTitle": "Due spicci",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 2686,
+    "imdbVotes": 2683,
     "releaseDate": "2026-05-27",
     "dateAdded": null,
     "poster_path": "/ezu9oAG68yRoFRsx5qzb1yt5MMJ.jpg",
@@ -12244,7 +12442,7 @@
     "originalTitle": "द रेलवे मेन - भोपाल की अनकही कहानी 1984",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 29021,
+    "imdbVotes": 29013,
     "releaseDate": "2023-11-18",
     "dateAdded": null,
     "poster_path": "/kOYlMHtNSqnf1FgsoK1JJypfkrY.jpg",
@@ -12264,7 +12462,7 @@
     "originalTitle": "Kurukshetra: The Great War of Mahabharata",
     "type": "Serie",
     "imdbRating": 8.8,
-    "imdbVotes": 5150,
+    "imdbVotes": 5146,
     "releaseDate": "2025-10-10",
     "dateAdded": null,
     "poster_path": "/xbafLh6kWkWf87dqHdoHFDWGot9.jpg",
@@ -12286,7 +12484,7 @@
     "originalTitle": "Soupçons",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 29784,
+    "imdbVotes": 29781,
     "releaseDate": "2004-10-07",
     "dateAdded": null,
     "poster_path": "/cZUtfXWbMrJZn5WsJzKmpBF9tMJ.jpg",
@@ -12307,7 +12505,7 @@
     "originalTitle": "의사요한",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 3137,
+    "imdbVotes": 3136,
     "releaseDate": "2019-07-19",
     "dateAdded": null,
     "poster_path": "/2EtZ91FzsFRe3FFtAr29ESgW9QK.jpg",
@@ -12411,7 +12609,7 @@
     "originalTitle": "सिंगल पापा",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 6385,
+    "imdbVotes": 6380,
     "releaseDate": "2025-12-12",
     "dateAdded": null,
     "poster_path": "/kSj4h1uVAKGn9yVjJTC1tQGcnoZ.jpg",
@@ -12432,7 +12630,7 @@
     "originalTitle": "My Next Guest Needs No Introduction with David Letterman",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 6668,
+    "imdbVotes": 6667,
     "releaseDate": "2018-01-12",
     "dateAdded": null,
     "poster_path": "/5dObN91CjQPUhgQoEMbpmLTtxc8.jpg",
@@ -12453,7 +12651,7 @@
     "originalTitle": "ホットスポット",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 1330,
+    "imdbVotes": 1329,
     "releaseDate": "2025-01-12",
     "dateAdded": null,
     "poster_path": "/uuAEfL8rmzD0yOR61JZiuYBdapI.jpg",
@@ -12577,7 +12775,7 @@
     "originalTitle": "신입사관 구해령",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 4213,
+    "imdbVotes": 4212,
     "releaseDate": "2019-07-17",
     "dateAdded": null,
     "poster_path": "/ijHgv6ZbvW4ZUu2QbHwOSb3YPTK.jpg",
@@ -12677,7 +12875,7 @@
     "originalTitle": "मामला लीगल है",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 13838,
+    "imdbVotes": 13837,
     "releaseDate": "2024-03-01",
     "dateAdded": null,
     "poster_path": "/tDP5vC5wxSpHKx88RdyRpdaSo2u.jpg",
@@ -12760,7 +12958,7 @@
     "originalTitle": "コタローは1人暮らし",
     "type": "Serie",
     "imdbRating": 8.3,
-    "imdbVotes": 6133,
+    "imdbVotes": 6132,
     "releaseDate": "2022-03-10",
     "dateAdded": null,
     "poster_path": "/8v2CVrPNC1pO0osxbia4FopGtLe.jpg",
@@ -12802,7 +13000,7 @@
     "originalTitle": "주군의 태양",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 6618,
+    "imdbVotes": 6617,
     "releaseDate": "2013-08-07",
     "dateAdded": null,
     "poster_path": "/8dNQTTHAirWwCpQM85amONPcZSA.jpg",
@@ -12932,7 +13130,7 @@
     "originalTitle": "舞妓さんちのまかないさん",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 3666,
+    "imdbVotes": 3664,
     "releaseDate": "2023-01-12",
     "dateAdded": null,
     "poster_path": "/ynV4fQ9GOsGsOtFfxaRkjpiAFLt.jpg",
@@ -12952,7 +13150,7 @@
     "originalTitle": "僕だけがいない街",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 4987,
+    "imdbVotes": 4986,
     "releaseDate": "2017-12-15",
     "dateAdded": null,
     "poster_path": "/5PKJjw3dxZlBjJekuEvjl1hUUPV.jpg",
@@ -12994,7 +13192,7 @@
     "originalTitle": "हैलो बच्चों",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 1749,
+    "imdbVotes": 1748,
     "releaseDate": "2026-03-06",
     "dateAdded": null,
     "poster_path": "/sBprJ6cIkWWKl4ABWgxNDKxe9kL.jpg",
@@ -13078,7 +13276,7 @@
     "originalTitle": "나의 나라",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 3255,
+    "imdbVotes": 3254,
     "releaseDate": "2019-10-04",
     "dateAdded": null,
     "poster_path": "/dU6JSuUSy2ZkWdlMUKzkJjhqtKD.jpg",
@@ -13099,7 +13297,7 @@
     "originalTitle": "Rafa",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 4983,
+    "imdbVotes": 4972,
     "releaseDate": "2026-05-29",
     "dateAdded": "2026-09-04",
     "poster_path": "/utyZY9NKMC0Ci9Rh0ohW9giFKee.jpg",
@@ -13119,7 +13317,7 @@
     "originalTitle": "पुलिस: द बिहार चैप्टर",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 14730,
+    "imdbVotes": 14726,
     "releaseDate": "2022-11-25",
     "dateAdded": "2026-09-04",
     "poster_path": "/xvr3WrwAQMlcb00OZEos9nLekTE.jpg",
@@ -13160,7 +13358,7 @@
     "originalTitle": "스토브리그",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2500,
+    "imdbVotes": 2499,
     "releaseDate": "2019-12-13",
     "dateAdded": null,
     "poster_path": "/6C69xR1hMM66pZmlEAKeIDXpssh.jpg",
@@ -13180,7 +13378,7 @@
     "originalTitle": "트라이: 우리는 기적이 된다",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 1272,
+    "imdbVotes": 1270,
     "releaseDate": "2025-07-25",
     "dateAdded": null,
     "poster_path": "/qgh3m9Oh3CoqVBuWkiMIgVgFwI1.jpg",
@@ -13221,7 +13419,7 @@
     "originalTitle": "The Get Down",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 24744,
+    "imdbVotes": 24742,
     "releaseDate": "2016-08-12",
     "dateAdded": null,
     "poster_path": "/zeEeNDklukfG1Y6jKgfCm0cgI97.jpg",
@@ -13241,7 +13439,7 @@
     "originalTitle": "人選之人—造浪者",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 1665,
+    "imdbVotes": 1664,
     "releaseDate": "2023-04-28",
     "dateAdded": null,
     "poster_path": "/3SyIuLEDFwZEt65pKeFui01oZb4.jpg",
@@ -13282,7 +13480,7 @@
     "originalTitle": "Derek",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 38077,
+    "imdbVotes": 38076,
     "releaseDate": "2013-01-30",
     "dateAdded": null,
     "poster_path": "/nfcvAjfV4u6uFtrA9X55nyJjrN7.jpg",
@@ -13303,7 +13501,7 @@
     "originalTitle": "Car Masters: Rust to Riches",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 12134,
+    "imdbVotes": 12133,
     "releaseDate": "2018-09-14",
     "dateAdded": null,
     "poster_path": "/2wS7gqsVNORz9qPaNfDOoSDXIi2.jpg",
@@ -13343,7 +13541,7 @@
     "originalTitle": "Top Boy",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 49802,
+    "imdbVotes": 49797,
     "releaseDate": "2011-10-31",
     "dateAdded": null,
     "poster_path": "/iBqgEMnbleoeLqdadlvBGDxVvKb.jpg",
@@ -13427,7 +13625,7 @@
     "originalTitle": "Making a Murderer",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 108989,
+    "imdbVotes": 108986,
     "releaseDate": "2015-12-18",
     "dateAdded": null,
     "poster_path": "/sy2nV3rCcJQaRK5M0NWvvTU7CBx.jpg",
@@ -13470,7 +13668,7 @@
     "originalTitle": "Paquita Salas",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 4783,
+    "imdbVotes": 4781,
     "releaseDate": "2016-07-06",
     "dateAdded": null,
     "poster_path": "/gp2LneVGFlMxoU7N4uUc0OmnKHB.jpg",
@@ -13510,7 +13708,7 @@
     "originalTitle": "O Mecanismo",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 37309,
+    "imdbVotes": 37308,
     "releaseDate": "2018-03-23",
     "dateAdded": null,
     "poster_path": "/tVnmpjhELgmh7so237wgDUck7kO.jpg",
@@ -13571,7 +13769,7 @@
     "originalTitle": "Full Swing",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 5033,
+    "imdbVotes": 5032,
     "releaseDate": "2023-02-15",
     "dateAdded": null,
     "poster_path": "/fOfyPUtjl95hESjBlDR9otX62Gi.jpg",
@@ -13591,7 +13789,7 @@
     "originalTitle": "कोटा फ़ैक्ट्री",
     "type": "Serie",
     "imdbRating": 9.0,
-    "imdbVotes": 93377,
+    "imdbVotes": 93373,
     "releaseDate": "2019-04-16",
     "dateAdded": null,
     "poster_path": "/fMBookmwL6HjIgIVTjQ6EMr3pCH.jpg",
@@ -13632,7 +13830,7 @@
     "originalTitle": "Animal",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 1756,
+    "imdbVotes": 1758,
     "releaseDate": "2021-11-10",
     "dateAdded": null,
     "poster_path": "/dTUzqX7Ude2JskIBQVgldRLEaaS.jpg",
@@ -13652,7 +13850,7 @@
     "originalTitle": "Hip Hop Evolution",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 6810,
+    "imdbVotes": 6808,
     "releaseDate": "2016-09-05",
     "dateAdded": null,
     "poster_path": "/fGEP2gNIDWJH7EMJfp2QWR1eh6t.jpg",
@@ -13692,7 +13890,7 @@
     "originalTitle": "Chimp Empire",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 4246,
+    "imdbVotes": 4244,
     "releaseDate": "2023-04-19",
     "dateAdded": null,
     "poster_path": "/fBs6Z1QOmZSOnm1PzMjE571tQBs.jpg",
@@ -13754,7 +13952,7 @@
     "originalTitle": "Quarterback",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 6070,
+    "imdbVotes": 6068,
     "releaseDate": "2023-07-12",
     "dateAdded": null,
     "poster_path": "/bKdElEIyuwrbdochxCXwlaUBFaR.jpg",
@@ -13774,7 +13972,7 @@
     "originalTitle": "Hyperdrive",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 3114,
+    "imdbVotes": 3113,
     "releaseDate": "2019-08-21",
     "dateAdded": null,
     "poster_path": "/jvhVHPKdsyj1j2m3diD5mazl2bG.jpg",
@@ -13815,7 +14013,7 @@
     "originalTitle": "Aunty Donna's Big Ol House of Fun",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 7565,
+    "imdbVotes": 7564,
     "releaseDate": "2020-11-11",
     "dateAdded": null,
     "poster_path": "/xvoxuozDkw43hGP4CAmoSSW1cnq.jpg",
@@ -13939,7 +14137,7 @@
     "originalTitle": "Wild Wild Country",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 39144,
+    "imdbVotes": 39139,
     "releaseDate": "2018-03-16",
     "dateAdded": null,
     "poster_path": "/kprB5Jj2LYQAYlqVQMEucT2vGt.jpg",
@@ -13960,7 +14158,7 @@
     "originalTitle": "Strappare lungo i bordi",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 17558,
+    "imdbVotes": 17554,
     "releaseDate": "2021-11-17",
     "dateAdded": null,
     "poster_path": "/jD8abZSQ9zMOsqr1M7zButnzCuz.jpg",
@@ -14003,7 +14201,7 @@
     "originalTitle": "대환장 기안장",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 2411,
+    "imdbVotes": 2410,
     "releaseDate": "2025-04-08",
     "dateAdded": null,
     "poster_path": "/1iLD4qd9hbCjiBIyu64F9OImK4I.jpg",
@@ -14064,7 +14262,7 @@
     "originalTitle": "ما وراء الطبيعة",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 76101,
+    "imdbVotes": 76099,
     "releaseDate": "2020-11-05",
     "dateAdded": null,
     "poster_path": "/gH81qw0IcOVhRkPaWGU0cYUGDi3.jpg",
@@ -14107,7 +14305,7 @@
     "originalTitle": "Sunderland 'Til I Die",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 10429,
+    "imdbVotes": 10431,
     "releaseDate": "2018-12-14",
     "dateAdded": null,
     "poster_path": "/xBb1OvJxOTXtjdZDPfkzi5nXkAd.jpg",
@@ -14189,7 +14387,7 @@
     "originalTitle": "Pretend It's a City",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 9243,
+    "imdbVotes": 9242,
     "releaseDate": "2021-01-08",
     "dateAdded": null,
     "poster_path": "/qFGa1ranQSLPTrhwXi7tslOIb8D.jpg",
@@ -14210,7 +14408,7 @@
     "originalTitle": "Smiley",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 9981,
+    "imdbVotes": 9980,
     "releaseDate": "2022-12-07",
     "dateAdded": null,
     "poster_path": "/b9EDtDLIVHKpErMpNSREw1KcDOj.jpg",
@@ -14250,7 +14448,7 @@
     "originalTitle": "Don't F**k with Cats: Hunting an Internet Killer",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 70515,
+    "imdbVotes": 70510,
     "releaseDate": "2019-12-18",
     "dateAdded": null,
     "poster_path": "/Crc4XkhLddMTNJfj1iLca0w1Bb.jpg",
@@ -14314,7 +14512,7 @@
     "originalTitle": "リラックマとカオルさん",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 2085,
+    "imdbVotes": 2084,
     "releaseDate": "2019-04-19",
     "dateAdded": null,
     "poster_path": "/lzohWj8xtowSXJVN9PsJjZAf1B2.jpg",
@@ -14377,7 +14575,7 @@
     "originalTitle": "Captains of the World",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 4986,
+    "imdbVotes": 4988,
     "releaseDate": "2023-12-30",
     "dateAdded": null,
     "poster_path": "/wvaAQpfj7bxQCuOIdYIMbZ1pVax.jpg",
@@ -14417,7 +14615,7 @@
     "originalTitle": "The Trials of Gabriel Fernandez",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 15988,
+    "imdbVotes": 15985,
     "releaseDate": "2020-02-26",
     "dateAdded": null,
     "poster_path": "/qCkV7N9fsd5mRcvBfusYeojbX0b.jpg",
@@ -14619,7 +14817,7 @@
     "originalTitle": "Inside Bill's Brain: Decoding Bill Gates",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 12164,
+    "imdbVotes": 12163,
     "releaseDate": "2019-09-20",
     "dateAdded": null,
     "poster_path": "/5RIVJnpIkPt90EwJQwPzqS1UTPG.jpg",
@@ -14639,7 +14837,7 @@
     "originalTitle": "Island of the Sea Wolves",
     "type": "Serie",
     "imdbRating": 7.8,
-    "imdbVotes": 1318,
+    "imdbVotes": 1319,
     "releaseDate": "2022-10-11",
     "dateAdded": null,
     "poster_path": "/czorJe5tld7NUBwZubwxDZksxrL.jpg",
@@ -14679,7 +14877,7 @@
     "originalTitle": "Penguin Town",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 1155,
+    "imdbVotes": 1157,
     "releaseDate": "2021-06-16",
     "dateAdded": null,
     "poster_path": "/3LtKOlUBdk6t3B01gbaR332YI2U.jpg",
@@ -14739,7 +14937,7 @@
     "originalTitle": "Questo mondo non mi renderà cattivo",
     "type": "Serie",
     "imdbRating": 8.0,
-    "imdbVotes": 5506,
+    "imdbVotes": 5503,
     "releaseDate": "2023-06-09",
     "dateAdded": null,
     "poster_path": "/ifJzwm47nzVF4mxiv2n6tzMh3av.jpg",
@@ -14883,7 +15081,7 @@
     "originalTitle": "Decoupled",
     "type": "Serie",
     "imdbRating": 7.9,
-    "imdbVotes": 9038,
+    "imdbVotes": 9037,
     "releaseDate": "2021-12-17",
     "dateAdded": null,
     "poster_path": "/pq3t5ds8JwHSAvXE3o42CeQ3ue.jpg",
@@ -14924,7 +15122,7 @@
     "originalTitle": "CAT",
     "type": "Serie",
     "imdbRating": 8.1,
-    "imdbVotes": 13857,
+    "imdbVotes": 13855,
     "releaseDate": "2022-12-09",
     "dateAdded": null,
     "poster_path": "/aY9lY9v0zab2hn5ZWeKzLBE6Kme.jpg",
@@ -15045,7 +15243,7 @@
     "originalTitle": "Attenborough's Life in Colour",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 4505,
+    "imdbVotes": 4507,
     "releaseDate": "2021-02-28",
     "dateAdded": null,
     "poster_path": "/mIanPgm20EZyASoPayPUrDmeEH1.jpg",
@@ -15148,7 +15346,7 @@
     "originalTitle": "Middleditch & Schwartz",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6344,
+    "imdbVotes": 6343,
     "releaseDate": "2020-04-21",
     "dateAdded": null,
     "poster_path": "/66peZcEggw4xJHLQeBqvIsKG87s.jpg",
@@ -15189,7 +15387,7 @@
     "originalTitle": "James Acaster: Repertoire",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 4751,
+    "imdbVotes": 4750,
     "releaseDate": "2018-03-27",
     "dateAdded": null,
     "poster_path": "/oYmfMa9yaMZID0q4gPIsmJw9cEF.jpg",
@@ -15250,7 +15448,7 @@
     "originalTitle": "13 novembre : Fluctuat nec mergitur",
     "type": "Serie",
     "imdbRating": 8.2,
-    "imdbVotes": 4198,
+    "imdbVotes": 4197,
     "releaseDate": "2018-06-01",
     "dateAdded": null,
     "poster_path": "/9TdpNQfW7VwUxIkrOxWzpOtlgun.jpg",

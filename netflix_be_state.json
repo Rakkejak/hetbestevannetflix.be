@@ -6540,7 +6540,7 @@
     "firstSeen": "2026-09-05"
   },
   "movie:1452197": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:1452378": {
@@ -9592,7 +9592,7 @@
     "firstSeen": null
   },
   "movie:280955": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:281455": {
@@ -28700,7 +28700,7 @@
     "firstSeen": null
   },
   "tv:234721": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:234729": {
