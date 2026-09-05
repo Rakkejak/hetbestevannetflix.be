@@ -46,8 +46,11 @@ def fetch_metadata(item, api_key, cache):
         origin_country = cached.get("originCountry")
         original_language = cached.get("originalLanguage")
 
-        if original_language and (kind == "movie" or "originCountry" in cached):
-            return genres, origin_country, original_language
+        if original_language:
+            if kind == "tv" and "originCountry" in cached:
+                return genres, origin_country, original_language
+            if kind == "movie" and cached.get("movieCountryResolved") is True:
+                return genres, origin_country, original_language
 
     response = requests.get(
         f"https://api.themoviedb.org/3/{kind}/{tmdb_id}",
@@ -64,10 +67,16 @@ def fetch_metadata(item, api_key, cache):
     ]
 
     origin_country = None
+
     if kind == "tv":
         countries = payload.get("origin_country", [])
         if countries:
             origin_country = countries[0]
+
+    if kind == "movie":
+        countries = payload.get("production_countries", [])
+        if countries:
+            origin_country = countries[0].get("iso_3166_1") or None
 
     original_language = payload.get("original_language") or None
 
@@ -76,6 +85,9 @@ def fetch_metadata(item, api_key, cache):
         "originCountry": origin_country,
         "originalLanguage": original_language,
     }
+
+    if kind == "movie":
+        cache[key]["movieCountryResolved"] = True
 
     return genres, origin_country, original_language
 
@@ -138,11 +150,11 @@ def main():
     write_json_atomic(CACHE_PATH, cache)
 
     with_genres = sum(bool(item.get("genres")) for item in items)
-    with_country = sum(bool(item.get("originCountry")) for item in items if item.get("type") == "Serie")
+    with_country = sum(bool(item.get("originCountry")) for item in items)
     with_language = sum(bool(item.get("originalLanguage")) for item in items)
 
     print(f"Genre-enrichment klaar: {with_genres}/{total} titels met genres.")
-    print(f"Land-enrichment klaar: {with_country} reeksen met land van oorsprong.")
+    print(f"Land-enrichment klaar: {with_country}/{total} titels met land van oorsprong.")
     print(f"Taal-enrichment klaar: {with_language}/{total} titels met oorspronkelijke taal.")
 
 
