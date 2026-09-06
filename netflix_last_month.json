@@ -1,25 +1,5 @@
 [
   {
-    "tmdbId": 329274,
-    "imdbId": "tt43673968",
-    "netflix_id": null,
-    "title": "MOURINHO",
-    "originalTitle": "MOURINHO",
-    "type": "Serie",
-    "imdbRating": 7.8,
-    "imdbVotes": 3710,
-    "releaseDate": "2026-08-11",
-    "dateAdded": null,
-    "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Documentary"
-    ],
-    "originCountry": "US",
-    "originalLanguage": "en"
-  },
-  {
     "tmdbId": 284753,
     "imdbId": "tt36643714",
     "netflix_id": "81616273",
@@ -27,7 +7,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6522,
+    "imdbVotes": 6579,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -40,6 +20,46 @@
     "originalLanguage": "hi"
   },
   {
+    "tmdbId": 1489543,
+    "imdbId": "tt35712605",
+    "netflix_id": null,
+    "title": "G.D.N",
+    "originalTitle": "ஜி.டி.என்",
+    "type": "Film",
+    "imdbRating": 8.4,
+    "imdbVotes": 1332,
+    "releaseDate": "2026-08-07",
+    "dateAdded": "2026-09-06",
+    "poster_path": "/f4CJS8MgxHalhCNQQCoHNN7wD0b.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "ta"
+  },
+  {
+    "tmdbId": 1303331,
+    "imdbId": "tt27548557",
+    "netflix_id": null,
+    "title": "Dhamaal 4",
+    "originalTitle": "धमाल ४",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "imdbVotes": 36394,
+    "releaseDate": "2026-07-10",
+    "dateAdded": "2026-09-06",
+    "poster_path": "/oVij5aEEE6iI4PxB4i0CgKp8h0m.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Comedy"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "hi"
+  },
+  {
     "tmdbId": 1443961,
     "imdbId": "tt37895011",
     "netflix_id": null,
@@ -47,7 +67,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.3,
-    "imdbVotes": 5835,
+    "imdbVotes": 5989,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
@@ -69,7 +89,7 @@
     "originalTitle": "मैं वापस आऊंगा",
     "type": "Film",
     "imdbRating": 8.0,
-    "imdbVotes": 12612,
+    "imdbVotes": 12709,
     "releaseDate": "2026-06-11",
     "dateAdded": "2026-09-04",
     "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
@@ -91,7 +111,7 @@
     "originalTitle": "참교육",
     "type": "Serie",
     "imdbRating": 8.4,
-    "imdbVotes": 19495,
+    "imdbVotes": 19552,
     "releaseDate": "2026-06-05",
     "dateAdded": null,
     "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
@@ -113,7 +133,7 @@
     "originalTitle": "Rafa",
     "type": "Serie",
     "imdbRating": 8.5,
-    "imdbVotes": 4972,
+    "imdbVotes": 4991,
     "releaseDate": "2026-05-29",
     "dateAdded": "2026-09-04",
     "poster_path": "/utyZY9NKMC0Ci9Rh0ohW9giFKee.jpg",
