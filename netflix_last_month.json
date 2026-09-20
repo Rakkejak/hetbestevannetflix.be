@@ -1,5 +1,46 @@
 [
   {
+    "tmdbId": 299952,
+    "imdbId": "tt37884717",
+    "netflix_id": null,
+    "title": "The Early Spring",
+    "originalTitle": "早春晴朗",
+    "type": "Serie",
+    "imdbRating": 8.3,
+    "imdbVotes": 1195,
+    "releaseDate": "2026-08-26",
+    "dateAdded": null,
+    "poster_path": "/lGFngmJWMO4HTPcI0sUGKBAFqMe.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "CN",
+    "originalLanguage": "zh"
+  },
+  {
+    "tmdbId": 1685882,
+    "imdbId": "tt42262473",
+    "netflix_id": null,
+    "title": "Modha Rathri",
+    "originalTitle": "மொத ராத்திரி",
+    "type": "Film",
+    "imdbRating": 8.3,
+    "imdbVotes": 1506,
+    "releaseDate": "2026-08-21",
+    "dateAdded": "2026-09-20",
+    "poster_path": "/hRWSgz2YbukvpBMUDr9fQ7KxaZh.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "ta"
+  },
+  {
     "tmdbId": 284753,
     "imdbId": "tt36643714",
     "netflix_id": "81616273",
@@ -7,7 +48,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 6996,
+    "imdbVotes": 7280,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -20,26 +61,6 @@
     "originalLanguage": "hi"
   },
   {
-    "tmdbId": 1489543,
-    "imdbId": "tt35712605",
-    "netflix_id": null,
-    "title": "G.D.N",
-    "originalTitle": "ஜி.டி.என்",
-    "type": "Film",
-    "imdbRating": 7.9,
-    "imdbVotes": 2058,
-    "releaseDate": "2026-08-07",
-    "dateAdded": "2026-09-06",
-    "poster_path": "/f4CJS8MgxHalhCNQQCoHNN7wD0b.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Drama"
-    ],
-    "originCountry": "IN",
-    "originalLanguage": "ta"
-  },
-  {
     "tmdbId": 1443961,
     "imdbId": "tt37895011",
     "netflix_id": null,
@@ -47,7 +68,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.4,
-    "imdbVotes": 7089,
+    "imdbVotes": 7160,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
@@ -60,49 +81,5 @@
     ],
     "originCountry": "IN",
     "originalLanguage": "te"
-  },
-  {
-    "tmdbId": 1431068,
-    "imdbId": "tt37333137",
-    "netflix_id": "82018915",
-    "title": "Main Vaapas Aaunga",
-    "originalTitle": "मैं वापस आऊंगा",
-    "type": "Film",
-    "imdbRating": 8.0,
-    "imdbVotes": 13087,
-    "releaseDate": "2026-06-11",
-    "dateAdded": "2026-09-04",
-    "poster_path": "/wHTNsZxvlfRAndc52hGlbdCUXKS.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Romance",
-      "Drama",
-      "Mystery"
-    ],
-    "originCountry": "IN",
-    "originalLanguage": "hi"
-  },
-  {
-    "tmdbId": 276161,
-    "imdbId": "tt34809853",
-    "netflix_id": "81947300",
-    "title": "Teach You a Lesson",
-    "originalTitle": "참교육",
-    "type": "Serie",
-    "imdbRating": 8.4,
-    "imdbVotes": 19937,
-    "releaseDate": "2026-06-05",
-    "dateAdded": null,
-    "poster_path": "/fMECSPrTmRClSViMsXFYmiYIcWP.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Action & Adventure",
-      "Drama",
-      "Comedy"
-    ],
-    "originCountry": "KR",
-    "originalLanguage": "ko"
   }
 ]
