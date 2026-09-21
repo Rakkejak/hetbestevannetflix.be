@@ -92,8 +92,9 @@
     border:0;
     background:transparent;
     padding:0;
-    font:inherit;
+    color:#59f3a5;
   }
+  .boutique-nav:hover,
   .boutique-nav.active{color:#73f6b4}
 
   .menu-link-blog{
