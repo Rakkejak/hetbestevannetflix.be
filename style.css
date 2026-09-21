@@ -87,6 +87,14 @@
     white-space:nowrap;
   }
   .menu-link:hover{opacity:1; text-decoration:underline}
+  .boutique-nav{
+    appearance:none;
+    border:0;
+    background:transparent;
+    padding:0;
+    font:inherit;
+  }
+  .boutique-nav.active{color:#73f6b4}
 
   .menu-link-blog{
     flex-direction:column;
@@ -253,6 +261,51 @@
     border: 1px solid rgba(155,185,195,.35);
     color: #d8e8ee;
   }
+
+  .boutique-actions{display:flex;gap:.55rem;flex-wrap:wrap;margin-top:.85rem}
+  .boutique-action{
+    border:1px solid #2d5560;
+    background:#0a171a;
+    color:#e8f1f3;
+    border-radius:.55rem;
+    padding:.52rem .78rem;
+    font:700 .86rem/1 Inter,sans-serif;
+    cursor:pointer;
+  }
+  .boutique-action:hover{border-color:#59f3a5;background:rgba(89,243,165,.08)}
+  .dismiss-action:hover{border-color:#ffd86a;background:rgba(243,183,0,.08)}
+
+  .boutique-dialog{
+    width:min(780px,calc(100% - 2rem));
+    max-height:min(82vh,760px);
+    overflow:auto;
+    padding:0;
+    border:1px solid #24515c;
+    border-radius:1rem;
+    background:#0f1b1e;
+    color:var(--ink);
+    box-shadow:0 28px 80px rgba(0,0,0,.55);
+  }
+  .boutique-dialog::backdrop{background:rgba(2,9,11,.76);backdrop-filter:blur(4px)}
+  .boutique-dialog-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;padding:1.4rem 1.4rem .5rem}
+  .boutique-dialog h2{margin:.15rem 0 0;font:700 clamp(1.8rem,4vw,2.6rem)/1.1 "Libre Baskerville",serif}
+  .eyebrow{color:#73f6b4;font-size:.76rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+  .dialog-close{border:0;background:transparent;color:#cfe3e8;font-size:2rem;line-height:1;cursor:pointer}
+  .boutique-intro,.boutique-local-note{margin:.4rem 1.4rem;color:#c6d9de}
+  .boutique-local-note{padding:.65rem .8rem;border:1px solid #264852;border-radius:.55rem;background:#0a171a;color:#9ab0b7;font-size:.9rem}
+  .boutique-lists{display:grid;grid-template-columns:1fr 1fr;gap:1rem;padding:1rem 1.4rem 1.5rem}
+  .boutique-lists section{min-width:0}
+  .boutique-lists h3{display:flex;align-items:center;gap:.5rem;margin:.2rem 0 .65rem}
+  .list-count{display:inline-flex;min-width:1.55rem;height:1.55rem;align-items:center;justify-content:center;border-radius:999px;background:#183139;color:#cfe3e8;font-size:.78rem}
+  .profile-list{display:flex;flex-direction:column;gap:.5rem}
+  .profile-row{display:flex;flex-direction:column;gap:.5rem;padding:.75rem;border:1px solid #173942;border-radius:.65rem;background:#0a171a}
+  .profile-row strong{display:block}
+  .profile-row span{color:#9ab0b7;font-size:.85rem}
+  .restore-title{align-self:flex-start;border:0;background:transparent;color:#8ed0ff;padding:0;font-weight:700;cursor:pointer;text-align:left}
+  .restore-title:hover{text-decoration:underline}
+  .profile-empty{margin:0;color:#80979e;font-size:.9rem}
+  .boutique-status{position:fixed;z-index:50;left:50%;bottom:1.2rem;transform:translate(-50%,1rem);max-width:min(520px,calc(100% - 2rem));padding:.75rem 1rem;border:1px solid #2a6750;border-radius:.65rem;background:#123427;color:#dcffec;box-shadow:0 12px 36px rgba(0,0,0,.35);opacity:0;pointer-events:none;transition:.2s ease}
+  .boutique-status.show{opacity:1;transform:translate(-50%,0)}
   
   .empty{margin:1rem 0;padding:1.1rem;border:1px dashed #284a54;border-radius:.7rem;color:#cfe0e5;text-align:center;background:#0a171a}
   
@@ -311,6 +364,7 @@
     .title{font-size:1.2rem}
     .choice-filters{overflow-x:auto;flex-wrap:nowrap;padding-bottom:.25rem}
     .filter-btn{white-space:nowrap;flex:0 0 auto}
+    .boutique-lists{grid-template-columns:1fr}
   }
   
 
