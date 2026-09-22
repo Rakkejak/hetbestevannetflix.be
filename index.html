@@ -34,6 +34,32 @@
     </div>
   </header>
 
+  <dialog id="auth-dialog" class="auth-dialog" aria-labelledby="auth-title">
+    <div class="boutique-dialog-head">
+      <div>
+        <span class="eyebrow">Jouw persoonlijke selectie</span>
+        <h2 id="auth-title">Aanmelden bij Mijn Boutique</h2>
+      </div>
+      <button id="close-auth" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <p class="boutique-intro">Bewaar wat je al gezien hebt en wat niet bij je past. Je lijsten zijn daarna beschikbaar op al je toestellen.</p>
+    <div class="auth-options">
+      <button type="button" class="provider-button" data-auth-provider="google">Verder met Google</button>
+      <button type="button" class="provider-button" data-auth-provider="apple">Verder met Apple</button>
+      <button type="button" class="provider-button" data-auth-provider="facebook">Verder met Facebook</button>
+      <div class="auth-divider"><span>of</span></div>
+      <form id="email-auth-form" class="email-auth-form">
+        <label>E-mailadres<input id="auth-email" type="email" autocomplete="email" required></label>
+        <label>Wachtwoord<input id="auth-password" type="password" autocomplete="current-password" minlength="8" required></label>
+        <div class="auth-form-actions">
+          <button type="submit" class="auth-primary">Aanmelden</button>
+          <button type="button" id="create-account" class="auth-secondary">Account maken</button>
+        </div>
+      </form>
+      <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
   <dialog id="boutique-dialog" class="boutique-dialog" aria-labelledby="boutique-title">
     <div class="boutique-dialog-head">
       <div>
@@ -41,6 +67,10 @@
         <h2 id="boutique-title">Mijn Boutique</h2>
       </div>
       <button id="close-boutique" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <div class="profile-session">
+      <span id="profile-email"></span>
+      <button id="sign-out" type="button">Uitloggen</button>
     </div>
     <p class="boutique-intro">Markeer wat je al gezien hebt of wat niet bij je past. Die titels verdwijnen uit je selectie en maken plaats voor andere tips.</p>
     <p class="boutique-local-note">Testversie: je keuzes worden voorlopig alleen in deze browser bewaard.</p>
@@ -545,7 +575,8 @@
       seen: "hbvn_boutique_seen_v1",
       dismissed: "hbvn_boutique_dismissed_v1"
     };
-    let boutiqueActive = localStorage.getItem(BOUTIQUE_KEYS.active) === "true";
+    let boutiqueActive = false;
+    let boutiqueUser = null;
     let seenTitles = readStoredSet(BOUTIQUE_KEYS.seen);
     let dismissedTitles = readStoredSet(BOUTIQUE_KEYS.dismissed);
 
@@ -562,6 +593,9 @@
       localStorage.setItem(BOUTIQUE_KEYS.active, boutiqueActive ? "true" : "false");
       localStorage.setItem(BOUTIQUE_KEYS.seen, JSON.stringify([...seenTitles]));
       localStorage.setItem(BOUTIQUE_KEYS.dismissed, JSON.stringify([...dismissedTitles]));
+      window.dispatchEvent(new CustomEvent("hbvn:boutique-change", {
+        detail: { seen:[...seenTitles], dismissed:[...dismissedTitles] }
+      }));
     }
 
     function applyBoutiqueExclusions(items){
@@ -855,9 +889,30 @@
     }
 
     function updateBoutiqueUI(){
-      $("#open-boutique").classList.toggle("active", boutiqueActive);
-      $("#open-boutique").textContent = boutiqueActive ? "MIJN BOUTIQUE" : "START MIJN BOUTIQUE";
+      $("#open-boutique").classList.toggle("active", Boolean(boutiqueUser));
+      $("#open-boutique").textContent = "MIJN BOUTIQUE";
+      $("#profile-email").textContent = boutiqueUser?.email || "";
     }
+
+    window.HBVNBoutique = {
+      setSession(user, preferences={}){
+        boutiqueUser = user || null;
+        boutiqueActive = Boolean(user);
+        seenTitles = new Set(preferences.seen || []);
+        dismissedTitles = new Set(preferences.dismissed || []);
+        updateBoutiqueUI();
+        renderProfile();
+        renderAllFilters();
+        render();
+      },
+      preferences(){
+        return { seen:[...seenTitles], dismissed:[...dismissedTitles] };
+      },
+      openProfile(){
+        renderProfile();
+        $("#boutique-dialog").showModal();
+      }
+    };
 
     function setTextsForTab(){
       const texts = {
@@ -889,13 +944,15 @@
       updateBoutiqueUI();
 
       $("#open-boutique").addEventListener("click", ()=>{
-        boutiqueActive = true;
-        saveBoutique();
-        updateBoutiqueUI();
-        renderProfile();
-        renderAllFilters();
-        render();
-        $("#boutique-dialog").showModal();
+        if (boutiqueUser){
+          window.HBVNBoutique.openProfile();
+        } else {
+          $("#auth-dialog").showModal();
+        }
+      });
+      $("#close-auth").addEventListener("click", ()=> $("#auth-dialog").close());
+      $("#auth-dialog").addEventListener("click", event => {
+        if (event.target === $("#auth-dialog")) $("#auth-dialog").close();
       });
       $("#close-boutique").addEventListener("click", ()=> $("#boutique-dialog").close());
       $("#boutique-dialog").addEventListener("click", event => {
@@ -1022,6 +1079,9 @@
     })();
   </script>
 
+  <script src="auth-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="boutique-auth.js"></script>
   <script src="ab-analytics.js"></script>
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1dec3c77ab8744369890345885730fa9"}'></script>

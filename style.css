@@ -287,6 +287,36 @@
     color:var(--ink);
     box-shadow:0 28px 80px rgba(0,0,0,.55);
   }
+  .auth-dialog{
+    width:min(520px,calc(100% - 2rem));
+    padding:0;
+    border:1px solid #24515c;
+    border-radius:1rem;
+    background:#0f1b1e;
+    color:var(--ink);
+    box-shadow:0 28px 80px rgba(0,0,0,.55);
+  }
+  .auth-dialog::backdrop{background:rgba(2,9,11,.76);backdrop-filter:blur(4px)}
+  .auth-dialog h2{margin:.15rem 0 0;font:700 clamp(1.6rem,4vw,2.25rem)/1.12 "Libre Baskerville",serif}
+  .auth-options{display:flex;flex-direction:column;gap:.7rem;padding:1rem 1.4rem 1.5rem}
+  .provider-button,.auth-primary,.auth-secondary{
+    min-height:46px;border-radius:.65rem;font:800 .95rem/1 Inter,sans-serif;cursor:pointer
+  }
+  .provider-button{border:1px solid #31505a;background:#132329;color:#f3f8f9}
+  .provider-button:hover{border-color:#59f3a5;background:#163029}
+  .auth-divider{display:flex;align-items:center;gap:.7rem;color:#789097;font-size:.82rem}
+  .auth-divider::before,.auth-divider::after{content:"";height:1px;background:#24424a;flex:1}
+  .email-auth-form{display:flex;flex-direction:column;gap:.7rem}
+  .email-auth-form label{display:flex;flex-direction:column;gap:.3rem;color:#b9cdd2;font-size:.85rem;font-weight:700}
+  .email-auth-form input{width:100%;border:1px solid #31505a;border-radius:.55rem;background:#091417;color:#fff;padding:.72rem .8rem;font:inherit}
+  .email-auth-form input:focus{outline:2px solid rgba(89,243,165,.35);border-color:#59f3a5}
+  .auth-form-actions{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+  .auth-primary{border:1px solid #1f8f62;background:#2bd389;color:#042d1b}
+  .auth-secondary{border:1px solid #31505a;background:transparent;color:#dcecef}
+  .auth-message{min-height:1.3em;margin:0;color:#ffd86a;font-size:.86rem}
+  .profile-session{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:.2rem 1.4rem .7rem;padding:.65rem .8rem;border:1px solid #264852;border-radius:.55rem;background:#0a171a;color:#9ab0b7;font-size:.88rem}
+  #sign-out{border:0;background:transparent;color:#8ed0ff;font-weight:700;cursor:pointer}
+  #sign-out:hover{text-decoration:underline}
   .boutique-dialog::backdrop{background:rgba(2,9,11,.76);backdrop-filter:blur(4px)}
   .boutique-dialog-head{display:flex;justify-content:space-between;gap:1rem;align-items:flex-start;padding:1.4rem 1.4rem .5rem}
   .boutique-dialog h2{margin:.15rem 0 0;font:700 clamp(1.8rem,4vw,2.6rem)/1.1 "Libre Baskerville",serif}
