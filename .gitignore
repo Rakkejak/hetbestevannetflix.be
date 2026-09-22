@@ -10,3 +10,6 @@ imdb_daily_ratings.tsv.tmp
 
 .netflix_browser_profile/
 netflix_top67_build.json
+
+# Gegenereerde bestanden voor de besloten Sites-testpublicatie
+dist/
