@@ -1,25 +1,5 @@
 [
   {
-    "tmdbId": 299952,
-    "imdbId": "tt37884717",
-    "netflix_id": "83067197",
-    "title": "The Early Spring",
-    "originalTitle": "早春晴朗",
-    "type": "Serie",
-    "imdbRating": 8.3,
-    "imdbVotes": 1195,
-    "releaseDate": "2026-08-26",
-    "dateAdded": null,
-    "poster_path": "/lGFngmJWMO4HTPcI0sUGKBAFqMe.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Drama"
-    ],
-    "originCountry": "CN",
-    "originalLanguage": "zh"
-  },
-  {
     "tmdbId": 1685882,
     "imdbId": "tt42262473",
     "netflix_id": null,
