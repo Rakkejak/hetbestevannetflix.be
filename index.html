@@ -55,8 +55,28 @@
           <button type="submit" class="auth-primary">Aanmelden</button>
           <button type="button" id="create-account" class="auth-secondary">Account maken</button>
         </div>
+        <button type="button" id="forgot-password" class="auth-link">Wachtwoord vergeten?</button>
       </form>
       <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <dialog id="recovery-dialog" class="auth-dialog" aria-labelledby="recovery-title">
+    <div class="boutique-dialog-head">
+      <div>
+        <span class="eyebrow">Mijn Boutique</span>
+        <h2 id="recovery-title">Nieuw wachtwoord kiezen</h2>
+      </div>
+      <button id="close-recovery" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <p class="boutique-intro">Kies een nieuw wachtwoord van minstens 8 tekens.</p>
+    <div class="auth-options">
+      <form id="recovery-form" class="email-auth-form">
+        <label>Nieuw wachtwoord<input id="recovery-password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <label>Herhaal wachtwoord<input id="recovery-password-confirm" type="password" autocomplete="new-password" minlength="8" required></label>
+        <button type="submit" class="auth-primary">Wachtwoord bewaren</button>
+      </form>
+      <p id="recovery-message" class="auth-message" role="status" aria-live="polite"></p>
     </div>
   </dialog>
 

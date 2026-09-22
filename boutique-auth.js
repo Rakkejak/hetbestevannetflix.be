@@ -2,6 +2,8 @@
   const config = window.HBVN_AUTH_CONFIG || {};
   const message = document.querySelector("#auth-message");
   const authDialog = document.querySelector("#auth-dialog");
+  const recoveryDialog = document.querySelector("#recovery-dialog");
+  const recoveryMessage = document.querySelector("#recovery-message");
 
   function setMessage(text, isError = false) {
     message.textContent = text;
@@ -97,6 +99,61 @@
     );
   });
 
+  document.querySelector("#forgot-password").addEventListener("click", async () => {
+    const email = document.querySelector("#auth-email").value.trim();
+
+    if (!email) {
+      setMessage("Vul eerst je e-mailadres in.", true);
+      return;
+    }
+
+    setMessage("Herstelmail wordt verstuurd…");
+    const { error } = await client.auth.resetPasswordForEmail(email, {
+      redirectTo: window.location.origin + window.location.pathname
+    });
+    setMessage(
+      error ? "De herstelmail kon niet worden verstuurd." : "Controleer je e-mail voor de herstel-link.",
+      Boolean(error)
+    );
+  });
+
+  document.querySelector("#close-recovery").addEventListener("click", () => recoveryDialog.close());
+  recoveryDialog.addEventListener("click", event => {
+    if (event.target === recoveryDialog) recoveryDialog.close();
+  });
+
+  document.querySelector("#recovery-form").addEventListener("submit", async event => {
+    event.preventDefault();
+    const password = document.querySelector("#recovery-password").value;
+    const confirmation = document.querySelector("#recovery-password-confirm").value;
+
+    if (password.length < 8) {
+      recoveryMessage.textContent = "Gebruik minstens 8 tekens.";
+      recoveryMessage.style.color = "#ff9b9b";
+      return;
+    }
+
+    if (password !== confirmation) {
+      recoveryMessage.textContent = "De wachtwoorden zijn niet gelijk.";
+      recoveryMessage.style.color = "#ff9b9b";
+      return;
+    }
+
+    recoveryMessage.textContent = "Wachtwoord wordt bewaard…";
+    recoveryMessage.style.color = "#ffd86a";
+    const { error } = await client.auth.updateUser({ password });
+
+    if (error) {
+      recoveryMessage.textContent = "Het wachtwoord kon niet worden gewijzigd. Open de herstel-link opnieuw.";
+      recoveryMessage.style.color = "#ff9b9b";
+      return;
+    }
+
+    recoveryMessage.textContent = "Je wachtwoord is gewijzigd.";
+    recoveryMessage.style.color = "#73f6b4";
+    setTimeout(() => recoveryDialog.close(), 900);
+  });
+
   document.querySelector("#sign-out").addEventListener("click", async () => {
     await client.auth.signOut();
     document.querySelector("#boutique-dialog").close();
@@ -120,6 +177,12 @@
     }, 250);
   });
 
-  client.auth.onAuthStateChange((_event, session) => applySession(session));
+  client.auth.onAuthStateChange((event, session) => {
+    applySession(session);
+    if (event === "PASSWORD_RECOVERY") {
+      if (authDialog.open) authDialog.close();
+      recoveryDialog.showModal();
+    }
+  });
   client.auth.getSession().then(({ data }) => applySession(data.session));
 })();
