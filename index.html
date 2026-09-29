@@ -35,7 +35,17 @@
         <em>België</em>
       </div>
 
-      <nav class="menu">
+      <button class="mobile-menu-toggle"
+              type="button"
+              aria-label="Menu openen"
+              aria-expanded="false"
+              aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="menu" id="mobile-menu">
         <div class="menu-links">
           <button class="menu-link boutique-nav" id="open-boutique" type="button">MIJN BOUTIQUE</button>
           <a class="menu-link" href="#entertainment" id="menu-entertainment">EXTRA'S</a>
@@ -1501,5 +1511,33 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1dec3c77ab8744369890345885730fa9"}'></script>
   <!-- End Cloudflare Web Analytics -->
+
+  <script>
+    (() => {
+      const toggle = document.querySelector(".mobile-menu-toggle");
+      const menu = document.querySelector("#mobile-menu");
+      if (!toggle || !menu) return;
+
+      function setMenu(open) {
+        menu.classList.toggle("is-open", open);
+        toggle.classList.toggle("is-open", open);
+        toggle.setAttribute("aria-expanded", String(open));
+        toggle.setAttribute("aria-label", open ? "Menu sluiten" : "Menu openen");
+      }
+
+      toggle.addEventListener("click", () => {
+        setMenu(!menu.classList.contains("is-open"));
+      });
+
+      menu.addEventListener("click", (event) => {
+        if (event.target.closest("a, button")) setMenu(false);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") setMenu(false);
+      });
+    })();
+  </script>
+
 </body>
 </html>
