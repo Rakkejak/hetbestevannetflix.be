@@ -7,9 +7,25 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260904-4" />
+  <link rel="stylesheet" href="style.css?v=20260928-nielsen-1" />
 </head>
 <body>
+  <script>
+    // Bij een echte page load/refresh altijd opnieuw op de landing beginnen.
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+
+    window.addEventListener("load", () => {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    });
+
+    window.addEventListener("pageshow", event => {
+      if (event.persisted) {
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+      }
+    });
+  </script>
 
   <!-- FIXED TOP NAV -->
   <header class="site-header">
@@ -21,6 +37,7 @@
 
       <nav class="menu">
         <div class="menu-links">
+          <button class="menu-link boutique-nav" id="open-boutique" type="button">MIJN BOUTIQUE</button>
           <a class="menu-link" href="#entertainment" id="menu-entertainment">EXTRA'S</a>
           <a class="menu-link" href="flixmachine.html" id="menu-flixmachine">FLIXMACHINE</a>
           <a class="menu-link" href="https://rakkejak.be" target="_blank" rel="noopener">RAKKEJAK</a>
@@ -33,52 +50,229 @@
     </div>
   </header>
 
-  <!-- HERO (centrale lead-titel + 2 grote CTA-knoppen) -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="lead">
-        <h1 class="lead-title">
-          Ontdek de 67 best beoordeelde films en reeksen op Netflix in België.
-        </h1>
-        <div class="lead-ctas">
-          <button class="cta large" id="hero-toppers" data-tab="toppers">Toppers</button>
-          <button class="cta large" id="hero-recent" data-tab="recent">Recent</button>
-          <button class="cta large" id="hero-hidden" data-tab="hidden">Verborgen parels</button>
-          <button class="cta large" id="hero-all" data-tab="all">Allemaal goed</button>
+  <dialog id="auth-dialog" class="auth-dialog" aria-labelledby="auth-title">
+    <div class="boutique-dialog-head">
+      <div>
+        <span class="eyebrow">Jouw persoonlijke selectie</span>
+        <h2 id="auth-title">Aanmelden bij Mijn Boutique</h2>
+      </div>
+      <button id="close-auth" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <p class="boutique-intro">Selecteer wat je al gezien hebt of wat niet bij je past. Die titels verdwijnen uit je kijktips. Registreer je account, zodat we jouw persoonlijke selectie kunnen tonen op al je toestellen.</p>
+    <div class="auth-options">
+      <button type="button" class="provider-button" data-auth-provider="google">Verder met Google</button>
+
+      <div class="auth-divider"><span>of</span></div>
+      <form id="email-auth-form" class="email-auth-form">
+        <label>E-mailadres<input id="auth-email" type="email" autocomplete="email" required></label>
+        <label>Wachtwoord<input id="auth-password" type="password" autocomplete="current-password" minlength="8" required></label>
+        <div class="auth-form-actions">
+          <button type="submit" class="auth-primary">Aanmelden</button>
+          <button type="button" id="create-account" class="auth-secondary">Account maken</button>
         </div>
+        <button type="button" id="forgot-password" class="auth-link">Wachtwoord vergeten?</button>
+      </form>
+      <p id="auth-message" class="auth-message" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <dialog id="recovery-dialog" class="auth-dialog" aria-labelledby="recovery-title">
+    <div class="boutique-dialog-head">
+      <div>
+        <span class="eyebrow">Mijn Boutique</span>
+        <h2 id="recovery-title">Nieuw wachtwoord kiezen</h2>
+      </div>
+      <button id="close-recovery" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <p class="boutique-intro">Kies een nieuw wachtwoord van minstens 8 tekens.</p>
+    <div class="auth-options">
+      <form id="recovery-form" class="email-auth-form">
+        <label>Nieuw wachtwoord<input id="recovery-password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <label>Herhaal wachtwoord<input id="recovery-password-confirm" type="password" autocomplete="new-password" minlength="8" required></label>
+        <button type="submit" class="auth-primary">Wachtwoord bewaren</button>
+      </form>
+      <p id="recovery-message" class="auth-message" role="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <dialog id="boutique-dialog" class="boutique-dialog" aria-labelledby="boutique-title">
+    <div class="boutique-dialog-head">
+      <div>
+        <span class="eyebrow">Jouw persoonlijke selectie</span>
+        <h2 id="boutique-title">Mijn Boutique</h2>
+      </div>
+      <button id="close-boutique" class="dialog-close" type="button" aria-label="Sluiten">&times;</button>
+    </div>
+    <div class="profile-session">
+      <span id="profile-email"></span>
+      <button id="sign-out" type="button">Uitloggen</button>
+    </div>
+    <p class="boutique-intro">Selecteer wat je al gezien hebt. Die titels verdwijnen uit je kijktips.</p>
+    <div class="boutique-lists boutique-lists-single">
+      <section>
+        <h3>Gezien <span id="seen-count" class="list-count">0</span></h3>
+        <div id="seen-list" class="profile-list"></div>
+      </section>
+    </div>
+  </dialog>
+
+  <div id="boutique-status" class="boutique-status" role="status" aria-live="polite"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-shell">
+      <div class="hero-copy">
+        <h1 class="lead-title">
+          Alleen de <em>beste</em> films en reeksen van Netflix.
+        </h1>
+
+        <p class="quality-proof">IMDb 7,8+ &nbsp;·&nbsp; min. 1.000 stemmen</p>
+
+        <div class="hero-primary-actions">
+          <a class="hero-primary" href="#browse-controls">
+            <span class="hero-action-title">Toon mij de beste titels</span>
+            <span class="hero-action-sub">Ik wil zelf kiezen</span>
+          </a>
+          <a class="hero-secondary" href="flixmachine.html">
+            <span class="hero-action-title">Kies voor mij</span>
+            <span class="hero-action-sub">Start de FlixMachine</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-popcorn" aria-hidden="true">
+        <img src="assets/popcorn-hero.png" alt="">
       </div>
     </div>
   </section>
 
-  <!-- SUBTEXT + CONTROLS -->
-  <section class="subintro">
+  <!-- BROWSE CONTROLS -->
+  <section class="subintro" id="browse-controls">
     <div class="container">
-      <p id="subtext" class="subtext">
-        Onze selectie gebruikt IMDb-scores en minstens 1.000 stemmen. Kies Toppers, Recent of bekijk ze Allemaal Goed.
-      </p>
-      <div class="controls">
-        <input id="search" type="search" placeholder="Zoek op titel…" aria-label="Zoek titel" />
-        <div class="sorts">
-          <button id="sortImdb" class="sortbtn active" aria-pressed="true">IMDb (hoog→laag)</button>
-          <button id="sortDate" class="sortbtn" aria-pressed="false">Datum ↓</button>
+
+      <p id="subtext" class="sr-only"></p>
+
+      <div class="browse-toolbar">
+
+        <div class="lead-ctas" aria-label="Selectie">
+          <button class="cta large active" id="hero-toppers" data-tab="toppers" aria-pressed="true">Toppers</button>
+          <button class="cta large" id="hero-recent" data-tab="recent" aria-pressed="false">Recent</button>
+          <button class="cta large" id="hero-hidden" data-tab="hidden" aria-pressed="false">Verborgen parels</button>
+          <button class="cta large" id="hero-all" data-tab="all" aria-pressed="false">Allemaal goed</button>
+        </div>
+
+        <div class="media-toggle" aria-label="Type">
           <button id="filterFilms" class="sortbtn" aria-pressed="false">Films</button>
           <button id="filterSeries" class="sortbtn" aria-pressed="false">Reeksen</button>
         </div>
+
+        <div class="search-wrap">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Zoek op titel…" aria-label="Zoek op titel" />
+        </div>
+
+        <button id="open-filters"
+                class="filter-trigger"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="filter-dialog">
+          Filters
+          <span id="filter-count-badge" class="filter-count-badge" hidden></span>
+        </button>
+
         <span id="count" class="count">0 resultaten</span>
-      </div>
-      <div id="filterFamilies" class="filter-families" hidden>
-        <div class="filter-row filter-row-genre">
-          <div id="genreFilters" class="choice-filters" aria-label="Filter op genre"></div>
-        </div>
-        <div class="filter-row filter-row-language">
-          <div id="languageFilters" class="choice-filters" aria-label="Filter op taal"></div>
-        </div>
-        <div class="filter-row filter-row-region">
-          <div id="regionFilters" class="choice-filters" aria-label="Filter op regio of taalfamilie"></div>
-        </div>
       </div>
     </div>
   </section>
+
+  <!-- FILTERPOPUP -->
+  <dialog id="filter-dialog" class="filter-dialog" aria-labelledby="filter-title">
+    <div class="filter-dialog-shell">
+
+      <div class="filter-dialog-head">
+        <div>
+          <span class="eyebrow">Verfijn je selectie</span>
+          <h2 id="filter-title">Filters</h2>
+        </div>
+        <button id="close-filters"
+                class="dialog-close"
+                type="button"
+                aria-label="Sluiten">&times;</button>
+      </div>
+
+      <div class="active-filter-summary">
+        <div id="active-filter-chips" class="active-filter-chips"></div>
+        <button id="clear-all-filters-top"
+                class="filter-text-action"
+                type="button">
+          Alles wissen
+        </button>
+      </div>
+
+      <div id="filterFamilies" class="filter-families" hidden>
+
+        <section class="filter-section">
+          <h3>Genre</h3>
+          <div id="genreFilters"
+               class="choice-filters"
+               aria-label="Filter op genre"></div>
+        </section>
+
+        <section class="filter-section">
+          <h3>Taal</h3>
+          <div id="languageFilters"
+               class="choice-filters"
+               aria-label="Filter op taal"></div>
+        </section>
+
+        <section class="filter-section">
+          <h3>Regio</h3>
+          <div id="regionFilters"
+               class="choice-filters"
+               aria-label="Filter op regio of taalfamilie"></div>
+        </section>
+
+        <section class="filter-section">
+          <h3>Sortering</h3>
+          <div class="filter-sort-options">
+            <button id="sortImdb"
+                    class="sortbtn active"
+                    aria-pressed="true">
+              IMDb hoog → laag
+            </button>
+
+            <button id="sortDate"
+                    class="sortbtn"
+                    aria-pressed="false">
+              Datum ↓
+            </button>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="filter-dialog-actions">
+        <button id="cancel-filters"
+                class="filter-cancel"
+                type="button">
+          Annuleren
+        </button>
+
+        <button id="clear-all-filters"
+                class="filter-clear"
+                type="button">
+          Wis filters
+        </button>
+
+        <button id="apply-filters"
+                class="filter-apply"
+                type="button">
+          Toon resultaten
+        </button>
+      </div>
+
+    </div>
+  </dialog>
 
   <!-- CONTENT -->
   <main class="container">
@@ -114,6 +308,9 @@
       </p>
       <p class="muted small">
         “Recent” toont films en reeksen uit de laatste 100 dagen die minstens 7,8 op IMDb scoren en minstens 1.000 stemmen hebben.
+      </p>
+      <p class="muted small footer-links">
+        <a href="privacy.html">Privacy</a>
       </p>
     </div>
   </footer>
@@ -235,6 +432,7 @@
     // normalisatie
     function normalize(it){
       return {
+        key: String(it.imdbId || it.imdb_id || it.tmdbId || it.tmdb_id || `${it.type || "titel"}:${it.title || it.name || ""}:${it.releaseDate || it.release_date || it.first_air_date || ""}`),
         title: it.title || it.name || "",
         type: niceType(it.type),
         imdb: isNum(it.imdbRating) ? +it.imdbRating : (isNum(it.imdb) ? +it.imdb : NaN),
@@ -297,7 +495,7 @@
         && item.votes >= 2500
         && item.votes <= 35000
         && years >= 1
-        && votesPerYear(item) <= 6000
+        && votesPerYear(item) <= 10000
         && !item.genres.some(g => HIDDEN_BAD_GENRES.has(g));
     }
 
@@ -514,6 +712,46 @@
     let genreFilter = null;         // null | GENRE_GROUPS.id
     let languageFilter = null;      // null | LANGUAGE_GROUPS.id
     let regionFilter = null;        // null | REGION_GROUPS.id
+    const BOUTIQUE_KEYS = {
+      active: "hbvn_boutique_active_v1",
+      seen: "hbvn_boutique_seen_v1",
+      dismissed: "hbvn_boutique_dismissed_v1"
+    };
+    let boutiqueActive = false;
+    let boutiqueUser = null;
+    let seenTitles = readStoredSet(BOUTIQUE_KEYS.seen);
+    let dismissedTitles = readStoredSet(BOUTIQUE_KEYS.dismissed);
+
+    function readStoredSet(key){
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || "[]");
+        return new Set(Array.isArray(value) ? value.map(String) : []);
+      } catch {
+        return new Set();
+      }
+    }
+
+    function saveBoutique(){
+      localStorage.setItem(BOUTIQUE_KEYS.active, boutiqueActive ? "true" : "false");
+      localStorage.setItem(BOUTIQUE_KEYS.seen, JSON.stringify([...seenTitles]));
+      localStorage.setItem(BOUTIQUE_KEYS.dismissed, JSON.stringify([...dismissedTitles]));
+      window.dispatchEvent(new CustomEvent("hbvn:boutique-change", {
+        detail: { seen:[...seenTitles], dismissed:[...dismissedTitles] }
+      }));
+    }
+
+    function applyBoutiqueExclusions(items){
+      if (!boutiqueActive) return items;
+      return items.filter(item => !seenTitles.has(item.key) && !dismissedTitles.has(item.key));
+    }
+
+    function showBoutiqueStatus(message){
+      const status = $("#boutique-status");
+      status.textContent = message;
+      status.classList.add("show");
+      clearTimeout(showBoutiqueStatus.timer);
+      showBoutiqueStatus.timer = setTimeout(() => status.classList.remove("show"), 3200);
+    }
 
     function updateDateSortLabel(){
       const label = (TAB === "recent") ? "Toegevoegd" : "Releasedatum";
@@ -521,14 +759,14 @@
     }
 
     function filterBase(){
-      let base = applyBenchmark(DATA_A);
+      let base = applyBoutiqueExclusions(applyBenchmark(DATA_A));
 
       if (TAB === "toppers"){
         base = top67PerType(base);
       }
 
       if (TAB === "hidden"){
-        base = capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5);
+        base = applyBoutiqueExclusions(capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5));
       }
 
       if (mediaFilter){
@@ -659,23 +897,42 @@
 
     function card(item, idx){
       const y = yearOf(item.releaseDate);
+
       const posterHtml = item.poster
         ? `<a class="poster" href="${item.nurl}" target="_blank" rel="noopener">
              <img src="${item.poster}" alt="Poster ${item.title}" loading="lazy"/>
-           </a>` : "";
+           </a>`
+        : `<a class="poster poster-fallback" href="${item.nurl}" target="_blank" rel="noopener">
+             <span>${item.title}</span>
+           </a>`;
+
       return `
-        <article class="card ${posterHtml ? "" : "no-poster"}">
-          <div class="rank">${idx+1}</div>
-          ${posterHtml}
+        <article class="card">
+          <div class="poster-wrap">
+            ${posterHtml}
+
+            ${boutiqueActive ? `
+              <div class="boutique-actions" aria-label="Persoonlijke keuze voor ${item.title}">
+                <button type="button"
+                        class="boutique-action seen-action"
+                        data-boutique-action="seen"
+                        data-item-key="${encodeURIComponent(item.key)}"
+                        aria-label="Gezien">
+                  <span aria-hidden="true">✓</span>
+                  <span>Gezien</span>
+                </button>
+              </div>
+            ` : ""}
+          </div>
+
           <div class="content">
             <h3 class="title">
               <a href="${item.nurl}" target="_blank" rel="noopener">${item.title}</a>
-              ${y ? `<span class="year">${y}</span>` : ""}
             </h3>
-            <div class="badges">
-              ${item.type ? `<span class="chip ${item.type==='Film'?'film':'series'}">${item.type}</span>` : ""}
+
+            <div class="card-meta">
+              ${y ? `<span class="year">${y}</span>` : ""}
               <span class="badge imdb" title="IMDb rating">★ ${fmt1(item.imdb)}</span>
-              ${item.lang ? `<span class="badge lang" title="Originele taal">${item.lang}</span>` : ""}
             </div>
           </div>
         </article>
@@ -699,10 +956,10 @@
 
       const q = ($("#search").value || "").toLowerCase().trim();
 
-      let base = applyBenchmark(TAB === "recent" ? DATA_R : DATA_A);
+      let base = applyBoutiqueExclusions(applyBenchmark(TAB === "recent" ? DATA_R : DATA_A));
 
       if (TAB === "hidden"){
-        base = capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5);
+        base = applyBoutiqueExclusions(capHiddenGemsPerCountry(DATA_A.filter(isHiddenGem), 5));
       }
 
       if (TAB === "toppers" || TAB === "recent"){
@@ -763,6 +1020,62 @@
       count.textContent = `${rows.length} resulta${rows.length===1?"at":"ten"}`;
     }
 
+    function profileRow(item, listName){
+      return `<div class="profile-row">
+        <div>
+          <strong>${item ? item.title : "Titel niet meer beschikbaar"}</strong>
+          ${item && yearOf(item.releaseDate) ? `<span>${yearOf(item.releaseDate)}</span>` : ""}
+        </div>
+        <button type="button" class="restore-title" data-list="${listName}" data-item-key="${encodeURIComponent(item ? item.key : "")}">Terugzetten</button>
+      </div>`;
+    }
+
+    function renderProfile(){
+      const itemsByKey = new Map(DATA_A.map(item => [item.key, item]));
+
+      const entries = [
+        ...[...seenTitles].map(key => ({
+          item: itemsByKey.get(key),
+          listName: "seen"
+        })),
+        ...[...dismissedTitles].map(key => ({
+          item: itemsByKey.get(key),
+          listName: "dismissed"
+        }))
+      ].filter(entry => entry.item);
+
+      $("#seen-count").textContent = entries.length;
+      $("#seen-list").innerHTML = entries.length
+        ? entries.map(entry => profileRow(entry.item, entry.listName)).join("")
+        : `<p class="profile-empty">Nog geen titels gemarkeerd als gezien.</p>`;
+    }
+
+    function updateBoutiqueUI(){
+      $("#open-boutique").classList.toggle("active", Boolean(boutiqueUser));
+      $("#open-boutique").textContent = "MIJN BOUTIQUE";
+      $("#profile-email").textContent = boutiqueUser?.email || "";
+    }
+
+    window.HBVNBoutique = {
+      setSession(user, preferences={}){
+        boutiqueUser = user || null;
+        boutiqueActive = Boolean(user);
+        seenTitles = new Set(preferences.seen || []);
+        dismissedTitles = new Set(preferences.dismissed || []);
+        updateBoutiqueUI();
+        renderProfile();
+        renderAllFilters();
+        render();
+      },
+      preferences(){
+        return { seen:[...seenTitles], dismissed:[...dismissedTitles] };
+      },
+      openProfile(){
+        renderProfile();
+        $("#boutique-dialog").showModal();
+      }
+    };
+
     function setTextsForTab(){
       const texts = {
         toppers: "De 67 best beoordeelde films én 67 best beoordeelde reeksen op Netflix in België.",
@@ -790,6 +1103,57 @@
       applySupportVariant();
       const { recent, all } = await loadDatasets();
       DATA_R = recent; DATA_A = all;
+      updateBoutiqueUI();
+
+      $("#open-boutique").addEventListener("click", ()=>{
+        if (boutiqueUser){
+          window.HBVNBoutique.openProfile();
+        } else {
+          $("#auth-dialog").showModal();
+        }
+      });
+      $("#close-auth").addEventListener("click", ()=> $("#auth-dialog").close());
+      $("#auth-dialog").addEventListener("click", event => {
+        if (event.target === $("#auth-dialog")) $("#auth-dialog").close();
+      });
+      $("#close-boutique").addEventListener("click", ()=> $("#boutique-dialog").close());
+      $("#boutique-dialog").addEventListener("click", event => {
+        if (event.target === $("#boutique-dialog")) $("#boutique-dialog").close();
+      });
+
+      $("#cards").addEventListener("click", event => {
+        const button = event.target.closest("[data-boutique-action]");
+        if (!button) return;
+        const key = decodeURIComponent(button.dataset.itemKey);
+        const item = DATA_A.find(candidate => candidate.key === key) || DATA_R.find(candidate => candidate.key === key);
+        const action = button.dataset.boutiqueAction;
+
+        if (action === "seen"){
+          dismissedTitles.delete(key);
+          seenTitles.add(key);
+          showBoutiqueStatus(`“${item?.title || "Titel"}” staat nu bij Gezien. Een nieuwe tip is geladen.`);
+        } else {
+          seenTitles.delete(key);
+          dismissedTitles.add(key);
+          showBoutiqueStatus(`“${item?.title || "Titel"}” staat nu bij Niet voor mij. Een nieuwe tip is geladen.`);
+        }
+        saveBoutique();
+        renderAllFilters();
+        render();
+      });
+
+      $("#boutique-dialog").addEventListener("click", event => {
+        const button = event.target.closest(".restore-title");
+        if (!button) return;
+        const key = decodeURIComponent(button.dataset.itemKey);
+        if (button.dataset.list === "seen") seenTitles.delete(key);
+        if (button.dataset.list === "dismissed") dismissedTitles.delete(key);
+        saveBoutique();
+        renderProfile();
+        renderAllFilters();
+        render();
+        showBoutiqueStatus("De titel kan opnieuw in je persoonlijke selectie verschijnen.");
+      });
 
       // Sort buttons
       $("#sortImdb").addEventListener("click", ()=>{
@@ -842,14 +1206,48 @@
           setTextsForTab();
           renderAllFilters();
           render();
-          window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
+          scrollToResults();
         });
       });
+
+      function syncTabButtons(){
+        $$(".lead-ctas .cta").forEach(btn => {
+          const active = btn.dataset.tab === TAB;
+          btn.classList.toggle("active", active);
+          btn.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+      }
+
+      function scrollToResults(){
+        requestAnimationFrame(() => {
+          const header = document.querySelector(".site-header");
+          const toolbar = document.querySelector(".subintro");
+          const cards = document.querySelector("#cards");
+
+          if (!cards) return;
+
+          const offset =
+            (header ? header.offsetHeight : 0) +
+            (toolbar ? toolbar.offsetHeight : 0) +
+            20;
+
+          const top =
+            cards.getBoundingClientRect().top +
+            window.scrollY -
+            offset;
+
+          window.scrollTo({
+            top,
+            behavior: "smooth"
+          });
+        });
+      }
 
       // Hero knoppen
       $$(".lead-ctas .cta").forEach(btn=>{
         btn.addEventListener("click", ()=>{
           TAB = btn.dataset.tab;
+          syncTabButtons();
           sortMode = "imdb"; sortDir = "desc";
           $("#sortImdb").classList.add("active");
           $("#sortDate").classList.remove("active");
@@ -857,26 +1255,248 @@
           setTextsForTab();
           renderAllFilters();
           render();
-          window.scrollTo({ top: document.querySelector(".subintro").offsetTop - 12, behavior: "smooth" });
+          scrollToResults();
         });
       });
 
       // Lege-state → Toppers
       $("#goto-toppers").addEventListener("click", ()=>{
         TAB = "toppers";
+        syncTabButtons();
         genreFilter = null;
         setTextsForTab();
         renderAllFilters();
         render();
       });
 
+
+      // ---------- Nielsen filterdialog ----------
+
+      const filterDialog = $("#filter-dialog");
+      let filterSnapshot = null;
+
+      function syncMainFilterControls(){
+        $("#filterFilms").classList.toggle("active", mediaFilter === "Film");
+        $("#filterSeries").classList.toggle("active", mediaFilter === "Series");
+
+        $("#filterFilms").setAttribute(
+          "aria-pressed",
+          mediaFilter === "Film" ? "true" : "false"
+        );
+        $("#filterSeries").setAttribute(
+          "aria-pressed",
+          mediaFilter === "Series" ? "true" : "false"
+        );
+
+        $("#sortImdb").classList.toggle("active", sortMode === "imdb");
+        $("#sortDate").classList.toggle("active", sortMode === "date");
+
+        $("#sortImdb").setAttribute(
+          "aria-pressed",
+          sortMode === "imdb" ? "true" : "false"
+        );
+        $("#sortDate").setAttribute(
+          "aria-pressed",
+          sortMode === "date" ? "true" : "false"
+        );
+
+        updateDateSortLabel();
+      }
+
+      function activeFilterItems(){
+        const items = [];
+
+        if (mediaFilter){
+          items.push({
+            id:"media",
+            label:mediaFilter === "Film" ? "Films" : "Reeksen"
+          });
+        }
+
+        if (genreFilter){
+          const group = GENRE_GROUPS.find(g => g.id === genreFilter);
+          if (group) items.push({ id:"genre", label:group.label });
+        }
+
+        if (languageFilter){
+          items.push({
+            id:"language",
+            label:languageLabel(languageFilter)
+          });
+        }
+
+        if (regionFilter){
+          const group = REGION_GROUPS.find(g => g.id === regionFilter);
+          if (group) items.push({ id:"region", label:group.label });
+        }
+
+        if (sortMode === "date"){
+          items.push({
+            id:"sort",
+            label:TAB === "recent" ? "Toegevoegd op datum" : "Releasedatum"
+          });
+        }
+
+        return items;
+      }
+
+      function currentResultCount(){
+        const text = $("#count")?.textContent || "";
+        const match = text.match(/\d+/);
+        return match ? Number(match[0]) : 0;
+      }
+
+      function updateFilterDialogUI(){
+        const items = activeFilterItems();
+        const chips = $("#active-filter-chips");
+        const badge = $("#filter-count-badge");
+        const apply = $("#apply-filters");
+
+        chips.innerHTML = items.map(item => `
+          <button class="active-filter-chip"
+                  type="button"
+                  data-clear-filter="${item.id}"
+                  aria-label="Verwijder filter ${item.label}">
+            ${item.label} ×
+          </button>
+        `).join("");
+
+        if (items.length){
+          badge.hidden = false;
+          badge.textContent = items.length;
+        } else {
+          badge.hidden = true;
+          badge.textContent = "";
+        }
+
+        const n = currentResultCount();
+        apply.textContent = `Toon ${n} ${n === 1 ? "titel" : "titels"}`;
+
+        $$("#active-filter-chips [data-clear-filter]").forEach(btn => {
+          btn.addEventListener("click", () => {
+            switch (btn.dataset.clearFilter){
+              case "media":
+                mediaFilter = null;
+                break;
+              case "genre":
+                genreFilter = null;
+                break;
+              case "language":
+                languageFilter = null;
+                break;
+              case "region":
+                regionFilter = null;
+                break;
+              case "sort":
+                sortMode = "imdb";
+                sortDir = "desc";
+                break;
+            }
+
+            syncMainFilterControls();
+            renderAllFilters();
+            render();
+            updateFilterDialogUI();
+          });
+        });
+      }
+
+      function snapshotFilters(){
+        return {
+          mediaFilter,
+          genreFilter,
+          languageFilter,
+          regionFilter,
+          sortMode,
+          sortDir
+        };
+      }
+
+      function restoreFilters(state){
+        if (!state) return;
+
+        mediaFilter = state.mediaFilter;
+        genreFilter = state.genreFilter;
+        languageFilter = state.languageFilter;
+        regionFilter = state.regionFilter;
+        sortMode = state.sortMode;
+        sortDir = state.sortDir;
+
+        syncMainFilterControls();
+        renderAllFilters();
+        render();
+        updateFilterDialogUI();
+      }
+
+      function clearAllFilters(){
+        mediaFilter = null;
+        genreFilter = null;
+        languageFilter = null;
+        regionFilter = null;
+        sortMode = "imdb";
+        sortDir = "desc";
+
+        syncMainFilterControls();
+        renderAllFilters();
+        render();
+        updateFilterDialogUI();
+      }
+
+      $("#open-filters").addEventListener("click", ()=>{
+        filterSnapshot = snapshotFilters();
+        updateFilterDialogUI();
+
+        if (typeof filterDialog.showModal === "function"){
+          filterDialog.showModal();
+        } else {
+          filterDialog.setAttribute("open", "");
+        }
+      });
+
+      $("#close-filters").addEventListener("click", ()=>{
+        filterDialog.close();
+      });
+
+      $("#apply-filters").addEventListener("click", ()=>{
+        filterSnapshot = null;
+        filterDialog.close();
+      });
+
+      $("#cancel-filters").addEventListener("click", ()=>{
+        restoreFilters(filterSnapshot);
+        filterSnapshot = null;
+        filterDialog.close();
+      });
+
+      $("#clear-all-filters").addEventListener("click", clearAllFilters);
+      $("#clear-all-filters-top").addEventListener("click", clearAllFilters);
+
+      filterDialog.addEventListener("cancel", event => {
+        event.preventDefault();
+        restoreFilters(filterSnapshot);
+        filterSnapshot = null;
+        filterDialog.close();
+      });
+
+      // Houd badge, chips en resultaat-CTA automatisch synchroon
+      const countObserver = new MutationObserver(updateFilterDialogUI);
+      countObserver.observe($("#count"), {
+        childList:true,
+        characterData:true,
+        subtree:true
+      });
+
       // Start op Toppers
+      syncTabButtons();
       setTextsForTab();
       renderAllFilters();
       render();
     })();
   </script>
 
+  <script src="auth-config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="boutique-auth.js"></script>
   <script src="ab-analytics.js"></script>
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1dec3c77ab8744369890345885730fa9"}'></script>
