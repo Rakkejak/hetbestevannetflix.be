@@ -1376,7 +1376,7 @@
 
   .hero-shell{
     min-height:auto;
-    padding:8rem 1.25rem 2rem;
+    padding:3.5rem 1.25rem 2rem;
   }
 
   .hero-copy{
@@ -2812,5 +2812,262 @@ html{
     height:40px;
     min-height:40px;
     font-size:.72rem;
+  }
+}
+
+/* ===== MOBILE HERO FIX ===== */
+@media (max-width:700px){
+  .hero-copy{
+    width:100%;
+    max-width:none;
+  }
+
+  .lead-title{
+    width:100%;
+    max-width:100%;
+  }
+}
+
+/* ===== MOBILE HEADER V2: COMPACT + HAMBURGER ===== */
+
+.mobile-menu-toggle{
+  display:none;
+}
+
+@media (max-width:680px){
+  .site-header{
+    min-height:72px;
+  }
+
+  .site-header .nav{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    min-height:72px;
+    padding:.7rem 1.25rem;
+    row-gap:0;
+  }
+
+  .site-header .brand{
+    justify-self:auto;
+    text-align:left;
+    font-size:.98rem;
+  }
+
+  .site-header .brand em{
+    text-align:left;
+    font-size:.78rem;
+    margin-top:.2rem;
+  }
+
+  .mobile-menu-toggle{
+    appearance:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    width:44px;
+    height:44px;
+    padding:0;
+    border:1px solid #214047;
+    border-radius:.6rem;
+    background:#0f1b1e;
+    cursor:pointer;
+    flex:0 0 auto;
+  }
+
+  .mobile-menu-toggle span{
+    display:block;
+    width:20px;
+    height:2px;
+    border-radius:2px;
+    background:#e8f1f3;
+    transition:transform .18s ease, opacity .18s ease;
+  }
+
+  .mobile-menu-toggle.is-open span:nth-child(1){
+    transform:translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu-toggle.is-open span:nth-child(2){
+    opacity:0;
+  }
+
+  .mobile-menu-toggle.is-open span:nth-child(3){
+    transform:translateY(-7px) rotate(-45deg);
+  }
+
+  .site-header .menu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    width:100%;
+    padding:.8rem 1.25rem 1.25rem;
+    background:rgba(11,20,22,.98);
+    border-top:1px solid #133038;
+    border-bottom:1px solid #133038;
+    box-shadow:0 16px 30px rgba(0,0,0,.28);
+  }
+
+  .site-header .menu.is-open{
+    display:block;
+  }
+
+  .site-header .menu-links{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.45rem;
+    margin-bottom:.8rem;
+  }
+
+  .site-header .menu-link{
+    min-height:44px;
+    height:auto;
+    padding:.7rem .5rem;
+    font-size:.72rem;
+    border-radius:.45rem;
+  }
+
+  .site-header .menu .coffee-cta{
+    width:100%;
+    height:46px;
+    font-size:.85rem;
+  }
+}
+
+/* ===== MOBILE SPACING TUNING ===== */
+@media (max-width:700px){
+  .hero{
+    padding-top:1.1rem;
+  }
+
+  .hero-shell{
+    min-height:auto;
+  }
+
+  .lead-ctas{
+    gap:.5rem;
+    padding:.4rem;
+  }
+
+  .lead-ctas .cta{
+    min-height:44px;
+    padding:.7rem 1rem;
+    font-size:.82rem;
+  }
+}
+
+/* ===== MOBILE FILTER LAYOUT ===== */
+@media (max-width:700px){
+  .browse-toolbar{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.65rem;
+  }
+
+  .browse-tabs{
+    grid-column:1 / -1;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.5rem;
+    overflow:visible;
+  }
+
+  .browse-tabs .tab,
+  .browse-tabs button{
+    width:100%;
+    min-width:0;
+    min-height:48px;
+    padding:.75rem .7rem;
+    white-space:normal;
+    text-align:center;
+  }
+
+  .type-toggle{
+    grid-column:1 / 2;
+    width:100%;
+  }
+
+  .filters-toggle{
+    grid-column:2 / 3;
+    width:100%;
+  }
+
+  .search-wrap,
+  .search-box{
+    grid-column:1 / -1;
+    width:100%;
+  }
+
+  .count{
+    grid-column:1 / -1;
+    margin-top:.15rem;
+  }
+}
+
+/* ===== MOBILE BROWSE TOOLBAR V2 ===== */
+@media (max-width:700px){
+  .browse-toolbar{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.75rem;
+  }
+
+  .browse-toolbar .lead-ctas{
+    grid-column:1 / -1;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.5rem;
+    width:100%;
+    overflow:visible;
+    padding:.4rem;
+  }
+
+  .browse-toolbar .lead-ctas .cta{
+    width:100%;
+    min-width:0;
+    min-height:46px;
+    padding:.7rem .55rem;
+    white-space:normal;
+    text-align:center;
+  }
+
+  .media-toggle{
+    grid-column:1;
+    width:100%;
+  }
+
+  .filter-trigger{
+    grid-column:2;
+    width:100%;
+  }
+
+  .search-wrap{
+    grid-column:1 / -1;
+    width:100%;
+  }
+
+  .count{
+    grid-column:1 / -1;
+  }
+}
+
+/* ===== MOBILE HERO → FILTERS COMPACT ===== */
+@media (max-width:700px){
+  .hero-primary-actions{
+    margin-bottom:.5rem;
+  }
+
+  .hero-shell{
+    padding-bottom:1rem;
+  }
+
+  .subintro{
+    padding-top:.5rem;
   }
 }
