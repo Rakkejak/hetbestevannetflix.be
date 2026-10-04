@@ -1,23 +1,23 @@
 [
   {
-    "tmdbId": 299952,
-    "imdbId": "tt37884717",
-    "netflix_id": null,
-    "title": "The Early Spring",
-    "originalTitle": "早春晴朗",
+    "tmdbId": 258165,
+    "imdbId": "tt21097264",
+    "netflix_id": "81611854",
+    "title": "East of Eden",
+    "originalTitle": "East of Eden",
     "type": "Serie",
-    "imdbRating": 8.3,
-    "imdbVotes": 1433,
-    "releaseDate": "2026-08-26",
-    "dateAdded": null,
-    "poster_path": "/lGFngmJWMO4HTPcI0sUGKBAFqMe.jpg",
+    "imdbRating": 7.8,
+    "imdbVotes": 2010,
+    "releaseDate": "2026-10-01",
+    "dateAdded": "2026-10-04",
+    "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
     "availableBE": true,
     "ratingSource": "imdb",
     "genres": [
       "Drama"
     ],
-    "originCountry": "CN",
-    "originalLanguage": "zh"
+    "originCountry": "US",
+    "originalLanguage": "en"
   },
   {
     "tmdbId": 284753,
@@ -27,7 +27,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 7486,
+    "imdbVotes": 7686,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -40,6 +40,27 @@
     "originalLanguage": "hi"
   },
   {
+    "tmdbId": 1727563,
+    "imdbId": "tt36626888",
+    "netflix_id": null,
+    "title": "Ohh My Dog",
+    "originalTitle": "ओह माय डॉग",
+    "type": "Film",
+    "imdbRating": 7.8,
+    "imdbVotes": 17232,
+    "releaseDate": "2026-08-07",
+    "dateAdded": "2026-10-04",
+    "poster_path": "/3zVHaUphvyc3O5dDEkzJe9Faf3P.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "hi"
+  },
+  {
     "tmdbId": 1443961,
     "imdbId": "tt37895011",
     "netflix_id": null,
@@ -47,7 +68,7 @@
     "originalTitle": "రావు బహదూర్",
     "type": "Film",
     "imdbRating": 8.4,
-    "imdbVotes": 7227,
+    "imdbVotes": 7281,
     "releaseDate": "2026-07-02",
     "dateAdded": "2026-09-04",
     "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
