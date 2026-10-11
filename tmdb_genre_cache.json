@@ -6367,5 +6367,39 @@
     ],
     "originCountry": "US",
     "originalLanguage": "en"
+  },
+  "movie:1465943": {
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "ta",
+    "movieCountryResolved": true
+  },
+  "movie:13475": {
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en",
+    "movieCountryResolved": true
+  },
+  "tv:305644": {
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR",
+    "originalLanguage": "ko"
+  },
+  "tv:79818": {
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "originCountry": "CN",
+    "originalLanguage": "zh"
   }
 }

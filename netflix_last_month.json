@@ -6,8 +6,8 @@
     "title": "East of Eden",
     "originalTitle": "East of Eden",
     "type": "Serie",
-    "imdbRating": 7.8,
-    "imdbVotes": 2010,
+    "imdbRating": 8.1,
+    "imdbVotes": 13144,
     "releaseDate": "2026-10-01",
     "dateAdded": "2026-10-04",
     "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
@@ -20,6 +20,47 @@
     "originalLanguage": "en"
   },
   {
+    "tmdbId": 1465943,
+    "imdbId": "tt36596965",
+    "netflix_id": null,
+    "title": "Mandaadi",
+    "originalTitle": "மண்டாடி",
+    "type": "Film",
+    "imdbRating": 8.6,
+    "imdbVotes": 10142,
+    "releaseDate": "2026-09-10",
+    "dateAdded": "2026-10-11",
+    "poster_path": "/cDFW9BI1PSqrBWu8W0ZoeUQivEM.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "originCountry": "IN",
+    "originalLanguage": "ta"
+  },
+  {
+    "tmdbId": 305644,
+    "imdbId": "tt39368345",
+    "netflix_id": "82682404",
+    "title": "Four Hands, Two Sonatas",
+    "originalTitle": "포핸즈",
+    "type": "Serie",
+    "imdbRating": 8.5,
+    "imdbVotes": 1497,
+    "releaseDate": "2026-08-29",
+    "dateAdded": null,
+    "poster_path": "/a7p6htiJKx68USDAcilJ5rzKAWB.jpg",
+    "availableBE": true,
+    "ratingSource": "imdb",
+    "genres": [
+      "Drama"
+    ],
+    "originCountry": "KR",
+    "originalLanguage": "ko"
+  },
+  {
     "tmdbId": 284753,
     "imdbId": "tt36643714",
     "netflix_id": "81616273",
@@ -27,7 +68,7 @@
     "originalTitle": "ऑपरेशन सफ़ेद सागर: कारगिल युद्ध की अनकही कहानी",
     "type": "Serie",
     "imdbRating": 8.6,
-    "imdbVotes": 7686,
+    "imdbVotes": 7804,
     "releaseDate": "2026-08-07",
     "dateAdded": null,
     "poster_path": "/f56PHAGbUFPmHMRippWWNpRgSao.jpg",
@@ -38,48 +79,5 @@
     ],
     "originCountry": "IN",
     "originalLanguage": "hi"
-  },
-  {
-    "tmdbId": 1727563,
-    "imdbId": "tt36626888",
-    "netflix_id": null,
-    "title": "Ohh My Dog",
-    "originalTitle": "ओह माय डॉग",
-    "type": "Film",
-    "imdbRating": 7.8,
-    "imdbVotes": 17232,
-    "releaseDate": "2026-08-07",
-    "dateAdded": "2026-10-04",
-    "poster_path": "/3zVHaUphvyc3O5dDEkzJe9Faf3P.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Drama",
-      "Family"
-    ],
-    "originCountry": "IN",
-    "originalLanguage": "hi"
-  },
-  {
-    "tmdbId": 1443961,
-    "imdbId": "tt37895011",
-    "netflix_id": null,
-    "title": "Rao Bahadur",
-    "originalTitle": "రావు బహదూర్",
-    "type": "Film",
-    "imdbRating": 8.4,
-    "imdbVotes": 7281,
-    "releaseDate": "2026-07-02",
-    "dateAdded": "2026-09-04",
-    "poster_path": "/9hzKAJImKEHBz0vnF5EazPMA8D4.jpg",
-    "availableBE": true,
-    "ratingSource": "imdb",
-    "genres": [
-      "Fantasy",
-      "Drama",
-      "Thriller"
-    ],
-    "originCountry": "IN",
-    "originalLanguage": "te"
   }
 ]
