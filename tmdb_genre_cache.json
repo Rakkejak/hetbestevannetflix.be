@@ -6551,5 +6551,44 @@
     ],
     "originCountry": "KR",
     "originalLanguage": "ko"
+  },
+  "movie:10191": {
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Animation",
+      "Family"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en",
+    "movieCountryResolved": true
+  },
+  "movie:82702": {
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Animation",
+      "Family"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en",
+    "movieCountryResolved": true
+  },
+  "tv:54650": {
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "originCountry": "US",
+    "originalLanguage": "en"
+  },
+  "tv:44821": {
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "originCountry": "KR",
+    "originalLanguage": "ko"
   }
 }

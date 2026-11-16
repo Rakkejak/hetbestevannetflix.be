@@ -451,6 +451,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:10191": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1019317": {
     "active": true,
     "firstSeen": "2026-09-04"
@@ -623,6 +627,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1027326": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1027330": {
     "active": true,
     "firstSeen": null
@@ -666,6 +674,10 @@
   "movie:1029578": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1029869": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1030323": {
     "active": true,
@@ -802,6 +814,10 @@
   "movie:1035078": {
     "active": false,
     "firstSeen": "2026-09-04"
+  },
+  "movie:1035259": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1035740": {
     "active": true,
@@ -2419,6 +2435,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1125701": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:11259": {
     "active": true,
     "firstSeen": "2026-11-01"
@@ -2470,6 +2490,10 @@
   "movie:1128612": {
     "active": true,
     "firstSeen": "2026-09-04"
+  },
+  "movie:11287": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1128717": {
     "active": true,
@@ -3064,7 +3088,7 @@
     "firstSeen": null
   },
   "movie:11678": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:1167815": {
@@ -3215,6 +3239,10 @@
     "active": true,
     "firstSeen": "2026-09-05"
   },
+  "movie:1175274": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1175343": {
     "active": true,
     "firstSeen": null
@@ -3352,8 +3380,8 @@
     "firstSeen": null
   },
   "movie:118406": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1184495": {
     "active": true,
@@ -3580,7 +3608,7 @@
     "firstSeen": "2026-09-05"
   },
   "movie:1201826": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:1201949": {
@@ -3592,7 +3620,7 @@
     "firstSeen": null
   },
   "movie:1202203": {
-    "active": true,
+    "active": false,
     "firstSeen": "2026-09-04"
   },
   "movie:1202235": {
@@ -3739,6 +3767,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1211359": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1211419": {
     "active": true,
     "firstSeen": null
@@ -3878,6 +3910,10 @@
   "movie:1215886": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1215889": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1216268": {
     "active": true,
@@ -5043,6 +5079,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1302916": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1303162": {
     "active": true,
     "firstSeen": null
@@ -5584,7 +5624,7 @@
     "firstSeen": null
   },
   "movie:1359": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:1359005": {
@@ -5987,6 +6027,10 @@
     "active": true,
     "firstSeen": "2026-10-18"
   },
+  "movie:1389379": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1390076": {
     "active": true,
     "firstSeen": null
@@ -6363,9 +6407,17 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1418709": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1419027": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1419036": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:14193": {
     "active": true,
@@ -6806,6 +6858,10 @@
   "movie:1453677": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1455079": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1455132": {
     "active": true,
@@ -7319,6 +7375,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1517159": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1517212": {
     "active": true,
     "firstSeen": "2026-09-04"
@@ -7334,6 +7394,10 @@
   "movie:1517772": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1518204": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1518685": {
     "active": true,
@@ -7511,6 +7575,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1543469": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:15436": {
     "active": true,
     "firstSeen": null
@@ -7626,6 +7694,10 @@
   "movie:1559613": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1559980": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1560148": {
     "active": true,
@@ -8043,9 +8115,17 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1616419": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1616674": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:1616687": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1616700": {
     "active": true,
@@ -8371,6 +8451,14 @@
     "active": true,
     "firstSeen": "2026-09-13"
   },
+  "movie:166428": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "movie:1664682": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:1665224": {
     "active": true,
     "firstSeen": "2026-09-05"
@@ -8378,6 +8466,10 @@
   "movie:1666433": {
     "active": true,
     "firstSeen": "2026-09-04"
+  },
+  "movie:1666787": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1667493": {
     "active": true,
@@ -8488,12 +8580,12 @@
     "firstSeen": "2026-09-04"
   },
   "movie:16907": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:16910": {
-    "active": false,
-    "firstSeen": "2026-09-04"
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1692419": {
     "active": true,
@@ -8530,6 +8622,10 @@
   "movie:169885": {
     "active": true,
     "firstSeen": "2026-09-27"
+  },
+  "movie:16991": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1699155": {
     "active": true,
@@ -8767,9 +8863,13 @@
     "active": true,
     "firstSeen": "2026-09-05"
   },
+  "movie:1757174": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:17581": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1758536": {
     "active": true,
@@ -8802,6 +8902,10 @@
   "movie:1763619": {
     "active": true,
     "firstSeen": "2026-10-04"
+  },
+  "movie:1764166": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:1768367": {
     "active": true,
@@ -8983,6 +9087,10 @@
     "active": true,
     "firstSeen": "2026-09-20"
   },
+  "movie:1820172": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:182132": {
     "active": true,
     "firstSeen": null
@@ -9051,6 +9159,10 @@
     "active": true,
     "firstSeen": "2026-09-27"
   },
+  "movie:1858": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:186610": {
     "active": true,
     "firstSeen": null
@@ -9080,8 +9192,8 @@
     "firstSeen": null
   },
   "movie:18861": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:188739": {
     "active": true,
@@ -9259,6 +9371,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:1995": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:19955": {
     "active": true,
     "firstSeen": null
@@ -9280,7 +9396,7 @@
     "firstSeen": null
   },
   "movie:19994": {
-    "active": true,
+    "active": false,
     "firstSeen": "2026-09-04"
   },
   "movie:200401": {
@@ -9399,6 +9515,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:20829": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:20837": {
     "active": true,
     "firstSeen": "2026-09-05"
@@ -9432,8 +9552,8 @@
     "firstSeen": "2026-09-05"
   },
   "movie:20982": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:2100": {
     "active": true,
@@ -9510,6 +9630,10 @@
   "movie:21280": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:21355": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:213917": {
     "active": true,
@@ -10299,6 +10423,14 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:276466": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "movie:276907": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:276928": {
     "active": true,
     "firstSeen": null
@@ -10832,8 +10964,8 @@
     "firstSeen": null
   },
   "movie:317442": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:317880": {
     "active": true,
@@ -11167,6 +11299,10 @@
     "active": false,
     "firstSeen": null
   },
+  "movie:335988": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:336082": {
     "active": true,
     "firstSeen": "2026-11-08"
@@ -11359,6 +11495,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:345920": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:345940": {
     "active": true,
     "firstSeen": null
@@ -11384,8 +11524,8 @@
     "firstSeen": null
   },
   "movie:347201": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:347264": {
     "active": true,
@@ -11728,8 +11868,8 @@
     "firstSeen": "2026-09-27"
   },
   "movie:36728": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:367357": {
     "active": true,
@@ -11991,6 +12131,10 @@
     "active": true,
     "firstSeen": "2026-09-05"
   },
+  "movie:38356": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:383567": {
     "active": true,
     "firstSeen": null
@@ -12208,7 +12352,7 @@
     "firstSeen": null
   },
   "movie:396371": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:396398": {
@@ -12586,6 +12730,10 @@
   "movie:413543": {
     "active": true,
     "firstSeen": "2026-09-04"
+  },
+  "movie:413588": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:413646": {
     "active": true,
@@ -14860,8 +15008,8 @@
     "firstSeen": null
   },
   "movie:50723": {
-    "active": false,
-    "firstSeen": null
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:507389": {
     "active": true,
@@ -14970,6 +15118,10 @@
   "movie:510599": {
     "active": false,
     "firstSeen": null
+  },
+  "movie:511322": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:51165": {
     "active": true,
@@ -16872,7 +17024,7 @@
     "firstSeen": "2026-09-05"
   },
   "movie:5852": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:585268": {
@@ -20247,6 +20399,10 @@
     "active": true,
     "firstSeen": "2026-09-04"
   },
+  "movie:751113": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:751182": {
     "active": true,
     "firstSeen": "2026-09-04"
@@ -20327,6 +20483,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:755433": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:755566": {
     "active": true,
     "firstSeen": null
@@ -20344,8 +20504,8 @@
     "firstSeen": null
   },
   "movie:75624": {
-    "active": false,
-    "firstSeen": "2026-09-04"
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:756252": {
     "active": true,
@@ -21635,6 +21795,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:82702": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:82777": {
     "active": true,
     "firstSeen": "2026-11-08"
@@ -21756,7 +21920,7 @@
     "firstSeen": "2026-09-04"
   },
   "movie:8328": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:833097": {
@@ -21842,6 +22006,10 @@
   "movie:837264": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:8373": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:838484": {
     "active": true,
@@ -22244,7 +22412,7 @@
     "firstSeen": null
   },
   "movie:861745": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "movie:861779": {
@@ -22535,6 +22703,10 @@
     "active": false,
     "firstSeen": null
   },
+  "movie:877945": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:877957": {
     "active": true,
     "firstSeen": null
@@ -22710,6 +22882,10 @@
   "movie:886883": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:8871": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:8874": {
     "active": true,
@@ -23031,6 +23207,10 @@
     "active": true,
     "firstSeen": null
   },
+  "movie:91314": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "movie:913179": {
     "active": true,
     "firstSeen": "2026-09-04"
@@ -23322,6 +23502,10 @@
   "movie:933738": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:9340": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:93407": {
     "active": true,
@@ -24438,6 +24622,10 @@
   "movie:996518": {
     "active": true,
     "firstSeen": null
+  },
+  "movie:9969": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "movie:997010": {
     "active": true,
@@ -26003,6 +26191,10 @@
     "active": true,
     "firstSeen": "2026-09-04"
   },
+  "tv:124394": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:124416": {
     "active": true,
     "firstSeen": null
@@ -27564,7 +27756,7 @@
     "firstSeen": null
   },
   "tv:186": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:18712": {
@@ -27812,7 +28004,7 @@
     "firstSeen": null
   },
   "tv:201146": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:201213": {
@@ -28102,6 +28294,10 @@
   "tv:206180": {
     "active": true,
     "firstSeen": null
+  },
+  "tv:206232": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "tv:206246": {
     "active": true,
@@ -30080,7 +30276,7 @@
     "firstSeen": null
   },
   "tv:237526": {
-    "active": true,
+    "active": false,
     "firstSeen": "2026-10-11"
   },
   "tv:237806": {
@@ -32371,6 +32567,10 @@
     "active": true,
     "firstSeen": null
   },
+  "tv:291507": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:291583": {
     "active": true,
     "firstSeen": null
@@ -32727,6 +32927,10 @@
     "active": true,
     "firstSeen": null
   },
+  "tv:303182": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:303351": {
     "active": true,
     "firstSeen": null
@@ -32930,6 +33134,10 @@
   "tv:312573": {
     "active": true,
     "firstSeen": null
+  },
+  "tv:312661": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "tv:312663": {
     "active": true,
@@ -33511,6 +33719,14 @@
     "active": true,
     "firstSeen": "2026-11-01"
   },
+  "tv:336243": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "tv:336478": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:337188": {
     "active": true,
     "firstSeen": "2026-10-11"
@@ -33534,6 +33750,10 @@
   "tv:338236": {
     "active": true,
     "firstSeen": "2026-10-18"
+  },
+  "tv:338562": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "tv:338684": {
     "active": true,
@@ -33563,13 +33783,33 @@
     "active": true,
     "firstSeen": "2026-11-01"
   },
+  "tv:341109": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "tv:341153": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "tv:341260": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:34142": {
     "active": true,
     "firstSeen": null
   },
+  "tv:341603": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:34166": {
     "active": true,
     "firstSeen": null
+  },
+  "tv:341721": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "tv:34186": {
     "active": true,
@@ -33755,6 +33995,14 @@
     "active": true,
     "firstSeen": null
   },
+  "tv:44573": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
+  "tv:44821": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:45140": {
     "active": true,
     "firstSeen": null
@@ -33910,6 +34158,10 @@
   "tv:54607": {
     "active": true,
     "firstSeen": null
+  },
+  "tv:54650": {
+    "active": true,
+    "firstSeen": "2026-11-16"
   },
   "tv:56570": {
     "active": true,
@@ -34935,6 +35187,10 @@
     "active": true,
     "firstSeen": null
   },
+  "tv:72294": {
+    "active": true,
+    "firstSeen": "2026-11-16"
+  },
   "tv:72305": {
     "active": true,
     "firstSeen": null
@@ -35136,7 +35392,7 @@
     "firstSeen": null
   },
   "tv:74577": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:74579": {
@@ -36200,7 +36456,7 @@
     "firstSeen": null
   },
   "tv:84508": {
-    "active": true,
+    "active": false,
     "firstSeen": null
   },
   "tv:84552": {
